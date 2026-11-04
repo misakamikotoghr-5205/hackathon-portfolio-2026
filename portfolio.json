@@ -1,0 +1,203 @@
+{
+  "updated_at": "2026-11-04T17:09:35.768529+00:00",
+  "development_agents": 4,
+  "projects": [
+    {
+      "number": 1,
+      "event": "PAYATHON 2026",
+      "project": "briefmint-skillpay",
+      "description": "BriefMint：免费需求预检与按次付费交付API",
+      "github": "https://github.com/misakamikotoghr-5205/briefmint-skillpay",
+      "run": "python3 -m briefmint --db /tmp/briefmint-demo.sqlite3 demo --input examples/launch.json",
+      "passed_local_tests": 28,
+      "pushed_and_remote_verified": true,
+      "source_read_method": "rendered browser",
+      "source": "https://www.xiaohongshu.com/discovery/item/6ae465bb0000000010012b7a",
+      "remaining_external_setup": [
+        "Merchant setup and real sandbox integration",
+        "SkillPay listing review and event entry"
+      ],
+      "formally_submitted": false,
+      "landscape_review": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/landscape.md",
+      "github_commit": "5d2f0dd0eb948478012f4bfffcfff4a9e187dd91"
+    },
+    {
+      "number": 2,
+      "event": "智元AIMA百大创作者计划",
+      "project": "aima-story-director",
+      "description": "机器人场景编排、可行分支排练与覆盖报告",
+      "github": "https://github.com/misakamikotoghr-5205/aima-story-director",
+      "run": "python3 -m aima_director simulate examples/welcome.json --events examples/welcome.events.json --out output/welcome",
+      "passed_local_tests": 23,
+      "pushed_and_remote_verified": true,
+      "source_read_method": "rendered browser",
+      "source": "https://www.xiaohongshu.com/discovery/item/6ae83534000000000602c085",
+      "remaining_external_setup": [
+        "Model-specific hardware adapter and device verification",
+        "Creator-program application"
+      ],
+      "formally_submitted": false,
+      "landscape_review": "https://github.com/misakamikotoghr-5205/aima-story-director/blob/main/docs/landscape.md",
+      "github_commit": "eafdc9360aeedf0a619edd0ac39b680a71d123c9"
+    },
+    {
+      "number": 3,
+      "event": "火山引擎Agent先锋计划",
+      "project": "volc-casedesk",
+      "description": "证据驱动工单草稿与政策冲突人工门禁",
+      "github": "https://github.com/misakamikotoghr-5205/volc-casedesk",
+      "run": "python3 -m casedesk examples/ticket.json --as-of 2026-11-04",
+      "passed_local_tests": 14,
+      "pushed_and_remote_verified": true,
+      "source_read_method": "rendered browser",
+      "source": "https://www.xiaohongshu.com/discovery/item/6ae40ee40000000025019237",
+      "remaining_external_setup": [
+        "Organization policy and optional Ark API credentials",
+        "Program application"
+      ],
+      "formally_submitted": false,
+      "landscape_review": "https://github.com/misakamikotoghr-5205/volc-casedesk/blob/main/docs/landscape.md",
+      "github_commit": "e744d5a34cd71278e488aca324eff2f0b827a01c"
+    },
+    {
+      "number": 4,
+      "event": "华为×小红书Skill创新赛",
+      "project": "move-light-skill",
+      "description": "搬家计划、旋转尺寸检查与报价比较Skill",
+      "github": "https://github.com/misakamikotoghr-5205/move-light-skill",
+      "run": "python3 skill/move-light/scripts/plan.py examples/family.json --today 2026-11-04",
+      "passed_local_tests": 14,
+      "pushed_and_remote_verified": true,
+      "source_read_method": "rendered browser",
+      "source": "https://www.xiaohongshu.com/discovery/item/6ae9b656000000001a01574f",
+      "remaining_external_setup": [
+        "Actual CodeArts/OfficeAce contribution and market upload",
+        "Event entry and requested social sharing"
+      ],
+      "formally_submitted": false,
+      "landscape_review": "https://github.com/misakamikotoghr-5205/move-light-skill/blob/main/docs/landscape.md",
+      "github_commit": "f3ff6f960a8f96dc356d2b04c46cfae40f224390"
+    },
+    {
+      "number": 5,
+      "event": "爱奇艺玩点新花样",
+      "project": "iqiyi-play-lab",
+      "description": "4款离线互动应用与12拍节奏校准",
+      "github": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab",
+      "run": "npm run dev",
+      "passed_local_tests": 27,
+      "pushed_and_remote_verified": true,
+      "source_read_method": "rendered browser",
+      "source": "https://www.xiaohongshu.com/discovery/item/6aea92dc000000000300134b",
+      "remaining_external_setup": [
+        "Creator dashboard upload of four separate apps",
+        "Select event and complete review"
+      ],
+      "formally_submitted": false,
+      "private_preview": "https://iqiyi-play-lab-2026.ghraurora1024.chatgpt.site",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab/blob/main/docs/landscape.md",
+      "github_commit": "c4c84fddbc391d9150bae5a6ab682a7077392efa"
+    },
+    {
+      "number": 6,
+      "event": "Kiroween 2026",
+      "project": "deadlock-manor",
+      "description": "故障调查、因果回放与替代分支练习",
+      "github": "https://github.com/misakamikotoghr-5205/deadlock-manor",
+      "run": "npm run dev",
+      "passed_local_tests": 21,
+      "pushed_and_remote_verified": true,
+      "source_read_method": "official Devpost rules",
+      "source": "https://kiroween.devpost.com/rules",
+      "remaining_external_setup": [
+        "Kiro authentication and genuine contribution",
+        "Public demo video and reviewer access",
+        "Devpost registration and entry"
+      ],
+      "formally_submitted": false,
+      "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/landscape.md",
+      "github_commit": "6a964eccc053b76f9fa946c236818f9e66922883"
+    },
+    {
+      "number": 7,
+      "event": "支付宝小荷包AI插件创作活动（已结束）",
+      "project": "pocket-pause",
+      "description": "慢递愿望局：冷静期、独立手动存入账本与可重放备份",
+      "github": "https://github.com/misakamikotoghr-5205/pocket-pause",
+      "run": "npm run dev",
+      "passed_local_tests": 19,
+      "source": "https://www.xiaohongshu.com/discovery/item/6a96b088000000001103af07",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/pocket-pause/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Original activity closed October 31; future activity requirements not verified",
+        "Actual Xiaohobao creation interface and feature validation"
+      ],
+      "formally_submitted": false,
+      "private_preview": "https://pocket-pause-xhb.ghraurora1024.chatgpt.site",
+      "pushed_and_remote_verified": true,
+      "github_commit": "c64dcdcb71f61a0b817a8f71612429884db70744"
+    },
+    {
+      "number": 8,
+      "event": "PayPal AI Hackathon",
+      "project": "cart-consent-paypal",
+      "description": "购物篮精确人工批准、变更撤销和sandbox适配",
+      "github": "https://github.com/misakamikotoghr-5205/cart-consent-paypal",
+      "run": "python3 -m cart_consent --db /tmp/cart-consent-demo.sqlite3 demo",
+      "passed_local_tests": 23,
+      "source": "https://paypalaihackathon.devpost.com/rules",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/cart-consent-paypal/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Personal eligibility and authorized PayPal Business/developer sandbox account",
+        "Real PayPal sandbox and local AI demonstration",
+        "English public video and formal registration/submission"
+      ],
+      "formally_submitted": false,
+      "pushed_and_remote_verified": true,
+      "github_commit": "3965ad7e19f73a365e8139156d4dd6d8f6f5d38f"
+    },
+    {
+      "number": 9,
+      "event": "Aholo 全球3D AI黑客松",
+      "project": "scene-clearance-lab",
+      "description": "本地模型布置、可解释间距与A/B报告",
+      "github": "https://github.com/misakamikotoghr-5205/scene-clearance-lab",
+      "run": "npm run dev",
+      "passed_local_tests": 16,
+      "source": "https://www.aholo3d.cn/hackathon",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Authorized Lux3D generation, asset rights and supported export verification",
+        "Team/account eligibility, demo video and formal submission"
+      ],
+      "formally_submitted": false,
+      "private_preview": "https://scene-clearance-lab-aholo.ghraurora1024.chatgpt.site",
+      "pushed_and_remote_verified": true,
+      "github_commit": "2c6dfcf5008c10d9090c179512a2f09787159828"
+    },
+    {
+      "number": 10,
+      "event": "支付宝智能体涌现奖第一赛季",
+      "project": "pantry-relay",
+      "description": "标签来源门禁、受约束模型选菜与库存原子消耗回执",
+      "github": "https://github.com/misakamikotoghr-5205/pantry-relay",
+      "run": "python3 scripts/check.py",
+      "passed_local_tests": 26,
+      "source": "https://emerge.alipay.com/",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Personal real-name Alipay/event eligibility",
+        "Real local AI demonstration and reviewer run access",
+        "Formal URL/ZIP entry and deadline recheck"
+      ],
+      "formally_submitted": false,
+      "pushed_and_remote_verified": true,
+      "github_commit": "546f599dc5c3fb6d3a031f0f20d3ddfc739f2d26"
+    }
+  ],
+  "additional_online_events_first_batch": 3,
+  "new_event_identity_assumption": "Adult individual in mainland China; not a personal eligibility determination",
+  "total_passed_local_tests": 211,
+  "platform_integration_evidence": "See per-project pending setup. Contract mocks are not remote platform use or real AI inference."
+}

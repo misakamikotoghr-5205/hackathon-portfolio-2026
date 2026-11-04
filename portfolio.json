@@ -199,5 +199,11 @@
   "additional_online_events_first_batch": 3,
   "new_event_identity_assumption": "Adult individual in mainland China; not a personal eligibility determination",
   "total_passed_local_tests": 211,
-  "platform_integration_evidence": "See per-project pending setup. Contract mocks are not remote platform use or real AI inference."
+  "platform_integration_evidence": "See per-project pending setup. Contract mocks are not remote platform use or real AI inference.",
+  "browser_verification_notes": {
+    "pocket-pause": "Wish creation, ready review, manual linked deposit, reversal, and reload observed in localhost UI. Storage clock regressions covered by automated tests.",
+    "deadlock-manor": "Completed incident, same-checkpoint causal comparison, and alternative-branch confirmation observed in localhost UI.",
+    "iqiyi-play-lab": "Calibration controls and persisted manual timing offset observed in localhost UI; tap-estimator boundaries covered by automated tests.",
+    "scene-clearance-lab": "Browser WebGL2 context unavailable; usable top-down fallback observed. Original glTF import, numeric layout commit, geometric update, snapshots and reload observed. Full WebGL rendering remains unverified in this environment."
+  }
 }

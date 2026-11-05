@@ -15,15 +15,15 @@
 | [Builder.io Agent-Native Hackathon](https://www.builder.io/hackathon/rules) | 北京2026-11-10 15:59 | [Patch Review Desk](https://github.com/misakamikotoghr-5205/patch-review-desk)：实际 Agent-Native动作合同、逐hunk人审、基线漂移撤销和持久化回滚 | 真实完整操作录屏与公开Clips演示、本人提交；目前是本机文件工具 |
 | [魔搭×Qoder AI+∞第三期](https://mseo-ai-inf.ms.show/) | 官网2026-12-01 12:00报名；18:00交件，未明示时区 | [纸路邮局](https://github.com/misakamikotoghr-5205/paper-route-playtest)：四关可重放派送谜题、精确搜索试玩、隔离变异体反例 | 本人先发构想帖并审核报名、魔搭创空间公开托管、手记/视频；Qoder不是硬性工具要求 |
 | [GitHub Game Off 2026](https://itch.io/jam/game-off-2026) | 北京2026-12-02 05:37 | [Lumen Shift](https://github.com/misakamikotoghr-5205/lumen-shift)：八关循环位移与XOR信号解谜、实时搜索提示、可验证重放 | itch.io报名与可玩提交、如实披露AI辅助；社区评奖，未核实现金奖 |
-| [MozFest Developers Wilding: Online](https://otari.ai/devs-wilding) | 官网11月11日23:59，未标时区 | [Source Trail](https://github.com/misakamikotoghr-5205/source-trail-otari)：精确引用锚点、人工立场冲突门禁与受约束提取，官方Otari API适配 | 本人邮件确认报名（晚报名是否接受需确认）、真正托管Otari.ai调用、新分支与首次使用提交、视频及反馈；不把自托管当硬条件证据 |
+| [Apart AI × Epistemics Research Sprint](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) | 北京2026-11-16 19:59；11月13–15日研究冲刺 | [Source Trail](https://github.com/misakamikotoghr-5205/source-trail-otari)：精确引用锚点、人工立场冲突门禁与可重复合成评估；Otari是可选适配 | 本人报名、赛期新增研究、官方模板≤8页PDF及局限/双重用途附录；现有代码和试验均标赛前工作，不以旧仓库代替研究报告 |
 | [Next Horizon 2026](https://eisociety.org/hackathon.php?slug=next-horizon-2026) | 11月15日构想，未标具体时刻；11月28–30日48小时构建 | [Watt Window](https://github.com/misakamikotoghr-5205/watt-window)：非关键负载时间窗排程、功率约束、可解释成本与敏感性 | 有限名额/入围、本人的PPT与路演；本轮代码是赛前原型，不冒称48小时成果 |
 | [Through Your Eyes](https://itch.io/jam/through-your-eyes-first-person-game-jam) | 官网11月15日；按平台倒计时核对时区 | [Parallax Postcards](https://github.com/misakamikotoghr-5205/parallax-postcards)：软件光线投射第一人称房间、不同深度碎片对齐、三张原创明信片 | itch.io报名与可玩提交、AI辅助披露；社区Game Jam，无已确认现金奖 |
 
-所有项目的个人资格、第三方账号与正式提交均待本人核验。Mozilla官方页仍展示邮件报名步骤，但没有明确的晚报名保证和截止时区，已单独标出；[Mozilla Foundation 活动页](https://www.mozillafoundation.org/sw/festival/side-events/)确认10月28日至11月11日线上活动。Next Horizon 的 FAQ 允许初次构想附已有原型，正式构建与入围安排仍须遵守主办方规则。
+所有项目的个人资格、第三方账号与正式提交均待本人核验。Apart 官网明确全球线上、允许个人参与，11月5日实查可打开启用的报名表；作品提交窗口尚未开启，不把它与报名关闭混淆。已有代码必须披露为赛前工作；奖金收取另须符合[官方条款](https://apartresearch.com/sprints/prize-terms)。Next Horizon 的 FAQ 允许初次构想附已有原型，正式构建与入围安排仍须遵守主办方规则。
 
 支付宝[延期公告](https://www.yuque.com/shanxian/dfe94a/xgqqg05f9n3l6lzg?singleDoc#)写12月6日零点；[规则正文](https://www.yuque.com/shanxian/dfe94a/xzter263dyio4ge3?singleDoc#)另有23:59:59的冲突表述，按更早时点准备。
 
-未将 OPC 3.0 第二季计入本轮：官网日期列11月30日，但实际顶部按钮显示“报名已截止”，开放状态矛盾尚未解决。也没有把学生专属赛、已过报名截止的 EthnoHack 或要求未确认组织身份的 AWS MSP 计入十场。
+未将 OPC 3.0 第二季计入本轮：官网日期列11月30日，但实际顶部按钮显示“报名已截止”，开放状态矛盾尚未解决。也没有把学生专属赛、已过报名截止的 EthnoHack 或要求未确认组织身份的 AWS MSP 计入十场。[Mozilla Developers Wilding](https://otari.ai/devs-wilding)仍展示邮件报名，但晚报名接受情况和截止时区未确认，仅保留为候选，不占十场名额；Source Trail 的可选 Otari 适配没有实际远程调用或参赛记录。
 
 ## 原始七个方向与本次改进
 
@@ -51,7 +51,7 @@
 
 ## 交付与核验
 
-各项目 README 提供启动、样例和验证命令，累计 323 项本地测试通过。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件、模型或主办方后台已联通。
+各项目 README 提供启动、样例和验证命令，累计 326 项本地测试通过。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件、模型或主办方后台已联通。
 
 可用的托管预览保持**仅所有者可访问**：
 

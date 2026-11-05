@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T01:02:17.521710+00:00",
+  "updated_at": "2026-11-05T01:12:40.615661+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -276,23 +276,25 @@
     },
     {
       "number": 15,
-      "event": "MozFest Developers Wilding: Online",
+      "event": "Apart AI × Epistemics Research Sprint",
       "project": "source-trail-otari",
-      "description": "精确引用锚点、人工立场标签冲突门禁、受约束提取与幂等Otari适配",
+      "description": "精确引用锚点、人工立场冲突门禁与可重复合成评估；可选Otari适配",
       "github": "https://github.com/misakamikotoghr-5205/source-trail-otari",
       "run": "python3 scripts/verify.py",
-      "passed_local_tests": 18,
-      "source": "https://otari.ai/devs-wilding",
+      "passed_local_tests": 21,
+      "source": "https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15",
       "source_read_method": "official event page/rules; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Owner must confirm whether late email registration is accepted; deadline timezone unspecified",
-        "Authorized hosted Otari.ai account and actual inference demonstration, new branch and first real integration commit",
-        "3–5 minute video, feedback and formal entry; no hosted call made"
+        "Owner signup; worldwide online solo participation per official FAQ, individual eligibility and prize-payment terms still require review",
+        "Clearly disclose all current code and pilot as preexisting; conduct and distinguish new Nov 13–15 sprint research",
+        "Official-template PDF up to 8 pages excluding references/appendices, abstract, authors/affiliations and required limitations/dual-use appendix; formal entry",
+        "Submission deadline Nov 15 23:59 AoE = Nov 16 11:59 UTC / 19:59 Beijing; optional hosted-model demonstration not performed"
       ],
       "formally_submitted": false,
-      "github_commit": "d3679f1f4cd959e186f3ed6d369c34ba47ef212b",
-      "pushed_and_remote_verified": true
+      "github_commit": "7b9e56581ebd55d9d61e494b3b2b5ba1e9b42ebd",
+      "pushed_and_remote_verified": true,
+      "preexisting_for_future_sprint": true
     },
     {
       "number": 16,
@@ -338,7 +340,7 @@
   ],
   "additional_online_events_first_batch": 3,
   "new_event_identity_assumption": "User confirmed individual developer. Age and region unconfirmed; screened assuming an adult in mainland China, not a personal eligibility determination.",
-  "total_passed_local_tests": 323,
+  "total_passed_local_tests": 326,
   "platform_integration_evidence": "See per-project pending setup. Contract mocks are not remote platform use or real AI inference.",
   "browser_verification_notes": {
     "pocket-pause": "Wish creation, ready review, manual linked deposit, reversal, and reload observed in localhost UI. Storage clock regressions covered by automated tests.",
@@ -353,5 +355,12 @@
   "additional_online_events_requested": 10,
   "additional_online_events_delivered": 10,
   "project_count": 17,
-  "preview_access": "Owner-only; not a public judge-accessible demo"
+  "preview_access": "Owner-only; not a public judge-accessible demo",
+  "excluded_or_conditional_candidates": [
+    {
+      "event": "MozFest Developers Wilding: Online",
+      "source": "https://otari.ai/devs-wilding",
+      "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
+    }
+  ]
 }

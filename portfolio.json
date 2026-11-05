@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T17:09:35.768529+00:00",
+  "updated_at": "2026-11-05T01:02:17.521710+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -194,16 +194,164 @@
       "formally_submitted": false,
       "pushed_and_remote_verified": true,
       "github_commit": "546f599dc5c3fb6d3a031f0f20d3ddfc739f2d26"
+    },
+    {
+      "number": 11,
+      "event": "Codegeist 2026",
+      "project": "dependency-evidence-forge",
+      "description": "Jira依赖证据快照、循环与不完整标记、跨版本审阅漂移比较",
+      "github": "https://github.com/misakamikotoghr-5205/dependency-evidence-forge",
+      "run": "npm ci && npm run check",
+      "passed_local_tests": 19,
+      "source": "https://codegeist2026.devpost.com/rules",
+      "source_read_method": "official event page/rules; details in docs/competition.md",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/dependency-evidence-forge/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Personal Atlassian/Forge registration; real lint/deploy/install and Jira verification",
+        "Judge-accessible install link and English demo video; formal entry"
+      ],
+      "formally_submitted": false,
+      "github_commit": "4b1259100337e4f97a07b4aa06f1bd7dc64648c5",
+      "pushed_and_remote_verified": true
+    },
+    {
+      "number": 12,
+      "event": "Builder.io Agent-Native Hackathon",
+      "project": "patch-review-desk",
+      "description": "实际Agent-Native动作合同、逐hunk人审与持久化回滚",
+      "github": "https://github.com/misakamikotoghr-5205/patch-review-desk",
+      "run": "npm ci && npm run init && npm run dev",
+      "passed_local_tests": 14,
+      "source": "https://www.builder.io/hackathon/rules",
+      "source_read_method": "official event page/rules; details in docs/competition.md",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/patch-review-desk/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Personal eligibility and public Clips recording of the complete local workflow",
+        "Formal submission; optional real local-model proposal demonstration"
+      ],
+      "formally_submitted": false,
+      "github_commit": "ce32e79e3bede96e8f47a548795a8aae61d50d73",
+      "pushed_and_remote_verified": true
+    },
+    {
+      "number": 13,
+      "event": "魔搭×Qoder AI+∞第三期：AI造游戏",
+      "project": "paper-route-playtest",
+      "description": "纸路邮局：四关派送、可重放搜索试玩与隔离变异体反例",
+      "github": "https://github.com/misakamikotoghr-5205/paper-route-playtest",
+      "run": "npm run check && npm test && npm run build && npm run dev",
+      "passed_local_tests": 15,
+      "source": "https://mseo-ai-inf.ms.show/",
+      "source_read_method": "official event page/rules; details in docs/competition.md",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Owner public concept post and approved registration; official deadline timezone confirmation",
+        "Public ModelScope Studio deployment and creative-process article/video",
+        "Formal game-category entry; no runtime AI or Qoder use claimed"
+      ],
+      "formally_submitted": false,
+      "private_preview": "https://paper-route-playtest-2026.ghraurora1024.chatgpt.site",
+      "github_commit": "2b935356d55f4211295d0c9b3547981fb3ee5d73",
+      "pushed_and_remote_verified": true
+    },
+    {
+      "number": 14,
+      "event": "GitHub Game Off 2026: SHIFT",
+      "project": "lumen-shift",
+      "description": "八关循环位移与XOR光路谜题、精确搜索提示和进度重放",
+      "github": "https://github.com/misakamikotoghr-5205/lumen-shift",
+      "run": "npm test && npm run check && npm run build && npm run dev",
+      "passed_local_tests": 13,
+      "source": "https://itch.io/jam/game-off-2026",
+      "source_read_method": "official event page/rules; details in docs/competition.md",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/lumen-shift/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Personal itch.io game page and playable jam submission",
+        "Accurate AI-assisted development disclosure; community recognition, no verified cash prize"
+      ],
+      "formally_submitted": false,
+      "private_preview": "https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site",
+      "github_commit": "a3a52464b9b170b7a6e04e4bbd2017453401a2fe",
+      "pushed_and_remote_verified": true
+    },
+    {
+      "number": 15,
+      "event": "MozFest Developers Wilding: Online",
+      "project": "source-trail-otari",
+      "description": "精确引用锚点、人工立场标签冲突门禁、受约束提取与幂等Otari适配",
+      "github": "https://github.com/misakamikotoghr-5205/source-trail-otari",
+      "run": "python3 scripts/verify.py",
+      "passed_local_tests": 18,
+      "source": "https://otari.ai/devs-wilding",
+      "source_read_method": "official event page/rules; details in docs/competition.md",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Owner must confirm whether late email registration is accepted; deadline timezone unspecified",
+        "Authorized hosted Otari.ai account and actual inference demonstration, new branch and first real integration commit",
+        "3–5 minute video, feedback and formal entry; no hosted call made"
+      ],
+      "formally_submitted": false,
+      "github_commit": "d3679f1f4cd959e186f3ed6d369c34ba47ef212b",
+      "pushed_and_remote_verified": true
+    },
+    {
+      "number": 16,
+      "event": "Next Horizon 2026",
+      "project": "watt-window",
+      "description": "非关键负载时间窗排程、精确成本比较、不可行解释与敏感性报告",
+      "github": "https://github.com/misakamikotoghr-5205/watt-window",
+      "run": "python3 scripts/verify.py",
+      "passed_local_tests": 17,
+      "source": "https://eisociety.org/hackathon.php?slug=next-horizon-2026",
+      "source_read_method": "official event page/rules; details in docs/competition.md",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/watt-window/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Personal idea-stage PPT (up to 15 MB) and application; limited places/shortlisting",
+        "Follow official Nov 28–30 48-hour build and final live pitch requirements",
+        "This is a pre-event prototype, not work performed during the future event"
+      ],
+      "formally_submitted": false,
+      "github_commit": "280045e9d8bf3447780245cfa6783c375c04e8e0",
+      "pushed_and_remote_verified": true
+    },
+    {
+      "number": 17,
+      "event": "Through Your Eyes: First-Person Game Jam",
+      "project": "parallax-postcards",
+      "description": "软件光线投射第一人称解谜、不同深度几何对齐与三张原创明信片",
+      "github": "https://github.com/misakamikotoghr-5205/parallax-postcards",
+      "run": "npm run verify && npm run package && npm run dev",
+      "passed_local_tests": 16,
+      "source": "https://itch.io/jam/through-your-eyes-first-person-game-jam",
+      "source_read_method": "official event page/rules; details in docs/competition.md",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/parallax-postcards/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Owner itch.io game page, playable build upload and jam entry before account-displayed countdown",
+        "Verify unspecified deadline timezone and accurate AI-assisted development disclosure",
+        "Community game jam; no confirmed cash prize"
+      ],
+      "formally_submitted": false,
+      "private_preview": "https://parallax-postcards-2026.ghraurora1024.chatgpt.site",
+      "github_commit": "c4d4dad3d7a65f0ed5b73cf0e34ad9f9ed25e50a",
+      "pushed_and_remote_verified": true
     }
   ],
   "additional_online_events_first_batch": 3,
-  "new_event_identity_assumption": "Adult individual in mainland China; not a personal eligibility determination",
-  "total_passed_local_tests": 211,
+  "new_event_identity_assumption": "User confirmed individual developer. Age and region unconfirmed; screened assuming an adult in mainland China, not a personal eligibility determination.",
+  "total_passed_local_tests": 323,
   "platform_integration_evidence": "See per-project pending setup. Contract mocks are not remote platform use or real AI inference.",
   "browser_verification_notes": {
     "pocket-pause": "Wish creation, ready review, manual linked deposit, reversal, and reload observed in localhost UI. Storage clock regressions covered by automated tests.",
     "deadlock-manor": "Completed incident, same-checkpoint causal comparison, and alternative-branch confirmation observed in localhost UI.",
     "iqiyi-play-lab": "Calibration controls and persisted manual timing offset observed in localhost UI; tap-estimator boundaries covered by automated tests.",
-    "scene-clearance-lab": "Browser WebGL2 context unavailable; usable top-down fallback observed. Original glTF import, numeric layout commit, geometric update, snapshots and reload observed. Full WebGL rendering remains unverified in this environment."
-  }
+    "scene-clearance-lab": "Browser WebGL2 context unavailable; usable top-down fallback observed. Original glTF import, numeric layout commit, geometric update, snapshots and reload observed. Full WebGL rendering remains unverified in this environment.",
+    "paper-route-playtest": "Observed full 12-step autoplay victory/return, hint without acting, and mutant counterexample where step 4 falsely delivers only in the mutant. No console errors.",
+    "lumen-shift": "Observed first-board victory, undo/redo, next-board hint, and completed-board persistence after reload. Replay-allowance hint boundary covered by automated regression.",
+    "parallax-postcards": "Observed legal reading/navigation/alignment/capture in all three rooms, 3/3 completion, ending and restored progress after reload. No console errors. Canvas2D rendering observed.",
+    "patch-review-desk": "Local API role/authorization probe observed actual action schemas, successful authorized inspect and unauthorized 401. Browser-authenticated file mutation was not manually exercised; approval/apply/rollback paths covered by tests."
+  },
+  "additional_online_events_requested": 10,
+  "additional_online_events_delivered": 10,
+  "project_count": 17,
+  "preview_access": "Owner-only; not a public judge-accessible demo"
 }

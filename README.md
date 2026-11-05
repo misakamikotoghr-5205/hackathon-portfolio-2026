@@ -1,18 +1,29 @@
 # 2026 项目与黑客松作品集
 
-核查与开发日期：2026-11-04。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动，以及新筛选的三个线上赛事，共十个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
+核查与开发日期：2026-11-04至2026-11-05。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动，以及额外筛选的十个赛事，共十七个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
 
-## 新筛选的三个线上赛事
+## 额外十个赛事与对应项目
 
-以下按“中国大陆成年个人开发者”的暂定情况筛选；用户身份、账号、利益冲突和领奖条件尚未逐人核验。截止均为北京时间 UTC+8，须以主办方最新公告为准。
+用户已确认个人开发者身份；年龄、学生身份与居住地区尚未确认，先按成年中国大陆个人筛选，不保证个人最终资格。以下十项与原始七方向分别对应独立项目。现金赛事、社区 Game Jam 和需入围的分阶段比赛分别说明；GitHub 推送不等于正式参赛。
 
-| 官方赛事与截止 | 独立项目 | 差异化落点 | 仍需真实完成的参赛条件 |
+| 官方赛事 | 截止与阶段 | 独立项目及已实现差异 | 参赛仍需补齐 |
 | --- | --- | --- | --- |
-| [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/rules)，2026-11-13 04:00 | [Cart Consent](https://github.com/misakamikotoghr-5205/cart-consent-paypal) | 模型提议商品，人工批准精确购物篮；价格、运费、地址、预算等变化撤销批准；持久化幂等与调用期间竞态检查 | 合法可用的 PayPal Business/developer/sandbox 账号，真实 sandbox 与 AI 运行，英文材料及三分钟内公开视频。公开排除地区清单未列中国大陆，不代表保证个人资格或账号可用。 |
-| [Aholo 全球 3D AI 黑客松](https://www.aholo3d.cn/hackathon)，2026-11-19 19:00 | [留白实验室](https://github.com/misakamikotoghr-5205/scene-clearance-lab) | 生成模型的下游布局工具：本地 glTF/GLB、保守几何间距解释、A/B 方案与来源报告 | 个人也要创建团队；实际用 Lux3D 生成核心资产并合法导出、验证兼容、制作运行视频。目前内置场景是原创程序几何，不能替代 Lux3D 证据。 |
-| [支付宝智能体涌现奖](https://emerge.alipay.com/)，按最早截止 2026-12-06 00:00 准备 | [余量接力 · Pantry Relay](https://github.com/misakamikotoghr-5205/pantry-relay) | 标签证据与人工确认门禁，受约束的菜谱选择，库存原子扣减与可重试消耗回执 | 本人合法实名支付宝及赛事账号、真实 AI 演示、提交材料。个人或 2–4 人团队；同一作品不能重复投其他大赛；Q Muse 推荐但可选。 |
+| [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/rules) | 北京2026-11-13 04:00 | [Cart Consent](https://github.com/misakamikotoghr-5205/cart-consent-paypal)：购物篮逐字段人工批准、变更撤销、调用竞态复核 | 合法可用的 Business/sandbox 账号、真实 PayPal+AI 演示、英文材料与视频 |
+| [Aholo 全球3D AI黑客松](https://www.aholo3d.cn/hackathon) | 北京2026-11-19 19:00 | [留白实验室](https://github.com/misakamikotoghr-5205/scene-clearance-lab)：本地模型布置、可解释几何间距、A/B报告 | 单人也须建队；真实 Lux3D 核心资产与兼容性、视频、提交 |
+| [支付宝智能体涌现奖](https://emerge.alipay.com/) | 按北京2026-12-06 00:00准备 | [余量接力](https://github.com/misakamikotoghr-5205/pantry-relay)：标签来源门禁、受约束选菜、库存消费回执 | 本人实名账号、真实 AI 演示、URL/ZIP提交；同一作品不重复投别赛 |
+| [Codegeist 2026](https://codegeist2026.devpost.com/rules) | 北京2026-12-23 04:00 | [Dependency Evidence for Jira](https://github.com/misakamikotoghr-5205/dependency-evidence-forge)：依赖证据快照、循环/缺失说明、旧审阅漂移复核；实际 Forge SDK模块 | Atlassian/Forge账号注册、lint/deploy/install、评委安装链接与视频；目前无真实Jira调用 |
+| [Builder.io Agent-Native Hackathon](https://www.builder.io/hackathon/rules) | 北京2026-11-10 15:59 | [Patch Review Desk](https://github.com/misakamikotoghr-5205/patch-review-desk)：实际 Agent-Native动作合同、逐hunk人审、基线漂移撤销和持久化回滚 | 真实完整操作录屏与公开Clips演示、本人提交；目前是本机文件工具 |
+| [魔搭×Qoder AI+∞第三期](https://mseo-ai-inf.ms.show/) | 官网2026-12-01 12:00报名；18:00交件，未明示时区 | [纸路邮局](https://github.com/misakamikotoghr-5205/paper-route-playtest)：四关可重放派送谜题、精确搜索试玩、隔离变异体反例 | 本人先发构想帖并审核报名、魔搭创空间公开托管、手记/视频；Qoder不是硬性工具要求 |
+| [GitHub Game Off 2026](https://itch.io/jam/game-off-2026) | 北京2026-12-02 05:37 | [Lumen Shift](https://github.com/misakamikotoghr-5205/lumen-shift)：八关循环位移与XOR信号解谜、实时搜索提示、可验证重放 | itch.io报名与可玩提交、如实披露AI辅助；社区评奖，未核实现金奖 |
+| [MozFest Developers Wilding: Online](https://otari.ai/devs-wilding) | 官网11月11日23:59，未标时区 | [Source Trail](https://github.com/misakamikotoghr-5205/source-trail-otari)：精确引用锚点、人工立场冲突门禁与受约束提取，官方Otari API适配 | 本人邮件确认报名（晚报名是否接受需确认）、真正托管Otari.ai调用、新分支与首次使用提交、视频及反馈；不把自托管当硬条件证据 |
+| [Next Horizon 2026](https://eisociety.org/hackathon.php?slug=next-horizon-2026) | 11月15日构想，未标具体时刻；11月28–30日48小时构建 | [Watt Window](https://github.com/misakamikotoghr-5205/watt-window)：非关键负载时间窗排程、功率约束、可解释成本与敏感性 | 有限名额/入围、本人的PPT与路演；本轮代码是赛前原型，不冒称48小时成果 |
+| [Through Your Eyes](https://itch.io/jam/through-your-eyes-first-person-game-jam) | 官网11月15日；按平台倒计时核对时区 | [Parallax Postcards](https://github.com/misakamikotoghr-5205/parallax-postcards)：软件光线投射第一人称房间、不同深度碎片对齐、三张原创明信片 | itch.io报名与可玩提交、AI辅助披露；社区Game Jam，无已确认现金奖 |
 
-支付宝[最新延期公告](https://www.yuque.com/shanxian/dfe94a/xgqqg05f9n3l6lzg?singleDoc#)明确写 12 月 6 日零点；[规则正文](https://www.yuque.com/shanxian/dfe94a/xzter263dyio4ge3?singleDoc#)另有 23:59:59 的矛盾表述。因此按较早时点准备，正式提交前再核对门户。上述三件作品用途、数据与实现相互独立，不用同一个项目换名重复投递。
+所有项目的个人资格、第三方账号与正式提交均待本人核验。Mozilla官方页仍展示邮件报名步骤，但没有明确的晚报名保证和截止时区，已单独标出；[Mozilla Foundation 活动页](https://www.mozillafoundation.org/sw/festival/side-events/)确认10月28日至11月11日线上活动。Next Horizon 的 FAQ 允许初次构想附已有原型，正式构建与入围安排仍须遵守主办方规则。
+
+支付宝[延期公告](https://www.yuque.com/shanxian/dfe94a/xgqqg05f9n3l6lzg?singleDoc#)写12月6日零点；[规则正文](https://www.yuque.com/shanxian/dfe94a/xzter263dyio4ge3?singleDoc#)另有23:59:59的冲突表述，按更早时点准备。
+
+未将 OPC 3.0 第二季计入本轮：官网日期列11月30日，但实际顶部按钮显示“报名已截止”，开放状态矛盾尚未解决。也没有把学生专属赛、已过报名截止的 EthnoHack 或要求未确认组织身份的 AWS MSP 计入十场。
 
 ## 原始七个方向与本次改进
 
@@ -34,13 +45,13 @@
 
 这些方向普遍已有成熟产品和开源实践。这里的“差异化”是已实现的具体用途与工作流，不是全球首创、专利新颖性或比赛获奖保证。每个仓库的 `docs/landscape.md` 记录官方来源、固定版本、许可证、相似能力与本项目短板；各文档记录核查版本，部分项目另附 JSON 与文件指纹。
 
-- **实际复用**：Pocket Pause 使用原样 vendored `idb-keyval@6.3.0`（Apache-2.0）；留白实验室使用原样 vendored `three@0.180.0` 与 OrbitControls（MIT）。均保留原始署名、完整许可和可验证哈希。
-- **API 适配**：BriefMint 可选官方支付宝 A402 SDK；Cart Consent 可选官方 PayPal sandbox Orders API 与本地 Ollama；Pantry Relay 可选本地 Ollama。未把合同 mock 测试声称为远程集成或真实推理。
-- **设计比较而非拷贝**：其他表列仓库未复制代码或素材。AGPL 项目、Spot 的特定 SDK 许可、Chatwoot enterprise 目录和 StepMania 资产的单独授权均有说明，不将“公开源码”一概视为 MIT。
+- **实际复用**：Pocket Pause 使用原样 vendored `idb-keyval@6.3.0`（Apache-2.0）；留白实验室使用原样 vendored `three@0.180.0` 与 OrbitControls（MIT），保留原始署名、完整许可和可验证哈希。Patch Review Desk 实际依赖 `@agent-native/core@0.223.0`（MIT）、`diff@9.0.0`（BSD-3-Clause）及 `zod`（MIT），保留完整许可。Jira 项目实际依赖 Forge SDK，其许可受 **Atlassian Developer Terms** 管理，不把 SDK 称为 MIT。
+- **API 适配**：BriefMint 可选官方支付宝 A402 SDK；Cart Consent 可选官方 PayPal sandbox Orders API 与本地 Ollama；Pantry Relay、Patch Review Desk 可选本地 Ollama；Source Trail 可选官方托管 Otari API。未把合同 mock 测试声称为远程集成或真实推理。
+- **设计比较而非拷贝**：各仓库列出的其余对照项目仅作设计参考，未复制其代码或素材。AGPL 项目、Spot 的特定 SDK 许可、Chatwoot enterprise 目录和 StepMania 资产的单独授权均有说明，不将“公开源码”一概视为 MIT。
 
 ## 交付与核验
 
-各项目 README 提供启动、样例和验证命令，累计 211 项本地测试通过。机器可读交付清单见 [portfolio.json](portfolio.json)，十个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件、模型或主办方后台已联通。
+各项目 README 提供启动、样例和验证命令，累计 323 项本地测试通过。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件、模型或主办方后台已联通。
 
 可用的托管预览保持**仅所有者可访问**：
 
@@ -48,5 +59,8 @@
 - [留白实验室](https://scene-clearance-lab-aholo.ghraurora1024.chatgpt.site)
 - [Deadlock Manor](https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site)
 - [爱奇艺 Play Lab](https://iqiyi-play-lab-2026.ghraurora1024.chatgpt.site)
+- [纸路邮局](https://paper-route-playtest-2026.ghraurora1024.chatgpt.site)
+- [Lumen Shift](https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site)
+- [Parallax Postcards](https://parallax-postcards-2026.ghraurora1024.chatgpt.site)
 
 公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。尚未替用户注册、接受赛事条款、发帖、上传视频或正式提交。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox 与模型运行等未完成条件均在对应仓库明确列出。

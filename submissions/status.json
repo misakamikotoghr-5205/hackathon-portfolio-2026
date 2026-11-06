@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T05:23:23.004468+00:00",
+  "updated_at": "2026-11-06T06:18:40.663583+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 0,
@@ -102,11 +102,11 @@
       "receipt": null,
       "status": "awaiting_eligibility_accounts_sandbox_and_video",
       "dependencies": [
-        "Personal eligibility and authorized PayPal developer/sandbox account; individual eligibility must not be confused with the sandbox merchant role",
+        "Basic identity confirmed privately; authorized PayPal developer/sandbox account and applicable platform eligibility still require verification; individual eligibility must not be confused with the sandbox merchant role",
         "Real PayPal sandbox end-to-end validation; actual local AI basket probe is documented but no payment was approved or captured",
         "English public video and formal registration/submission"
       ],
-      "current_blocker": "真实本地模型已生成通过校验的1398/5000美分购物篮，保持DRAFT、未人工批准；超时和预算拒绝保留。仍待资格/账号确认、真实PayPal sandbox与公开视频；无官方回执。",
+      "current_blocker": "真实本地模型已生成通过校验的1398/5000美分购物篮，保持DRAFT、未人工批准；超时和预算拒绝保留。基础身份资料已私密确认；仍待适用规则与授权账号核验、真实PayPal sandbox与公开视频；无官方回执。",
       "local_model_evidence": {
         "real_inference_observed": true,
         "accepted_proposal_observed": true,
@@ -174,13 +174,13 @@
       "github": "https://github.com/misakamikotoghr-5205/patch-review-desk",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_eligibility_accounts_clips_terms_and_recording",
+      "status": "awaiting_accounts_clips_terms_and_recording",
       "dependencies": [
-        "Personal eligibility and public Clips recording of the complete local workflow",
+        "Basic identity confirmed privately; applicable platform requirements and public Clips recording of the complete local workflow remain",
         "Clips account access and action-time terms consent; formal Builder submission",
         "Actual local model text probe passed transport/schema but missed the requested edit format; no complete model/UI sequence claimed"
       ],
-      "current_blocker": "Builder描述/仓库已预填，姓名邮箱已私密取得；18+、常住地区、账号状态与Clips当次注册条款确认待答。模型文本响应合法但未达两行目标，未执行proposal/审批/录屏；缺真实公开Clips和官方回执。",
+      "current_blocker": "Builder描述/仓库已预填；基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，Clips当次注册条款同意与账号状态仍待答。模型文本响应合法但未达两行目标，未执行proposal/审批/录屏；缺真实公开Clips和官方回执。",
       "local_model_evidence": {
         "real_inference_observed": true,
         "accepted_by_text_contract": true,
@@ -225,14 +225,15 @@
       "github": "https://github.com/misakamikotoghr-5205/source-trail-otari",
       "formally_submitted": false,
       "receipt": null,
-      "status": "sprint_submission_not_open",
+      "status": "signup_prefilled_awaiting_action_time_code_of_conduct_confirmation",
       "dependencies": [
         "Owner signup; worldwide online solo participation per official FAQ, individual eligibility and prize-payment terms still require review",
         "Clearly disclose all current code and pilot as preexisting; conduct and distinguish new Nov 13–15 sprint research",
         "Official-template PDF up to 8 pages excluding references/appendices, abstract, authors/affiliations and required limitations/dual-use appendix; formal entry",
         "Submission deadline Nov 15 23:59 AoE = Nov 16 11:59 UTC / 19:59 Beijing; optional hosted-model demonstration not performed"
       ],
-      "current_blocker": "可准备报名；11月13–15赛期尚未来，项目提交按钮禁用，不能现在提交虚构赛期报告。"
+      "current_blocker": "实际报名表已预填基础资料、仓库与标明赛前工作的研究提案；待本次行为准则确认后点击Sign up。作品窗口尚未开启，最终研究须在赛期完成。",
+      "browser_prefilled": true
     },
     {
       "project": "watt-window",
@@ -240,13 +241,13 @@
       "github": "https://github.com/misakamikotoghr-5205/watt-window",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_eligibility_accounts_and_idea_form",
+      "status": "awaiting_google_login_and_idea_form",
       "dependencies": [
-        "Private signed idea-stage PPT is prepared; age/residence and official application remain; limited places/shortlisting",
+        "Private signed idea-stage PPT is prepared and basic identity confirmed privately; user Google login and official application remain; limited places/shortlisting",
         "Follow official Nov 28–30 48-hour build and final live pitch requirements",
         "This is a pre-event prototype, not work performed during the future event"
       ],
-      "current_blocker": "六页英文PPTX及私密署名版已完成，个人信息不公开；仍待18+/常住地区与账号确认、官方报名表操作和回执。后续入围/48小时构建另行记录。",
+      "current_blocker": "六页英文PPTX及私密署名版已完成，个人信息不公开；基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理。官方Google表单强制登录，已停在既有账号的密码/通行密钥页等待本人登录；尚未见到表单字段，未预填或提交，无官方回执。后续入围/48小时构建另行记录。",
       "private_signed_presentation_prepared": true
     },
     {
@@ -265,7 +266,7 @@
     }
   ],
   "evidence_policy": "Mark registered/submitted only after an official success page, entry ID or receipt; keep personal identity and credentials outside this public ledger.",
-  "identity_completion": "Name, email and phone supplied privately; age 18+, country/city of residence, platform account status and current Clips signup terms confirmation remain pending. No personal values are stored here.",
+  "identity_completion": "基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理。No personal values are stored here.",
   "skip_expired": true,
   "skip_enterprise_only": true,
   "identity_fields_provided_privately": [
@@ -274,10 +275,10 @@
     "phone"
   ],
   "identity_confirmation_pending": [
-    "Age 18+",
-    "Country and city of residence",
-    "Platform account status"
+    "Platform account status",
+    "Applicable platform terms"
   ],
   "clips_signup_terms_confirmation": null,
-  "external_registrations_confirmed": 0
+  "external_registrations_confirmed": 0,
+  "basic_identity_confirmed_privately": true
 }

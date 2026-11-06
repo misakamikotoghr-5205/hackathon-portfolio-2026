@@ -1,6 +1,6 @@
 # Watt Window — Next Horizon first-stage draft, 2026-11-06
 
-Official [event and FAQ](https://eisociety.org/hackathon.php?slug=next-horizon-2026). Its [Apply/Register redirect](https://eisociety.org/go/apply/next-horizon-2026?s=direct) currently leads to [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form). The form itself is inaccessible through the public text fetch used here; its exact fields and required markers are **not** claimed as inspected. Use the link reached from the official event if it changes.
+Official [event and FAQ](https://eisociety.org/hackathon.php?slug=next-horizon-2026). Its [Apply/Register redirect](https://eisociety.org/go/apply/next-horizon-2026?s=direct) currently leads to [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form). The official form has now actually required Google sign-in. The browser is waiting at the existing account’s password/passkey sign-in page for the owner to complete login; the form fields and required markers have **not** been seen. No form content has been prefilled or submitted. Use the link reached from the official event if it changes.
 
 Idea deadline **November 15, 2026**; no exact cutoff hour is published. First stage requires a PowerPoint up to 15 MB, not just a repository. A prototype video of 2–4 minutes is optional. Places are limited; shortlisting and notice are November 16/17. The actual 48-hour event is **November 28 09:00 EST–November 30 09:00 EST** (14:00 UTC / 22:00 Beijing each day), including final presentations.
 
@@ -18,7 +18,7 @@ Watt Window is an offline advisory scheduler for user-confirmed noncritical hous
 
 The working pre-event prototype uses Python's standard library and exact rational cost comparisons. Bounded search distinguishes proven model optimality, a valid plan without proof, budget exhaustion without a plan and proven finite-model infeasibility. Reports preserve assumptions and baseline validity, with JSON/HTML/CSV/ICS exports and hypothetical sensitivity cases. Seventeen local tests include independent small-instance brute-force comparisons.
 
-This code was created November 5, before the November 28–30 event. It is explicitly preexisting preparation, not work completed in the future 48-hour window. No real electricity saving, carbon reduction, device control, measured tariff or actual household trial is claimed. If shortlisted, the proposed event work is a documented new evaluation with independently authored workload cases and a clearer assumption-review workflow, while preserving honest proof/budget status. Entrant/team identity and the required first-stage PowerPoint must be supplied through the official process.
+This code was created November 5, before the November 28–30 event. It is explicitly preexisting preparation, not work completed in the future 48-hour window. No real electricity saving, carbon reduction, device control, measured tariff or actual household trial is claimed. If shortlisted, the proposed event work is a documented new evaluation with independently authored workload cases and a clearer assumption-review workflow, while preserving honest proof/budget status. Basic identity has been privately confirmed, and a private signed first-stage PowerPoint is prepared. The official Google sign-in and application process still need to be completed; no registration or submission receipt is claimed.
 
 ## 中文摘要
 
@@ -37,12 +37,12 @@ This code was created November 5, before the November 28–30 event. It is expli
 
 | Material | Prepared content / state |
 |---|---|
-| Team details | Actual entrant identity/background/contact must be supplied privately; no invented affiliation |
+| Team details | Basic identity confirmed privately; personal values remain outside the public repository, with no invented affiliation |
 | Problem | Abstract and slide 2 in [pitch-draft.md](pitch-draft.md) |
 | Solution/technical approach | Slide 3 and technical disclosure above |
 | Impact/feasibility | Slide 4, explicitly estimated rather than measured benefits |
 | Implementation plan | Slide 5, preexisting vs future event work separated |
-| PowerPoint up to 15 MB | Five-slide copy is prepared; no completed identity-bearing PowerPoint is claimed |
+| PowerPoint up to 15 MB | Six-slide anonymous public draft and a separate completed private signed PowerPoint are prepared; the private version is not published |
 | Optional 2–4 minute prototype video | Concrete [video-script.md](video-script.md); not yet recorded |
 | Repository | https://github.com/misakamikotoghr-5205/watt-window |
 

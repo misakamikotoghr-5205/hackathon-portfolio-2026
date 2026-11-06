@@ -9,7 +9,7 @@
 | [Lumen Shift / Game Off](https://itch.io/jam/game-off-2026) | 公开页仍显示 Join jam。官方截止 2026-12-01 13:37 PST，即12-01 21:37 UTC / 北京12-02 05:37。 | itch.io账号、加入jam、创建可玩HTML游戏页、上传ZIP、如实填写AI披露和jam表、最终参赛确认。 |
 | [Parallax / Through Your Eyes](https://itch.io/jam/through-your-eyes-first-person-game-jam) | 公开页仍显示 Join jam。正文11-15；页面原始 end_date 为 `2026-11-15 17:24:24`，未标时区，不能自行换算北京时间。 | 登录确认账户倒计时及当前额外要求，创建并上传游戏页，加入并提交该jam。 |
 | [纸路 / AI+∞](https://mseo-ai-inf.ms.show/) | 报名截止12-01 12:00、作品12-01 18:00；公开页未明示时区，提前完成并以登录后的官网状态核对。 | 公开构想帖及审核、魔搭账号、公开可运行的创空间、手记与真实视频、官网最终交件。 |
-| [Source Trail / Apart](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) | Sign up按钮未禁用；11-06抓到的Submit project实际带disabled，表内提示submission window closed。赛期11-13至15；截止11-15 23:59 AoE =11-16 11:59 UTC / 北京19:59。 | 可准备报名；当前不能称项目提交窗口可用。还需赛期新增研究、真实作者资料、官方模板PDF和最终提交。现有16例pilot均是11-05赛前材料。 |
+| [Source Trail / Apart](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) | Sign up按钮未禁用；11-06抓到的Submit project实际带disabled，表内提示submission window closed。赛期11-13至15；截止11-15 23:59 AoE =11-16 11:59 UTC / 北京19:59。 | 可准备报名；当前不能称项目提交窗口可用。还需赛期新增研究、按官方流程填写作者资料、官方模板PDF和最终提交。现有16例pilot均是11-05赛前材料。 |
 
 ## 1. Lumen Shift：硬条件与字段证据
 
@@ -58,7 +58,7 @@
 
 ## 执行者还需补齐
 
-姓名和联系方式已由本人私密提供；年龄、常住国家/城市及平台显示名仍待确认。还需itch/魔搭登录与适用条款确认；实际封面截图/必要视频及公开链接；登录后自定义题目或首次发布声明的真实答案；最终提交成功页面/收据。不要将占位符、私有预览、录制脚本或赛前计划当成最终已交材料。没有发送消息、操作账号、注册、付费、接受条款或提交任何赛事。
+基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，个人资料不写入公开文件。还需itch/魔搭登录与平台显示名确认；实际封面截图/必要视频及公开链接；登录后自定义题目或首次发布声明的真实答案；最终提交成功页面/收据。不要将占位符、私有预览、录制脚本或赛前计划当成最终已交材料。没有发送消息、操作账号、注册、付费、接受条款或提交任何赛事。
 
 ## 原创投稿图（不是截图）
 

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T05:23:53.438816+00:00",
+  "updated_at": "2026-11-06T06:18:40.663583+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -355,7 +355,7 @@
     }
   ],
   "additional_online_events_first_batch": 3,
-  "new_event_identity_assumption": "User confirmed individual developer and supplied contact information privately. Age, residence country/city and account status remain unconfirmed; no personal eligibility determination.",
+  "new_event_identity_assumption": "User confirmed individual developer and the necessary basic identity details privately. This does not establish nationality, platform identity verification, account availability or all personal eligibility conditions.",
   "total_passed_local_tests": 326,
   "platform_integration_evidence": "Actual local Ollama probes for Cart Consent, Pantry Relay and Patch Review Desk are recorded with failures and limits in their docs/evidence/. Mock contracts, these local probes and runnable packages do not establish remote contest-platform use or a completed submission.",
   "browser_verification_notes": {
@@ -379,5 +379,5 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Identity/contact supplied privately; 0 confirmed official registrations and 0 project submissions. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. See submissions/status.json."
+  "submission_progress": "Basic identity/contact details confirmed privately; 0 confirmed official registrations and 0 project submissions. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. Account access, action-time agreements and real platform artifacts remain. See submissions/status.json."
 }

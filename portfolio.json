@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T07:33:16.625836+00:00",
+  "updated_at": "2026-11-06T07:53:53.888030+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -234,15 +234,20 @@
       "source": "https://www.builder.io/hackathon/rules",
       "source_read_method": "official event page/rules; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/patch-review-desk/blob/main/docs/landscape.md",
-      "remaining_external_setup": [
-        "Final action-time confirmation of Builder contest eligibility, rules and entrant-data processing",
-        "Click official Submit and verify actual receipt; source code, 2:04 public Clips fixture recording and form fields are ready"
-      ],
-      "formally_submitted": false,
-      "github_commit": "40a0e0728eb04eb1b6554fda574f5a4de321a77c",
+      "remaining_external_setup": [],
+      "formally_submitted": true,
+      "github_commit": "0829d8db155e339d664b22b5cfc63399b463b392",
       "pushed_and_remote_verified": true,
-      "submission_status": "final_form_ready_awaiting_event_rules_and_eligibility_confirmation",
-      "public_demo": "https://clips.agent-native.com/share/r01FTO1ytVvm"
+      "submission_status": "official_submission_received",
+      "public_demo": "https://clips.agent-native.com/share/r01FTO1ytVvm",
+      "submission_receipt": {
+        "date": "2026-11-06",
+        "url": "https://www.builder.io/hackathon/submit",
+        "heading": "Thank you for submitting.",
+        "message": "Your project submission has been received.",
+        "submission_id_displayed": false,
+        "proof": "Official page receipt retained privately; optional marketing unchecked."
+      }
     },
     {
       "number": 13,
@@ -367,7 +372,7 @@
     "paper-route-playtest": "Observed full 12-step autoplay victory/return, hint without acting, and mutant counterexample where step 4 falsely delivers only in the mutant. No console errors.",
     "lumen-shift": "Observed first-board victory, undo/redo, next-board hint, and completed-board persistence after reload. Replay-allowance hint boundary covered by automated regression.",
     "parallax-postcards": "Observed legal reading/navigation/alignment/capture in all three rooms, 3/3 completion, ending and restored progress after reload. No console errors. Canvas2D rendering observed.",
-    "patch-review-desk": "Isolated agent-capability proposal with two fixture hunks; reviewer approved only the time hunk, applied 09:00 to 09:30 with unapproved final sentence unchanged, then rolled back and restored the original SHA. Real 2:04 screen-only silent Clips recording saved. Anonymous HTTP share/context and four media-frame requests succeeded; authenticated player naturally reached 124.794s end with readyState 4 and no decoding error. Recording is fixture/model off, distinct from the limited real Ollama probe. Formal Builder entry remains pending."
+    "patch-review-desk": "Isolated agent-capability proposal with two fixture hunks; reviewer approved only the time hunk, applied 09:00 to 09:30 with unapproved final sentence unchanged, then rolled back and restored the original SHA. Real 2:04 screen-only silent Clips recording saved. Anonymous HTTP share/context and four media-frame requests succeeded; authenticated player naturally reached 124.794s end with readyState 4 and no decoding error. Recording is fixture/model off, distinct from the limited real Ollama probe. Builder official form confirmed receipt of the final entry on 2026-11-06; this is not a judging result."
   },
   "additional_online_events_requested": 10,
   "additional_online_events_delivered": 10,
@@ -380,5 +385,5 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "1 confirmed official registration (Apart); 0 final project submissions. Actual 2:04 public Clips fixture recording is ready, with anonymous HTTP/media checks and complete authenticated playback. All Builder form content is prefilled; final action-time contest eligibility/rules/data consent remains. Identity details and receipts remain private. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. See submissions/status.json."
+  "submission_progress": "1 confirmed official registration (Apart); 1 final project submission (Builder Patch Review Desk, official receipt on 2026-11-06). The entry includes the 2:04 public Clips fixture recording. Optional marketing remained unchecked. Identity details and receipt screenshots remain private. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. Other entries remain pending; see submissions/status.json."
 }

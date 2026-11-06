@@ -1,12 +1,12 @@
 # 报名与提交推进记录
 
-更新：2026-11-06。这里是可审核的报名材料和实际缺口。**已确认官方报名回执 1 份（Apart），最终作品提交回执 0 份**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
+更新：2026-11-06。这里是可审核的报名材料和实际缺口。**已确认官方报名回执 1 份（Apart），正式作品提交回执 1 份（Builder / Patch Review Desk），跳过 2 个方向**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
 
-基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，个人资料不写入公开文件。Clips已真实登录并保存[Fixture ModelOff录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)；仅项目标签页、摄像头与麦克风关闭。Builder表单已预填，但必填processingConsent和可选marketing均未勾，尚未点击Submit；仍待本次赛事规则/个人资格确认。
+基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，个人资料不写入公开文件。Clips已真实登录并保存[Fixture ModelOff录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)；仅项目标签页、摄像头与麦克风关闭。Builder已在本人当次确认后勾必填同意、保持营销未勾并提交，官网已显示项目收件成功；这与Apart仅报名成功分开计数。
 
 ## 先处理的入口
 
-1. [Builder 提交表](https://www.builder.io/hackathon/submit)：北京时间11月10日15:59截止。全部字段含真实[Clips URL](https://clips.agent-native.com/share/r01FTO1ytVvm)已预填；只读DOM检查其余输入nativeValid，唯一缺失必填项为未勾的processingConsent，可选marketing也未勾，尚未点击Submit。录屏展示录制前独立agent能力准备的两hunk固定草稿：只批第1段、partial apply、保留未批准末句、rollback及两份回执，明确fixture/model off。已登录浏览器自然播放至片尾；匿名HTTP/媒体帧检查与实播范围分开记录。仍待本次赛事规则/个人资格确认，无Builder作品回执。[表单文案](drafts/patch-review-desk/form-draft.md) · [录屏记录](drafts/patch-review-desk/video-script.md)
+1. **Builder / Patch Review Desk：正式作品提交成功。** 截至2026-11-06 07:53:18 UTC，已在本人对本次最终提交确认后勾选必填processingConsent，保持marketing未勾，点击Submit；[官网提交页](https://www.builder.io/hackathon/submit)实际显示“Thank you for submitting.” / “Your project submission has been received.”。private success-page evidence held；网页未给回执编号，不声称收到确认邮件或评审结果。 已提交的[Clips录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)明确fixture/model off，展示独立agent能力预先准备的两hunk草稿、只批第1段、partial apply、保留未批准末句、rollback及两份回执。已登录浏览器完整播放与匿名HTTP/帧检查的范围继续分开披露。[提交文案](drafts/patch-review-desk/form-draft.md) · [录屏记录](drafts/patch-review-desk/video-script.md)
 2. PayPal：北京时间 11 月 13 日 04:00 截止。Cart真实本地模型已生成并通过校验的1398/5000美分购物篮，保持DRAFT、未人工批准；之前的超时和预算拒绝也保留。仍缺授权PayPal sandbox验证及公开视频，不是端到端支付演示。[材料](drafts/cart-consent-paypal/form-draft.md)
 3. Through Your Eyes：官网列 11 月 15 日，具体截止按账号倒计时。HTML 包、封面、AI 披露和项目页已备，需 itch.io 登录、创建公开游戏页和正式参赛。[材料](drafts/parallax-postcards/project-page.md)
 4. Next Horizon：11 月 15 日构想截止，官网未列具体时分。六页英文PPTX及私密署名版均已完成，公开仓库只保留无个人信息版本；基础身份资料已私密确认；报名Google表单强制登录；此前未登录会话已超时，现已恢复Google登录入口，等待本人登录。表单字段尚未见到，未预填或提交，没有官方回执。[公开PPTX草稿](artifacts/watt-window-next-horizon-draft.pptx) · [报名文案](drafts/watt-window/form-draft.md)

@@ -28,6 +28,8 @@ Do not describe this clip as showing proposal generation during capture, live LL
 
 `projects/patch-review-desk/docs/evidence/local-model-20261106.json` records two genuine production `modelDraft()` requests with the complete fictional fixture and the same goal: original model 45-second timeout, bounded same-base-model alias 19.261-second text response. The latter passed the text-only contract and kept 09:00 but failed the requested two-line format/heading. That probe did not run proposal, approval or UI actions and did not produce the two edits in this clip. The saved fixture recording does not convert that probe into a completed LLM editing workflow.
 
-## Form state after recording
+## Official submission after recording
 
-All Builder fields, including this actual Clips URL, are prefilled. Read-only DOM checking found the other inputs nativeValid; the only missing required input is **processingConsent**, still unchecked. Optional marketing is also unchecked. **Submit has not been clicked**; current event-rules and individual-eligibility confirmation are pending. No Builder final-submission receipt is claimed. The portfolio still records one confirmed event signup (Apart), zero final project submissions and two skipped directions.
+Recorded at **2026-11-06 07:53:18 UTC**. After the owner confirmed this final Builder action, required **processingConsent was checked**, optional **marketing remained unchecked**, and **Submit was clicked** with this actual Clips URL and the submitted description. The official [submission page](https://www.builder.io/hackathon/submit) displayed **“Thank you for submitting.”** / **“Your project submission has been received.”** **private success-page evidence held**; no receipt number, confirmation email or judging outcome is claimed.
+
+The portfolio now records **one final project submission (Builder / Patch Review Desk)**, **one separate event signup (Apart only)** and **two skipped directions**. Apart's sprint research and final report/submission remain outstanding. The saved clip's fixture/model-off boundary and the separate model-probe limitations are unchanged.

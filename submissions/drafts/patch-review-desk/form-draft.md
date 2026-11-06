@@ -1,6 +1,6 @@
-# Patch Review Desk — Builder submission draft
+# Patch Review Desk — submitted Builder entry record
 
-Updated 2026-11-06. The actual Clips recording is saved and all Builder fields, including its URL, are prefilled. The required processingConsent and optional marketing checkboxes are both unchecked; Submit has not been clicked. Current event-rules and individual-eligibility confirmation remain. Account identity stays private; no Builder submission receipt is claimed.
+Updated 2026-11-06 07:53:18 UTC. After the owner confirmed this final submission, required processingConsent was checked, optional marketing remained unchecked, and Submit was clicked. The official submission page displayed **“Thank you for submitting.”** and **“Your project submission has been received.”** **private success-page evidence held**. No receipt number, confirmation email, judging result or award is claimed. Identity and the private screenshot remain outside this public record.
 
 Official [submission form](https://www.builder.io/hackathon/submit), [rules](https://www.builder.io/hackathon/rules), [Clips](https://clips.agent-native.com/). Deadline: November 9 23:59 America/Los_Angeles = November 10 07:59 UTC / **15:59 Beijing**.
 
@@ -16,10 +16,10 @@ Official [submission form](https://www.builder.io/hackathon/submit), [rules](htt
 | Project or GitHub URL | https://github.com/misakamikotoghr-5205/patch-review-desk |
 | Public Clips recording URL * | https://clips.agent-native.com/share/r01FTO1ytVvm — saved actual fixture/model-off clip; verification scope below |
 | Slides URL | Optional; no slide link is claimed |
-| Required agreement / processingConsent | Unchecked; the only missing required input in the read-only native-validity check. Await current event-rules and individual-eligibility confirmation; covers rules, member authorization and personal-data processing |
+| Required agreement / processingConsent | Checked after the owner confirmed this final submission; covers rules, member authorization and personal-data processing |
 | Marketing offers | Optional and unchecked |
 
-## Exact prefilled English project description
+## Exact submitted English project description
 
 Patch Review Desk gives an agent a narrow job: propose replacement text in a private workspace while a reviewer decides which individual diff hunks may be applied. Shared actions actually import @agent-native/core@0.223.0 and use defineAction() for schema validation, authorization and tool metadata. The agent capability can inspect and propose, but cannot approve, apply or roll back. Approval binds server-generated hunks to baseline content; observed drift revokes approval. Partial application creates a durable SQLite receipt with the exact backup, and rollback refuses to overwrite later edits.
 
@@ -41,7 +41,7 @@ Human team: the individual entrant identified in this form; no other human teamm
 - Specific difference: shared, permission-separated agent/UI actions plus per-hunk decisions, stale-baseline revocation and recoverable receipts in a small text-only workspace. It lacks a full editor, Git worktree/merge operations, cloud identity and multi-process filesystem locking.
 - Build process: define capability boundary → wire actual framework actions → calculate server-owned diffs → add approval/revision checks and receipt recovery → exercise HTTP/permission and crash-edge tests → build a runnable source distribution. Real local-model probes preserve an original timeout and a valid text response that missed the full editing goal. The saved recording is a separate completed deterministic-fixture review/apply/rollback sequence; it does not show an LLM-driven sequence.
 - Original source/fixture: MIT. Real dependencies: Agent-Native 0.223.0 MIT, diff 9.0.0 BSD-3-Clause, Zod 4.4.3 MIT; original notices retained. VS Code was a design comparison, with no copied code/assets. Dependency graph retains its own notices; the application MIT license does not relicense dependencies.
-- Status: actual saved Clips fixture recording, runnable local fixture and real framework integration; the separate model probe has disclosed limitations. All Builder fields are prefilled, processingConsent and marketing remain unchecked, and final Submit is pending. No hosted app, official acceptance, general editing success or completed LLM/UI workflow is asserted.
+- Status: actual saved Clips fixture recording, runnable local fixture and real framework integration; the separate model probe has disclosed limitations. The entry was submitted after the owner’s current confirmation and the official success page acknowledged receipt. Marketing remained unchecked. No hosted app, judging acceptance, general editing success or completed LLM/UI workflow is asserted.
 
 ## Actual recording and verification scope
 
@@ -51,6 +51,12 @@ Human team: the individual entrant identified in this form; no other human teamm
 - In the logged-in browser, playback naturally reached its player duration/currentTime of 124.794 seconds without seeking: ended=true, paused=true, readyState=4, error=null. This is not a claim of full anonymous-browser playback.
 - The proposal's two fixture hunks were prepared through the separate agent capability before capture. The video shows reviewer approval of only the first hunk, partial application, the unchanged unapproved final sentence, rollback and both receipts; it does not display LLM reasoning.
 
-## Remaining official step
+## Official submission receipt
 
-All Builder fields, including the real Clips URL and the exact description above, are prefilled. Read-only DOM validation found the other inputs nativeValid; required processingConsent is the only missing required input, and optional marketing is also unchecked. Submit has not been clicked. Await the owner's current event-rules and individual-eligibility confirmation before any final action; preserve the eventual submission receipt privately. Recording readiness is separate from official acceptance or final submission.
+Recorded at **2026-11-06 07:53:18 UTC**. All Builder fields, including the actual Clips URL and the exact description above, were submitted after the owner's current confirmation. Required **processingConsent was checked**; optional **marketing remained unchecked**. Submit was clicked, and the official [submission page](https://www.builder.io/hackathon/submit) displayed:
+
+> Thank you for submitting.
+>
+> Your project submission has been received.
+
+**private success-page evidence held**. The webpage showed no receipt number; no confirmation email is claimed. This confirms project receipt, not judging, shortlisting or a prize. The portfolio records **one final project submission (Builder)**, **one separate event signup (Apart only)** and **two skipped directions**. Apart still requires actual sprint-period research and its final report/submission.

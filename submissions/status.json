@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T07:32:41.101748+00:00",
+  "updated_at": "2026-11-06T07:53:18Z",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
-  "external_submissions_confirmed": 0,
+  "external_submissions_confirmed": 1,
   "projects": [
     {
       "project": "briefmint-skillpay",
@@ -205,15 +205,20 @@
       "project": "patch-review-desk",
       "event": "Builder.io Agent-Native Hackathon",
       "github": "https://github.com/misakamikotoghr-5205/patch-review-desk",
-      "formally_submitted": false,
-      "receipt": null,
-      "status": "prefilled_awaiting_event_rules_and_individual_eligibility_confirmation",
-      "dependencies": [
-        "Saved actual fixture/model-off Clips recording and complete form prefill exist; current event-rules and individual-eligibility confirmation remain",
-        "Required processingConsent and optional marketing are unchecked; Submit has not been clicked; retain any eventual official final-submission receipt",
-        "Separate local-model probe missed the requested format; recording reviews a pre-capture deterministic proposal and does not show LLM reasoning"
-      ],
-      "current_blocker": "Clips已真实登录，Builder Free免费存储已激活，实际fixture/model-off录屏已保存并自然播放至片尾；全部Builder字段及真实Clips URL已预填。只读DOM检查其余输入nativeValid，唯一缺必填processingConsent仍未勾，可选marketing也未勾，尚未点击Submit；待本次赛事规则/个人资格确认，无最终作品回执。",
+      "formally_submitted": true,
+      "receipt": {
+        "status": "confirmed",
+        "recorded_at_utc": "2026-11-06T07:53:18Z",
+        "success_heading": "Thank you for submitting.",
+        "success_message": "Your project submission has been received.",
+        "public_submission_page": "https://www.builder.io/hackathon/submit",
+        "evidence": "private success-page evidence held",
+        "receipt_number": null,
+        "confirmation_email_claimed": false
+      },
+      "status": "submitted_official_success_page_confirmed",
+      "dependencies": [],
+      "current_blocker": null,
       "local_model_evidence": {
         "real_inference_observed": true,
         "accepted_by_text_contract": true,
@@ -227,14 +232,24 @@
       },
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null,
+      "submission_receipt": {
+        "status": "confirmed",
+        "recorded_at_utc": "2026-11-06T07:53:18Z",
+        "success_heading": "Thank you for submitting.",
+        "success_message": "Your project submission has been received.",
+        "public_submission_page": "https://www.builder.io/hackathon/submit",
+        "evidence": "private success-page evidence held",
+        "receipt_number": null,
+        "confirmation_email_claimed": false
+      },
       "browser_prefilled": true,
       "form_state": {
         "all_fields_prefilled": true,
         "other_inputs_native_valid": true,
-        "processingConsent_checked": false,
+        "processingConsent_checked": true,
         "marketing_checked": false,
-        "submit_clicked": false
+        "submit_clicked": true,
+        "submission_confirmation_page_seen": true
       },
       "fixture_recording": {
         "url": "https://clips.agent-native.com/share/r01FTO1ytVvm",
@@ -269,7 +284,9 @@
           "logged_in_player_error": null,
           "anonymous_browser_full_playback_claimed": false
         }
-      }
+      },
+      "event_rules_action_time_consent_confirmed": true,
+      "post_submission_notes": "Official webpage confirms receipt only; no receipt number, confirmation email, judging, shortlisting or prize is claimed. Model-off fixture clip and separate local-model limitations remain disclosed."
     },
     {
       "project": "paper-route-playtest",

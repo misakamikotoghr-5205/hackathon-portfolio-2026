@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T01:12:40.615661+00:00",
+  "updated_at": "2026-11-06T05:23:53.438816+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -19,7 +19,8 @@
       ],
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/landscape.md",
-      "github_commit": "5d2f0dd0eb948478012f4bfffcfff4a9e187dd91"
+      "github_commit": "1eb1437f187ccc6681487d272c4e82c91801658a",
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 2,
@@ -38,7 +39,8 @@
       ],
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/aima-story-director/blob/main/docs/landscape.md",
-      "github_commit": "eafdc9360aeedf0a619edd0ac39b680a71d123c9"
+      "github_commit": "1de2dfa196b181bfc9a6e2ac274f872ccf9a172a",
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 3,
@@ -52,12 +54,12 @@
       "source_read_method": "rendered browser",
       "source": "https://www.xiaohongshu.com/discovery/item/6ae40ee40000000025019237",
       "remaining_external_setup": [
-        "Organization policy and optional Ark API credentials",
-        "Program application"
+        "Skipped: official application is enterprise-only; user is an individual developer"
       ],
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/volc-casedesk/blob/main/docs/landscape.md",
-      "github_commit": "e744d5a34cd71278e488aca324eff2f0b827a01c"
+      "github_commit": "eb58957948ad7d5a0c3dfe26a1d32603f04fcdb0",
+      "submission_status": "skipped_enterprise_only"
     },
     {
       "number": 4,
@@ -71,12 +73,13 @@
       "source_read_method": "rendered browser",
       "source": "https://www.xiaohongshu.com/discovery/item/6ae9b656000000001a01574f",
       "remaining_external_setup": [
-        "Actual CodeArts/OfficeAce contribution and market upload",
-        "Event entry and requested social sharing"
+        "Actual CodeArts or OfficeAce contribution and upload to BOTH Huawei and Xiaohongshu Skill markets",
+        "Event entry and required social post"
       ],
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/move-light-skill/blob/main/docs/landscape.md",
-      "github_commit": "f3ff6f960a8f96dc356d2b04c46cfae40f224390"
+      "github_commit": "1337883f67909d9db37ad8f185a491a5748f9e4d",
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 5,
@@ -96,7 +99,8 @@
       "formally_submitted": false,
       "private_preview": "https://iqiyi-play-lab-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab/blob/main/docs/landscape.md",
-      "github_commit": "c4c84fddbc391d9150bae5a6ab682a7077392efa"
+      "github_commit": "fcff0cd961f026e96540fb488859ee9860e2c6c8",
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 6,
@@ -117,7 +121,8 @@
       "formally_submitted": false,
       "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/landscape.md",
-      "github_commit": "6a964eccc053b76f9fa946c236818f9e66922883"
+      "github_commit": "6321c90d7e3bcf6a18dd83ddbb0aa58c1d5a7b03",
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 7,
@@ -130,13 +135,13 @@
       "source": "https://www.xiaohongshu.com/discovery/item/6a96b088000000001103af07",
       "landscape_review": "https://github.com/misakamikotoghr-5205/pocket-pause/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Original activity closed October 31; future activity requirements not verified",
-        "Actual Xiaohobao creation interface and feature validation"
+        "Skipped: original activity deadline October 31 has expired; no verified official reopening"
       ],
       "formally_submitted": false,
       "private_preview": "https://pocket-pause-xhb.ghraurora1024.chatgpt.site",
       "pushed_and_remote_verified": true,
-      "github_commit": "c64dcdcb71f61a0b817a8f71612429884db70744"
+      "github_commit": "cce2be061edec02b697946d61437d0ad2269be81",
+      "submission_status": "skipped_expired_activity"
     },
     {
       "number": 8,
@@ -149,13 +154,14 @@
       "source": "https://paypalaihackathon.devpost.com/rules",
       "landscape_review": "https://github.com/misakamikotoghr-5205/cart-consent-paypal/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Personal eligibility and authorized PayPal Business/developer sandbox account",
-        "Real PayPal sandbox and local AI demonstration",
+        "Personal eligibility and authorized PayPal developer/sandbox account; individual eligibility must not be confused with the sandbox merchant role",
+        "Real PayPal sandbox end-to-end validation; actual local AI basket probe is documented but no payment was approved or captured",
         "English public video and formal registration/submission"
       ],
       "formally_submitted": false,
       "pushed_and_remote_verified": true,
-      "github_commit": "3965ad7e19f73a365e8139156d4dd6d8f6f5d38f"
+      "github_commit": "d40be5b11437935ae3a6343b920464af22cacd0f",
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 9,
@@ -174,7 +180,8 @@
       "formally_submitted": false,
       "private_preview": "https://scene-clearance-lab-aholo.ghraurora1024.chatgpt.site",
       "pushed_and_remote_verified": true,
-      "github_commit": "2c6dfcf5008c10d9090c179512a2f09787159828"
+      "github_commit": "2c6dfcf5008c10d9090c179512a2f09787159828",
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 10,
@@ -188,12 +195,13 @@
       "landscape_review": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/landscape.md",
       "remaining_external_setup": [
         "Personal real-name Alipay/event eligibility",
-        "Real local AI demonstration and reviewer run access",
-        "Formal URL/ZIP entry and deadline recheck"
+        "Supported Alipay build/deployment and reviewer access; two real local model probes are documented with partial preference failure",
+        "Formal allowed URL/ZIP entry and deadline recheck"
       ],
       "formally_submitted": false,
       "pushed_and_remote_verified": true,
-      "github_commit": "546f599dc5c3fb6d3a031f0f20d3ddfc739f2d26"
+      "github_commit": "d5c8c433bf5134c9e6030ead39cc23763fbad791",
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 11,
@@ -212,7 +220,8 @@
       ],
       "formally_submitted": false,
       "github_commit": "4b1259100337e4f97a07b4aa06f1bd7dc64648c5",
-      "pushed_and_remote_verified": true
+      "pushed_and_remote_verified": true,
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 12,
@@ -227,11 +236,13 @@
       "landscape_review": "https://github.com/misakamikotoghr-5205/patch-review-desk/blob/main/docs/landscape.md",
       "remaining_external_setup": [
         "Personal eligibility and public Clips recording of the complete local workflow",
-        "Formal submission; optional real local-model proposal demonstration"
+        "Clips account access and action-time terms consent; formal Builder submission",
+        "Actual local model text probe passed transport/schema but missed the requested edit format; no complete model/UI sequence claimed"
       ],
       "formally_submitted": false,
-      "github_commit": "ce32e79e3bede96e8f47a548795a8aae61d50d73",
-      "pushed_and_remote_verified": true
+      "github_commit": "4fb01462ce6c462372927fa5cc619c722242f86d",
+      "pushed_and_remote_verified": true,
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 13,
@@ -252,7 +263,8 @@
       "formally_submitted": false,
       "private_preview": "https://paper-route-playtest-2026.ghraurora1024.chatgpt.site",
       "github_commit": "2b935356d55f4211295d0c9b3547981fb3ee5d73",
-      "pushed_and_remote_verified": true
+      "pushed_and_remote_verified": true,
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 14,
@@ -272,7 +284,8 @@
       "formally_submitted": false,
       "private_preview": "https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site",
       "github_commit": "a3a52464b9b170b7a6e04e4bbd2017453401a2fe",
-      "pushed_and_remote_verified": true
+      "pushed_and_remote_verified": true,
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 15,
@@ -294,7 +307,8 @@
       "formally_submitted": false,
       "github_commit": "7b9e56581ebd55d9d61e494b3b2b5ba1e9b42ebd",
       "pushed_and_remote_verified": true,
-      "preexisting_for_future_sprint": true
+      "preexisting_for_future_sprint": true,
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 16,
@@ -308,13 +322,14 @@
       "source_read_method": "official event page/rules; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/watt-window/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Personal idea-stage PPT (up to 15 MB) and application; limited places/shortlisting",
+        "Private signed idea-stage PPT is prepared; age/residence and official application remain; limited places/shortlisting",
         "Follow official Nov 28–30 48-hour build and final live pitch requirements",
         "This is a pre-event prototype, not work performed during the future event"
       ],
       "formally_submitted": false,
       "github_commit": "280045e9d8bf3447780245cfa6783c375c04e8e0",
-      "pushed_and_remote_verified": true
+      "pushed_and_remote_verified": true,
+      "submission_status": "preparation_in_progress"
     },
     {
       "number": 17,
@@ -335,13 +350,14 @@
       "formally_submitted": false,
       "private_preview": "https://parallax-postcards-2026.ghraurora1024.chatgpt.site",
       "github_commit": "c4d4dad3d7a65f0ed5b73cf0e34ad9f9ed25e50a",
-      "pushed_and_remote_verified": true
+      "pushed_and_remote_verified": true,
+      "submission_status": "preparation_in_progress"
     }
   ],
   "additional_online_events_first_batch": 3,
-  "new_event_identity_assumption": "User confirmed individual developer. Age and region unconfirmed; screened assuming an adult in mainland China, not a personal eligibility determination.",
+  "new_event_identity_assumption": "User confirmed individual developer and supplied contact information privately. Age, residence country/city and account status remain unconfirmed; no personal eligibility determination.",
   "total_passed_local_tests": 326,
-  "platform_integration_evidence": "See per-project pending setup. Contract mocks are not remote platform use or real AI inference.",
+  "platform_integration_evidence": "Actual local Ollama probes for Cart Consent, Pantry Relay and Patch Review Desk are recorded with failures and limits in their docs/evidence/. Mock contracts, these local probes and runnable packages do not establish remote contest-platform use or a completed submission.",
   "browser_verification_notes": {
     "pocket-pause": "Wish creation, ready review, manual linked deposit, reversal, and reload observed in localhost UI. Storage clock regressions covered by automated tests.",
     "deadlock-manor": "Completed incident, same-checkpoint causal comparison, and alternative-branch confirmation observed in localhost UI.",
@@ -362,5 +378,6 @@
       "source": "https://otari.ai/devs-wilding",
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
-  ]
+  ],
+  "submission_progress": "Identity/contact supplied privately; 0 confirmed official registrations and 0 project submissions. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. See submissions/status.json."
 }

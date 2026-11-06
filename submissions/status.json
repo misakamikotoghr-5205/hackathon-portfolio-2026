@@ -1,0 +1,283 @@
+{
+  "updated_at": "2026-11-06T05:23:23.004468+00:00",
+  "requested_action": "Register and submit every applicable portfolio project",
+  "identity_provided": true,
+  "external_submissions_confirmed": 0,
+  "projects": [
+    {
+      "project": "briefmint-skillpay",
+      "event": "PAYATHON 2026",
+      "github": "https://github.com/misakamikotoghr-5205/briefmint-skillpay",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_alipay_identity_and_payment_integration",
+      "dependencies": [
+        "Merchant setup and real sandbox integration",
+        "SkillPay listing review and event entry"
+      ],
+      "current_blocker": "报名与AI付接入须同一大陆实名支付宝账户；还需真实部署/支付交付、赛道和商品方案。"
+    },
+    {
+      "project": "aima-story-director",
+      "event": "智元AIMA百大创作者计划",
+      "github": "https://github.com/misakamikotoghr-5205/aima-story-director",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_native_platform_work",
+      "dependencies": [
+        "Model-specific hardware adapter and device verification",
+        "Creator-program application"
+      ],
+      "current_blocker": "持续创作者计划，需登录并发布至少一件有效灵心/灵创作品；GitHub工具不等于有效作品。"
+    },
+    {
+      "project": "volc-casedesk",
+      "event": "火山引擎Agent先锋计划",
+      "github": "https://github.com/misakamikotoghr-5205/volc-casedesk",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "skipped_enterprise_only",
+      "dependencies": [
+        "Skipped: official application is enterprise-only; user is an individual developer"
+      ],
+      "current_blocker": "实际表单仅面向企业开发者；当前只确认个人开发者，不能编造公司/企业邮箱/真实使用案例。"
+    },
+    {
+      "project": "move-light-skill",
+      "event": "华为×小红书Skill创新赛",
+      "github": "https://github.com/misakamikotoghr-5205/move-light-skill",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_huawei_and_rednote_accounts_and_tool_work",
+      "dependencies": [
+        "Actual CodeArts or OfficeAce contribution and upload to BOTH Huawei and Xiaohongshu Skill markets",
+        "Event entry and required social post"
+      ],
+      "current_blocker": "需CodeArts/OfficeAce真实改进、华为报名建队、双市场发布及指定话题笔记。"
+    },
+    {
+      "project": "iqiyi-play-lab",
+      "event": "爱奇艺玩点新花样",
+      "github": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_creator_verification_and_four_app_uploads",
+      "dependencies": [
+        "Creator dashboard upload of four separate apps",
+        "Select event and complete review"
+      ],
+      "current_blocker": "需爱奇艺号实名与互动小应用入口，四款分别投稿、勾活动并审核上线。"
+    },
+    {
+      "project": "deadlock-manor",
+      "event": "Kiroween 2026",
+      "github": "https://github.com/misakamikotoghr-5205/deadlock-manor",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_devpost_kiro_use_and_video",
+      "dependencies": [
+        "Kiro authentication and genuine contribution",
+        "Public demo video and reviewer access",
+        "Devpost registration and entry"
+      ],
+      "current_blocker": "缺Devpost/Kiro登录、真实Kiro贡献、公开视频与评委可访问运行入口。"
+    },
+    {
+      "project": "pocket-pause",
+      "event": "支付宝小荷包AI插件创作活动（已结束）",
+      "github": "https://github.com/misakamikotoghr-5205/pocket-pause",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "skipped_expired_activity",
+      "dependencies": [
+        "Skipped: original activity deadline October 31 has expired; no verified official reopening"
+      ],
+      "current_blocker": "原届官方置顶截止10月31日；未确认延期，不作原届补交。"
+    },
+    {
+      "project": "cart-consent-paypal",
+      "event": "PayPal AI Hackathon",
+      "github": "https://github.com/misakamikotoghr-5205/cart-consent-paypal",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_eligibility_accounts_sandbox_and_video",
+      "dependencies": [
+        "Personal eligibility and authorized PayPal developer/sandbox account; individual eligibility must not be confused with the sandbox merchant role",
+        "Real PayPal sandbox end-to-end validation; actual local AI basket probe is documented but no payment was approved or captured",
+        "English public video and formal registration/submission"
+      ],
+      "current_blocker": "真实本地模型已生成通过校验的1398/5000美分购物篮，保持DRAFT、未人工批准；超时和预算拒绝保留。仍待资格/账号确认、真实PayPal sandbox与公开视频；无官方回执。",
+      "local_model_evidence": {
+        "real_inference_observed": true,
+        "accepted_proposal_observed": true,
+        "currency": "USD",
+        "total_minor": 1398,
+        "budget_minor": 5000,
+        "persisted_status": "DRAFT",
+        "approval_granted": false,
+        "paypal_sandbox_used": false,
+        "limitations": "Narrow fictional trials, with prior timeout and budget failures retained; not a quality benchmark or end-to-end payment demonstration."
+      }
+    },
+    {
+      "project": "scene-clearance-lab",
+      "event": "Aholo 全球3D AI黑客松",
+      "github": "https://github.com/misakamikotoghr-5205/scene-clearance-lab",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_aholo_lux3d_and_report",
+      "dependencies": [
+        "Authorized Lux3D generation, asset rights and supported export verification",
+        "Team/account eligibility, demo video and formal submission"
+      ],
+      "current_blocker": "需真实Lux3D生成/资产许可验证、个人报名建队、项目报告及视频。"
+    },
+    {
+      "project": "pantry-relay",
+      "event": "支付宝智能体涌现奖第一赛季",
+      "github": "https://github.com/misakamikotoghr-5205/pantry-relay",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_alipay_account_and_supported_build",
+      "dependencies": [
+        "Personal real-name Alipay/event eligibility",
+        "Supported Alipay build/deployment and reviewer access; two real local model probes are documented with partial preference failure",
+        "Formal allowed URL/ZIP entry and deadline recheck"
+      ],
+      "current_blocker": "已实际运行两次本地模型：首次偏好只部分符合，第二次显式约束成功，均为固定虚构11月4日回放；非质量benchmark。仍需支付宝实名/账号确认、支持的URL/ZIP真实构建与完整演示，未支付宝部署或取得回执。",
+      "local_model_evidence": {
+        "real_inference_observed": true,
+        "request_count": 2,
+        "fictional_replay": true,
+        "first_request_preference_fully_met": false,
+        "second_explicit_request_met": true,
+        "alipay_deployed": false,
+        "limitations": "Two fixed fictional requests, not model-quality or food-safety evidence; human review remains necessary."
+      }
+    },
+    {
+      "project": "dependency-evidence-forge",
+      "event": "Codegeist 2026",
+      "github": "https://github.com/misakamikotoghr-5205/dependency-evidence-forge",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_atlassian_forge_deployment",
+      "dependencies": [
+        "Personal Atlassian/Forge registration; real lint/deploy/install and Jira verification",
+        "Judge-accessible install link and English demo video; formal entry"
+      ],
+      "current_blocker": "需Atlassian/Forge账户、真实部署安装/Jira验证、评委安装链接和公开视频。"
+    },
+    {
+      "project": "patch-review-desk",
+      "event": "Builder.io Agent-Native Hackathon",
+      "github": "https://github.com/misakamikotoghr-5205/patch-review-desk",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_eligibility_accounts_clips_terms_and_recording",
+      "dependencies": [
+        "Personal eligibility and public Clips recording of the complete local workflow",
+        "Clips account access and action-time terms consent; formal Builder submission",
+        "Actual local model text probe passed transport/schema but missed the requested edit format; no complete model/UI sequence claimed"
+      ],
+      "current_blocker": "Builder描述/仓库已预填，姓名邮箱已私密取得；18+、常住地区、账号状态与Clips当次注册条款确认待答。模型文本响应合法但未达两行目标，未执行proposal/审批/录屏；缺真实公开Clips和官方回执。",
+      "local_model_evidence": {
+        "real_inference_observed": true,
+        "accepted_by_text_contract": true,
+        "exact_target_match": false,
+        "proposal_executed": false,
+        "approved": false,
+        "applied": false,
+        "clips_recorded": false,
+        "limitations": "Original timeout retained; bounded alias returned contract-valid text without completing the requested announcement. No framework action or UI sequence was executed; not a general quality or parameter-causality claim."
+      }
+    },
+    {
+      "project": "paper-route-playtest",
+      "event": "魔搭×Qoder AI+∞第三期：AI造游戏",
+      "github": "https://github.com/misakamikotoghr-5205/paper-route-playtest",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_modelscope_concept_and_studio",
+      "dependencies": [
+        "Owner public concept post and approved registration; official deadline timezone confirmation",
+        "Public ModelScope Studio deployment and creative-process article/video",
+        "Formal game-category entry; no runtime AI or Qoder use claimed"
+      ],
+      "current_blocker": "上传包/封面/手记草稿已备，需公开构想帖审核报名、真实创空间公开部署和视频。"
+    },
+    {
+      "project": "lumen-shift",
+      "event": "GitHub Game Off 2026: SHIFT",
+      "github": "https://github.com/misakamikotoghr-5205/lumen-shift",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_itch_account_and_game_page",
+      "dependencies": [
+        "Personal itch.io game page and playable jam submission",
+        "Accurate AI-assisted development disclosure; community recognition, no verified cash prize"
+      ],
+      "current_blocker": "HTML ZIP、封面、项目页与AI披露已备；需itch登录、Join jam、公开游戏页和正式entry。"
+    },
+    {
+      "project": "source-trail-otari",
+      "event": "Apart AI × Epistemics Research Sprint",
+      "github": "https://github.com/misakamikotoghr-5205/source-trail-otari",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "sprint_submission_not_open",
+      "dependencies": [
+        "Owner signup; worldwide online solo participation per official FAQ, individual eligibility and prize-payment terms still require review",
+        "Clearly disclose all current code and pilot as preexisting; conduct and distinguish new Nov 13–15 sprint research",
+        "Official-template PDF up to 8 pages excluding references/appendices, abstract, authors/affiliations and required limitations/dual-use appendix; formal entry",
+        "Submission deadline Nov 15 23:59 AoE = Nov 16 11:59 UTC / 19:59 Beijing; optional hosted-model demonstration not performed"
+      ],
+      "current_blocker": "可准备报名；11月13–15赛期尚未来，项目提交按钮禁用，不能现在提交虚构赛期报告。"
+    },
+    {
+      "project": "watt-window",
+      "event": "Next Horizon 2026",
+      "github": "https://github.com/misakamikotoghr-5205/watt-window",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_eligibility_accounts_and_idea_form",
+      "dependencies": [
+        "Private signed idea-stage PPT is prepared; age/residence and official application remain; limited places/shortlisting",
+        "Follow official Nov 28–30 48-hour build and final live pitch requirements",
+        "This is a pre-event prototype, not work performed during the future event"
+      ],
+      "current_blocker": "六页英文PPTX及私密署名版已完成，个人信息不公开；仍待18+/常住地区与账号确认、官方报名表操作和回执。后续入围/48小时构建另行记录。",
+      "private_signed_presentation_prepared": true
+    },
+    {
+      "project": "parallax-postcards",
+      "event": "Through Your Eyes: First-Person Game Jam",
+      "github": "https://github.com/misakamikotoghr-5205/parallax-postcards",
+      "formally_submitted": false,
+      "receipt": null,
+      "status": "awaiting_itch_account_and_game_page",
+      "dependencies": [
+        "Owner itch.io game page, playable build upload and jam entry before account-displayed countdown",
+        "Verify unspecified deadline timezone and accurate AI-assisted development disclosure",
+        "Community game jam; no confirmed cash prize"
+      ],
+      "current_blocker": "HTML ZIP、封面、项目页与AI披露已备；需itch登录、Join jam、公开游戏页和正式entry。"
+    }
+  ],
+  "evidence_policy": "Mark registered/submitted only after an official success page, entry ID or receipt; keep personal identity and credentials outside this public ledger.",
+  "identity_completion": "Name, email and phone supplied privately; age 18+, country/city of residence, platform account status and current Clips signup terms confirmation remain pending. No personal values are stored here.",
+  "skip_expired": true,
+  "skip_enterprise_only": true,
+  "identity_fields_provided_privately": [
+    "name",
+    "email",
+    "phone"
+  ],
+  "identity_confirmation_pending": [
+    "Age 18+",
+    "Country and city of residence",
+    "Platform account status"
+  ],
+  "clips_signup_terms_confirmation": null,
+  "external_registrations_confirmed": 0
+}

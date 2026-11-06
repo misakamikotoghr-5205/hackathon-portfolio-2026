@@ -1,0 +1,10 @@
+node_modules/
+rendered/
+*.log
+candidate.pptx
+candidate.pptx.inspect.ndjson
+rebuild-smoke.pptx
+rebuild-smoke.pdf
+rebuild-smoke.pptx.validation.json
+authoring-model.json
+smoke-output/

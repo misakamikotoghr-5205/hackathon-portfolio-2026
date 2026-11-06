@@ -1,0 +1,41 @@
+{
+  "created_on": "2026-11-06",
+  "images": [
+    {
+      "project": "lumen-shift",
+      "path": "portfolio/submissions/drafts/lumen-shift/media/cover.png",
+      "sha256": "41b2ca9d7f84fb9a535bcd57e2a95d6df64f166ee320e0baa0505203ebf112e4",
+      "bytes": 25825,
+      "width": 630,
+      "height": 500,
+      "kind": "original-cover-illustration-not-gameplay-screenshot"
+    },
+    {
+      "project": "parallax-postcards",
+      "path": "portfolio/submissions/drafts/parallax-postcards/media/cover.png",
+      "sha256": "b14ba484b59dabb155b2e22e02a4371c4606b060449078d1cc175f817660d883",
+      "bytes": 33736,
+      "width": 630,
+      "height": 500,
+      "kind": "original-cover-illustration-not-gameplay-screenshot"
+    },
+    {
+      "project": "paper-route-playtest",
+      "path": "portfolio/submissions/drafts/paper-route-playtest/media/cover.png",
+      "sha256": "31aa30d814212a9632646566ab37b67c6a2058bd2a53091dfc00411602cd9ead",
+      "bytes": 21905,
+      "width": 630,
+      "height": 500,
+      "kind": "original-cover-illustration-not-gameplay-screenshot"
+    },
+    {
+      "project": "source-trail-otari",
+      "path": "portfolio/submissions/drafts/source-trail-otari/media/pilot-results.png",
+      "sha256": "dbd2a3ff9d523d469fa24162085610ba9635aa3ee8917bcb2187968cdfbc8bf5",
+      "bytes": 37073,
+      "width": 630,
+      "height": 500,
+      "kind": "actual-pre-sprint-pilot-chart"
+    }
+  ]
+}

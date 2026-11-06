@@ -1,0 +1,1171 @@
+{
+  "household": {
+    "schema_version": 1,
+    "problem_sha256": "097a713ad5b3ebc0428e05acc3b64c6cc23c8fd9353ff697b5dd87a3e4fd09e1",
+    "name": "Fictional household evening",
+    "currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "start": "2026-11-28T18:00:00+08:00",
+    "slot_minutes": 30,
+    "capacity_watts": 2600,
+    "tariff_source": "Fictional user-entered time-of-use prices for a prototype; not a current utility offer.",
+    "status": "optimal_in_model",
+    "optimality_proven_in_model": true,
+    "infeasibility_proven_in_model": false,
+    "budget_exhausted": false,
+    "nodes_visited": 16,
+    "node_budget": 100000,
+    "independent_cost_lower_bound": {
+      "decimal": "2.243750",
+      "numerator": 359,
+      "denominator": 160
+    },
+    "diagnostics": [],
+    "schedule": [
+      {
+        "id": "washer",
+        "name": "Washing machine (user confirmed noncritical)",
+        "start_slot": 5,
+        "end_slot_exclusive": 7,
+        "start": "2026-11-28T12:30:00+00:00",
+        "end": "2026-11-28T13:30:00+00:00",
+        "local_start": "2026-11-28T20:30:00+08:00",
+        "local_end": "2026-11-28T21:30:00+08:00",
+        "power_watts": 900,
+        "estimated_kwh": "0.7",
+        "estimated_cost": {
+          "decimal": "0.262500",
+          "numerator": 21,
+          "denominator": 80
+        },
+        "baseline_start_slot": 2,
+        "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+      },
+      {
+        "id": "dehumidifier",
+        "name": "Optional dehumidifier",
+        "start_slot": 6,
+        "end_slot_exclusive": 8,
+        "start": "2026-11-28T13:00:00+00:00",
+        "end": "2026-11-28T14:00:00+00:00",
+        "local_start": "2026-11-28T21:00:00+08:00",
+        "local_end": "2026-11-28T22:00:00+08:00",
+        "power_watts": 400,
+        "estimated_kwh": "0.3",
+        "estimated_cost": {
+          "decimal": "0.090000",
+          "numerator": 9,
+          "denominator": 100
+        },
+        "baseline_start_slot": 4,
+        "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+      },
+      {
+        "id": "dishwasher",
+        "name": "Dishwasher (user confirmed noncritical)",
+        "start_slot": 7,
+        "end_slot_exclusive": 9,
+        "start": "2026-11-28T13:30:00+00:00",
+        "end": "2026-11-28T14:30:00+00:00",
+        "local_start": "2026-11-28T21:30:00+08:00",
+        "local_end": "2026-11-28T22:30:00+08:00",
+        "power_watts": 1500,
+        "estimated_kwh": "1.2",
+        "estimated_cost": {
+          "decimal": "0.390000",
+          "numerator": 39,
+          "denominator": 100
+        },
+        "baseline_start_slot": 0,
+        "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+      }
+    ],
+    "proposed": {
+      "valid_in_model": true,
+      "violations": [],
+      "estimated_cost": {
+        "decimal": "2.326250",
+        "numerator": 1861,
+        "denominator": 800
+      },
+      "power_profile_watts": [
+        350,
+        350,
+        350,
+        350,
+        350,
+        1250,
+        1650,
+        2250,
+        1850,
+        350,
+        350,
+        350
+      ],
+      "peak_watts": 2250
+    },
+    "baseline": {
+      "valid_in_model": true,
+      "violations": [],
+      "estimated_cost": {
+        "decimal": "3.958750",
+        "numerator": 3167,
+        "denominator": 800
+      },
+      "power_profile_watts": [
+        1850,
+        1850,
+        1250,
+        1250,
+        750,
+        750,
+        350,
+        350,
+        350,
+        350,
+        350,
+        350
+      ],
+      "peak_watts": 1850
+    },
+    "estimated_cost_delta_from_baseline": {
+      "decimal": "1.632500",
+      "numerator": 653,
+      "denominator": 400
+    },
+    "baseline_is_valid_comparator": true,
+    "device_commands_sent": 0,
+    "measured_savings": false,
+    "carbon_reduction_claimed": false,
+    "assumptions": [
+      "Only explicitly user-confirmed noncritical, not-yet-started jobs; each runs contiguously.",
+      "User-entered power and background are concurrent capacity estimates, not electrical safety validation.",
+      "Estimated energy is spread uniformly across active slots; tariff values are user inputs in one currency.",
+      "Optimality refers only to this finite grid and supplied model. No equipment is controlled and no real saving or carbon reduction is measured."
+    ]
+  },
+  "shop": {
+    "schema_version": 1,
+    "problem_sha256": "2c6624a34057cdc1ded6b24b9ca8c11a51e3ea5083c810cd914201897439d9fc",
+    "name": "Fictional small shop after closing",
+    "currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "start": "2026-11-28T19:00:00+08:00",
+    "slot_minutes": 30,
+    "capacity_watts": 1800,
+    "tariff_source": "Fictional flat schedule input; no real tariff/energy savings measured.",
+    "status": "optimal_in_model",
+    "optimality_proven_in_model": true,
+    "infeasibility_proven_in_model": false,
+    "budget_exhausted": false,
+    "nodes_visited": 4,
+    "node_budget": 100000,
+    "independent_cost_lower_bound": {
+      "decimal": "1.145000",
+      "numerator": 229,
+      "denominator": 200
+    },
+    "diagnostics": [],
+    "schedule": [
+      {
+        "id": "sign_test",
+        "name": "Sign-light test (fixed time)",
+        "start_slot": 0,
+        "end_slot_exclusive": 1,
+        "start": "2026-11-28T11:00:00+00:00",
+        "end": "2026-11-28T11:30:00+00:00",
+        "local_start": "2026-11-28T19:00:00+08:00",
+        "local_end": "2026-11-28T19:30:00+08:00",
+        "power_watts": 200,
+        "estimated_kwh": "0.1",
+        "estimated_cost": {
+          "decimal": "0.080000",
+          "numerator": 2,
+          "denominator": 25
+        },
+        "baseline_start_slot": 0,
+        "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+      },
+      {
+        "id": "floor_cleaner",
+        "name": "Optional floor-cleaner charge",
+        "start_slot": 3,
+        "end_slot_exclusive": 5,
+        "start": "2026-11-28T12:30:00+00:00",
+        "end": "2026-11-28T13:30:00+00:00",
+        "local_start": "2026-11-28T20:30:00+08:00",
+        "local_end": "2026-11-28T21:30:00+08:00",
+        "power_watts": 600,
+        "estimated_kwh": "0.6",
+        "estimated_cost": {
+          "decimal": "0.240000",
+          "numerator": 6,
+          "denominator": 25
+        },
+        "baseline_start_slot": 0,
+        "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+      },
+      {
+        "id": "tool_charge",
+        "name": "Noncritical tool-battery charge",
+        "start_slot": 3,
+        "end_slot_exclusive": 5,
+        "start": "2026-11-28T12:30:00+00:00",
+        "end": "2026-11-28T13:30:00+00:00",
+        "local_start": "2026-11-28T20:30:00+08:00",
+        "local_end": "2026-11-28T21:30:00+08:00",
+        "power_watts": 500,
+        "estimated_kwh": "0.5",
+        "estimated_cost": {
+          "decimal": "0.200000",
+          "numerator": 1,
+          "denominator": 5
+        },
+        "baseline_start_slot": 2,
+        "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+      }
+    ],
+    "proposed": {
+      "valid_in_model": true,
+      "violations": [],
+      "estimated_cost": {
+        "decimal": "1.145000",
+        "numerator": 229,
+        "denominator": 200
+      },
+      "power_profile_watts": [
+        450,
+        250,
+        250,
+        1350,
+        1350,
+        250,
+        250,
+        250
+      ],
+      "peak_watts": 1350
+    },
+    "baseline": {
+      "valid_in_model": true,
+      "violations": [],
+      "estimated_cost": {
+        "decimal": "1.410000",
+        "numerator": 141,
+        "denominator": 100
+      },
+      "power_profile_watts": [
+        1050,
+        850,
+        750,
+        750,
+        250,
+        250,
+        250,
+        250
+      ],
+      "peak_watts": 1050
+    },
+    "estimated_cost_delta_from_baseline": {
+      "decimal": "0.265000",
+      "numerator": 53,
+      "denominator": 200
+    },
+    "baseline_is_valid_comparator": true,
+    "device_commands_sent": 0,
+    "measured_savings": false,
+    "carbon_reduction_claimed": false,
+    "assumptions": [
+      "Only explicitly user-confirmed noncritical, not-yet-started jobs; each runs contiguously.",
+      "User-entered power and background are concurrent capacity estimates, not electrical safety validation.",
+      "Estimated energy is spread uniformly across active slots; tariff values are user inputs in one currency.",
+      "Optimality refers only to this finite grid and supplied model. No equipment is controlled and no real saving or carbon reduction is measured."
+    ]
+  },
+  "infeasible": {
+    "schema_version": 1,
+    "problem_sha256": "8fc6997ecd8cd55e381fc4ba16873ea15d2efa9aa1420610da36f23682f3d1b1",
+    "name": "Fictional overloaded narrow window",
+    "currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "start": "2026-11-28T18:00:00+08:00",
+    "slot_minutes": 30,
+    "capacity_watts": 2000,
+    "tariff_source": "Fictional user-entered time-of-use prices for a prototype; not a current utility offer.",
+    "status": "infeasible",
+    "optimality_proven_in_model": false,
+    "infeasibility_proven_in_model": true,
+    "budget_exhausted": false,
+    "nodes_visited": 0,
+    "node_budget": 100000,
+    "independent_cost_lower_bound": null,
+    "diagnostics": [
+      {
+        "code": "window_power_demand",
+        "from_slot": 0,
+        "to_slot_exclusive": 2,
+        "job_ids": [
+          "dishwasher",
+          "washer"
+        ],
+        "required_watt_slots": 4800,
+        "available_watt_slots": 3300,
+        "detail": "Even the minimum unavoidable occupancy exceeds the available watt-slots in this interval."
+      }
+    ],
+    "schedule": [],
+    "proposed": null,
+    "baseline": {
+      "valid_in_model": false,
+      "violations": [
+        {
+          "code": "capacity_exceeded",
+          "slot": 0,
+          "watts": 2750,
+          "limit": 2000
+        },
+        {
+          "code": "capacity_exceeded",
+          "slot": 1,
+          "watts": 2750,
+          "limit": 2000
+        }
+      ],
+      "estimated_cost": {
+        "decimal": "3.958750",
+        "numerator": 3167,
+        "denominator": 800
+      },
+      "power_profile_watts": [
+        2750,
+        2750,
+        350,
+        350,
+        350,
+        350,
+        350,
+        350,
+        350,
+        350,
+        350,
+        350
+      ],
+      "peak_watts": 2750
+    },
+    "estimated_cost_delta_from_baseline": null,
+    "baseline_is_valid_comparator": false,
+    "device_commands_sent": 0,
+    "measured_savings": false,
+    "carbon_reduction_claimed": false,
+    "assumptions": [
+      "Only explicitly user-confirmed noncritical, not-yet-started jobs; each runs contiguously.",
+      "User-entered power and background are concurrent capacity estimates, not electrical safety validation.",
+      "Estimated energy is spread uniformly across active slots; tariff values are user inputs in one currency.",
+      "Optimality refers only to this finite grid and supplied model. No equipment is controlled and no real saving or carbon reduction is measured."
+    ]
+  },
+  "household_one_node": {
+    "schema_version": 1,
+    "problem_sha256": "097a713ad5b3ebc0428e05acc3b64c6cc23c8fd9353ff697b5dd87a3e4fd09e1",
+    "name": "Fictional household evening",
+    "currency": "CNY",
+    "timezone": "Asia/Shanghai",
+    "start": "2026-11-28T18:00:00+08:00",
+    "slot_minutes": 30,
+    "capacity_watts": 2600,
+    "tariff_source": "Fictional user-entered time-of-use prices for a prototype; not a current utility offer.",
+    "status": "feasible_not_proven_optimal",
+    "optimality_proven_in_model": false,
+    "infeasibility_proven_in_model": false,
+    "budget_exhausted": true,
+    "nodes_visited": 1,
+    "node_budget": 1,
+    "independent_cost_lower_bound": {
+      "decimal": "2.243750",
+      "numerator": 359,
+      "denominator": 160
+    },
+    "diagnostics": [],
+    "schedule": [
+      {
+        "id": "dishwasher",
+        "name": "Dishwasher (user confirmed noncritical)",
+        "start_slot": 0,
+        "end_slot_exclusive": 2,
+        "start": "2026-11-28T10:00:00+00:00",
+        "end": "2026-11-28T11:00:00+00:00",
+        "local_start": "2026-11-28T18:00:00+08:00",
+        "local_end": "2026-11-28T19:00:00+08:00",
+        "power_watts": 1500,
+        "estimated_kwh": "1.2",
+        "estimated_cost": {
+          "decimal": "1.500000",
+          "numerator": 3,
+          "denominator": 2
+        },
+        "baseline_start_slot": 0,
+        "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+      },
+      {
+        "id": "washer",
+        "name": "Washing machine (user confirmed noncritical)",
+        "start_slot": 2,
+        "end_slot_exclusive": 4,
+        "start": "2026-11-28T11:00:00+00:00",
+        "end": "2026-11-28T12:00:00+00:00",
+        "local_start": "2026-11-28T19:00:00+08:00",
+        "local_end": "2026-11-28T20:00:00+08:00",
+        "power_watts": 900,
+        "estimated_kwh": "0.7",
+        "estimated_cost": {
+          "decimal": "0.717500",
+          "numerator": 287,
+          "denominator": 400
+        },
+        "baseline_start_slot": 2,
+        "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+      },
+      {
+        "id": "dehumidifier",
+        "name": "Optional dehumidifier",
+        "start_slot": 4,
+        "end_slot_exclusive": 6,
+        "start": "2026-11-28T12:00:00+00:00",
+        "end": "2026-11-28T13:00:00+00:00",
+        "local_start": "2026-11-28T20:00:00+08:00",
+        "local_end": "2026-11-28T21:00:00+08:00",
+        "power_watts": 400,
+        "estimated_kwh": "0.3",
+        "estimated_cost": {
+          "decimal": "0.157500",
+          "numerator": 63,
+          "denominator": 400
+        },
+        "baseline_start_slot": 4,
+        "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+      }
+    ],
+    "proposed": {
+      "valid_in_model": true,
+      "violations": [],
+      "estimated_cost": {
+        "decimal": "3.958750",
+        "numerator": 3167,
+        "denominator": 800
+      },
+      "power_profile_watts": [
+        1850,
+        1850,
+        1250,
+        1250,
+        750,
+        750,
+        350,
+        350,
+        350,
+        350,
+        350,
+        350
+      ],
+      "peak_watts": 1850
+    },
+    "baseline": {
+      "valid_in_model": true,
+      "violations": [],
+      "estimated_cost": {
+        "decimal": "3.958750",
+        "numerator": 3167,
+        "denominator": 800
+      },
+      "power_profile_watts": [
+        1850,
+        1850,
+        1250,
+        1250,
+        750,
+        750,
+        350,
+        350,
+        350,
+        350,
+        350,
+        350
+      ],
+      "peak_watts": 1850
+    },
+    "estimated_cost_delta_from_baseline": {
+      "decimal": "0.000000",
+      "numerator": 0,
+      "denominator": 1
+    },
+    "baseline_is_valid_comparator": true,
+    "device_commands_sent": 0,
+    "measured_savings": false,
+    "carbon_reduction_claimed": false,
+    "assumptions": [
+      "Only explicitly user-confirmed noncritical, not-yet-started jobs; each runs contiguously.",
+      "User-entered power and background are concurrent capacity estimates, not electrical safety validation.",
+      "Estimated energy is spread uniformly across active slots; tariff values are user inputs in one currency.",
+      "Optimality refers only to this finite grid and supplied model. No equipment is controlled and no real saving or carbon reduction is measured."
+    ]
+  },
+  "sensitivity": {
+    "assumptions_only": true,
+    "baseline_tariff_source": "Fictional user-entered time-of-use prices for a prototype; not a current utility offer.",
+    "device_commands_sent": 0,
+    "note": "Each scenario is independently solved with its own entered tariff/capacity. Costs across different tariffs are not causal measured savings.",
+    "scenarios": [
+      {
+        "scenario_id": "entered_base",
+        "capacity_watts": 2600,
+        "prices_per_kwh": [
+          "1.25",
+          "1.25",
+          "1.10",
+          "0.95",
+          "0.60",
+          "0.45",
+          "0.30",
+          "0.30",
+          "0.35",
+          "0.60",
+          "0.90",
+          "1.00"
+        ],
+        "result": {
+          "schema_version": 1,
+          "problem_sha256": "cafb859c19b178b79984c790e84032054498fa6c61c78230fa31b99f6ecb3be2",
+          "name": "Fictional household evening",
+          "currency": "CNY",
+          "timezone": "Asia/Shanghai",
+          "start": "2026-11-28T18:00:00+08:00",
+          "slot_minutes": 30,
+          "capacity_watts": 2600,
+          "tariff_source": "User-supplied hypothetical tariff in sensitivity scenario entered_base",
+          "status": "optimal_in_model",
+          "optimality_proven_in_model": true,
+          "infeasibility_proven_in_model": false,
+          "budget_exhausted": false,
+          "nodes_visited": 16,
+          "node_budget": 100000,
+          "independent_cost_lower_bound": {
+            "decimal": "2.243750",
+            "numerator": 359,
+            "denominator": 160
+          },
+          "diagnostics": [],
+          "schedule": [
+            {
+              "id": "washer",
+              "name": "Washing machine (user confirmed noncritical)",
+              "start_slot": 5,
+              "end_slot_exclusive": 7,
+              "start": "2026-11-28T12:30:00+00:00",
+              "end": "2026-11-28T13:30:00+00:00",
+              "local_start": "2026-11-28T20:30:00+08:00",
+              "local_end": "2026-11-28T21:30:00+08:00",
+              "power_watts": 900,
+              "estimated_kwh": "0.7",
+              "estimated_cost": {
+                "decimal": "0.262500",
+                "numerator": 21,
+                "denominator": 80
+              },
+              "baseline_start_slot": 2,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            },
+            {
+              "id": "dehumidifier",
+              "name": "Optional dehumidifier",
+              "start_slot": 6,
+              "end_slot_exclusive": 8,
+              "start": "2026-11-28T13:00:00+00:00",
+              "end": "2026-11-28T14:00:00+00:00",
+              "local_start": "2026-11-28T21:00:00+08:00",
+              "local_end": "2026-11-28T22:00:00+08:00",
+              "power_watts": 400,
+              "estimated_kwh": "0.3",
+              "estimated_cost": {
+                "decimal": "0.090000",
+                "numerator": 9,
+                "denominator": 100
+              },
+              "baseline_start_slot": 4,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            },
+            {
+              "id": "dishwasher",
+              "name": "Dishwasher (user confirmed noncritical)",
+              "start_slot": 7,
+              "end_slot_exclusive": 9,
+              "start": "2026-11-28T13:30:00+00:00",
+              "end": "2026-11-28T14:30:00+00:00",
+              "local_start": "2026-11-28T21:30:00+08:00",
+              "local_end": "2026-11-28T22:30:00+08:00",
+              "power_watts": 1500,
+              "estimated_kwh": "1.2",
+              "estimated_cost": {
+                "decimal": "0.390000",
+                "numerator": 39,
+                "denominator": 100
+              },
+              "baseline_start_slot": 0,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            }
+          ],
+          "proposed": {
+            "valid_in_model": true,
+            "violations": [],
+            "estimated_cost": {
+              "decimal": "2.326250",
+              "numerator": 1861,
+              "denominator": 800
+            },
+            "power_profile_watts": [
+              350,
+              350,
+              350,
+              350,
+              350,
+              1250,
+              1650,
+              2250,
+              1850,
+              350,
+              350,
+              350
+            ],
+            "peak_watts": 2250
+          },
+          "baseline": {
+            "valid_in_model": true,
+            "violations": [],
+            "estimated_cost": {
+              "decimal": "3.958750",
+              "numerator": 3167,
+              "denominator": 800
+            },
+            "power_profile_watts": [
+              1850,
+              1850,
+              1250,
+              1250,
+              750,
+              750,
+              350,
+              350,
+              350,
+              350,
+              350,
+              350
+            ],
+            "peak_watts": 1850
+          },
+          "estimated_cost_delta_from_baseline": {
+            "decimal": "1.632500",
+            "numerator": 653,
+            "denominator": 400
+          },
+          "baseline_is_valid_comparator": true,
+          "device_commands_sent": 0,
+          "measured_savings": false,
+          "carbon_reduction_claimed": false,
+          "assumptions": [
+            "Only explicitly user-confirmed noncritical, not-yet-started jobs; each runs contiguously.",
+            "User-entered power and background are concurrent capacity estimates, not electrical safety validation.",
+            "Estimated energy is spread uniformly across active slots; tariff values are user inputs in one currency.",
+            "Optimality refers only to this finite grid and supplied model. No equipment is controlled and no real saving or carbon reduction is measured."
+          ]
+        }
+      },
+      {
+        "scenario_id": "tighter_capacity",
+        "capacity_watts": 1850,
+        "prices_per_kwh": [
+          "1.25",
+          "1.25",
+          "1.10",
+          "0.95",
+          "0.60",
+          "0.45",
+          "0.30",
+          "0.30",
+          "0.35",
+          "0.60",
+          "0.90",
+          "1.00"
+        ],
+        "result": {
+          "schema_version": 1,
+          "problem_sha256": "52565eb4f17723b1b8ca9c9c6b9ddbe8a7d95d7c262693a69f1ed326f0e72b96",
+          "name": "Fictional household evening",
+          "currency": "CNY",
+          "timezone": "Asia/Shanghai",
+          "start": "2026-11-28T18:00:00+08:00",
+          "slot_minutes": 30,
+          "capacity_watts": 1850,
+          "tariff_source": "User-supplied hypothetical tariff in sensitivity scenario tighter_capacity",
+          "status": "optimal_in_model",
+          "optimality_proven_in_model": true,
+          "infeasibility_proven_in_model": false,
+          "budget_exhausted": false,
+          "nodes_visited": 15,
+          "node_budget": 100000,
+          "independent_cost_lower_bound": {
+            "decimal": "2.243750",
+            "numerator": 359,
+            "denominator": 160
+          },
+          "diagnostics": [],
+          "schedule": [
+            {
+              "id": "dehumidifier",
+              "name": "Optional dehumidifier",
+              "start_slot": 5,
+              "end_slot_exclusive": 7,
+              "start": "2026-11-28T12:30:00+00:00",
+              "end": "2026-11-28T13:30:00+00:00",
+              "local_start": "2026-11-28T20:30:00+08:00",
+              "local_end": "2026-11-28T21:30:00+08:00",
+              "power_watts": 400,
+              "estimated_kwh": "0.3",
+              "estimated_cost": {
+                "decimal": "0.112500",
+                "numerator": 9,
+                "denominator": 80
+              },
+              "baseline_start_slot": 4,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            },
+            {
+              "id": "washer",
+              "name": "Washing machine (user confirmed noncritical)",
+              "start_slot": 5,
+              "end_slot_exclusive": 7,
+              "start": "2026-11-28T12:30:00+00:00",
+              "end": "2026-11-28T13:30:00+00:00",
+              "local_start": "2026-11-28T20:30:00+08:00",
+              "local_end": "2026-11-28T21:30:00+08:00",
+              "power_watts": 900,
+              "estimated_kwh": "0.7",
+              "estimated_cost": {
+                "decimal": "0.262500",
+                "numerator": 21,
+                "denominator": 80
+              },
+              "baseline_start_slot": 2,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            },
+            {
+              "id": "dishwasher",
+              "name": "Dishwasher (user confirmed noncritical)",
+              "start_slot": 7,
+              "end_slot_exclusive": 9,
+              "start": "2026-11-28T13:30:00+00:00",
+              "end": "2026-11-28T14:30:00+00:00",
+              "local_start": "2026-11-28T21:30:00+08:00",
+              "local_end": "2026-11-28T22:30:00+08:00",
+              "power_watts": 1500,
+              "estimated_kwh": "1.2",
+              "estimated_cost": {
+                "decimal": "0.390000",
+                "numerator": 39,
+                "denominator": 100
+              },
+              "baseline_start_slot": 0,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            }
+          ],
+          "proposed": {
+            "valid_in_model": true,
+            "violations": [],
+            "estimated_cost": {
+              "decimal": "2.348750",
+              "numerator": 1879,
+              "denominator": 800
+            },
+            "power_profile_watts": [
+              350,
+              350,
+              350,
+              350,
+              350,
+              1650,
+              1650,
+              1850,
+              1850,
+              350,
+              350,
+              350
+            ],
+            "peak_watts": 1850
+          },
+          "baseline": {
+            "valid_in_model": true,
+            "violations": [],
+            "estimated_cost": {
+              "decimal": "3.958750",
+              "numerator": 3167,
+              "denominator": 800
+            },
+            "power_profile_watts": [
+              1850,
+              1850,
+              1250,
+              1250,
+              750,
+              750,
+              350,
+              350,
+              350,
+              350,
+              350,
+              350
+            ],
+            "peak_watts": 1850
+          },
+          "estimated_cost_delta_from_baseline": {
+            "decimal": "1.610000",
+            "numerator": 161,
+            "denominator": 100
+          },
+          "baseline_is_valid_comparator": true,
+          "device_commands_sent": 0,
+          "measured_savings": false,
+          "carbon_reduction_claimed": false,
+          "assumptions": [
+            "Only explicitly user-confirmed noncritical, not-yet-started jobs; each runs contiguously.",
+            "User-entered power and background are concurrent capacity estimates, not electrical safety validation.",
+            "Estimated energy is spread uniformly across active slots; tariff values are user inputs in one currency.",
+            "Optimality refers only to this finite grid and supplied model. No equipment is controlled and no real saving or carbon reduction is measured."
+          ]
+        }
+      },
+      {
+        "scenario_id": "more_headroom",
+        "capacity_watts": 3000,
+        "prices_per_kwh": [
+          "1.25",
+          "1.25",
+          "1.10",
+          "0.95",
+          "0.60",
+          "0.45",
+          "0.30",
+          "0.30",
+          "0.35",
+          "0.60",
+          "0.90",
+          "1.00"
+        ],
+        "result": {
+          "schema_version": 1,
+          "problem_sha256": "2ad06f54be44d38092e5c6f690b3d03dc74fca93bbf01e82beb780d359d776f0",
+          "name": "Fictional household evening",
+          "currency": "CNY",
+          "timezone": "Asia/Shanghai",
+          "start": "2026-11-28T18:00:00+08:00",
+          "slot_minutes": 30,
+          "capacity_watts": 3000,
+          "tariff_source": "User-supplied hypothetical tariff in sensitivity scenario more_headroom",
+          "status": "optimal_in_model",
+          "optimality_proven_in_model": true,
+          "infeasibility_proven_in_model": false,
+          "budget_exhausted": false,
+          "nodes_visited": 13,
+          "node_budget": 100000,
+          "independent_cost_lower_bound": {
+            "decimal": "2.243750",
+            "numerator": 359,
+            "denominator": 160
+          },
+          "diagnostics": [],
+          "schedule": [
+            {
+              "id": "dehumidifier",
+              "name": "Optional dehumidifier",
+              "start_slot": 5,
+              "end_slot_exclusive": 7,
+              "start": "2026-11-28T12:30:00+00:00",
+              "end": "2026-11-28T13:30:00+00:00",
+              "local_start": "2026-11-28T20:30:00+08:00",
+              "local_end": "2026-11-28T21:30:00+08:00",
+              "power_watts": 400,
+              "estimated_kwh": "0.3",
+              "estimated_cost": {
+                "decimal": "0.112500",
+                "numerator": 9,
+                "denominator": 80
+              },
+              "baseline_start_slot": 4,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            },
+            {
+              "id": "dishwasher",
+              "name": "Dishwasher (user confirmed noncritical)",
+              "start_slot": 6,
+              "end_slot_exclusive": 8,
+              "start": "2026-11-28T13:00:00+00:00",
+              "end": "2026-11-28T14:00:00+00:00",
+              "local_start": "2026-11-28T21:00:00+08:00",
+              "local_end": "2026-11-28T22:00:00+08:00",
+              "power_watts": 1500,
+              "estimated_kwh": "1.2",
+              "estimated_cost": {
+                "decimal": "0.360000",
+                "numerator": 9,
+                "denominator": 25
+              },
+              "baseline_start_slot": 0,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            },
+            {
+              "id": "washer",
+              "name": "Washing machine (user confirmed noncritical)",
+              "start_slot": 7,
+              "end_slot_exclusive": 9,
+              "start": "2026-11-28T13:30:00+00:00",
+              "end": "2026-11-28T14:30:00+00:00",
+              "local_start": "2026-11-28T21:30:00+08:00",
+              "local_end": "2026-11-28T22:30:00+08:00",
+              "power_watts": 900,
+              "estimated_kwh": "0.7",
+              "estimated_cost": {
+                "decimal": "0.227500",
+                "numerator": 91,
+                "denominator": 400
+              },
+              "baseline_start_slot": 2,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            }
+          ],
+          "proposed": {
+            "valid_in_model": true,
+            "violations": [],
+            "estimated_cost": {
+              "decimal": "2.283750",
+              "numerator": 1827,
+              "denominator": 800
+            },
+            "power_profile_watts": [
+              350,
+              350,
+              350,
+              350,
+              350,
+              750,
+              2250,
+              2750,
+              1250,
+              350,
+              350,
+              350
+            ],
+            "peak_watts": 2750
+          },
+          "baseline": {
+            "valid_in_model": true,
+            "violations": [],
+            "estimated_cost": {
+              "decimal": "3.958750",
+              "numerator": 3167,
+              "denominator": 800
+            },
+            "power_profile_watts": [
+              1850,
+              1850,
+              1250,
+              1250,
+              750,
+              750,
+              350,
+              350,
+              350,
+              350,
+              350,
+              350
+            ],
+            "peak_watts": 1850
+          },
+          "estimated_cost_delta_from_baseline": {
+            "decimal": "1.675000",
+            "numerator": 67,
+            "denominator": 40
+          },
+          "baseline_is_valid_comparator": true,
+          "device_commands_sent": 0,
+          "measured_savings": false,
+          "carbon_reduction_claimed": false,
+          "assumptions": [
+            "Only explicitly user-confirmed noncritical, not-yet-started jobs; each runs contiguously.",
+            "User-entered power and background are concurrent capacity estimates, not electrical safety validation.",
+            "Estimated energy is spread uniformly across active slots; tariff values are user inputs in one currency.",
+            "Optimality refers only to this finite grid and supplied model. No equipment is controlled and no real saving or carbon reduction is measured."
+          ]
+        }
+      },
+      {
+        "scenario_id": "cheap_window_disappears",
+        "capacity_watts": 2600,
+        "prices_per_kwh": [
+          "1.25",
+          "1.25",
+          "1.10",
+          "0.95",
+          "0.60",
+          "0.45",
+          "0.85",
+          "0.85",
+          "0.85",
+          "0.60",
+          "0.90",
+          "1.00"
+        ],
+        "result": {
+          "schema_version": 1,
+          "problem_sha256": "a4c4842ac551b12141597bc09b0c195d9907fcbed9640bf319253b02ad6e61df",
+          "name": "Fictional household evening",
+          "currency": "CNY",
+          "timezone": "Asia/Shanghai",
+          "start": "2026-11-28T18:00:00+08:00",
+          "slot_minutes": 30,
+          "capacity_watts": 2600,
+          "tariff_source": "User-supplied hypothetical tariff in sensitivity scenario cheap_window_disappears",
+          "status": "optimal_in_model",
+          "optimality_proven_in_model": true,
+          "infeasibility_proven_in_model": false,
+          "budget_exhausted": false,
+          "nodes_visited": 18,
+          "node_budget": 100000,
+          "independent_cost_lower_bound": {
+            "decimal": "3.018750",
+            "numerator": 483,
+            "denominator": 160
+          },
+          "diagnostics": [],
+          "schedule": [
+            {
+              "id": "dehumidifier",
+              "name": "Optional dehumidifier",
+              "start_slot": 4,
+              "end_slot_exclusive": 6,
+              "start": "2026-11-28T12:00:00+00:00",
+              "end": "2026-11-28T13:00:00+00:00",
+              "local_start": "2026-11-28T20:00:00+08:00",
+              "local_end": "2026-11-28T21:00:00+08:00",
+              "power_watts": 400,
+              "estimated_kwh": "0.3",
+              "estimated_cost": {
+                "decimal": "0.157500",
+                "numerator": 63,
+                "denominator": 400
+              },
+              "baseline_start_slot": 4,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            },
+            {
+              "id": "dishwasher",
+              "name": "Dishwasher (user confirmed noncritical)",
+              "start_slot": 4,
+              "end_slot_exclusive": 6,
+              "start": "2026-11-28T12:00:00+00:00",
+              "end": "2026-11-28T13:00:00+00:00",
+              "local_start": "2026-11-28T20:00:00+08:00",
+              "local_end": "2026-11-28T21:00:00+08:00",
+              "power_watts": 1500,
+              "estimated_kwh": "1.2",
+              "estimated_cost": {
+                "decimal": "0.630000",
+                "numerator": 63,
+                "denominator": 100
+              },
+              "baseline_start_slot": 0,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            },
+            {
+              "id": "washer",
+              "name": "Washing machine (user confirmed noncritical)",
+              "start_slot": 8,
+              "end_slot_exclusive": 10,
+              "start": "2026-11-28T14:00:00+00:00",
+              "end": "2026-11-28T15:00:00+00:00",
+              "local_start": "2026-11-28T22:00:00+08:00",
+              "local_end": "2026-11-28T23:00:00+08:00",
+              "power_watts": 900,
+              "estimated_kwh": "0.7",
+              "estimated_cost": {
+                "decimal": "0.507500",
+                "numerator": 203,
+                "denominator": 400
+              },
+              "baseline_start_slot": 2,
+              "estimate_source": "Fictional manually entered estimate; not a smart-meter observation."
+            }
+          ],
+          "proposed": {
+            "valid_in_model": true,
+            "violations": [],
+            "estimated_cost": {
+              "decimal": "3.158750",
+              "numerator": 2527,
+              "denominator": 800
+            },
+            "power_profile_watts": [
+              350,
+              350,
+              350,
+              350,
+              2250,
+              2250,
+              350,
+              350,
+              1250,
+              1250,
+              350,
+              350
+            ],
+            "peak_watts": 2250
+          },
+          "baseline": {
+            "valid_in_model": true,
+            "violations": [],
+            "estimated_cost": {
+              "decimal": "4.238750",
+              "numerator": 3391,
+              "denominator": 800
+            },
+            "power_profile_watts": [
+              1850,
+              1850,
+              1250,
+              1250,
+              750,
+              750,
+              350,
+              350,
+              350,
+              350,
+              350,
+              350
+            ],
+            "peak_watts": 1850
+          },
+          "estimated_cost_delta_from_baseline": {
+            "decimal": "1.080000",
+            "numerator": 27,
+            "denominator": 25
+          },
+          "baseline_is_valid_comparator": true,
+          "device_commands_sent": 0,
+          "measured_savings": false,
+          "carbon_reduction_claimed": false,
+          "assumptions": [
+            "Only explicitly user-confirmed noncritical, not-yet-started jobs; each runs contiguously.",
+            "User-entered power and background are concurrent capacity estimates, not electrical safety validation.",
+            "Estimated energy is spread uniformly across active slots; tariff values are user inputs in one currency.",
+            "Optimality refers only to this finite grid and supplied model. No equipment is controlled and no real saving or carbon reduction is measured."
+          ]
+        }
+      }
+    ]
+  }
+}

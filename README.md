@@ -1,16 +1,16 @@
 # 2026 项目与黑客松作品集
 
-核查与开发日期：2026-11-04至2026-11-05。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动，以及额外筛选的十个赛事，共十七个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
+核查与开发日期：2026-11-04至2026-11-06。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动，以及额外筛选的十个赛事，共十七个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
 
 ## 额外十个赛事与对应项目
 
-用户已确认个人开发者身份；年龄、学生身份与居住地区尚未确认，先按成年中国大陆个人筛选，不保证个人最终资格。以下十项与原始七方向分别对应独立项目。现金赛事、社区 Game Jam 和需入围的分阶段比赛分别说明；GitHub 推送不等于正式参赛。
+用户已确认个人开发者身份并私密提供联系资料；年龄、居住国家/城市与平台账号状态仍待确认，不保证个人最终资格。以下十项与原始七方向分别对应独立项目。现金赛事、社区 Game Jam 和需入围的分阶段比赛分别说明；GitHub 推送不等于正式参赛。
 
 | 官方赛事 | 截止与阶段 | 独立项目及已实现差异 | 参赛仍需补齐 |
 | --- | --- | --- | --- |
 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/rules) | 北京2026-11-13 04:00 | [Cart Consent](https://github.com/misakamikotoghr-5205/cart-consent-paypal)：购物篮逐字段人工批准、变更撤销、调用竞态复核 | 合法可用的 Business/sandbox 账号、真实 PayPal+AI 演示、英文材料与视频 |
 | [Aholo 全球3D AI黑客松](https://www.aholo3d.cn/hackathon) | 北京2026-11-19 19:00 | [留白实验室](https://github.com/misakamikotoghr-5205/scene-clearance-lab)：本地模型布置、可解释几何间距、A/B报告 | 单人也须建队；真实 Lux3D 核心资产与兼容性、视频、提交 |
-| [支付宝智能体涌现奖](https://emerge.alipay.com/) | 按北京2026-12-06 00:00准备 | [余量接力](https://github.com/misakamikotoghr-5205/pantry-relay)：标签来源门禁、受约束选菜、库存消费回执 | 本人实名账号、真实 AI 演示、URL/ZIP提交；同一作品不重复投别赛 |
+| [支付宝智能体涌现奖](https://emerge.alipay.com/) | 按北京2026-12-06 00:00准备 | [余量接力](https://github.com/misakamikotoghr-5205/pantry-relay)：标签来源门禁、受约束选菜、库存消费回执 | 本人实名账号、支持的支付宝构建与URL/ZIP提交；已有本地模型试验；同一作品不重复投别赛 |
 | [Codegeist 2026](https://codegeist2026.devpost.com/rules) | 北京2026-12-23 04:00 | [Dependency Evidence for Jira](https://github.com/misakamikotoghr-5205/dependency-evidence-forge)：依赖证据快照、循环/缺失说明、旧审阅漂移复核；实际 Forge SDK模块 | Atlassian/Forge账号注册、lint/deploy/install、评委安装链接与视频；目前无真实Jira调用 |
 | [Builder.io Agent-Native Hackathon](https://www.builder.io/hackathon/rules) | 北京2026-11-10 15:59 | [Patch Review Desk](https://github.com/misakamikotoghr-5205/patch-review-desk)：实际 Agent-Native动作合同、逐hunk人审、基线漂移撤销和持久化回滚 | 真实完整操作录屏与公开Clips演示、本人提交；目前是本机文件工具 |
 | [魔搭×Qoder AI+∞第三期](https://mseo-ai-inf.ms.show/) | 官网2026-12-01 12:00报名；18:00交件，未明示时区 | [纸路邮局](https://github.com/misakamikotoghr-5205/paper-route-playtest)：四关可重放派送谜题、精确搜索试玩、隔离变异体反例 | 本人先发构想帖并审核报名、魔搭创空间公开托管、手记/视频；Qoder不是硬性工具要求 |
@@ -39,7 +39,7 @@
 | [Deadlock Manor](https://github.com/misakamikotoghr-5205/deadlock-manor) / Kiroween | T3SF、KubeInvaders（已有模拟模式） | 新增因果回放：回到实际决策时点、保留当时证据、比较同一步替代操作，继续分支并可返回原记录。角色是透明规则，无真实模型。 |
 | [慢递愿望局 · Pocket Pause](https://github.com/misakamikotoghr-5205/pocket-pause) / 支付宝小荷包 AI 插件创作 | Actual Budget、wishthis | 购买冷静期与回信流程，把“放下的消费意向”和“手动记录的存入”分开；关联额度校验、保留撤销历史、备份恢复及原创创作词。 |
 
-新补充的[小荷包活动帖](https://www.xiaohongshu.com/discovery/item/6a96b088000000001103af07)已在浏览器查看；官方置顶评论的截止是 **10 月 31 日**，11 月 4 日已结束，未核实后续重开。慢递愿望局是可复用原型及候选创作词，未声称存在已验证的第三方插件 SDK、官方 manifest 或已上架插件。
+新补充的[小荷包活动帖](https://www.xiaohongshu.com/discovery/item/6a96b088000000001103af07)已在浏览器查看；官方置顶评论的截止是 **10 月 31 日**，11 月 6 日复查仍无已核实的官方延期，按用户要求跳过。火山申请表明确限定企业开发者，按用户的个人身份跳过。慢递愿望局是可复用原型及候选创作词，未声称存在已验证的第三方插件 SDK、官方 manifest 或已上架插件。
 
 ## 开源调查与真实复用
 
@@ -51,7 +51,7 @@
 
 ## 交付与核验
 
-各项目 README 提供启动、样例和验证命令，累计 326 项本地测试通过。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件、模型或主办方后台已联通。
+各项目 README 提供启动、样例和验证命令，累计 326 项本地测试通过。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件或主办方后台已联通。Cart、Pantry、Patch 已另存真实本地模型请求与失败记录，仍不等于端到端平台接入。
 
 可用的托管预览保持**仅所有者可访问**：
 
@@ -63,4 +63,4 @@
 - [Lumen Shift](https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site)
 - [Parallax Postcards](https://parallax-postcards-2026.ghraurora1024.chatgpt.site)
 
-公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。尚未替用户注册、接受赛事条款、发帖、上传视频或正式提交。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox 与模型运行等未完成条件均在对应仓库明确列出。
+公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。尚未替用户注册、接受赛事条款、发帖、上传视频或正式提交。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox、公开演示与正式交件等缺口均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前没有官方报名或作品提交回执。

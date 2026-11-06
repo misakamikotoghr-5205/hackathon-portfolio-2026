@@ -1,0 +1,66 @@
+{
+  "checked_on": "2026-11-06",
+  "submitted": false,
+  "browser_qa_this_pass": false,
+  "artifacts": [
+    {
+      "project": "lumen-shift",
+      "path": "portfolio/submissions/artifacts/lumen-shift-itch.zip",
+      "sha256": "fc91a3f9322ac50c012c063036328127644f611573f9d8c34f72218162a2cb01",
+      "zip_bytes": 14794,
+      "files": [
+        "LICENSE",
+        "app.js",
+        "docs/competition.md",
+        "docs/landscape.md",
+        "engine.js",
+        "index.html",
+        "levels.js",
+        "style.css"
+      ],
+      "file_count": 8,
+      "uncompressed_bytes": 41907,
+      "root_index": true,
+      "crc_passed": true,
+      "runtime_resources_local": true
+    },
+    {
+      "project": "parallax-postcards",
+      "path": "portfolio/submissions/artifacts/parallax-postcards-itch.zip",
+      "sha256": "7125638bcccc719f628e42e5cb6911b2ccdcae5319fafe68c1276b8ab54351dd",
+      "zip_bytes": 18040,
+      "files": [
+        "LICENSE",
+        "app.js",
+        "index.html",
+        "renderer.js",
+        "styles.css",
+        "world.js"
+      ],
+      "file_count": 6,
+      "uncompressed_bytes": 56443,
+      "root_index": true,
+      "crc_passed": true,
+      "runtime_resources_local": true
+    },
+    {
+      "project": "paper-route-playtest",
+      "path": "portfolio/submissions/artifacts/paper-route-playtest-modelscope-static.zip",
+      "sha256": "c427de40f2d4984380df4a9b5889a0c2c6711f01fb61f3453f1e22a10961ebe0",
+      "zip_bytes": 18335,
+      "files": [
+        "LICENSE",
+        "README.md",
+        "app.js",
+        "engine.js",
+        "index.html",
+        "styles.css"
+      ],
+      "file_count": 6,
+      "uncompressed_bytes": 53609,
+      "root_index": true,
+      "crc_passed": true,
+      "runtime_resources_local": true
+    }
+  ]
+}

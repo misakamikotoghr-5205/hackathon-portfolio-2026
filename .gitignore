@@ -1,0 +1,6 @@
+node_modules/
+**/node_modules
+**/pptx-build/*.validation.json
+**/pptx-build/delivery-check.json
+**/pptx-build/rendered/
+**/pptx-build/qa/

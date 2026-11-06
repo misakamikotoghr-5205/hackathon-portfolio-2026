@@ -1,8 +1,8 @@
 # Apart signup text — not a final research submission
 
-Checked 2026-11-06. Official page: https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15 . Signup submit was not disabled in the public HTML; the **project** Submit button was disabled with a closed-window status. Do not bypass the form or claim a submission receipt.
+Checked 2026-11-06. Official page: https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15 . After the owner confirmed this signup action, the official flow reached the success page headed **“You’re signed up”**, confirming signup for the November 13–15 sprint and asking the entrant to check email for next steps. **private success-page evidence held**; no private receipt URL, invite code or personal value is published. The **project** Submit button was observed disabled with a closed-window status. Registration is confirmed; final project submission is not.
 
-## Required signup identity fields
+## Signup field reference — handled privately; public placeholders retained
 
 - First name: [REAL FIRST NAME]
 - Last name: [REAL LAST NAME]
@@ -29,4 +29,4 @@ Optional GitHub: https://github.com/misakamikotoghr-5205/source-trail-otari . Li
 - Team name, location, member names/emails: real information. Discord/Scholar optional.
 - Code URL: repository above; optional presentation/video/slides/image/additional material must be real completed artifacts.
 
-Current report template link is in research-plan.md. Actual signup, privacy/terms review, future sprint research, PDF export, upload and final receipt are separate unfinished actions.
+Current report template link is in research-plan.md. Official signup is complete, with private success-page evidence held. Email next steps, actual November 13–15 sprint research, applicable final-submission terms, the official-template PDF, upload and final project submission receipt remain separate unfinished actions. All existing code and the sixteen-case pilot remain disclosed as pre-event work.

@@ -1,10 +1,10 @@
 # 六个非游戏新增赛事：提交入口与材料审计
 
-核查日期 **2026-11-06 UTC**。仅记录公开规则、当前公开页面/前端字段和本地证据；不含参赛者姓名、邮箱、手机号、地址、账号、凭据或报名收据。本次准备没有登录任何赛事账号、勾选协议、提交表单、发消息、付费或推送。root另行操作的私有账号/报名状态以其实际收据为准，不能由本文件推断。
+核查日期 **2026-11-06 UTC**。仅记录公开规则、当前公开页面/前端字段和本地证据；不含参赛者姓名、邮箱、手机号、地址、账号、凭据或私密回执URL。账号操作与正式报名、最终作品提交分开记录，只有真实成功页或回执才计为相应阶段完成。
 
 所有草稿都可直接作为真实内容起点；没有虚构视频、安装链接、平台使用记录或身份。隐藏于登录后的字段、实时账号资格与未取得的材料均明确区分。
 
-当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips当次注册条款同意与账号状态仍待答复。**官方报名回执0份，作品提交回执0份。** 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
+当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips本次注册同意已确认，官网显示登录邮件已发送，仍待本人验证/登录。**官方报名回执1份（Apart），最终作品提交回执0份。** Apart公开官网见[四项目审计](game-research-four-audit.md)，private success-page evidence held；不公开私密回执URL或邀请码。 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
 
 ## 最急：Builder
 
@@ -12,7 +12,7 @@
 
 最少可行材料已写在 [填表稿](drafts/patch-review-desk/form-draft.md) 和 [2–3分钟录屏脚本](drafts/patch-review-desk/video-script.md)：真实打开本地工具 → 固定示例两处草稿 → 只批准一段 → 应用 → 回滚 → 展示真正的官方动作合同及范围。始终明确 **fixture、model off**，不把固定规则说成推理。官方要求实际Agent-Native应用和公开Clips演示，没有写强制某个LLM；狭窄动作层集成能否获评仍由评委决定。
 
-[Clips](https://clips.agent-native.com/)当前公开页需要Google或邮箱/密码登录。实际录制、发布、退出登录确认可播放，再把真实链接粘入表单；没有公共Clips URL时不应伪造或先称交件完成。注册/网络活动参加非必需，录制本身也不等于提交。
+[Clips](https://clips.agent-native.com/)本次注册同意已由本人确认并执行，官网已显示“Check your email”和安全登录链接已发送；仍待本人验证邮件或自行登录，尚未登录成功。实际录制、发布、退出登录确认可播放后，再把真实链接粘入表单；没有公共Clips URL时不应伪造或先称交件完成。注册/网络活动参加非必需，录制本身也不等于提交。
 
 Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受限别名随后返回合法文本，但未满足目标两行公告，`exact_target_match=false`。这里只运行modelDraft，没有执行proposal、角色HTTP、人工批准、应用/回滚或Clips；固定fixture仍须明确model off，不把合法响应说成任务完成。
 
@@ -20,9 +20,9 @@ Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受�
 
 | 赛事 / 项目 | 当前官方入口 | 截止/阶段 | 真实材料缺口 |
 |---|---|---|---|
-| Builder / Patch Review Desk | [公开提交表](https://www.builder.io/hackathon/submit)；无需提前报名 | 11/09 23:59 America/Los_Angeles = 11/10 07:59UTC / 15:59北京 | 基础身份资料已私密确认；平台账号/适用条款/Clips当次注册条款同意及公开录屏仍待处理；真实模型响应合法但未达两行目标，未proposal/审批/录屏 |
+| Builder / Patch Review Desk | [公开提交表](https://www.builder.io/hackathon/submit)；无需提前报名 | 11/09 23:59 America/Los_Angeles = 11/10 07:59UTC / 15:59北京 | 基础身份资料已私密确认；Clips本次注册同意已确认、登录邮件已发待验证/登录，公开录屏与最终交件仍待处理；真实模型响应合法但未达两行目标，未proposal/审批/录屏 |
 | PayPal / Cart Consent | [官网](https://paypalaihackathon.devpost.com/) Join hackathon → Devpost认证 → 本赛事提交；匿名访问Join被导向注册 | 11/12 12:00PST = 20:00UTC / 11/13 04:00北京 | 真实模型已生成1398/5000美分购物篮、DRAFT未批准；真正PayPal sandbox和组合演示/公开视频仍缺 |
-| Next Horizon / Watt Window | [官方Apply重定向](https://eisociety.org/go/apply/next-horizon-2026?s=direct) → [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form) | 11/15构想截止，无具体时刻；11/28 09:00EST至11/30 09:00EST正式48小时，先申请/入围 | 私密署名PowerPoint已完成、不公开；基础身份资料已私密确认；Google表单强制登录，等待本人完成既有账号的密码/通行密钥登录，未见表字段、未预填或提交；保留赛前原型披露 |
+| Next Horizon / Watt Window | [官方Apply重定向](https://eisociety.org/go/apply/next-horizon-2026?s=direct) → [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form) | 11/15构想截止，无具体时刻；11/28 09:00EST至11/30 09:00EST正式48小时，先申请/入围 | 私密署名PowerPoint已完成、不公开；基础身份资料已私密确认；Google表单强制登录，未登录会话超时后已恢复登录入口，等待本人登录；未见表字段、未预填或提交；保留赛前原型披露 |
 | Aholo / 留白实验室 | [中国活动页](https://www.aholo3d.cn/hackathon) “立即报名 / 我的参赛”：个人报名→确认组队→选题→作品 | 11/19 19:00北京 = 11:00UTC = 06:00EST | 单人也建队；核心Lux3D真实生成与导出兼容性、项目报告/过程截图、真实Demo材料，当前不能如实勾“已用Lux3D” |
 | 支付宝涌现 / 余量接力 | [官网](https://emerge.alipay.com/) “报名参赛 / 我的提报 / 完善作品”，报名记录与完整提报分开 | 保守按12/06 00:00北京 = 12/05 16:00UTC；公告/正文/UI时刻有冲突见下 | 本人合法账号/实名与协议，真实可交互交付与录屏，完整提报字段复核；已发生两次本地模型请求，未支付宝/阿宝接入 |
 | Codegeist / Dependency Evidence | [官网](https://codegeist2026.devpost.com/) Join hackathon → Devpost认证 → 本赛事提交 | 12/22 12:00PST = 20:00UTC / 12/23 04:00北京 | 真正Forge注册/deploy/install、评委安装链接、英文公开YouTube演示；本地SDK模块/typecheck/bundle不能替代安装 |
@@ -65,7 +65,7 @@ Cart的真实本地qwen2.5:0.5b请求已通过模型输出和业务校验，生�
 
 ### Next Horizon
 
-官方FAQ允许单人，主要主题选 Smart Cities and Sustainable Development；公开规则要求PowerPoint≤15MB，覆盖团队、问题、方案技术、影响可行性、实施计划；已有原型可附2–4分钟视频。官方Google表单已实际触发强制登录，当前停在既有账号的密码/通行密钥页，等待本人自行登录；表单字段尚未见到，不虚构必填姓名/上传/问卷标签，也未预填或提交。
+官方FAQ允许单人，主要主题选 Smart Cities and Sustainable Development；公开规则要求PowerPoint≤15MB，覆盖团队、问题、方案技术、影响可行性、实施计划；已有原型可附2–4分钟视频。官方Google表单已实际触发强制登录；此前未登录会话超时后已恢复Google登录入口，等待本人自行登录；表单字段尚未见到，不虚构必填姓名/上传/问卷标签，也未预填或提交。
 
 [双语稿](drafts/watt-window/form-draft.md)、[演示内容提纲](drafts/watt-window/pitch-draft.md)、[视频脚本](drafts/watt-window/video-script.md)完整可用；六页PowerPoint及私密署名版现已完成，个人资料不进入公开文件。基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理。Google登录与后续真实表单操作尚待完成，不能假造单位/学历或官方回执。赛前17项本地测试与虚构成本示例，不是节能实测或未来48小时成果。若入围，再记录真实赛期新增工作与最终10分钟演示/5分钟问答。
 

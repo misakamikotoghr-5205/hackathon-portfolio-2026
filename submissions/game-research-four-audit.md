@@ -1,6 +1,6 @@
 # 四项目正式提交准备审计
 
-核验日期：2026-11-06 UTC。范围：Lumen Shift / Game Off、Parallax Postcards / Through Your Eyes、纸路邮局 / AI+∞、Source Trail / Apart。仅核验公开页面、准备文案与本地包；未登录、未接受条款、未加入赛事、未上传或点击最终提交。不能把本目录当作参赛成功凭证。
+核验日期：2026-11-06 UTC。范围：Lumen Shift / Game Off、Parallax Postcards / Through Your Eyes、纸路邮局 / AI+∞、Source Trail / Apart。本文件结合公开页面、准备文案、本地包和授权执行结果更新。**官方报名已确认1份（Apart），最终作品提交0份**；private success-page evidence held，不公开私密回执URL或邀请码。其他项目仍保留各自账号与材料缺口，不能把报名成功当作最终作品提交。
 
 ## 当前结论
 
@@ -9,7 +9,7 @@
 | [Lumen Shift / Game Off](https://itch.io/jam/game-off-2026) | 公开页仍显示 Join jam。官方截止 2026-12-01 13:37 PST，即12-01 21:37 UTC / 北京12-02 05:37。 | itch.io账号、加入jam、创建可玩HTML游戏页、上传ZIP、如实填写AI披露和jam表、最终参赛确认。 |
 | [Parallax / Through Your Eyes](https://itch.io/jam/through-your-eyes-first-person-game-jam) | 公开页仍显示 Join jam。正文11-15；页面原始 end_date 为 `2026-11-15 17:24:24`，未标时区，不能自行换算北京时间。 | 登录确认账户倒计时及当前额外要求，创建并上传游戏页，加入并提交该jam。 |
 | [纸路 / AI+∞](https://mseo-ai-inf.ms.show/) | 报名截止12-01 12:00、作品12-01 18:00；公开页未明示时区，提前完成并以登录后的官网状态核对。 | 公开构想帖及审核、魔搭账号、公开可运行的创空间、手记与真实视频、官网最终交件。 |
-| [Source Trail / Apart](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) | Sign up按钮未禁用；11-06抓到的Submit project实际带disabled，表内提示submission window closed。赛期11-13至15；截止11-15 23:59 AoE =11-16 11:59 UTC / 北京19:59。 | 可准备报名；当前不能称项目提交窗口可用。还需赛期新增研究、按官方流程填写作者资料、官方模板PDF和最终提交。现有16例pilot均是11-05赛前材料。 |
+| [Source Trail / Apart](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) | 本人确认本次报名后，官网已到达“You’re signed up”成功页；private success-page evidence held。11-06抓到的项目Submit仍disabled/closed。赛期11-13至15；截止11-15 23:59 AoE =11-16 11:59 UTC / 北京19:59。 | 报名已完成，最终作品未提交。仍需赛期新增研究、官方模板PDF及最终交件；现有16例pilot均是11-05赛前材料。 |
 
 ## 1. Lumen Shift：硬条件与字段证据
 
@@ -40,13 +40,13 @@
 - 报名必填：First name、Last name、Email、Location。可选：LinkedIn、Scholar、GitHub、Current job、AI safety experience、Why joining、项目意向、获知渠道。
 - 项目必填：Project title、Project summary、PDF report（≤25 MB）、是否愿意发表、Team name、Location、成员姓名与邮箱。可选/未标星：Tracks、Presentation recording、Project code、Slides（≤25 MB）、Project image（≤25 MB）、Additional material、Discord、Scholar；可增加成员。愿不愿发表是个人选择，未代选。
 
-提交时会同意[提交与奖金条款](https://apartresearch.com/sprints/prize-terms)，不代接受。当前Submit project按钮禁用且有closed状态，不能绕过页面调用POST。报名按钮未禁用不等于已提交成功；真实账户/邮箱验证由授权操作者完成。
+本次报名已在本人确认后执行，官网成功页标题“You’re signed up”，正文确认加入11月13–15日研究冲刺并提示检查邮件获取后续步骤；private success-page evidence held。公开仅保留[赛事官网](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15)，不公开私密成功页URL或邀请码。最终作品提交仍需届时处理[提交与奖金条款](https://apartresearch.com/sprints/prize-terms)；当前Submit project按钮禁用且有closed状态，不能绕过页面调用POST。报名成功不是项目提交回执。
 
 [官方报告模板（Google复制链接）](https://docs.google.com/document/d/17b3JWki-ZkaqdmqGI5d0gof-HwlGuWU9Mc1_klNZXKs/copy?usp=sharing)已从Guidelines提取，打开copy被要求Google登录。官方要求正文≤8页（参考文献/附录除外）、150–250词abstract、真实作者/机构、必需Limitations and Dual-Use / Ethical Considerations附录。当前只有研究计划和赛前pilot，**未生成或冒充赛期成果PDF**。可复制报名文案与前瞻计划见drafts/source-trail-otari。
 
 ## 本地交付与验证
 
-11-06重新运行：Lumen13测试、Parallax16测试、纸路15测试全部通过；各自check/build通过。没有本轮浏览器自动化或新录屏，视频文件仍待真实录制。
+11-06重新运行：Lumen13测试、Parallax16测试、纸路15测试全部通过；各自check/build通过。这组包验证未新增游戏浏览器演示或录屏，视频文件仍待真实录制；Apart报名操作另按上述成功页记录。
 
 | 上传准备包 | 大小 | 入口与运行资源 |
 | --- | ---: | --- |
@@ -58,7 +58,7 @@
 
 ## 执行者还需补齐
 
-基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，个人资料不写入公开文件。还需itch/魔搭登录与平台显示名确认；实际封面截图/必要视频及公开链接；登录后自定义题目或首次发布声明的真实答案；最终提交成功页面/收据。不要将占位符、私有预览、录制脚本或赛前计划当成最终已交材料。没有发送消息、操作账号、注册、付费、接受条款或提交任何赛事。
+基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，个人资料不写入公开文件。还需itch/魔搭登录与平台显示名确认；实际封面截图/必要视频及公开链接；登录后自定义题目或首次发布声明的真实答案；最终提交成功页面/收据。不要将占位符、私有预览、录制脚本或赛前计划当成最终已交材料。Apart报名已按本次授权完成；其余账号操作和适用条款仍逐项处理，最终作品提交仍为0。
 
 ## 原创投稿图（不是截图）
 

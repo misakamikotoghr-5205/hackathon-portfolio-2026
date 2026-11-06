@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:18:40.663583+00:00",
+  "updated_at": "2026-11-06T06:54:21.308962+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -236,7 +236,7 @@
       "landscape_review": "https://github.com/misakamikotoghr-5205/patch-review-desk/blob/main/docs/landscape.md",
       "remaining_external_setup": [
         "Personal eligibility and public Clips recording of the complete local workflow",
-        "Clips account access and action-time terms consent; formal Builder submission",
+        "Clips email login requested with action-time terms consent; awaiting secure sign-in link, actual recording and formal Builder submission",
         "Actual local model text probe passed transport/schema but missed the requested edit format; no complete model/UI sequence claimed"
       ],
       "formally_submitted": false,
@@ -299,7 +299,7 @@
       "source_read_method": "official event page/rules; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Owner signup; worldwide online solo participation per official FAQ, individual eligibility and prize-payment terms still require review",
+        "Official registration confirmed by success page. Personal prize-payment terms remain separate; current prototype and pilot predate the sprint.",
         "Clearly disclose all current code and pilot as preexisting; conduct and distinguish new Nov 13–15 sprint research",
         "Official-template PDF up to 8 pages excluding references/appendices, abstract, authors/affiliations and required limitations/dual-use appendix; formal entry",
         "Submission deadline Nov 15 23:59 AoE = Nov 16 11:59 UTC / 19:59 Beijing; optional hosted-model demonstration not performed"
@@ -308,7 +308,8 @@
       "github_commit": "7b9e56581ebd55d9d61e494b3b2b5ba1e9b42ebd",
       "pushed_and_remote_verified": true,
       "preexisting_for_future_sprint": true,
-      "submission_status": "preparation_in_progress"
+      "submission_status": "registered_awaiting_sprint_work_and_report",
+      "registration_confirmed": true
     },
     {
       "number": 16,
@@ -379,5 +380,5 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Basic identity/contact details confirmed privately; 0 confirmed official registrations and 0 project submissions. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. Account access, action-time agreements and real platform artifacts remain. See submissions/status.json."
+  "submission_progress": "1 confirmed official registration (Apart); 0 final project submissions. Clips email sign-in request confirmed sent, awaiting link verification. Basic identity/contact details retained privately. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. See submissions/status.json."
 }

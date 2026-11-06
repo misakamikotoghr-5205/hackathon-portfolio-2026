@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T12:11:51.952081+00:00",
+  "updated_at": "2026-11-06T16:03:49.795071+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -267,7 +267,7 @@
       ],
       "formally_submitted": false,
       "private_preview": "https://paper-route-playtest-2026.ghraurora1024.chatgpt.site",
-      "github_commit": "2b935356d55f4211295d0c9b3547981fb3ee5d73",
+      "github_commit": "c5392db0e37744014dd9a4e07038e4cc27099341",
       "pushed_and_remote_verified": true,
       "submission_status": "preparation_in_progress"
     },
@@ -369,7 +369,7 @@
     "deadlock-manor": "Completed incident, same-checkpoint causal comparison, and alternative-branch confirmation observed in localhost UI.",
     "iqiyi-play-lab": "Calibration controls and persisted manual timing offset observed in localhost UI; tap-estimator boundaries covered by automated tests.",
     "scene-clearance-lab": "Browser WebGL2 context unavailable; usable top-down fallback observed. Original glTF import, numeric layout commit, geometric update, snapshots and reload observed. Full WebGL rendering remains unverified in this environment.",
-    "paper-route-playtest": "Observed full 12-step autoplay victory/return, hint without acting, and mutant counterexample where step 4 falsely delivers only in the mutant. No console errors.",
+    "paper-route-playtest": "Observed full 12-step autoplay victory/return, hint without acting, and mutant counterexample where step 4 falsely delivers only in the mutant. No console errors. Separately, actual local Node engine evidence for fixed seed 20261106 is available at https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/c5392db0e37744014dd9a4e07038e4cc27099341/docs/evidence/README.md: four winning replays and one isolated mutant counterexample. This adds no browser, platform deployment, registration or submission evidence.",
     "lumen-shift": "Observed first-board victory, undo/redo, next-board hint, and completed-board persistence after reload. Replay-allowance hint boundary covered by automated regression.",
     "parallax-postcards": "Observed legal reading/navigation/alignment/capture in all three rooms, 3/3 completion, ending and restored progress after reload. No console errors. Canvas2D rendering observed.",
     "patch-review-desk": "Isolated agent-capability proposal with two fixture hunks; reviewer approved only the time hunk, applied 09:00 to 09:30 with unapproved final sentence unchanged, then rolled back and restored the original SHA. Real 2:04 screen-only silent Clips recording saved. Anonymous HTTP share/context and four media-frame requests succeeded; authenticated player naturally reached 124.794s end with readyState 4 and no decoding error. Recording is fixture/model off, distinct from the limited real Ollama probe. Builder official form confirmed receipt of the final entry on 2026-11-06; this is not a judging result."

@@ -12,7 +12,7 @@
 | [Aholo 全球3D AI黑客松](https://www.aholo3d.cn/hackathon) | 北京2026-11-19 19:00 | [留白实验室](https://github.com/misakamikotoghr-5205/scene-clearance-lab)：本地模型布置、可解释几何间距、A/B报告 | 单人也须建队；真实 Lux3D 核心资产与兼容性、视频、提交 |
 | [支付宝智能体涌现奖](https://emerge.alipay.com/) | 按北京2026-12-06 00:00准备 | [余量接力](https://github.com/misakamikotoghr-5205/pantry-relay)：标签来源门禁、受约束选菜、库存消费回执 | 本人实名账号、支持的支付宝构建与URL/ZIP提交；已有本地模型试验；同一作品不重复投别赛 |
 | [Codegeist 2026](https://codegeist2026.devpost.com/rules) | 北京2026-12-23 04:00 | [Dependency Evidence for Jira](https://github.com/misakamikotoghr-5205/dependency-evidence-forge)：依赖证据快照、循环/缺失说明、旧审阅漂移复核；实际 Forge SDK模块 | Atlassian/Forge账号注册、lint/deploy/install、评委安装链接与视频；目前无真实Jira调用 |
-| [Builder.io Agent-Native Hackathon](https://www.builder.io/hackathon/rules) | 北京2026-11-10 15:59 | [Patch Review Desk](https://github.com/misakamikotoghr-5205/patch-review-desk)：实际 Agent-Native动作合同、逐hunk人审、基线漂移撤销和持久化回滚 | 真实完整操作录屏与公开Clips演示、本人提交；目前是本机文件工具 |
+| [Builder.io Agent-Native Hackathon](https://www.builder.io/hackathon/rules) | 北京2026-11-10 15:59 | [Patch Review Desk](https://github.com/misakamikotoghr-5205/patch-review-desk)：实际 Agent-Native动作合同、逐hunk人审、基线漂移撤销和持久化回滚 | 公开Clips录屏已完成；待本人资格/规则确认及正式提交；目前是本机文件工具 |
 | [魔搭×Qoder AI+∞第三期](https://mseo-ai-inf.ms.show/) | 官网2026-12-01 12:00报名；18:00交件，未明示时区 | [纸路邮局](https://github.com/misakamikotoghr-5205/paper-route-playtest)：四关可重放派送谜题、精确搜索试玩、隔离变异体反例 | 本人先发构想帖并审核报名、魔搭创空间公开托管、手记/视频；Qoder不是硬性工具要求 |
 | [GitHub Game Off 2026](https://itch.io/jam/game-off-2026) | 北京2026-12-02 05:37 | [Lumen Shift](https://github.com/misakamikotoghr-5205/lumen-shift)：八关循环位移与XOR信号解谜、实时搜索提示、可验证重放 | itch.io报名与可玩提交、如实披露AI辅助；社区评奖，未核实现金奖 |
 | [Apart AI × Epistemics Research Sprint](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) | 北京2026-11-16 19:59；11月13–15日研究冲刺 | [Source Trail](https://github.com/misakamikotoghr-5205/source-trail-otari)：精确引用锚点、人工立场冲突门禁与可重复合成评估；Otari是可选适配 | 报名已确认；赛期新增研究、官方模板≤8页PDF及局限/双重用途附录；现有代码和试验均标赛前工作，不以旧仓库代替研究报告 |
@@ -63,4 +63,4 @@
 - [Lumen Shift](https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site)
 - [Parallax Postcards](https://parallax-postcards-2026.ghraurora1024.chatgpt.site)
 
-公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。已获本人当次确认并完成Apart正式报名、发起Clips邮箱登录；未把登录邮件已发送计作登录或录屏完成，最终作品提交仍为0。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox、公开演示与正式交件等缺口均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前已有1份官方报名确认（Apart），最终作品提交回执为0。
+公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder参赛表已填齐，待当次赛事资格与规则声明确认，最终作品提交仍为0。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox、公开演示与正式交件等缺口均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前已有1份官方报名确认（Apart），最终作品提交回执为0。

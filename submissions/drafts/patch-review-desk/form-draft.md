@@ -1,6 +1,6 @@
 # Patch Review Desk — Builder submission draft
 
-Prepared 2026-11-06. No registration, agreement or submission has been made by this document. Do not insert a fabricated recording URL. Account identity stays in the private form.
+Updated 2026-11-06. The actual Clips recording is saved and all Builder fields, including its URL, are prefilled. The required processingConsent and optional marketing checkboxes are both unchecked; Submit has not been clicked. Current event-rules and individual-eligibility confirmation remain. Account identity stays private; no Builder submission receipt is claimed.
 
 Official [submission form](https://www.builder.io/hackathon/submit), [rules](https://www.builder.io/hackathon/rules), [Clips](https://clips.agent-native.com/). Deadline: November 9 23:59 America/Los_Angeles = November 10 07:59 UTC / **15:59 Beijing**.
 
@@ -14,18 +14,20 @@ Official [submission form](https://www.builder.io/hackathon/submit), [rules](htt
 | Project name * | Patch Review Desk |
 | Project description * | English paragraph below, including actual human team and prior-work disclosure |
 | Project or GitHub URL | https://github.com/misakamikotoghr-5205/patch-review-desk |
-| Public Clips recording URL * | Must be the actual completed recording, viewable without login; currently absent |
+| Public Clips recording URL * | https://clips.agent-native.com/share/r01FTO1ytVvm — saved actual fixture/model-off clip; verification scope below |
 | Slides URL | Optional; no slide link is claimed |
-| Required agreement | Entrant/root handles only after identity and eligibility are settled; includes rules, each member's authorization and personal-data processing |
-| Marketing offers | Optional; no consent is implied |
+| Required agreement / processingConsent | Unchecked; the only missing required input in the read-only native-validity check. Await current event-rules and individual-eligibility confirmation; covers rules, member authorization and personal-data processing |
+| Marketing offers | Optional and unchecked |
 
-## Paste-ready English project description
+## Exact prefilled English project description
 
-Patch Review Desk gives an agent a narrow job: propose replacement text in a private workspace while a person decides which individual diff hunks may be applied. Shared actions actually import `@agent-native/core@0.223.0` and use `defineAction()` for schema validation, authorization and tool metadata. The agent capability can inspect and propose, but cannot approve, apply or roll back. Human approval binds server-generated hunks to baseline content; observed drift revokes approval. Partial application creates a durable SQLite receipt containing the exact backup, and rollback refuses to overwrite later edits.
+Patch Review Desk gives an agent a narrow job: propose replacement text in a private workspace while a reviewer decides which individual diff hunks may be applied. Shared actions actually import @agent-native/core@0.223.0 and use defineAction() for schema validation, authorization and tool metadata. The agent capability can inspect and propose, but cannot approve, apply or roll back. Approval binds server-generated hunks to baseline content; observed drift revokes approval. Partial application creates a durable SQLite receipt with the exact backup, and rollback refuses to overwrite later edits.
 
-This is a working local Node.js 24+ application with its own HTTP transport and SQLite persistence, rather than a deployment of Agent-Native's full hosted runtime. The built-in two-edit helper is explicitly deterministic; no LLM inference is claimed in that demonstration. On November 6, production `modelDraft()` genuinely called local Ollama with the complete fictional fixture. The original `qwen2.5:0.5b` request timed out at 45 seconds; a bounded same-base-model alias returned text in 19.261 seconds. It passed the text-only contract and preserved 09:00, but did not follow the requested two-line format/heading. Both outcomes and the raw accepted text are retained in `docs/evidence/local-model-20261106.json`, with a reproducible Modelfile. This probe used no role token, private workspace, proposal, approval or UI sequence. Fourteen local behavior tests cover permissions, drift, partial review, retries, interruption recovery and rollback.
+This is a working local Node.js 24+ app with its own HTTP transport and SQLite persistence, rather than Agent-Native's full hosted runtime. The linked 2:04 silent screen recording shows review of a two-hunk fixture proposal prepared through the separate agent capability before capture: approve only the time change, apply 09:00 to 09:30 while leaving the unapproved final sentence unchanged, then roll back to the original text and retain both receipts. The text generator in this recording is deterministic and explicitly labelled Fixture demo / model off. Fourteen local behavior tests and an isolated interactive UI exercise cover the permission and recovery workflow. No cloud deployment or external project access is claimed.
 
-Human team: the individual entrant identified in this form; no other human teammate is claimed by this draft. Codex assisted design, implementation, tests and documentation. Original application work was created November 5, 2026, during this hackathon; prior third-party libraries are disclosed below. This is not a claim that patch review or baseline hashes are novel inventions.
+A separate November 6 production modelDraft() probe genuinely called local Ollama on the complete fictional fixture. The original qwen2.5:0.5b request timed out at 45 seconds; a bounded same-base-model alias returned text in 19.261 seconds. It passed the text contract and preserved 09:00 but missed the requested two-line format and heading. Both outcomes and raw text are in docs/evidence/local-model-20261106.json. That probe did not run the proposal, approval or UI workflow and did not generate the two fixture edits in this recording.
+
+Human team: the individual entrant identified in this form; no other human teammate is claimed. Codex assisted design, implementation, tests and documentation. Original app work was created November 5, 2026, during this hackathon. Original application code and fictional fixtures are MIT. Dependencies: Agent-Native 0.223.0 (MIT), diff 9.0.0 (BSD-3-Clause), Zod 4.4.3 (MIT); original notices are retained. Prior libraries and design comparisons are disclosed in the repository. No claim of worldwide novelty or general editing success is made.
 
 ## 中文标题与摘要
 
@@ -37,10 +39,18 @@ Human team: the individual entrant identified in this form; no other human teamm
 
 - Built with: Node.js 24 built-in SQLite, JavaScript ES modules, local HTTP/HTML/CSS, Agent-Native action layer, jsdiff, Zod; optional Ollama `/api/chat` adapter.
 - Specific difference: shared, permission-separated agent/UI actions plus per-hunk decisions, stale-baseline revocation and recoverable receipts in a small text-only workspace. It lacks a full editor, Git worktree/merge operations, cloud identity and multi-process filesystem locking.
-- Build process: define capability boundary → wire actual framework actions → calculate server-owned diffs → add approval/revision checks and receipt recovery → exercise HTTP/permission and crash-edge tests → build a runnable source distribution. Subsequent real local-model probes preserve an original timeout and a valid text response that did not meet the full editing goal. No browser/model approval sequence is presented as completed.
+- Build process: define capability boundary → wire actual framework actions → calculate server-owned diffs → add approval/revision checks and receipt recovery → exercise HTTP/permission and crash-edge tests → build a runnable source distribution. Real local-model probes preserve an original timeout and a valid text response that missed the full editing goal. The saved recording is a separate completed deterministic-fixture review/apply/rollback sequence; it does not show an LLM-driven sequence.
 - Original source/fixture: MIT. Real dependencies: Agent-Native 0.223.0 MIT, diff 9.0.0 BSD-3-Clause, Zod 4.4.3 MIT; original notices retained. VS Code was a design comparison, with no copied code/assets. Dependency graph retains its own notices; the application MIT license does not relicense dependencies.
-- Status: runnable local fixture and actual framework integration, plus real local-model output and disclosed limitations; a public Clips recording and the entrant's submission remain. No hosted app, official acceptance, successful general editing or completed model/UI workflow is asserted.
+- Status: actual saved Clips fixture recording, runnable local fixture and real framework integration; the separate model probe has disclosed limitations. All Builder fields are prefilled, processingConsent and marketing remain unchecked, and final Submit is pending. No hosted app, official acceptance, general editing success or completed LLM/UI workflow is asserted.
 
-## Minimum legitimate submission route
+## Actual recording and verification scope
 
-Record the real fixture workflow using [video-script.md](video-script.md), explicitly keeping the model-off disclosure. The official rules require a functional Agent-Native app and a public Clips demo; they do not state that an LLM provider must be used. Do not imply that this narrower action-layer integration has already been accepted by judges. A public repo/live deployment is encouraged, not required. The description can honestly submit the working fixture while explaining the optional model path; a stronger actual model demonstration is separate work, not a result to invent.
+- Saved clip: [Fixture ModelOff](https://clips.agent-native.com/share/r01FTO1ytVvm); metadata duration 124,936 ms, 1280×720, hasAudio=false, hasCamera=false, status=ready, agentReadiness=ready.
+- Clips login and Builder Free storage activation completed after the owner's current consent; capture was restricted to the fictional project tab with camera and microphone off.
+- Anonymous no-Cookie GET of share and context returned HTTP 200. Four official media frames returned HTTP 200 and showed only fictional project UI.
+- In the logged-in browser, playback naturally reached its player duration/currentTime of 124.794 seconds without seeking: ended=true, paused=true, readyState=4, error=null. This is not a claim of full anonymous-browser playback.
+- The proposal's two fixture hunks were prepared through the separate agent capability before capture. The video shows reviewer approval of only the first hunk, partial application, the unchanged unapproved final sentence, rollback and both receipts; it does not display LLM reasoning.
+
+## Remaining official step
+
+All Builder fields, including the real Clips URL and the exact description above, are prefilled. Read-only DOM validation found the other inputs nativeValid; required processingConsent is the only missing required input, and optional marketing is also unchecked. Submit has not been clicked. Await the owner's current event-rules and individual-eligibility confirmation before any final action; preserve the eventual submission receipt privately. Recording readiness is separate from official acceptance or final submission.

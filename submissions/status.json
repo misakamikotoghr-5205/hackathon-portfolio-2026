@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:55:18.474285+00:00",
+  "updated_at": "2026-11-06T07:32:41.101748+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 0,
@@ -207,13 +207,13 @@
       "github": "https://github.com/misakamikotoghr-5205/patch-review-desk",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_clips_email_verification_and_recording",
+      "status": "prefilled_awaiting_event_rules_and_individual_eligibility_confirmation",
       "dependencies": [
-        "Basic identity confirmed privately; applicable platform requirements and public Clips recording of the complete local workflow remain",
-        "Action-time Clips signup consent confirmed and secure sign-in email sent; owner verification/login, public recording and formal Builder submission remain",
-        "Actual local model text probe passed transport/schema but missed the requested edit format; no complete model/UI sequence claimed"
+        "Saved actual fixture/model-off Clips recording and complete form prefill exist; current event-rules and individual-eligibility confirmation remain",
+        "Required processingConsent and optional marketing are unchecked; Submit has not been clicked; retain any eventual official final-submission receipt",
+        "Separate local-model probe missed the requested format; recording reviews a pre-capture deterministic proposal and does not show LLM reasoning"
       ],
-      "current_blocker": "Builder描述/仓库已预填；基础身份资料已私密确认。Clips本次注册同意已确认，官网已显示登录邮件发送成功，仍待本人验证邮件或自行登录，尚未登录成功。模型文本响应合法但未达两行目标，未执行proposal/审批/录屏；缺真实公开Clips和最终作品回执。",
+      "current_blocker": "Clips已真实登录，Builder Free免费存储已激活，实际fixture/model-off录屏已保存并自然播放至片尾；全部Builder字段及真实Clips URL已预填。只读DOM检查其余输入nativeValid，唯一缺必填processingConsent仍未勾，可选marketing也未勾，尚未点击Submit；待本次赛事规则/个人资格确认，无最终作品回执。",
       "local_model_evidence": {
         "real_inference_observed": true,
         "accepted_by_text_contract": true,
@@ -222,11 +222,54 @@
         "approved": false,
         "applied": false,
         "clips_recorded": false,
-        "limitations": "Original timeout retained; bounded alias returned contract-valid text without completing the requested announcement. No framework action or UI sequence was executed; not a general quality or parameter-causality claim."
+        "limitations": "Original timeout retained; bounded alias returned contract-valid text without completing the requested announcement. No framework action or UI sequence was executed; not a general quality or parameter-causality claim.",
+        "scope": "Separate optional local-model probe; not the saved deterministic fixture recording"
       },
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "browser_prefilled": true,
+      "form_state": {
+        "all_fields_prefilled": true,
+        "other_inputs_native_valid": true,
+        "processingConsent_checked": false,
+        "marketing_checked": false,
+        "submit_clicked": false
+      },
+      "fixture_recording": {
+        "url": "https://clips.agent-native.com/share/r01FTO1ytVvm",
+        "title": "Fixture ModelOff",
+        "duration_ms": 124936,
+        "width": 1280,
+        "height": 720,
+        "hasAudio": false,
+        "hasCamera": false,
+        "status": "ready",
+        "agentReadiness": "ready",
+        "capture_scope": "Fictional project tab only; camera and microphone off; current owner consent for Builder Free activation and recording confirmed",
+        "proposal_source": "Two deterministic hunks prepared through the separate agent capability before capture; fixture/model off, no LLM reasoning",
+        "workflow_shown": [
+          "Approve first hunk only",
+          "Partial apply of 09:00 to 09:30",
+          "Leave unapproved final sentence unchanged",
+          "Rollback and retain both receipts"
+        ],
+        "verification": {
+          "anonymous_no_cookie_share_http_status": 200,
+          "anonymous_no_cookie_context_http_status": 200,
+          "official_media_frames_checked": 4,
+          "official_media_frames_http_status": 200,
+          "frames_contain_only_fictional_project_ui": true,
+          "logged_in_browser_playback_without_seek": true,
+          "logged_in_player_current_time_seconds": 124.794,
+          "logged_in_player_duration_seconds": 124.794,
+          "logged_in_player_ended": true,
+          "logged_in_player_paused": true,
+          "logged_in_player_readyState": 4,
+          "logged_in_player_error": null,
+          "anonymous_browser_full_playback_claimed": false
+        }
+      }
     },
     {
       "project": "paper-route-playtest",
@@ -338,10 +381,12 @@
   "external_registrations_confirmed": 1,
   "basic_identity_confirmed_privately": true,
   "clips_signin_link_sent": true,
-  "clips_authenticated": false,
+  "clips_authenticated": true,
   "receipt_field_semantics": {
     "registration_receipt": "Official event signup confirmation, distinct from final project submission; private evidence is described without its private URL.",
     "submission_receipt": "Final project entry receipt only.",
     "receipt": "Legacy final project submission receipt only; never used for signup evidence."
-  }
+  },
+  "clips_free_storage_activated": true,
+  "clips_recording_saved": true
 }

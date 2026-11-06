@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:54:21.308962+00:00",
+  "updated_at": "2026-11-06T07:33:16.625836+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -235,14 +235,14 @@
       "source_read_method": "official event page/rules; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/patch-review-desk/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Personal eligibility and public Clips recording of the complete local workflow",
-        "Clips email login requested with action-time terms consent; awaiting secure sign-in link, actual recording and formal Builder submission",
-        "Actual local model text probe passed transport/schema but missed the requested edit format; no complete model/UI sequence claimed"
+        "Final action-time confirmation of Builder contest eligibility, rules and entrant-data processing",
+        "Click official Submit and verify actual receipt; source code, 2:04 public Clips fixture recording and form fields are ready"
       ],
       "formally_submitted": false,
-      "github_commit": "4fb01462ce6c462372927fa5cc619c722242f86d",
+      "github_commit": "40a0e0728eb04eb1b6554fda574f5a4de321a77c",
       "pushed_and_remote_verified": true,
-      "submission_status": "preparation_in_progress"
+      "submission_status": "final_form_ready_awaiting_event_rules_and_eligibility_confirmation",
+      "public_demo": "https://clips.agent-native.com/share/r01FTO1ytVvm"
     },
     {
       "number": 13,
@@ -367,7 +367,7 @@
     "paper-route-playtest": "Observed full 12-step autoplay victory/return, hint without acting, and mutant counterexample where step 4 falsely delivers only in the mutant. No console errors.",
     "lumen-shift": "Observed first-board victory, undo/redo, next-board hint, and completed-board persistence after reload. Replay-allowance hint boundary covered by automated regression.",
     "parallax-postcards": "Observed legal reading/navigation/alignment/capture in all three rooms, 3/3 completion, ending and restored progress after reload. No console errors. Canvas2D rendering observed.",
-    "patch-review-desk": "Local API role/authorization probe observed actual action schemas, successful authorized inspect and unauthorized 401. Browser-authenticated file mutation was not manually exercised; approval/apply/rollback paths covered by tests."
+    "patch-review-desk": "Isolated agent-capability proposal with two fixture hunks; reviewer approved only the time hunk, applied 09:00 to 09:30 with unapproved final sentence unchanged, then rolled back and restored the original SHA. Real 2:04 screen-only silent Clips recording saved. Anonymous HTTP share/context and four media-frame requests succeeded; authenticated player naturally reached 124.794s end with readyState 4 and no decoding error. Recording is fixture/model off, distinct from the limited real Ollama probe. Formal Builder entry remains pending."
   },
   "additional_online_events_requested": 10,
   "additional_online_events_delivered": 10,
@@ -380,5 +380,5 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "1 confirmed official registration (Apart); 0 final project submissions. Clips email sign-in request confirmed sent, awaiting link verification. Basic identity/contact details retained privately. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. See submissions/status.json."
+  "submission_progress": "1 confirmed official registration (Apart); 0 final project submissions. Actual 2:04 public Clips fixture recording is ready, with anonymous HTTP/media checks and complete authenticated playback. All Builder form content is prefilled; final action-time contest eligibility/rules/data consent remains. Identity details and receipts remain private. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. See submissions/status.json."
 }

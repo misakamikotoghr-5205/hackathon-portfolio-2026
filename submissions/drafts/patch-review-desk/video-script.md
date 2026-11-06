@@ -1,27 +1,33 @@
-# Builder: shortest honest Clips recording
+# Builder: actual Clips fixture recording
 
-Target 2–3 minutes; the rules do not publish a duration cap. The final link must be public and work without login/access requests. This is a recording plan, not an existing video. Use the actual [Clips service](https://clips.agent-native.com/); its current public page requires account sign-in. A local-development sign-in is not evidence of a remotely public clip.
+Recorded and saved on 2026-11-06: [Fixture ModelOff](https://clips.agent-native.com/share/r01FTO1ytVvm). Metadata: **124,936 ms**, **1280×720**, **hasAudio=false**, **hasCamera=false**, **status=ready**, **agentReadiness=ready**. This is an actual silent recording, not an unrecorded script. It demonstrates a deterministic fixture and explicitly displays model off.
 
-## Prepare before recording
+## Capture scope and actual sequence
 
-From the project root: `npm ci --ignore-scripts --omit=optional`, `npm run init`, `npm run dev`; open `http://127.0.0.1:4185`. `init` does not overwrite an existing fixture. Use only fictional content and a working baseline that still has the original two sample lines; inspect previous receipts rather than deleting a user's data. Paste the human token privately and click **Open the desk before recording**. The input clears after connection. Never record `.data/roles.json`, request headers, private receipts, unrelated desktop windows or email sign-in.
+The owner confirmed this Builder Free activation and recording action. Free storage was activated and the real recorder was reached after Clips login. Capture was limited to the fictional project tab; camera and microphone were off. No private role-token entry, email sign-in, personal data or unrelated desktop content is presented as part of this clip.
 
-## Actual screen sequence and English narration
+| Stage | Actual content / boundary |
+|---|---|
+| Before capture — not shown as live generation | The separate agent capability prepared a two-hunk deterministic fixture proposal before the human/reviewer page loaded for recording. This is not an LLM response. |
+| Reviewer loads the desk | Show the fictional original document and the proposal's two hunks with the fixture/model-off label. |
+| Per-hunk approval | Approve only the first hunk, the time change; leave the final-sentence hunk unapproved. |
+| Partial application | Apply 09:00 → 09:30 while the unapproved final sentence remains unchanged; retain the apply receipt. |
+| Rollback | Restore the original text and retain both apply and rollback receipts. |
 
-| Time | Action | Narration |
-|---|---|---|
-| 0:00–0:20 | Show title, `Fixture demo · model off`, original `welcome.md` | “An agent can draft a file change. A person should control exactly which pieces are written. This recording uses a fixed fixture, not model inference.” |
-| 0:20–0:40 | Click **Draft two fixture edits**, then **Send for review** | “The server creates two diff hunks from this baseline. The sample helper only proposes text; it does not approve or write the file.” |
-| 0:40–1:05 | Approve one hunk, revoke it, approve it again; leave the second unapproved | “Each decision is reversible before application. Approval is attached to this proposal revision and baseline.” |
-| 1:05–1:30 | Click **Apply approved hunks**, confirm; show changed baseline and receipt | “Only the approved hunk is applied. A durable receipt retains the exact original text and content hashes.” |
-| 1:30–1:55 | Click **Rollback**, confirm; show restored text and retained receipts | “Rollback restores the original only while the current file still matches the applied result. It refuses to overwrite later work.” |
-| 1:55–2:25 | Show actual `actions/index.js` imports/definition and the README integration boundary | “These are actual Agent-Native `defineAction` contracts. The agent role can inspect and propose; approval, apply and rollback are human-only. The local transport and persistence are our own.” |
-| 2:25–2:40 | Show public repository/README and model-off badge | “The local fixture is runnable. Real local-model probes returned one timeout and one text response that preserved the time but missed the short-format goal. Both are retained. This fixture segment is still model-off. This is a small file-review desk, not a full hosted framework deployment.” |
+Do not describe this clip as showing proposal generation during capture, live LLM reasoning, a model-approved change or Agent-Native's full hosted runtime. Agent-Native action definitions and the role boundary are supported by the repository; no code-editor segment is claimed as appearing in the recording.
 
-中文可用旁白：智能体只提草稿，用户逐段确认；只应用已批准段落；回执保留原文，回滚拒绝覆盖后续编辑；本次是固定示例，无模型推理；实际使用官方动作合同。
+## Playback and public-access verification
 
-If any step fails, fix or disclose it and record again; do not narrate success over a screenshot. Record permission denial or stale-baseline behavior only if actually executed. A real model segment may be added only after an authorized local model has genuinely returned a proposal.
+- Anonymous no-Cookie GET of the public share and context returned **HTTP 200**.
+- **Four official media frames** returned **HTTP 200** and contained only fictional project UI.
+- In the **logged-in browser**, without seeking, playback naturally reached **currentTime=duration=124.794 seconds**, **ended=true**, **paused=true**, **readyState=4**, **error=null**.
+- The 124,936-ms value is the saved recording metadata; the 124.794-second value is the observed player duration. Keep these observations distinct.
+- These checks do **not** claim full playback in an anonymous browser. Public HTTP/media-frame checks and authenticated full playback are separate evidence.
 
-Current local-model evidence: `projects/patch-review-desk/docs/evidence/local-model-20261106.json` records two genuine production `modelDraft()` requests with the complete fictional fixture and identical goal: original model 45-second timeout, bounded same-base-model alias 19.261-second text response. The latter passed the text-only contract and kept 09:00 but failed the requested two-line format/heading. It did not run the browser, framework action, proposal or human approval sequence. Do not narrate it as completed editing or a Clips recording. A live model segment should expose the actual response and its review limitations.
+## Separate real-model probe
 
-After recording, open the public clip while signed out and confirm playback. Put that actual URL into the required form field, review creator/team and prior-work disclosure, then let root handle the authorized form submission and save its receipt privately. This document performs none of those external actions.
+`projects/patch-review-desk/docs/evidence/local-model-20261106.json` records two genuine production `modelDraft()` requests with the complete fictional fixture and the same goal: original model 45-second timeout, bounded same-base-model alias 19.261-second text response. The latter passed the text-only contract and kept 09:00 but failed the requested two-line format/heading. That probe did not run proposal, approval or UI actions and did not produce the two edits in this clip. The saved fixture recording does not convert that probe into a completed LLM editing workflow.
+
+## Form state after recording
+
+All Builder fields, including this actual Clips URL, are prefilled. Read-only DOM checking found the other inputs nativeValid; the only missing required input is **processingConsent**, still unchecked. Optional marketing is also unchecked. **Submit has not been clicked**; current event-rules and individual-eligibility confirmation are pending. No Builder final-submission receipt is claimed. The portfolio still records one confirmed event signup (Apart), zero final project submissions and two skipped directions.

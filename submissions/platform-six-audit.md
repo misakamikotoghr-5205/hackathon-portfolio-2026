@@ -4,23 +4,23 @@
 
 所有草稿都可直接作为真实内容起点；没有虚构视频、安装链接、平台使用记录或身份。隐藏于登录后的字段、实时账号资格与未取得的材料均明确区分。
 
-当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips本次注册同意已确认，官网显示登录邮件已发送，仍待本人验证/登录。**官方报名回执1份（Apart），最终作品提交回执0份。** Apart公开官网见[四项目审计](game-research-four-audit.md)，private success-page evidence held；不公开私密回执URL或邀请码。 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
+当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips已真实登录；本人同意Builder Free免费存储及仅项目标签页、摄像头/麦克风关闭录制后，实际录屏已保存。Builder赛事processingConsent与marketing仍未勾，未点击Submit，待本次赛事规则/个人资格确认。**官方报名回执1份（Apart），最终作品提交回执0份。** Apart公开官网见[四项目审计](game-research-four-audit.md)，private success-page evidence held；不公开私密回执URL或邀请码。 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
 
 ## 最急：Builder
 
 直接表单 **https://www.builder.io/hackathon/submit**，截止 **北京11月10日15:59**。当前公开表单必填 First name、Email、Project name、Project description、Public Clips recording URL 和资格/授权/数据处理同意；Last name、GitHub URL、Slides URL可选。[表单](https://www.builder.io/hackathon/submit)、[规则](https://www.builder.io/hackathon/rules)支持这一映射。
 
-最少可行材料已写在 [填表稿](drafts/patch-review-desk/form-draft.md) 和 [2–3分钟录屏脚本](drafts/patch-review-desk/video-script.md)：真实打开本地工具 → 固定示例两处草稿 → 只批准一段 → 应用 → 回滚 → 展示真正的官方动作合同及范围。始终明确 **fixture、model off**，不把固定规则说成推理。官方要求实际Agent-Native应用和公开Clips演示，没有写强制某个LLM；狭窄动作层集成能否获评仍由评委决定。
+[填表稿](drafts/patch-review-desk/form-draft.md)已同步实际预填的英文description，[录屏记录](drafts/patch-review-desk/video-script.md)区分录制前独立agent能力生成的两hunk固定草稿与录制中的human/reviewer操作。视频展示只批准第1段、partial apply、保留未批准末句、rollback及两份回执。始终明确 **fixture、model off**，不把固定规则说成推理。官方要求实际Agent-Native应用和公开Clips演示，没有写强制某个LLM；狭窄动作层集成能否获评仍由评委决定。
 
-[Clips](https://clips.agent-native.com/)本次注册同意已由本人确认并执行，官网已显示“Check your email”和安全登录链接已发送；仍待本人验证邮件或自行登录，尚未登录成功。实际录制、发布、退出登录确认可播放后，再把真实链接粘入表单；没有公共Clips URL时不应伪造或先称交件完成。注册/网络活动参加非必需，录制本身也不等于提交。
+Clips已真实登录，获本人当次同意后激活Builder Free免费存储，并以仅项目标签页、摄像头/麦克风关闭录制；[Fixture ModelOff](https://clips.agent-native.com/share/r01FTO1ytVvm)已保存。元数据124,936ms、1280×720、hasAudio/hasCamera=false、status/agentReadiness=ready。匿名无Cookie访问share/context均200，4个官方媒体帧均200且仅含虚构项目UI；已登录浏览器未seek自然播放至124.794秒片尾，ended=true、readyState=4、无error。未声称匿名浏览器全片实播。 录屏本身不等于Builder作品提交。全部字段及真实Clips URL已预填；只读DOM检查其余输入nativeValid，唯一未满足必填项为processingConsent，可选marketing也未勾，尚未点击Submit。
 
-Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受限别名随后返回合法文本，但未满足目标两行公告，`exact_target_match=false`。这里只运行modelDraft，没有执行proposal、角色HTTP、人工批准、应用/回滚或Clips；固定fixture仍须明确model off，不把合法响应说成任务完成。
+Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受限别名随后返回合法文本，但未满足目标两行公告，`exact_target_match=false`。该独立模型探针只运行modelDraft，没有执行proposal、角色HTTP、人工批准、应用/回滚，也未生成实际录屏中的两处固定修改。另已完成的fixture/model-off录屏不构成模型推理或完整模型工作流成功。
 
 ## 六场入口、截止与交件阶段
 
 | 赛事 / 项目 | 当前官方入口 | 截止/阶段 | 真实材料缺口 |
 |---|---|---|---|
-| Builder / Patch Review Desk | [公开提交表](https://www.builder.io/hackathon/submit)；无需提前报名 | 11/09 23:59 America/Los_Angeles = 11/10 07:59UTC / 15:59北京 | 基础身份资料已私密确认；Clips本次注册同意已确认、登录邮件已发待验证/登录，公开录屏与最终交件仍待处理；真实模型响应合法但未达两行目标，未proposal/审批/录屏 |
+| Builder / Patch Review Desk | [公开提交表](https://www.builder.io/hackathon/submit)；无需提前报名 | 11/09 23:59 America/Los_Angeles = 11/10 07:59UTC / 15:59北京 | Clips已登录并保存[Fixture ModelOff](https://clips.agent-native.com/share/r01FTO1ytVvm)，已登录播放器自然播放至片尾；全部表单字段已预填，processingConsent与marketing未勾，尚未Submit，待本次赛事规则/个人资格确认；模型探针未达两行目标，与视频固定草稿分开 |
 | PayPal / Cart Consent | [官网](https://paypalaihackathon.devpost.com/) Join hackathon → Devpost认证 → 本赛事提交；匿名访问Join被导向注册 | 11/12 12:00PST = 20:00UTC / 11/13 04:00北京 | 真实模型已生成1398/5000美分购物篮、DRAFT未批准；真正PayPal sandbox和组合演示/公开视频仍缺 |
 | Next Horizon / Watt Window | [官方Apply重定向](https://eisociety.org/go/apply/next-horizon-2026?s=direct) → [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form) | 11/15构想截止，无具体时刻；11/28 09:00EST至11/30 09:00EST正式48小时，先申请/入围 | 私密署名PowerPoint已完成、不公开；基础身份资料已私密确认；Google表单强制登录，未登录会话超时后已恢复登录入口，等待本人登录；未见表字段、未预填或提交；保留赛前原型披露 |
 | Aholo / 留白实验室 | [中国活动页](https://www.aholo3d.cn/hackathon) “立即报名 / 我的参赛”：个人报名→确认组队→选题→作品 | 11/19 19:00北京 = 11:00UTC = 06:00EST | 单人也建队；核心Lux3D真实生成与导出兼容性、项目报告/过程截图、真实Demo材料，当前不能如实勾“已用Lux3D” |

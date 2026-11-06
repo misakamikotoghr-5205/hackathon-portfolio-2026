@@ -2,11 +2,11 @@
 
 更新：2026-11-06。这里是可审核的报名材料和实际缺口。**已确认官方报名回执 1 份（Apart），最终作品提交回执 0 份**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
 
-基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，个人资料不写入公开文件。Clips当次注册同意已由本人确认，官网已显示登录邮件发送成功，仍待本人验证邮件或自行登录；这不等于已登录、已录屏或已向Builder交件。
+基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，个人资料不写入公开文件。Clips已真实登录并保存[Fixture ModelOff录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)；仅项目标签页、摄像头与麦克风关闭。Builder表单已预填，但必填processingConsent和可选marketing均未勾，尚未点击Submit；仍待本次赛事规则/个人资格确认。
 
 ## 先处理的入口
 
-1. [Builder 提交表](https://www.builder.io/hackathon/submit)：北京时间 11 月 10 日 15:59 截止。项目名、描述和仓库链接已在浏览器预填，未提交。基础身份资料已私密确认；Clips本次注册同意已确认、登录邮件已发，待本人验证/登录；真实公开录屏、其余适用条款与最终交件仍待处理。Patch已取得合法模型文本响应，但没有满足两行公告目标，未执行proposal、人审批或录屏。[表单文案](drafts/patch-review-desk/form-draft.md) · [录屏步骤](drafts/patch-review-desk/video-script.md)
+1. [Builder 提交表](https://www.builder.io/hackathon/submit)：北京时间11月10日15:59截止。全部字段含真实[Clips URL](https://clips.agent-native.com/share/r01FTO1ytVvm)已预填；只读DOM检查其余输入nativeValid，唯一缺失必填项为未勾的processingConsent，可选marketing也未勾，尚未点击Submit。录屏展示录制前独立agent能力准备的两hunk固定草稿：只批第1段、partial apply、保留未批准末句、rollback及两份回执，明确fixture/model off。已登录浏览器自然播放至片尾；匿名HTTP/媒体帧检查与实播范围分开记录。仍待本次赛事规则/个人资格确认，无Builder作品回执。[表单文案](drafts/patch-review-desk/form-draft.md) · [录屏记录](drafts/patch-review-desk/video-script.md)
 2. PayPal：北京时间 11 月 13 日 04:00 截止。Cart真实本地模型已生成并通过校验的1398/5000美分购物篮，保持DRAFT、未人工批准；之前的超时和预算拒绝也保留。仍缺授权PayPal sandbox验证及公开视频，不是端到端支付演示。[材料](drafts/cart-consent-paypal/form-draft.md)
 3. Through Your Eyes：官网列 11 月 15 日，具体截止按账号倒计时。HTML 包、封面、AI 披露和项目页已备，需 itch.io 登录、创建公开游戏页和正式参赛。[材料](drafts/parallax-postcards/project-page.md)
 4. Next Horizon：11 月 15 日构想截止，官网未列具体时分。六页英文PPTX及私密署名版均已完成，公开仓库只保留无个人信息版本；基础身份资料已私密确认；报名Google表单强制登录；此前未登录会话已超时，现已恢复Google登录入口，等待本人登录。表单字段尚未见到，未预填或提交，没有官方回执。[公开PPTX草稿](artifacts/watt-window-next-horizon-draft.pptx) · [报名文案](drafts/watt-window/form-draft.md)
@@ -27,7 +27,7 @@
 - [三个游戏的 HTML ZIP](artifacts/)：Lumen Shift、Parallax Postcards、纸路邮局，附根入口、CRC 和 SHA 清单。包就绪不等于已经上传或满足账号端的全部审核要求。
 - 各 `drafts/<project>/` 有项目页、双语摘要、技术与开源披露、录制脚本，以及适用的封面或研究计划。
 - Next Horizon的公开PPTX为无个人信息可编辑稿，私密署名版已经另行完成且不进入公开仓库；其PDF仅用于审阅，不代替要求的PowerPoint文件。
-- Cart Consent、Pantry Relay、Patch Review Desk 的 `docs/evidence/` 保存真实本地模型试验。错误结果、超时和未满足目标的输出也保留，不能当作远程支付、平台接入、模型质量或完整录屏已经通过的证明。
+- Cart Consent、Pantry Relay、Patch Review Desk 的 `docs/evidence/` 保存真实本地模型试验，错误结果、超时和未满足目标的输出也保留。它们不证明远程支付、平台接入或一般模型质量。Patch另有已保存的fixture/model-off录屏，模型探针与该录屏的固定草稿来源明确分开。
 - Pantry的两次真实模型请求均使用11月4日虚构回放；首次偏好只部分满足，第二次显式约束成功，仍需人工复核。尚无支付宝部署或完整交件证据。
 
 个人资料、账号凭据、验证码、私密署名材料和回执不保存到这个公开仓库。报名表的资格、账号、条款和公开材料仍须逐项确认；缺少的链接或平台使用记录不会以虚构内容补齐。

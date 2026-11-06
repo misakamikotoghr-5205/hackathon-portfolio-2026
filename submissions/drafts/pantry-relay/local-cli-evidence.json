@@ -1,0 +1,1235 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06T08:52:43.867803+00:00",
+  "scenario_as_of": "2026-11-04T12:00:00+08:00",
+  "scenario": "Original fictional package labels and recipes; historical CLI replay, not current household inventory.",
+  "new_model_or_platform_calls": false,
+  "alipay_deployed": false,
+  "artifact_kind": "Offline explanatory submission material, not an interactive agent or platform screenshot.",
+  "input_sha256": "d66e7fc73b2cdcd458c9e9e8df1fce57fe980e673399a386531ccd0329d342b8",
+  "source_sha256": {
+    "pantry_relay/__init__.py": "13a9f0e59a90dbd65ab45c1e7c7047fb7da911251c32c126fa471f92401a631e",
+    "pantry_relay/__main__.py": "182f92044869866cdd346706ca46e3da250a14e1173ebf0b8e4eb13879665bc9",
+    "pantry_relay/core.py": "d8f2ab8581d75393ccf6afa73f4132f01bc5eb90136edb29998ebdde434667e7",
+    "pantry_relay/http_api.py": "aedd2f1c0c319a456899dc51593c1adabc80a49103e15e849aa97475c388ba8a",
+    "pantry_relay/model.py": "603bb92061a4e38ca961c7920dd845073f46e9340da3fbda407ec9cbb79f7cd3",
+    "pantry_relay/store.py": "458f66af620318a81981bd2c79c13488479a43f8452242fde988ddbc0c083f5f"
+  },
+  "prior_model_evidence": {
+    "repository_path": "docs/evidence/local-model-20261106.json",
+    "sha256": "dddd9d6a6a80277b2c1b97dedbc7e12f4ef273eb262aa93d4df0c763a35dcab0",
+    "first_prompt": "只用一种配料的简单早餐",
+    "first_recipe_ids": [
+      "plain_oats",
+      "tomato_eggs"
+    ],
+    "second_prompt": "只推荐燕麦粥，返回plain_oats一个菜谱ID，不要其他菜谱",
+    "second_recipe_ids": [
+      "plain_oats"
+    ],
+    "limitation": "Two prior real local requests; first preference partially missed. Not a benchmark or Alipay call."
+  },
+  "checks": {
+    "same_receipt_on_retry": true,
+    "single_deduction_only": true,
+    "held_lot_ids": [
+      "milk_open",
+      "conflict_sauce",
+      "packed_only",
+      "peanuts"
+    ],
+    "inventory_revision": 1,
+    "oats_remaining_g": "200"
+  },
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "pantry_relay",
+        "--db",
+        "<temporary-demo-db>",
+        "init",
+        "examples/pantry.json"
+      ],
+      "exit_code": 0,
+      "output": {
+        "revision": 0,
+        "lots": 8,
+        "recipes": 5
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "pantry_relay",
+        "--db",
+        "<temporary-demo-db>",
+        "plan",
+        "--as-of",
+        "2026-11-04T12:00:00+08:00"
+      ],
+      "exit_code": 0,
+      "output": {
+        "schema_version": 1,
+        "as_of": "2026-11-04T04:00:00.000000Z",
+        "timezone": "Asia/Shanghai",
+        "servings": 1,
+        "next_recipe_id": "tomato_eggs",
+        "candidates": [
+          {
+            "recipe_id": "tomato_eggs",
+            "name": "番茄鸡蛋（用户菜谱）",
+            "servings": 1,
+            "source_id": "recipe_tomato_eggs",
+            "can_consume": true,
+            "excluded": [],
+            "allocations": [
+              {
+                "lot_id": "tomato_open",
+                "ingredient": "tomato",
+                "quantity": "150",
+                "unit": "g",
+                "priority_at": "2026-11-04T10:00:00.000000Z",
+                "constraints": [
+                  {
+                    "kind": "use_by",
+                    "at": "2026-11-05T15:59:59.999999Z",
+                    "source_ids": [
+                      "label_tomato_a"
+                    ]
+                  },
+                  {
+                    "kind": "after_open_label",
+                    "at": "2026-11-04T10:00:00.000000Z",
+                    "source_ids": [
+                      "opened_tomato",
+                      "label_tomato_a"
+                    ]
+                  }
+                ],
+                "confirmation_source_id": "demo_confirmation"
+              },
+              {
+                "lot_id": "tomato_sealed",
+                "ingredient": "tomato",
+                "quantity": "50",
+                "unit": "g",
+                "priority_at": "2026-11-08T15:59:59.999999Z",
+                "constraints": [
+                  {
+                    "kind": "use_by",
+                    "at": "2026-11-08T15:59:59.999999Z",
+                    "source_ids": [
+                      "label_tomato_b"
+                    ]
+                  }
+                ],
+                "confirmation_source_id": "demo_confirmation"
+              },
+              {
+                "lot_id": "eggs",
+                "ingredient": "egg",
+                "quantity": "2",
+                "unit": "each",
+                "priority_at": "2026-11-07T15:59:59.999999Z",
+                "constraints": [
+                  {
+                    "kind": "best_before",
+                    "at": "2026-11-07T15:59:59.999999Z",
+                    "source_ids": [
+                      "label_eggs"
+                    ]
+                  }
+                ],
+                "confirmation_source_id": "demo_confirmation"
+              }
+            ],
+            "eligible_stock_shortages": [],
+            "shopping_list": [],
+            "priority_at": "2026-11-04T10:00:00.000000Z"
+          },
+          {
+            "recipe_id": "plain_oats",
+            "name": "清水燕麦（用户菜谱）",
+            "servings": 1,
+            "source_id": "recipe_plain_oats",
+            "can_consume": true,
+            "excluded": [],
+            "allocations": [
+              {
+                "lot_id": "oats",
+                "ingredient": "oat",
+                "quantity": "50",
+                "unit": "g",
+                "priority_at": "2026-12-01T15:59:59.999999Z",
+                "constraints": [
+                  {
+                    "kind": "best_before",
+                    "at": "2026-12-01T15:59:59.999999Z",
+                    "source_ids": [
+                      "label_oats"
+                    ]
+                  }
+                ],
+                "confirmation_source_id": "demo_confirmation"
+              }
+            ],
+            "eligible_stock_shortages": [],
+            "shopping_list": [],
+            "priority_at": "2026-12-01T15:59:59.999999Z"
+          },
+          {
+            "recipe_id": "tomato_pasta",
+            "name": "番茄意面（缺货）",
+            "servings": 1,
+            "source_id": "recipe_tomato_pasta",
+            "can_consume": false,
+            "excluded": [],
+            "allocations": [
+              {
+                "lot_id": "tomato_open",
+                "ingredient": "tomato",
+                "quantity": "150",
+                "unit": "g",
+                "priority_at": "2026-11-04T10:00:00.000000Z",
+                "constraints": [
+                  {
+                    "kind": "use_by",
+                    "at": "2026-11-05T15:59:59.999999Z",
+                    "source_ids": [
+                      "label_tomato_a"
+                    ]
+                  },
+                  {
+                    "kind": "after_open_label",
+                    "at": "2026-11-04T10:00:00.000000Z",
+                    "source_ids": [
+                      "opened_tomato",
+                      "label_tomato_a"
+                    ]
+                  }
+                ],
+                "confirmation_source_id": "demo_confirmation"
+              },
+              {
+                "lot_id": "tomato_sealed",
+                "ingredient": "tomato",
+                "quantity": "50",
+                "unit": "g",
+                "priority_at": "2026-11-08T15:59:59.999999Z",
+                "constraints": [
+                  {
+                    "kind": "use_by",
+                    "at": "2026-11-08T15:59:59.999999Z",
+                    "source_ids": [
+                      "label_tomato_b"
+                    ]
+                  }
+                ],
+                "confirmation_source_id": "demo_confirmation"
+              }
+            ],
+            "eligible_stock_shortages": [
+              {
+                "ingredient": "pasta",
+                "quantity": "100",
+                "unit": "g",
+                "held_lot_ids": []
+              }
+            ],
+            "shopping_list": [
+              {
+                "ingredient": "pasta",
+                "quantity": "100",
+                "unit": "g"
+              }
+            ],
+            "priority_at": "2026-11-04T10:00:00.000000Z"
+          },
+          {
+            "recipe_id": "milk_oats",
+            "name": "牛奶燕麦（待核查）",
+            "servings": 1,
+            "source_id": "recipe_milk_oats",
+            "can_consume": false,
+            "excluded": [],
+            "allocations": [
+              {
+                "lot_id": "oats",
+                "ingredient": "oat",
+                "quantity": "50",
+                "unit": "g",
+                "priority_at": "2026-12-01T15:59:59.999999Z",
+                "constraints": [
+                  {
+                    "kind": "best_before",
+                    "at": "2026-12-01T15:59:59.999999Z",
+                    "source_ids": [
+                      "label_oats"
+                    ]
+                  }
+                ],
+                "confirmation_source_id": "demo_confirmation"
+              }
+            ],
+            "eligible_stock_shortages": [
+              {
+                "ingredient": "milk",
+                "quantity": "200",
+                "unit": "ml",
+                "held_lot_ids": [
+                  "milk_open"
+                ]
+              }
+            ],
+            "shopping_list": [],
+            "priority_at": "2026-12-01T15:59:59.999999Z"
+          },
+          {
+            "recipe_id": "peanut_oats",
+            "name": "花生燕麦（被排除）",
+            "servings": 1,
+            "source_id": "recipe_peanut_oats",
+            "can_consume": false,
+            "excluded": [
+              {
+                "code": "user_allergen_filter",
+                "tags": [
+                  "peanut"
+                ]
+              }
+            ],
+            "allocations": [],
+            "eligible_stock_shortages": [
+              {
+                "ingredient": "peanut",
+                "quantity": "20",
+                "unit": "g",
+                "held_lot_ids": [
+                  "peanuts"
+                ]
+              }
+            ],
+            "shopping_list": [],
+            "priority_at": "2026-12-01T15:59:59.999999Z"
+          }
+        ],
+        "lot_review": [
+          {
+            "lot_id": "tomato_open",
+            "status": "eligible_user_confirmed",
+            "reasons": [],
+            "constraints": [
+              {
+                "kind": "use_by",
+                "at": "2026-11-05T15:59:59.999999Z",
+                "source_ids": [
+                  "label_tomato_a"
+                ]
+              },
+              {
+                "kind": "after_open_label",
+                "at": "2026-11-04T10:00:00.000000Z",
+                "source_ids": [
+                  "opened_tomato",
+                  "label_tomato_a"
+                ]
+              }
+            ],
+            "priority_at": "2026-11-04T10:00:00.000000Z",
+            "confirmation_source_id": "demo_confirmation",
+            "safety_guarantee": false
+          },
+          {
+            "lot_id": "tomato_sealed",
+            "status": "eligible_user_confirmed",
+            "reasons": [],
+            "constraints": [
+              {
+                "kind": "use_by",
+                "at": "2026-11-08T15:59:59.999999Z",
+                "source_ids": [
+                  "label_tomato_b"
+                ]
+              }
+            ],
+            "priority_at": "2026-11-08T15:59:59.999999Z",
+            "confirmation_source_id": "demo_confirmation",
+            "safety_guarantee": false
+          },
+          {
+            "lot_id": "eggs",
+            "status": "eligible_user_confirmed",
+            "reasons": [],
+            "constraints": [
+              {
+                "kind": "best_before",
+                "at": "2026-11-07T15:59:59.999999Z",
+                "source_ids": [
+                  "label_eggs"
+                ]
+              }
+            ],
+            "priority_at": "2026-11-07T15:59:59.999999Z",
+            "confirmation_source_id": "demo_confirmation",
+            "safety_guarantee": false
+          },
+          {
+            "lot_id": "oats",
+            "status": "eligible_user_confirmed",
+            "reasons": [],
+            "constraints": [
+              {
+                "kind": "best_before",
+                "at": "2026-12-01T15:59:59.999999Z",
+                "source_ids": [
+                  "label_oats"
+                ]
+              }
+            ],
+            "priority_at": "2026-12-01T15:59:59.999999Z",
+            "confirmation_source_id": "demo_confirmation",
+            "safety_guarantee": false
+          },
+          {
+            "lot_id": "milk_open",
+            "status": "hold",
+            "reasons": [
+              {
+                "code": "missing_opening_instruction",
+                "detail": "Opened stock needs a user-entered label instruction; no default opening lifetime is guessed.",
+                "source_ids": [
+                  "opened_milk"
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "kind": "use_by",
+                "at": "2026-11-06T15:59:59.999999Z",
+                "source_ids": [
+                  "label_milk"
+                ]
+              }
+            ],
+            "priority_at": "2026-11-06T15:59:59.999999Z",
+            "confirmation_source_id": "demo_confirmation",
+            "safety_guarantee": false
+          },
+          {
+            "lot_id": "conflict_sauce",
+            "status": "hold",
+            "reasons": [
+              {
+                "code": "conflicting_label_dates",
+                "detail": "Different entered dates for use_by require resolution.",
+                "source_ids": [
+                  "label_conflict_a",
+                  "label_conflict_b"
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "kind": "use_by",
+                "at": "2026-11-05T15:59:59.999999Z",
+                "source_ids": [
+                  "label_conflict_a"
+                ]
+              },
+              {
+                "kind": "use_by",
+                "at": "2026-11-06T15:59:59.999999Z",
+                "source_ids": [
+                  "label_conflict_b"
+                ]
+              }
+            ],
+            "priority_at": "2026-11-05T15:59:59.999999Z",
+            "confirmation_source_id": "demo_confirmation",
+            "safety_guarantee": false
+          },
+          {
+            "lot_id": "packed_only",
+            "status": "hold",
+            "reasons": [
+              {
+                "code": "missing_label_date",
+                "detail": "No sourced planning date is provided. Packaging date alone does not establish shelf life.",
+                "source_ids": []
+              }
+            ],
+            "constraints": [],
+            "priority_at": null,
+            "confirmation_source_id": "demo_confirmation",
+            "safety_guarantee": false
+          },
+          {
+            "lot_id": "peanuts",
+            "status": "hold",
+            "reasons": [
+              {
+                "code": "user_allergen_filter",
+                "detail": "Excluded by the user-provided allergen tags: peanut",
+                "source_ids": []
+              }
+            ],
+            "constraints": [
+              {
+                "kind": "best_before",
+                "at": "2026-12-01T15:59:59.999999Z",
+                "source_ids": [
+                  "label_peanuts"
+                ]
+              }
+            ],
+            "priority_at": "2026-12-01T15:59:59.999999Z",
+            "confirmation_source_id": "demo_confirmation",
+            "safety_guarantee": false
+          }
+        ],
+        "sources": [
+          {
+            "id": "label_tomato_a",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Use by 2026-11-05; after opening use within 24 hours."
+          },
+          {
+            "id": "label_tomato_b",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Use by 2026-11-08."
+          },
+          {
+            "id": "label_eggs",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Best before 2026-11-07."
+          },
+          {
+            "id": "label_oats",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Best before 2026-12-01."
+          },
+          {
+            "id": "label_milk",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Use by 2026-11-06. After-opening instruction not entered."
+          },
+          {
+            "id": "label_conflict_a",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Transcription A: use by 2026-11-05."
+          },
+          {
+            "id": "label_conflict_b",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Transcription B: use by 2026-11-06; user must resolve."
+          },
+          {
+            "id": "label_packed",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Packed on 2026-11-01 only; no expiry date entered."
+          },
+          {
+            "id": "label_peanuts",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Best before 2026-12-01. Contains peanut."
+          },
+          {
+            "id": "opened_tomato",
+            "kind": "user_record",
+            "text": "Demo user entered opening at 2026-11-03T18:00:00+08:00."
+          },
+          {
+            "id": "opened_milk",
+            "kind": "user_record",
+            "text": "Demo user entered opening at 2026-11-03T09:00:00+08:00."
+          },
+          {
+            "id": "demo_confirmation",
+            "kind": "user_confirmation",
+            "text": "FICTIONAL demonstration: user asserts they checked actual labels, storage and current condition. No real observation or safety guarantee."
+          },
+          {
+            "id": "recipe_tomato_eggs",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Tomato egg plate: 200 g tomato and 2 eggs per serving. Use your own preparation method."
+          },
+          {
+            "id": "recipe_plain_oats",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Plain oats: 50 g oats per serving with kitchen water, which is not tracked. A simple single-ingredient option. Use your own preparation method."
+          },
+          {
+            "id": "recipe_milk_oats",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Milk oats: 200 ml milk and 50 g oats per serving. Milk currently needs review. Use your own preparation method."
+          },
+          {
+            "id": "recipe_peanut_oats",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Peanut oats: 20 g peanut and 50 g oats. User excludes peanut. Use your own preparation method."
+          },
+          {
+            "id": "recipe_tomato_pasta",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Tomato pasta: 200 g tomato and 100 g pasta. Pasta is absent from stock. Use your own preparation method."
+          }
+        ],
+        "agents": [
+          {
+            "role": "label-reviewer",
+            "engine": "deterministic-rules",
+            "decision": "Review each user-entered date and confirmation; hold uncertain lots."
+          },
+          {
+            "role": "recipe-allocator",
+            "engine": "deterministic-rules",
+            "decision": "Use eligible lots in earliest entered constraint order; filter exact user tags."
+          },
+          {
+            "role": "inventory-accountant",
+            "engine": "deterministic-rules",
+            "decision": "Preview only. Consumption must recheck stock in a transaction."
+          }
+        ],
+        "reservations_created": false,
+        "safety_note": "Dates only order and gate this plan. They do not establish that food is safe to eat. Review the actual label, storage and condition yourself; uncertain lots remain on hold.",
+        "limitations": [
+          "User tags are exact filters, not allergen detection or medical advice.",
+          "Recipe candidates are independent previews, not a combined reserved meal schedule.",
+          "Shopping quantities are physical stock deficits; held stock still needs review and is not assumed usable."
+        ],
+        "revision": 0
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "pantry_relay",
+        "--db",
+        "<temporary-demo-db>",
+        "consume",
+        "--recipe",
+        "plain_oats",
+        "--key",
+        "submission-materials-fictional-replay",
+        "--expected-revision",
+        "0",
+        "--as-of",
+        "2026-11-04T12:00:00+08:00"
+      ],
+      "exit_code": 0,
+      "output": {
+        "receipt_id": "use_0ccb8226aa818cb859ed4b93",
+        "recipe_id": "plain_oats",
+        "recipe_source_id": "recipe_plain_oats",
+        "servings": 1,
+        "as_of": "2026-11-04T04:00:00.000000Z",
+        "revision_before": 0,
+        "revision_after": 1,
+        "changes": [
+          {
+            "lot_id": "oats",
+            "ingredient": "oat",
+            "before": "250",
+            "used": "50",
+            "remaining": "200",
+            "unit": "g",
+            "constraints": [
+              {
+                "kind": "best_before",
+                "at": "2026-12-01T15:59:59.999999Z",
+                "source_ids": [
+                  "label_oats"
+                ]
+              }
+            ],
+            "confirmation_source_id": "demo_confirmation"
+          }
+        ],
+        "replayed": false,
+        "safety_guarantee": false,
+        "sources": [
+          {
+            "id": "label_tomato_a",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Use by 2026-11-05; after opening use within 24 hours."
+          },
+          {
+            "id": "label_tomato_b",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Use by 2026-11-08."
+          },
+          {
+            "id": "label_eggs",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Best before 2026-11-07."
+          },
+          {
+            "id": "label_oats",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Best before 2026-12-01."
+          },
+          {
+            "id": "label_milk",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Use by 2026-11-06. After-opening instruction not entered."
+          },
+          {
+            "id": "label_conflict_a",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Transcription A: use by 2026-11-05."
+          },
+          {
+            "id": "label_conflict_b",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Transcription B: use by 2026-11-06; user must resolve."
+          },
+          {
+            "id": "label_packed",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Packed on 2026-11-01 only; no expiry date entered."
+          },
+          {
+            "id": "label_peanuts",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Best before 2026-12-01. Contains peanut."
+          },
+          {
+            "id": "opened_tomato",
+            "kind": "user_record",
+            "text": "Demo user entered opening at 2026-11-03T18:00:00+08:00."
+          },
+          {
+            "id": "opened_milk",
+            "kind": "user_record",
+            "text": "Demo user entered opening at 2026-11-03T09:00:00+08:00."
+          },
+          {
+            "id": "demo_confirmation",
+            "kind": "user_confirmation",
+            "text": "FICTIONAL demonstration: user asserts they checked actual labels, storage and current condition. No real observation or safety guarantee."
+          },
+          {
+            "id": "recipe_tomato_eggs",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Tomato egg plate: 200 g tomato and 2 eggs per serving. Use your own preparation method."
+          },
+          {
+            "id": "recipe_plain_oats",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Plain oats: 50 g oats per serving with kitchen water, which is not tracked. A simple single-ingredient option. Use your own preparation method."
+          },
+          {
+            "id": "recipe_milk_oats",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Milk oats: 200 ml milk and 50 g oats per serving. Milk currently needs review. Use your own preparation method."
+          },
+          {
+            "id": "recipe_peanut_oats",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Peanut oats: 20 g peanut and 50 g oats. User excludes peanut. Use your own preparation method."
+          },
+          {
+            "id": "recipe_tomato_pasta",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Tomato pasta: 200 g tomato and 100 g pasta. Pasta is absent from stock. Use your own preparation method."
+          }
+        ]
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "pantry_relay",
+        "--db",
+        "<temporary-demo-db>",
+        "consume",
+        "--recipe",
+        "plain_oats",
+        "--key",
+        "submission-materials-fictional-replay",
+        "--expected-revision",
+        "0",
+        "--as-of",
+        "2026-11-04T12:00:00+08:00"
+      ],
+      "exit_code": 0,
+      "output": {
+        "as_of": "2026-11-04T04:00:00.000000Z",
+        "changes": [
+          {
+            "before": "250",
+            "confirmation_source_id": "demo_confirmation",
+            "constraints": [
+              {
+                "at": "2026-12-01T15:59:59.999999Z",
+                "kind": "best_before",
+                "source_ids": [
+                  "label_oats"
+                ]
+              }
+            ],
+            "ingredient": "oat",
+            "lot_id": "oats",
+            "remaining": "200",
+            "unit": "g",
+            "used": "50"
+          }
+        ],
+        "receipt_id": "use_0ccb8226aa818cb859ed4b93",
+        "recipe_id": "plain_oats",
+        "recipe_source_id": "recipe_plain_oats",
+        "replayed": true,
+        "revision_after": 1,
+        "revision_before": 0,
+        "safety_guarantee": false,
+        "servings": 1,
+        "sources": [
+          {
+            "id": "label_tomato_a",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Use by 2026-11-05; after opening use within 24 hours."
+          },
+          {
+            "id": "label_tomato_b",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Use by 2026-11-08."
+          },
+          {
+            "id": "label_eggs",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Best before 2026-11-07."
+          },
+          {
+            "id": "label_oats",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Best before 2026-12-01."
+          },
+          {
+            "id": "label_milk",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Use by 2026-11-06. After-opening instruction not entered."
+          },
+          {
+            "id": "label_conflict_a",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Transcription A: use by 2026-11-05."
+          },
+          {
+            "id": "label_conflict_b",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Transcription B: use by 2026-11-06; user must resolve."
+          },
+          {
+            "id": "label_packed",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Packed on 2026-11-01 only; no expiry date entered."
+          },
+          {
+            "id": "label_peanuts",
+            "kind": "user_label",
+            "text": "FICTIONAL DEMO label only: Best before 2026-12-01. Contains peanut."
+          },
+          {
+            "id": "opened_tomato",
+            "kind": "user_record",
+            "text": "Demo user entered opening at 2026-11-03T18:00:00+08:00."
+          },
+          {
+            "id": "opened_milk",
+            "kind": "user_record",
+            "text": "Demo user entered opening at 2026-11-03T09:00:00+08:00."
+          },
+          {
+            "id": "demo_confirmation",
+            "kind": "user_confirmation",
+            "text": "FICTIONAL demonstration: user asserts they checked actual labels, storage and current condition. No real observation or safety guarantee."
+          },
+          {
+            "id": "recipe_tomato_eggs",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Tomato egg plate: 200 g tomato and 2 eggs per serving. Use your own preparation method."
+          },
+          {
+            "id": "recipe_plain_oats",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Plain oats: 50 g oats per serving with kitchen water, which is not tracked. A simple single-ingredient option. Use your own preparation method."
+          },
+          {
+            "id": "recipe_milk_oats",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Milk oats: 200 ml milk and 50 g oats per serving. Milk currently needs review. Use your own preparation method."
+          },
+          {
+            "id": "recipe_peanut_oats",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Peanut oats: 20 g peanut and 50 g oats. User excludes peanut. Use your own preparation method."
+          },
+          {
+            "id": "recipe_tomato_pasta",
+            "kind": "user_recipe",
+            "text": "Original fictional demo recipe. Tomato pasta: 200 g tomato and 100 g pasta. Pasta is absent from stock. Use your own preparation method."
+          }
+        ]
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "pantry_relay",
+        "--db",
+        "<temporary-demo-db>",
+        "inventory"
+      ],
+      "exit_code": 0,
+      "output": {
+        "revision": 1,
+        "project": {
+          "lots": [
+            {
+              "after_open_hours": 24,
+              "after_open_source_id": "label_tomato_a",
+              "allergens": [],
+              "confirmation_source_id": "demo_confirmation",
+              "confirmed_usable": true,
+              "id": "tomato_open",
+              "ingredient": "tomato",
+              "labels": [
+                {
+                  "date": "2026-11-05",
+                  "kind": "use_by",
+                  "source_id": "label_tomato_a"
+                }
+              ],
+              "name": "已开封番茄 A（虚构）",
+              "opened_at": "2026-11-03T18:00:00+08:00",
+              "opened_source_id": "opened_tomato",
+              "quantity": "150",
+              "unit": "g"
+            },
+            {
+              "allergens": [],
+              "confirmation_source_id": "demo_confirmation",
+              "confirmed_usable": true,
+              "id": "tomato_sealed",
+              "ingredient": "tomato",
+              "labels": [
+                {
+                  "date": "2026-11-08",
+                  "kind": "use_by",
+                  "source_id": "label_tomato_b"
+                }
+              ],
+              "name": "未开封番茄 B（虚构）",
+              "quantity": "300",
+              "unit": "g"
+            },
+            {
+              "allergens": [],
+              "confirmation_source_id": "demo_confirmation",
+              "confirmed_usable": true,
+              "id": "eggs",
+              "ingredient": "egg",
+              "labels": [
+                {
+                  "date": "2026-11-07",
+                  "kind": "best_before",
+                  "source_id": "label_eggs"
+                }
+              ],
+              "name": "鸡蛋（虚构）",
+              "quantity": "4",
+              "unit": "each"
+            },
+            {
+              "allergens": [],
+              "confirmation_source_id": "demo_confirmation",
+              "confirmed_usable": true,
+              "id": "oats",
+              "ingredient": "oat",
+              "labels": [
+                {
+                  "date": "2026-12-01",
+                  "kind": "best_before",
+                  "source_id": "label_oats"
+                }
+              ],
+              "name": "燕麦（虚构）",
+              "quantity": "200",
+              "unit": "g"
+            },
+            {
+              "allergens": [
+                "milk"
+              ],
+              "confirmation_source_id": "demo_confirmation",
+              "confirmed_usable": true,
+              "id": "milk_open",
+              "ingredient": "milk",
+              "labels": [
+                {
+                  "date": "2026-11-06",
+                  "kind": "use_by",
+                  "source_id": "label_milk"
+                }
+              ],
+              "name": "开封后说明未录入的牛奶",
+              "opened_at": "2026-11-03T09:00:00+08:00",
+              "opened_source_id": "opened_milk",
+              "quantity": "500",
+              "unit": "ml"
+            },
+            {
+              "allergens": [],
+              "confirmation_source_id": "demo_confirmation",
+              "confirmed_usable": true,
+              "id": "conflict_sauce",
+              "ingredient": "sauce",
+              "labels": [
+                {
+                  "date": "2026-11-05",
+                  "kind": "use_by",
+                  "source_id": "label_conflict_a"
+                },
+                {
+                  "date": "2026-11-06",
+                  "kind": "use_by",
+                  "source_id": "label_conflict_b"
+                }
+              ],
+              "name": "两条日期矛盾的酱料",
+              "quantity": "100",
+              "unit": "g"
+            },
+            {
+              "allergens": [],
+              "confirmation_source_id": "demo_confirmation",
+              "confirmed_usable": true,
+              "id": "packed_only",
+              "ingredient": "tofu",
+              "labels": [],
+              "name": "只有包装日期的豆腐",
+              "packed_on": {
+                "date": "2026-11-01",
+                "source_id": "label_packed"
+              },
+              "quantity": "200",
+              "unit": "g"
+            },
+            {
+              "allergens": [
+                "peanut"
+              ],
+              "confirmation_source_id": "demo_confirmation",
+              "confirmed_usable": true,
+              "id": "peanuts",
+              "ingredient": "peanut",
+              "labels": [
+                {
+                  "date": "2026-12-01",
+                  "kind": "best_before",
+                  "source_id": "label_peanuts"
+                }
+              ],
+              "name": "被用户排除的花生",
+              "quantity": "100",
+              "unit": "g"
+            }
+          ],
+          "preferences": {
+            "allergens": [
+              "peanut"
+            ],
+            "avoid_ingredients": []
+          },
+          "recipes": [
+            {
+              "allergens": [],
+              "id": "tomato_eggs",
+              "ingredients": [
+                {
+                  "ingredient": "tomato",
+                  "quantity": "200",
+                  "unit": "g"
+                },
+                {
+                  "ingredient": "egg",
+                  "quantity": "2",
+                  "unit": "each"
+                }
+              ],
+              "name": "番茄鸡蛋（用户菜谱）",
+              "source_id": "recipe_tomato_eggs"
+            },
+            {
+              "allergens": [],
+              "id": "plain_oats",
+              "ingredients": [
+                {
+                  "ingredient": "oat",
+                  "quantity": "50",
+                  "unit": "g"
+                }
+              ],
+              "name": "清水燕麦（用户菜谱）",
+              "source_id": "recipe_plain_oats"
+            },
+            {
+              "allergens": [
+                "milk"
+              ],
+              "id": "milk_oats",
+              "ingredients": [
+                {
+                  "ingredient": "milk",
+                  "quantity": "200",
+                  "unit": "ml"
+                },
+                {
+                  "ingredient": "oat",
+                  "quantity": "50",
+                  "unit": "g"
+                }
+              ],
+              "name": "牛奶燕麦（待核查）",
+              "source_id": "recipe_milk_oats"
+            },
+            {
+              "allergens": [
+                "peanut"
+              ],
+              "id": "peanut_oats",
+              "ingredients": [
+                {
+                  "ingredient": "peanut",
+                  "quantity": "20",
+                  "unit": "g"
+                },
+                {
+                  "ingredient": "oat",
+                  "quantity": "50",
+                  "unit": "g"
+                }
+              ],
+              "name": "花生燕麦（被排除）",
+              "source_id": "recipe_peanut_oats"
+            },
+            {
+              "allergens": [],
+              "id": "tomato_pasta",
+              "ingredients": [
+                {
+                  "ingredient": "tomato",
+                  "quantity": "200",
+                  "unit": "g"
+                },
+                {
+                  "ingredient": "pasta",
+                  "quantity": "100",
+                  "unit": "g"
+                }
+              ],
+              "name": "番茄意面（缺货）",
+              "source_id": "recipe_tomato_pasta"
+            }
+          ],
+          "schema_version": 1,
+          "sources": [
+            {
+              "id": "label_tomato_a",
+              "kind": "user_label",
+              "text": "FICTIONAL DEMO label only: Use by 2026-11-05; after opening use within 24 hours."
+            },
+            {
+              "id": "label_tomato_b",
+              "kind": "user_label",
+              "text": "FICTIONAL DEMO label only: Use by 2026-11-08."
+            },
+            {
+              "id": "label_eggs",
+              "kind": "user_label",
+              "text": "FICTIONAL DEMO label only: Best before 2026-11-07."
+            },
+            {
+              "id": "label_oats",
+              "kind": "user_label",
+              "text": "FICTIONAL DEMO label only: Best before 2026-12-01."
+            },
+            {
+              "id": "label_milk",
+              "kind": "user_label",
+              "text": "FICTIONAL DEMO label only: Use by 2026-11-06. After-opening instruction not entered."
+            },
+            {
+              "id": "label_conflict_a",
+              "kind": "user_label",
+              "text": "FICTIONAL DEMO label only: Transcription A: use by 2026-11-05."
+            },
+            {
+              "id": "label_conflict_b",
+              "kind": "user_label",
+              "text": "FICTIONAL DEMO label only: Transcription B: use by 2026-11-06; user must resolve."
+            },
+            {
+              "id": "label_packed",
+              "kind": "user_label",
+              "text": "FICTIONAL DEMO label only: Packed on 2026-11-01 only; no expiry date entered."
+            },
+            {
+              "id": "label_peanuts",
+              "kind": "user_label",
+              "text": "FICTIONAL DEMO label only: Best before 2026-12-01. Contains peanut."
+            },
+            {
+              "id": "opened_tomato",
+              "kind": "user_record",
+              "text": "Demo user entered opening at 2026-11-03T18:00:00+08:00."
+            },
+            {
+              "id": "opened_milk",
+              "kind": "user_record",
+              "text": "Demo user entered opening at 2026-11-03T09:00:00+08:00."
+            },
+            {
+              "id": "demo_confirmation",
+              "kind": "user_confirmation",
+              "text": "FICTIONAL demonstration: user asserts they checked actual labels, storage and current condition. No real observation or safety guarantee."
+            },
+            {
+              "id": "recipe_tomato_eggs",
+              "kind": "user_recipe",
+              "text": "Original fictional demo recipe. Tomato egg plate: 200 g tomato and 2 eggs per serving. Use your own preparation method."
+            },
+            {
+              "id": "recipe_plain_oats",
+              "kind": "user_recipe",
+              "text": "Original fictional demo recipe. Plain oats: 50 g oats per serving with kitchen water, which is not tracked. A simple single-ingredient option. Use your own preparation method."
+            },
+            {
+              "id": "recipe_milk_oats",
+              "kind": "user_recipe",
+              "text": "Original fictional demo recipe. Milk oats: 200 ml milk and 50 g oats per serving. Milk currently needs review. Use your own preparation method."
+            },
+            {
+              "id": "recipe_peanut_oats",
+              "kind": "user_recipe",
+              "text": "Original fictional demo recipe. Peanut oats: 20 g peanut and 50 g oats. User excludes peanut. Use your own preparation method."
+            },
+            {
+              "id": "recipe_tomato_pasta",
+              "kind": "user_recipe",
+              "text": "Original fictional demo recipe. Tomato pasta: 200 g tomato and 100 g pasta. Pasta is absent from stock. Use your own preparation method."
+            }
+          ],
+          "timezone": "Asia/Shanghai"
+        }
+      }
+    }
+  ]
+}

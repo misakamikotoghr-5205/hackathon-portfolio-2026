@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T07:53:18Z",
+  "updated_at": "2026-11-06T12:11:51.952081+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 1,
@@ -10,12 +10,12 @@
       "github": "https://github.com/misakamikotoghr-5205/briefmint-skillpay",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_alipay_identity_and_payment_integration",
+      "status": "awaiting_alipay_app_scan_and_payment_integration",
       "dependencies": [
         "Merchant setup and real sandbox integration",
         "SkillPay listing review and event entry"
       ],
-      "current_blocker": "报名与AI付接入须同一大陆实名支付宝账户；还需真实部署/支付交付、赛道和商品方案。",
+      "current_blocker": "已在官方PAYATHON新页恢复登录组件，真实支付宝扫码登录二维码已显示，待本人App扫码。报名与AI付接入须同一合格实名账户；真实部署/支付交付、赛道和商品方案仍待完成。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null
@@ -26,15 +26,17 @@
       "github": "https://github.com/misakamikotoghr-5205/aima-story-director",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_native_platform_work",
+      "status": "account_authenticated_open_platform_terms_pending",
       "dependencies": [
-        "Model-specific hardware adapter and device verification",
-        "Creator-program application"
+        "Accept separate open-platform terms and publish at least one valid native LinkSoul or LinkCraft work",
+        "Creator-program application; device verification only if claiming physical deployment"
       ],
-      "current_blocker": "持续创作者计划，需登录并发布至少一件有效灵心/灵创作品；GitHub工具不等于有效作品。",
+      "current_blocker": "智元账号已登录，开放平台另有必选协议待当次确认；还需灵心/灵创原生有效作品。账号登录不算创作者计划报名或项目提交。",
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "account_authenticated": true,
+      "open_platform_terms_accepted": false
     },
     {
       "project": "volc-casedesk",
@@ -62,7 +64,7 @@
         "Actual CodeArts or OfficeAce contribution and upload to BOTH Huawei and Xiaohongshu Skill markets",
         "Event entry and required social post"
       ],
-      "current_blocker": "需CodeArts/OfficeAce真实改进、华为报名建队、双市场发布及指定话题笔记。",
+      "current_blocker": "已在华为账号页面正确选择中国大陆区号、填入手机号并点击获取验证码；平台要求滑块安全验证，尚未获准完成验证或发出短信。真实CodeArts/OfficeAce改进、报名与双市场/笔记仍待完成。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null
@@ -78,7 +80,7 @@
         "Creator dashboard upload of four separate apps",
         "Select event and complete review"
       ],
-      "current_blocker": "需爱奇艺号实名与互动小应用入口，四款分别投稿、勾活动并审核上线。",
+      "current_blocker": "已按本人确认使用短信登录入口，获取验证码后弹出账号安全认证，认证内容未正常显示；未确认短信送达或登录成功。四款独立ZIP、8张封面、中文字段与AI声明已备，另已取得四款共5张真实桌面局部截图，手机WebView和平台审核仍待完成。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null
@@ -154,7 +156,7 @@
         "Authorized Lux3D generation, asset rights and supported export verification",
         "Team/account eligibility, demo video and formal submission"
       ],
-      "current_blocker": "需真实Lux3D生成/资产许可验证、个人报名建队、项目报告及视频。",
+      "current_blocker": "已进入国内站手机号登录表，未接受账号条款、未请求验证码或完成登录；需报名建单人队、选题、真实Lux3D核心资产及导出兼容实测。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null

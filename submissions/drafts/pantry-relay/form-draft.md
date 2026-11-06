@@ -42,6 +42,7 @@ The Python CLI and authenticated JSON API run locally and have twenty-six behavi
 | 内容 | 可用值/现状 |
 |---|---|
 | 名称、方向、介绍、技术/过程 | 上述草稿 |
+| 封面候选与中文说明附件 | [cover-zh.png](cover-zh.png) 是1200×675原创说明封面，标明本地原型/未接支付宝，非平台截图；[evidence-deck.html](evidence-deck.html) 为静态证据说明，不是可交互作品。生成与使用边界见 [materials-zh.md](materials-zh.md)，是否接受该封面/说明附件以真实UI为准 |
 | 源码和启动说明 | https://github.com/misakamikotoghr-5205/pantry-relay |
 | URL或ZIP/HTML作品 | 当前公开工作台仅接受特定平台URL，或≤100MiB的ZIP/HTML；GitHub、普通API地址不是合格URL。现有Python源码不冒充平台可自动运行的HTML/Agent包，须实际构建/部署验证 |
 | 实际AI交互 | 已有11月6日两次本地真实adapter响应；首次偏好未完全满足，第二次显式约束成功，仍需复核/录制，不是质量benchmark |
@@ -53,4 +54,4 @@ The Python CLI and authenticated JSON API run locally and have twenty-six behavi
 
 真实运行证据：项目 `docs/evidence/local-model-20261106.json`（仅固定虚构场景）。记录实际adapter、模型与原始返回；自然偏好仍需人工核查，不升级成食品安全或用户效果结论。
 
-当前公开URL校验允许 `alipay.com`、`lebuding.com`、`qmuse.pub`、`app.weavefox.cn` 本身及子域，或满足格式校验的支付宝小程序启动URL。应通过官网按钮进入，不伪造这些平台域名、不向内部API直发请求。关联愿望ID在schema中为可选；没有真实响应的愿望就不乱填。正式简介可用上面的中文正文，长度在100–3000范围内；封面必须是当前作品的真实界面图，不能伪造已上线/已接阿宝的界面。公开代码显示ZIP上传还依赖构建服务配置，接受扩展名不等于我们的Python服务已能运行，须现场验证。
+当前公开URL校验允许 `alipay.com`、`lebuding.com`、`qmuse.pub`、`app.weavefox.cn` 本身及子域，或满足格式校验的支付宝小程序启动URL。应通过官网按钮进入，不伪造这些平台域名、不向内部API直发请求。关联愿望ID在schema中为可选；没有真实响应的愿望就不乱填。正式简介可用上面的中文正文，长度在100–3000范围内；封面公开schema已核数量/类型/大小，但未据此确认必须是界面截图。新增封面仅为如实标注的原创说明图，不伪造已上线/已接阿宝界面；若实际UI要求真实界面，应另录真实运行画面。公开代码显示ZIP上传还依赖构建服务配置，接受扩展名不等于我们的Python服务已能运行，须现场验证。

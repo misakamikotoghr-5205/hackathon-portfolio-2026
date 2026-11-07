@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T16:03:49.795071+00:00",
+  "updated_at": "2026-11-07T10:40:17.050691+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -20,7 +20,11 @@
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/landscape.md",
       "github_commit": "861998e6af7b9889602417e02416361a1961b971",
-      "submission_status": "preparation_in_progress"
+      "submission_status": "user_reported_registration_attempt_in_progress",
+      "user_reported": true,
+      "reported_stage": "registration_attempt_in_progress",
+      "official_receipt_verified": false,
+      "browser_submission_verified": false
     },
     {
       "number": 2,
@@ -34,13 +38,17 @@
       "source_read_method": "rendered browser",
       "source": "https://www.xiaohongshu.com/discovery/item/6ae83534000000000602c085",
       "remaining_external_setup": [
-        "Model-specific hardware adapter and device verification",
-        "Creator-program application"
+        "User reports the creator-program application submitted; follow its review outcome, with no repeat application requested",
+        "Native-platform work validity and any separate LinkSoul terms remain unverified; device verification only if physical deployment is claimed"
       ],
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/aima-story-director/blob/main/docs/landscape.md",
       "github_commit": "1de2dfa196b181bfc9a6e2ac274f872ccf9a172a",
-      "submission_status": "preparation_in_progress"
+      "submission_status": "user_reported_creator_application_submitted",
+      "user_reported": true,
+      "reported_stage": "creator_program_application_submitted",
+      "official_receipt_verified": false,
+      "browser_submission_verified": false
     },
     {
       "number": 3,
@@ -79,7 +87,7 @@
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/move-light-skill/blob/main/docs/landscape.md",
       "github_commit": "91fa3d3f155a916270d68b5242b6e26ad9c84f3c",
-      "submission_status": "preparation_in_progress"
+      "submission_status": "security_verification_attempt_timed_out"
     },
     {
       "number": 5,
@@ -93,14 +101,18 @@
       "source_read_method": "rendered browser",
       "source": "https://www.xiaohongshu.com/discovery/item/6aea92dc000000000300134b",
       "remaining_external_setup": [
-        "Creator dashboard upload of four separate apps",
-        "Select event and complete review"
+        "User reports all four apps submitted in the creator dashboard; follow actual review feedback rather than repeat uploads",
+        "Review approval, public availability, event attribution and mobile WebView behavior remain unverified"
       ],
       "formally_submitted": false,
       "private_preview": "https://iqiyi-play-lab-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab/blob/main/docs/landscape.md",
       "github_commit": "936b5c2c5295b62171600b6efee2aaf8f1880f4c",
-      "submission_status": "preparation_in_progress"
+      "submission_status": "user_reported_four_apps_backend_submitted",
+      "user_reported": true,
+      "reported_stage": "creator_backend_four_app_submissions",
+      "official_receipt_verified": false,
+      "browser_submission_verified": false
     },
     {
       "number": 6,
@@ -121,8 +133,8 @@
       "formally_submitted": false,
       "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/landscape.md",
-      "github_commit": "6321c90d7e3bcf6a18dd83ddbb0aa58c1d5a7b03",
-      "submission_status": "preparation_in_progress"
+      "github_commit": "6ee22572b99929ab248166606801e074a695a678",
+      "submission_status": "skipped_current_authentication_blocker"
     },
     {
       "number": 7,
@@ -154,14 +166,14 @@
       "source": "https://paypalaihackathon.devpost.com/rules",
       "landscape_review": "https://github.com/misakamikotoghr-5205/cart-consent-paypal/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Personal eligibility and authorized PayPal developer/sandbox account; individual eligibility must not be confused with the sandbox merchant role",
+        "Basic identity confirmed privately; authorized PayPal developer/sandbox account and applicable platform eligibility still require verification; individual eligibility must not be confused with the sandbox merchant role",
         "Real PayPal sandbox end-to-end validation; actual local AI basket probe is documented but no payment was approved or captured",
         "English public video and formal registration/submission"
       ],
       "formally_submitted": false,
       "pushed_and_remote_verified": true,
       "github_commit": "d40be5b11437935ae3a6343b920464af22cacd0f",
-      "submission_status": "preparation_in_progress"
+      "submission_status": "awaiting_eligibility_accounts_sandbox_and_video"
     },
     {
       "number": 9,
@@ -181,7 +193,7 @@
       "private_preview": "https://scene-clearance-lab-aholo.ghraurora1024.chatgpt.site",
       "pushed_and_remote_verified": true,
       "github_commit": "2c6dfcf5008c10d9090c179512a2f09787159828",
-      "submission_status": "preparation_in_progress"
+      "submission_status": "account_terms_accepted_puzzle_confirmation_pending"
     },
     {
       "number": 10,
@@ -190,18 +202,22 @@
       "description": "标签来源门禁、受约束模型选菜与库存原子消耗回执",
       "github": "https://github.com/misakamikotoghr-5205/pantry-relay",
       "run": "python3 scripts/check.py",
-      "passed_local_tests": 26,
+      "passed_local_tests": 45,
       "source": "https://emerge.alipay.com/",
       "landscape_review": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Personal real-name Alipay/event eligibility",
-        "Supported Alipay build/deployment and reviewer access; two real local model probes are documented with partial preference failure",
-        "Formal allowed URL/ZIP entry and deadline recheck"
+        "Owner confirms Alipay real-name and phone binding; active authenticated event session still needed",
+        "Actual platform-compatible import/build acceptance and release; owner-private Sites preview is not an eligible platform URL",
+        "Formal URL/HTML-ZIP upload and official entry receipt; no final submission yet"
       ],
       "formally_submitted": false,
       "pushed_and_remote_verified": true,
-      "github_commit": "d5c8c433bf5134c9e6030ead39cc23763fbad791",
-      "submission_status": "preparation_in_progress"
+      "github_commit": "187a126140ae905e54a323f6453fc597b6c3d039",
+      "submission_status": "interactive_web_and_qmuse_project_ready_awaiting_platform_login_and_submission",
+      "private_preview": "https://pantry-relay-2026.ghraurora1024.chatgpt.site",
+      "offline_html_zip": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-offline-html.zip",
+      "react_html_zip": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-react-html.zip",
+      "qmuse_source": "https://github.com/misakamikotoghr-5205/pantry-relay/tree/main/qmuse"
     },
     {
       "number": 11,
@@ -219,9 +235,9 @@
         "Judge-accessible install link and English demo video; formal entry"
       ],
       "formally_submitted": false,
-      "github_commit": "4b1259100337e4f97a07b4aa06f1bd7dc64648c5",
+      "github_commit": "94e9963e598ec6af27d545d8ae1b742650b04900",
       "pushed_and_remote_verified": true,
-      "submission_status": "preparation_in_progress"
+      "submission_status": "skipped_current_authentication_blocker"
     },
     {
       "number": 12,
@@ -238,7 +254,7 @@
       "formally_submitted": true,
       "github_commit": "0829d8db155e339d664b22b5cfc63399b463b392",
       "pushed_and_remote_verified": true,
-      "submission_status": "official_submission_received",
+      "submission_status": "submitted_official_success_page_confirmed",
       "public_demo": "https://clips.agent-native.com/share/r01FTO1ytVvm",
       "submission_receipt": {
         "date": "2026-11-06",
@@ -269,7 +285,7 @@
       "private_preview": "https://paper-route-playtest-2026.ghraurora1024.chatgpt.site",
       "github_commit": "c5392db0e37744014dd9a4e07038e4cc27099341",
       "pushed_and_remote_verified": true,
-      "submission_status": "preparation_in_progress"
+      "submission_status": "awaiting_modelscope_concept_and_studio"
     },
     {
       "number": 14,
@@ -290,7 +306,7 @@
       "private_preview": "https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site",
       "github_commit": "a3a52464b9b170b7a6e04e4bbd2017453401a2fe",
       "pushed_and_remote_verified": true,
-      "submission_status": "preparation_in_progress"
+      "submission_status": "awaiting_itch_account_and_game_page"
     },
     {
       "number": 15,
@@ -304,7 +320,7 @@
       "source_read_method": "official event page/rules; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Official registration confirmed by success page. Personal prize-payment terms remain separate; current prototype and pilot predate the sprint.",
+        "Official signup confirmed after owner action-time consent; private success-page evidence held; check email for official next steps",
         "Clearly disclose all current code and pilot as preexisting; conduct and distinguish new Nov 13–15 sprint research",
         "Official-template PDF up to 8 pages excluding references/appendices, abstract, authors/affiliations and required limitations/dual-use appendix; formal entry",
         "Submission deadline Nov 15 23:59 AoE = Nov 16 11:59 UTC / 19:59 Beijing; optional hosted-model demonstration not performed"
@@ -313,7 +329,7 @@
       "github_commit": "7b9e56581ebd55d9d61e494b3b2b5ba1e9b42ebd",
       "pushed_and_remote_verified": true,
       "preexisting_for_future_sprint": true,
-      "submission_status": "registered_awaiting_sprint_work_and_report",
+      "submission_status": "registered_awaiting_sprint_research_and_final_submission",
       "registration_confirmed": true
     },
     {
@@ -328,14 +344,18 @@
       "source_read_method": "official event page/rules; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/watt-window/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Private signed idea-stage PPT is prepared; age/residence and official application remain; limited places/shortlisting",
-        "Follow official Nov 28–30 48-hour build and final live pitch requirements",
+        "User reports the Next Horizon idea-stage form submitted; follow organizer response/shortlisting rather than repeat the form",
+        "If shortlisted, follow official Nov 28–30 48-hour build and final live pitch requirements",
         "This is a pre-event prototype, not work performed during the future event"
       ],
       "formally_submitted": false,
       "github_commit": "280045e9d8bf3447780245cfa6783c375c04e8e0",
       "pushed_and_remote_verified": true,
-      "submission_status": "preparation_in_progress"
+      "submission_status": "user_reported_concept_form_submitted",
+      "user_reported": true,
+      "reported_stage": "concept_form_submitted",
+      "official_receipt_verified": false,
+      "browser_submission_verified": false
     },
     {
       "number": 17,
@@ -357,12 +377,12 @@
       "private_preview": "https://parallax-postcards-2026.ghraurora1024.chatgpt.site",
       "github_commit": "c4d4dad3d7a65f0ed5b73cf0e34ad9f9ed25e50a",
       "pushed_and_remote_verified": true,
-      "submission_status": "preparation_in_progress"
+      "submission_status": "awaiting_itch_account_and_game_page"
     }
   ],
   "additional_online_events_first_batch": 3,
   "new_event_identity_assumption": "User confirmed individual developer and the necessary basic identity details privately. This does not establish nationality, platform identity verification, account availability or all personal eligibility conditions.",
-  "total_passed_local_tests": 326,
+  "total_passed_local_tests": 345,
   "platform_integration_evidence": "Actual local Ollama probes for Cart Consent, Pantry Relay and Patch Review Desk are recorded with failures and limits in their docs/evidence/. Mock contracts, these local probes and runnable packages do not establish remote contest-platform use or a completed submission.",
   "browser_verification_notes": {
     "pocket-pause": "Wish creation, ready review, manual linked deposit, reversal, and reload observed in localhost UI. Storage clock regressions covered by automated tests.",
@@ -372,7 +392,8 @@
     "paper-route-playtest": "Observed full 12-step autoplay victory/return, hint without acting, and mutant counterexample where step 4 falsely delivers only in the mutant. No console errors. Separately, actual local Node engine evidence for fixed seed 20261106 is available at https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/c5392db0e37744014dd9a4e07038e4cc27099341/docs/evidence/README.md: four winning replays and one isolated mutant counterexample. This adds no browser, platform deployment, registration or submission evidence.",
     "lumen-shift": "Observed first-board victory, undo/redo, next-board hint, and completed-board persistence after reload. Replay-allowance hint boundary covered by automated regression.",
     "parallax-postcards": "Observed legal reading/navigation/alignment/capture in all three rooms, 3/3 completion, ending and restored progress after reload. No console errors. Canvas2D rendering observed.",
-    "patch-review-desk": "Isolated agent-capability proposal with two fixture hunks; reviewer approved only the time hunk, applied 09:00 to 09:30 with unapproved final sentence unchanged, then rolled back and restored the original SHA. Real 2:04 screen-only silent Clips recording saved. Anonymous HTTP share/context and four media-frame requests succeeded; authenticated player naturally reached 124.794s end with readyState 4 and no decoding error. Recording is fixture/model off, distinct from the limited real Ollama probe. Builder official form confirmed receipt of the final entry on 2026-11-06; this is not a judging result."
+    "patch-review-desk": "Isolated agent-capability proposal with two fixture hunks; reviewer approved only the time hunk, applied 09:00 to 09:30 with unapproved final sentence unchanged, then rolled back and restored the original SHA. Real 2:04 screen-only silent Clips recording saved. Anonymous HTTP share/context and four media-frame requests succeeded; authenticated player naturally reached 124.794s end with readyState 4 and no decoding error. Recording is fixture/model off, distinct from the limited real Ollama probe. Builder official form confirmed receipt of the final entry on 2026-11-06; this is not a judging result.",
+    "pantry-relay": "Actual desktop browser run: source/date gates; explicit review checkbox; tomato 300→100 and eggs4→2 on confirmation; reload retained receipt; undo restored balances and kept reversed receipt; budget1 blocked candidates; new unconfirmed undated20g lot held; real exported JSON reimported as new ledger without trusting historical receipts. Offline deterministic UI, not Alipay, phone/WebView, QMuse deployment or submission. Genuine React version also passed development UI checks including preferences, file import, cross-tab review invalidation and an out-of-stock recipe cost edit. A production UMD bridge loading failure was found, repaired and retained in evidence; actual production confirmation/reload/undo then passed with zero new console errors. Official CLI local preflight accepted19 source files, but no QMuse login/import/release or contest entry."
   },
   "additional_online_events_requested": 10,
   "additional_online_events_delivered": 10,
@@ -385,5 +406,5 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "1 confirmed official registration (Apart); 1 final project submission (Builder Patch Review Desk, official receipt on 2026-11-06). The entry includes the 2:04 public Clips fixture recording. Optional marketing remained unchecked. Identity details and receipt screenshots remain private. Expired Pocket Pause and enterprise-only Volc CaseDesk skipped. Other entries remain pending; see submissions/status.json."
+  "submission_progress": "Officially verified: Builder final project entry and Apart signup. Participant reports: Next Horizon idea form submitted, AIMA application submitted, four iQiyi backend app submissions; PAYATHON registration attempt in progress. These reported stages are tracked separately from final entries and approval. Two inapplicable activities skipped. See submissions/status.json."
 }

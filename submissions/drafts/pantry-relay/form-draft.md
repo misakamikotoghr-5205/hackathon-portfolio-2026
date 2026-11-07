@@ -1,4 +1,4 @@
-# 余量接力 — 支付宝智能体涌现奖草稿，2026-11-06
+# 余量接力 — 支付宝智能体涌现奖草稿，2026-11-07
 
 官方入口：[智能体涌现奖](https://emerge.alipay.com/)。以官网“报名参赛 / 我的提报 / 完善作品”进入实际账号流程，不调用内部创建/提交接口。本稿无姓名、账号、手机号或私有资料，也没有接受协议或创建报名记录。
 
@@ -18,7 +18,7 @@
 
 智能体选择器的权限被限制为：理解用户自然语言偏好后，只返回已经通过门禁的自有菜谱ID；不能创造菜谱、改数量、绕过忌口/缺货或宣称安全。确定性规则负责来源、日期、分配与消费，SQLite事务保证整道菜全量扣减或全部回滚，相同请求重试只返回原回执。
 
-当前是可运行的Python CLI与鉴权JSON API，本地26项测试覆盖并发、幂等、回滚、日期和模型越权。真实本地Ollama适配器已在11月6日用Ollama 0.40.15和qwen2.5:0.5b运行两次请求；输入为固定11月4日虚构回放，不是真实家庭库存。首次“只用一种配料早餐”返回plain_oats与tomato_eggs：结构合法，但偏好未完全满足；第二次明确只要plain_oats才返回该ID，不能据两次小例声称模型质量已验证。尚未部署公开体验或接入支付宝/阿宝，完整提报仍需完成。
+现有Python CLI与鉴权JSON API保留，26项测试覆盖并发、幂等、回滚、日期和模型越权。11月7日新增完整离线交互网页，支持食材/菜谱录入、来源核查、份数/成本上限/偏好、逐笔审阅确认、消费回执/撤回和导入导出；新增19项前端测试，消费、刷新、撤回及导出/导入已实际在桌面浏览器验证。网页使用确定性规则，不含运行时LLM调用，不能用网页交互代替后端SQLite事务或模型演示。真实本地Ollama适配器已在11月6日用Ollama 0.40.15和qwen2.5:0.5b运行两次请求；输入为固定11月4日虚构回放，不是真实家庭库存。首次“只用一种配料早餐”返回plain_oats与tomato_eggs：结构合法，但偏好未完全满足；第二次明确只要plain_oats才返回该ID，不能据两次小例声称模型质量已验证。已部署仅所有者访问的Sites预览，不是认可平台URL；另有[28.5KB离线HTML ZIP](https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-offline-html.zip)。尚未接入支付宝/阿宝，正式交件及平台验收仍需完成。
 
 ## English title and summary
 
@@ -26,7 +26,7 @@
 
 Pantry Relay connects user-entered package labels, opening records, inventory and personally supplied recipes to an auditable use-first workflow. Missing or conflicting dates and uncertain batches remain held for review. A natural-language adapter may select only an already eligible recipe ID; it cannot rewrite quantities, invent recipes, bypass exclusions or assert that food is safe. Deterministic rules and a SQLite transaction recheck the complete allocation before consuming inventory, with exact retry receipts rather than repeated deductions.
 
-The Python CLI and authenticated JSON API run locally and have twenty-six behavior tests. The actual local Ollama adapter ran on November 6 with Ollama 0.40.15 and qwen2.5:0.5b, using a fictional November 4 replay. One request for a single-ingredient breakfast returned both plain_oats and tomato_eggs: schema-valid, but not fully preference-compliant. A second, more explicit request returned only plain_oats. These two small observations are not a quality benchmark. No Alipay/Abao integration or public deployment is claimed; owner account validation, a public demonstration and complete submission remain.
+The Python CLI and authenticated JSON API have twenty-six behavior tests. A complete offline browser UI was added on November 7, with nineteen additional front-end tests and actual desktop checks of review, consumption, reload, undo and file export/import. Its planner is deterministic with no runtime LLM call, payment or remote API. The browser ledger is separate from the backend SQLite transactions. The actual local Ollama adapter ran on November 6 with Ollama 0.40.15 and qwen2.5:0.5b, using a fictional November 4 replay. One request for a single-ingredient breakfast returned both plain_oats and tomato_eggs: schema-valid, but not fully preference-compliant. A second, more explicit request returned only plain_oats. These two small observations are not a quality benchmark. An owner-private Sites preview and a runnable offline HTML ZIP exist. Neither proves Alipay/Abao integration, a platform-accepted build, or a completed submission.
 
 ## 技术、差异、构建与AI/开源披露
 
@@ -44,7 +44,7 @@ The Python CLI and authenticated JSON API run locally and have twenty-six behavi
 | 名称、方向、介绍、技术/过程 | 上述草稿 |
 | 封面候选与中文说明附件 | [cover-zh.png](cover-zh.png) 是1200×675原创说明封面，标明本地原型/未接支付宝，非平台截图；[evidence-deck.html](evidence-deck.html) 为静态证据说明，不是可交互作品。生成与使用边界见 [materials-zh.md](materials-zh.md)，是否接受该封面/说明附件以真实UI为准 |
 | 源码和启动说明 | https://github.com/misakamikotoghr-5205/pantry-relay |
-| URL或ZIP/HTML作品 | 当前公开工作台仅接受特定平台URL，或≤100MiB的ZIP/HTML；GitHub、普通API地址不是合格URL。现有Python源码不冒充平台可自动运行的HTML/Agent包，须实际构建/部署验证 |
+| URL或ZIP/HTML作品 | 当前公开工作台仅接受特定平台URL，或≤100MiB的ZIP/HTML；GitHub、普通API地址不是合格URL。已新增真正离线HTML交互ZIP及私有预览；公开源码与ZIP一致性已校验，实际后台构建/上传验收仍未完成。QMuse CLI路径已另备真实React工程并通过本地格式预检；仍需登录后的导入、发布和平台验收 |
 | 实际AI交互 | 已有11月6日两次本地真实adapter响应；首次偏好未完全满足，第二次显式约束成功，仍需复核/录制，不是质量benchmark |
 | 模型/接口配置与访问方法 | README、OpenAPI和部署说明可用；评委凭据只能私下交付，不写公开稿 |
 | 视频/运行证据 | [video-script.md](video-script.md)提供具体脚本；真实推理JSON在项目docs/evidence/local-model-20261106.json，尚无录屏或上传 |
@@ -55,3 +55,5 @@ The Python CLI and authenticated JSON API run locally and have twenty-six behavi
 真实运行证据：项目 `docs/evidence/local-model-20261106.json`（仅固定虚构场景）。记录实际adapter、模型与原始返回；自然偏好仍需人工核查，不升级成食品安全或用户效果结论。
 
 当前公开URL校验允许 `alipay.com`、`lebuding.com`、`qmuse.pub`、`app.weavefox.cn` 本身及子域，或满足格式校验的支付宝小程序启动URL。应通过官网按钮进入，不伪造这些平台域名、不向内部API直发请求。关联愿望ID在schema中为可选；没有真实响应的愿望就不乱填。正式简介可用上面的中文正文，长度在100–3000范围内；封面公开schema已核数量/类型/大小，但未据此确认必须是界面截图。新增封面仅为如实标注的原创说明图，不伪造已上线/已接阿宝界面；若实际UI要求真实界面，应另录真实运行画面。公开代码显示ZIP上传还依赖构建服务配置，接受扩展名不等于我们的Python服务已能运行，须现场验证。
+
+11月7日新增真正React+Vite工程及[约97KB生产HTML ZIP](https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-react-html.zip)，已通过实际生产浏览器确认、刷新、撤回复验；保留早期生产模块加载失败及修复证据。官方QMuse CLI的离线格式预检接受该工程，未发生远端导入/发布或赛事提交。

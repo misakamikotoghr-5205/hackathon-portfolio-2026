@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T02:43:34.250815+00:00",
+  "updated_at": "2026-11-07T10:40:17.050691+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 1,
@@ -10,15 +10,21 @@
       "github": "https://github.com/misakamikotoghr-5205/briefmint-skillpay",
       "formally_submitted": false,
       "receipt": null,
-      "status": "deferred_after_login_expired",
+      "status": "user_reported_registration_attempt_in_progress",
       "dependencies": [
         "Merchant setup and real sandbox integration",
         "SkillPay listing review and event entry"
       ],
-      "current_blocker": "必填报名资料、资格及本次活动规则和承诺确认已齐，已通过UI勾选协议并尝试提交；官网明确提示“用户未登录或登录态失效”，未取得报名回执。现按用户要求暂缓，优先其他活动；恢复时需重新登录、重试并核验成功回执。报名无需选赛道，交作品时再选；真实AI付接入和作品提交仍缺。",
+      "current_blocker": "用户自报正在自行尝试PAYATHON报名，按最新意图不再标为暂缓。此前浏览器尝试曾提示登录失效，该历史失败不代表本次自行操作结果；当前尚无报名成功自报或独立记录的官方回执。等待本次实际结果，真实AI付接入和作品提交仍缺；报名无需选赛道，交作品时再选。",
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "reported_stage": "registration_attempt_in_progress",
+      "user_reported": true,
+      "reported_evidence": "user_statement",
+      "report_recorded_at": "2026-11-07T10:05:21.608213+00:00",
+      "official_receipt_verified": false,
+      "browser_submission_verified": false
     },
     {
       "project": "aima-story-director",
@@ -26,17 +32,23 @@
       "github": "https://github.com/misakamikotoghr-5205/aima-story-director",
       "formally_submitted": false,
       "receipt": null,
-      "status": "application_draft_linksoul_terms_pending",
+      "status": "user_reported_creator_application_submitted",
       "dependencies": [
-        "Confirm separate LinkSoul terms and publish at least one valid native LinkSoul or LinkCraft work",
-        "Creator-program application; device verification only if claiming physical deployment"
+        "User reports the creator-program application submitted; follow its review outcome, with no repeat application requested",
+        "Native-platform work validity and any separate LinkSoul terms remain unverified; device verification only if physical deployment is claimed"
       ],
-      "current_blocker": "智元账号已登录，开放平台协议已获准接受；申请联系资料已补齐，入门及个人开发者选项已选。灵心SSO已进入空工作台，但灵心独立条款仍待当次确认；本次项目尚无已核验的原生有效作品，创作者计划申请未提交，账号或工作台登录不等于报名或作品提交。",
+      "current_blocker": "用户自报AIMA创作者计划申请已提交，据此不再列为待填联系资料或待交申请。未独立记录官方回执或申请通过；申请自报不证明原生作品已审核有效、灵心独立条款已接受或真实硬件已部署。后续按实际审核结果推进，不要求重新申请。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
       "account_authenticated": true,
-      "open_platform_terms_accepted": true
+      "open_platform_terms_accepted": true,
+      "reported_stage": "creator_program_application_submitted",
+      "user_reported": true,
+      "reported_evidence": "user_statement",
+      "report_recorded_at": "2026-11-07T10:05:21.608213+00:00",
+      "official_receipt_verified": false,
+      "browser_submission_verified": false
     },
     {
       "project": "volc-casedesk",
@@ -75,15 +87,21 @@
       "github": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_creator_verification_and_four_app_uploads",
+      "status": "user_reported_four_apps_backend_submitted",
       "dependencies": [
-        "Creator dashboard upload of four separate apps",
-        "Select event and complete review"
+        "User reports all four apps submitted in the creator dashboard; follow actual review feedback rather than repeat uploads",
+        "Review approval, public availability, event attribution and mobile WebView behavior remain unverified"
       ],
-      "current_blocker": "已按本人确认使用短信登录入口，获取验证码后弹出账号安全认证，认证内容未正常显示；未确认短信送达或登录成功。四款独立ZIP、8张封面、中文字段与AI声明已备，另已取得四款共5张真实桌面局部截图，手机WebView和平台审核仍待完成。",
+      "current_blocker": "用户自报四款互动应用已在爱奇艺创作者后台提交，据此不再列为待登录或待上传。未独立记录官方回执；后台提交不等于四款已审核通过、上线、赛事归属确认或手机WebView核验。后续跟进实际审核结果和平台反馈，不要求重复投稿。",
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "reported_stage": "creator_backend_four_app_submissions",
+      "user_reported": true,
+      "reported_evidence": "user_statement",
+      "report_recorded_at": "2026-11-07T10:05:21.608213+00:00",
+      "official_receipt_verified": false,
+      "browser_submission_verified": false
     },
     {
       "project": "deadlock-manor",
@@ -91,16 +109,17 @@
       "github": "https://github.com/misakamikotoghr-5205/deadlock-manor",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_devpost_kiro_use_and_video",
+      "status": "skipped_current_authentication_blocker",
       "dependencies": [
         "Kiro authentication and genuine contribution",
         "Public demo video and reviewer access",
         "Devpost registration and entry"
       ],
-      "current_blocker": "缺Devpost/Kiro登录、真实Kiro贡献、公开视频与评委可访问运行入口。",
+      "current_blocker": "11月7日官方 Kiro CLI whoami 实查返回未登录，未配置 API key；本次按用户要求先跳过认证障碍。仍缺真实 Kiro 贡献、公开视频、评委运行入口与 Devpost 投稿。",
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "authentication_check_evidence": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/evidence/authentication-20261107.json"
     },
     {
       "project": "pocket-pause",
@@ -129,7 +148,7 @@
         "Real PayPal sandbox end-to-end validation; actual local AI basket probe is documented but no payment was approved or captured",
         "English public video and formal registration/submission"
       ],
-      "current_blocker": "真实本地模型已生成通过校验的1398/5000美分购物篮，保持DRAFT、未人工批准；超时和预算拒绝保留。基础身份资料已私密确认；仍待适用规则与授权账号核验、真实PayPal sandbox与公开视频；无官方回执。",
+      "current_blocker": "本地模型购物篮保持未审批 DRAFT，真实 PayPal sandbox 凭据缺失；11月7日 Join hackathon 进入 Devpost 登录/注册页面，尚未报名。本次23项测试与 mock CLI演示通过，但没有 PayPal 请求；仍缺实际 sandbox、组合演示及公开视频、最终投稿。",
       "local_model_evidence": {
         "real_inference_observed": true,
         "accepted_proposal_observed": true,
@@ -167,13 +186,13 @@
       "github": "https://github.com/misakamikotoghr-5205/pantry-relay",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_alipay_account_and_supported_build",
+      "status": "interactive_web_and_qmuse_project_ready_awaiting_platform_login_and_submission",
       "dependencies": [
-        "Personal real-name Alipay/event eligibility",
-        "Supported Alipay build/deployment and reviewer access; two real local model probes are documented with partial preference failure",
-        "Formal allowed URL/ZIP entry and deadline recheck"
+        "Owner confirms Alipay real-name and phone binding; active authenticated event session still needed",
+        "Actual platform-compatible import/build acceptance and release; owner-private Sites preview is not an eligible platform URL",
+        "Formal URL/HTML-ZIP upload and official entry receipt; no final submission yet"
       ],
-      "current_blocker": "已实际运行两次本地模型：首次偏好只部分符合，第二次显式约束成功，均为固定虚构11月4日回放；非质量benchmark。仍需支付宝实名/账号确认、支持的URL/ZIP真实构建与完整演示，未支付宝部署或取得回执。",
+      "current_blocker": "本人已确认支付宝实名/手机号绑定；11月7日官方入口仍返回扫码登录，按指示先跳过。完整离线网页与真实React+Vite工程、两份HTML包已完成并推送；45项本地测试、生产桥接回归、真实开发/生产浏览器确认/刷新/撤回等检查通过。官方CLI只读本地预检接受React工程，但未登录QMuse、导入、发布、平台验收或正式交件。Sites预览仅所有者可访问，不能当作支付宝认可平台URL。",
       "local_model_evidence": {
         "real_inference_observed": true,
         "request_count": 2,
@@ -185,7 +204,22 @@
       },
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "owner_private_preview": "https://pantry-relay-2026.ghraurora1024.chatgpt.site",
+      "offline_html_zip": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-offline-html.zip",
+      "web_implementation_evidence": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/evidence/offline-web-20261107.json",
+      "react_html_zip": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-react-html.zip",
+      "qmuse_source": "https://github.com/misakamikotoghr-5205/pantry-relay/tree/main/qmuse",
+      "qmuse_preflight": {
+        "local_only": true,
+        "official_package_version": "1.0.14",
+        "source_files": 19,
+        "source_bytes": 246828,
+        "source_hash": "afc27a1cf0645d596f4ea184008cd79463021412d7965885d986cae439c2560d",
+        "network_calls": 0,
+        "authenticated": false,
+        "remote_import_or_release": false
+      }
     },
     {
       "project": "dependency-evidence-forge",
@@ -193,15 +227,16 @@
       "github": "https://github.com/misakamikotoghr-5205/dependency-evidence-forge",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_atlassian_forge_deployment",
+      "status": "skipped_current_authentication_blocker",
       "dependencies": [
         "Personal Atlassian/Forge registration; real lint/deploy/install and Jira verification",
         "Judge-accessible install link and English demo video; formal entry"
       ],
-      "current_blocker": "需Atlassian/Forge账户、真实部署安装/Jira验证、评委安装链接和公开视频。",
+      "current_blocker": "11月7日官方 Forge CLI 在受支持 Node 下实查仍要求认证并报告 credential-store 错误，未取得可用身份。本次先跳过；未注册、部署、安装或提交，仍需真实 Jira 验证、评委安装链接与视频。",
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "authentication_check_evidence": "https://github.com/misakamikotoghr-5205/dependency-evidence-forge/blob/main/docs/evidence/authentication-20261107.json"
     },
     {
       "project": "patch-review-desk",
@@ -302,7 +337,7 @@
         "Public ModelScope Studio deployment and creative-process article/video",
         "Formal game-category entry; no runtime AI or Qoder use claimed"
       ],
-      "current_blocker": "上传包/封面/手记草稿已备，需公开构想帖审核报名、真实创空间公开部署和视频。",
+      "current_blocker": "可玩 HTML ZIP、封面、手记草稿及真实本地游戏回放已备；11月7日官方活动报名页明确要求先登录魔搭账号，亦未取得 CLI/OpenAPI 认证，本次先跳过。未创建公开构想帖、公开创空间或取得报名/交件回执。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null
@@ -318,7 +353,7 @@
         "Personal itch.io game page and playable jam submission",
         "Accurate AI-assisted development disclosure; community recognition, no verified cash prize"
       ],
-      "current_blocker": "HTML ZIP、封面、项目页与AI披露已备；需itch登录、Join jam、公开游戏页和正式entry。",
+      "current_blocker": "可玩 HTML ZIP、封面、项目页与 AI 披露已备；11月7日 Through Your Eyes 正式 Join jam 弹出 Log in to continue，尚未取得 itch 认证，本次先跳过。两项仍需各自公开游戏页和正式 jam entry；GitHub 仓库本身不算参赛。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null
@@ -353,17 +388,23 @@
       "github": "https://github.com/misakamikotoghr-5205/watt-window",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_google_login_and_idea_form",
+      "status": "user_reported_concept_form_submitted",
       "dependencies": [
-        "Private named idea-stage PPT repaired with contacts, real embedded fonts and official naming; locally validated, no native PowerPoint cross-machine test. EIS FAQ permits solo entry; verify actual form. Google authentication and submission remain.",
-        "Follow official Nov 28–30 48-hour build and final live pitch requirements",
+        "User reports the Next Horizon idea-stage form submitted; follow organizer response/shortlisting rather than repeat the form",
+        "If shortlisted, follow official Nov 28–30 48-hour build and final live pitch requirements",
         "This is a pre-event prototype, not work performed during the future event"
       ],
-      "current_blocker": "六页私密署名PPT已补联系人、真正字体嵌入及指定命名，并完成本地结构和渲染核验；未在PowerPoint跨机实测。EIS官方FAQ明确允许个人，IoES首页简述为2–4人队伍，实际表单仍需核对单人/机构字段，不虚构成员或机构。Google登录、适用条款、上传与正式提交仍待完成，无报名或交件回执。",
+      "current_blocker": "用户自报Next Horizon构想表已提交，据此不再列为待登录或待交构想表。该记录为用户陈述，未独立记录官方回执；仅构想/申请阶段，不是入围、正式赛期作品或最终交件。后续关注主办方通知；若入围，再按赛期新增工作和最终演示要求推进，不要求重新填表。",
       "private_signed_presentation_prepared": true,
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "reported_stage": "concept_form_submitted",
+      "user_reported": true,
+      "reported_evidence": "user_statement",
+      "report_recorded_at": "2026-11-07T10:05:21.608213+00:00",
+      "official_receipt_verified": false,
+      "browser_submission_verified": false
     },
     {
       "project": "parallax-postcards",
@@ -377,13 +418,13 @@
         "Verify unspecified deadline timezone and accurate AI-assisted development disclosure",
         "Community game jam; no confirmed cash prize"
       ],
-      "current_blocker": "HTML ZIP、封面、项目页与AI披露已备；需itch登录、Join jam、公开游戏页和正式entry。",
+      "current_blocker": "可玩 HTML ZIP、封面、项目页与 AI 披露已备；11月7日 Through Your Eyes 正式 Join jam 弹出 Log in to continue，尚未取得 itch 认证，本次先跳过。两项仍需各自公开游戏页和正式 jam entry；GitHub 仓库本身不算参赛。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null
     }
   ],
-  "evidence_policy": "Mark registered/submitted only after an official success page, entry ID or receipt; keep personal identity and credentials outside this public ledger.",
+  "evidence_policy": "Mark registered/submitted only after an official success page, entry ID or receipt; keep personal identity and credentials outside this public ledger. User statements are recorded separately as user_reported/reported_stage; they do not change official receipt fields or verified counts. report_recorded_at is when this ledger recorded the statement, not an inferred submission time.",
   "identity_completion": "基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理。No personal values are stored here.",
   "skip_expired": true,
   "skip_enterprise_only": true,
@@ -404,8 +445,22 @@
   "receipt_field_semantics": {
     "registration_receipt": "Official event signup confirmation, distinct from final project submission; private evidence is described without its private URL.",
     "submission_receipt": "Final project entry receipt only.",
-    "receipt": "Legacy final project submission receipt only; never used for signup evidence."
+    "receipt": "Legacy final project submission receipt only; never used for signup evidence.",
+    "user_reported": "Participant statement only; not independent browser or official-receipt verification.",
+    "reported_stage": "The exact reported stage, distinct from final entry, approval, publication or shortlisting.",
+    "official_receipt_verified": "Independent official receipt verification for the reported stage; never inferred from a user statement.",
+    "formally_submitted": "Verified final project entry only; a user-reported application, idea form or backend upload is recorded separately."
   },
   "clips_free_storage_activated": true,
-  "clips_recording_saved": true
+  "clips_recording_saved": true,
+  "user_reported_counts": {
+    "source": "user_statement",
+    "distinct_projects_with_reported_submitted_stage": 3,
+    "concept_form_submissions": 1,
+    "creator_program_applications": 1,
+    "creator_backend_app_submissions": 4,
+    "registration_attempts_in_progress": 1,
+    "included_in_verified_counts": false
+  },
+  "latest_execution_note": "2026-11-07: follow participant-reported completed stages without repeat submissions; skip individual authentication barriers and continue independent implementation. No new official final-entry receipt obtained in this pass."
 }

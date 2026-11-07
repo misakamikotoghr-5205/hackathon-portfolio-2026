@@ -1,6 +1,6 @@
 # 2026 项目与黑客松作品集
 
-核查与开发日期：2026-11-04至2026-11-06。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动，以及额外筛选的十个赛事，共十七个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
+核查与开发日期：2026-11-04至2026-11-07。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动，以及额外筛选的十个赛事，共十七个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
 
 ## 额外十个赛事与对应项目
 
@@ -10,16 +10,16 @@
 | --- | --- | --- | --- |
 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/rules) | 北京2026-11-13 04:00 | [Cart Consent](https://github.com/misakamikotoghr-5205/cart-consent-paypal)：购物篮逐字段人工批准、变更撤销、调用竞态复核 | 合法可用的 Business/sandbox 账号、真实 PayPal+AI 演示、英文材料与视频 |
 | [Aholo 全球3D AI黑客松](https://www.aholo3d.cn/hackathon) | 北京2026-11-19 19:00 | [留白实验室](https://github.com/misakamikotoghr-5205/scene-clearance-lab)：本地模型布置、可解释几何间距、A/B报告 | 单人也须建队；真实 Lux3D 核心资产与兼容性、视频、提交 |
-| [支付宝智能体涌现奖](https://emerge.alipay.com/) | 按北京2026-12-06 00:00准备 | [余量接力](https://github.com/misakamikotoghr-5205/pantry-relay)：标签来源门禁、受约束选菜、库存消费回执 | 本人实名账号、支持的支付宝构建与URL/ZIP提交；已有本地模型试验；同一作品不重复投别赛 |
+| [支付宝智能体涌现奖](https://emerge.alipay.com/) | 按北京2026-12-06 00:00准备 | [余量接力](https://github.com/misakamikotoghr-5205/pantry-relay)：交互式库存/菜谱录入、来源门禁、预算/偏好、逐笔确认、消费/撤回回执 | 本人已确认实名；离线HTML交互包/私有预览已成，仍需官方平台构建验收及交件；QMuse真实React工程本地预检通过，待登录导入/发布 |
 | [Codegeist 2026](https://codegeist2026.devpost.com/rules) | 北京2026-12-23 04:00 | [Dependency Evidence for Jira](https://github.com/misakamikotoghr-5205/dependency-evidence-forge)：依赖证据快照、循环/缺失说明、旧审阅漂移复核；实际 Forge SDK模块 | Atlassian/Forge账号注册、lint/deploy/install、评委安装链接与视频；目前无真实Jira调用 |
 | [Builder.io Agent-Native Hackathon](https://www.builder.io/hackathon/rules) | 北京2026-11-10 15:59 | [Patch Review Desk](https://github.com/misakamikotoghr-5205/patch-review-desk)：实际 Agent-Native动作合同、逐hunk人审、基线漂移撤销和持久化回滚 | 11月6日正式提交，官网已确认收到；公开Clips录屏已完成；目前是本机文件工具 |
 | [魔搭×Qoder AI+∞第三期](https://mseo-ai-inf.ms.show/) | 官网2026-12-01 12:00报名；18:00交件，未明示时区 | [纸路邮局](https://github.com/misakamikotoghr-5205/paper-route-playtest)：四关可重放派送谜题、精确搜索试玩、隔离变异体反例 | 本人先发构想帖并审核报名、魔搭创空间公开托管、手记/视频；Qoder不是硬性工具要求 |
 | [GitHub Game Off 2026](https://itch.io/jam/game-off-2026) | 北京2026-12-02 05:37 | [Lumen Shift](https://github.com/misakamikotoghr-5205/lumen-shift)：八关循环位移与XOR信号解谜、实时搜索提示、可验证重放 | itch.io报名与可玩提交、如实披露AI辅助；社区评奖，未核实现金奖 |
 | [Apart AI × Epistemics Research Sprint](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) | 北京2026-11-16 19:59；11月13–15日研究冲刺 | [Source Trail](https://github.com/misakamikotoghr-5205/source-trail-otari)：精确引用锚点、人工立场冲突门禁与可重复合成评估；Otari是可选适配 | 报名已确认；赛期新增研究、官方模板≤8页PDF及局限/双重用途附录；现有代码和试验均标赛前工作，不以旧仓库代替研究报告 |
-| [Next Horizon 2026](https://eisociety.org/hackathon.php?slug=next-horizon-2026) | 11月15日构想，未标具体时刻；11月28–30日48小时构建 | [Watt Window](https://github.com/misakamikotoghr-5205/watt-window)：非关键负载时间窗排程、功率约束、可解释成本与敏感性 | 有限名额/入围、本人的PPT与路演；本轮代码是赛前原型，不冒称48小时成果 |
+| [Next Horizon 2026](https://eisociety.org/hackathon.php?slug=next-horizon-2026) | 11月15日构想，未标具体时刻；11月28–30日48小时构建 | [Watt Window](https://github.com/misakamikotoghr-5205/watt-window)：非关键负载时间窗排程、功率约束、可解释成本与敏感性 | 用户确认构想表已交，待主办方回复/入围；如入围再按48小时构建与路演要求完成 |
 | [Through Your Eyes](https://itch.io/jam/through-your-eyes-first-person-game-jam) | 官网11月15日；按平台倒计时核对时区 | [Parallax Postcards](https://github.com/misakamikotoghr-5205/parallax-postcards)：软件光线投射第一人称房间、不同深度碎片对齐、三张原创明信片 | itch.io报名与可玩提交、AI辅助披露；社区Game Jam，无已确认现金奖 |
 
-其余项目仍须逐项完成个人资格、第三方账号与正式提交。Builder 已于11月6日在本人确认后正式交件，官网显示收到作品；网页回执私密保留，尚不代表评审通过。Apart 官网明确全球线上、允许个人参与，11月6日已观察到正式报名成功页，回执私密保留；作品提交窗口尚未开启。已有代码必须披露为赛前工作；奖金收取另须符合[官方条款](https://apartresearch.com/sprints/prize-terms)。Next Horizon 的 FAQ 允许初次构想附已有原型，正式构建与入围安排仍须遵守主办方规则。
+用户确认 Next Horizon 构想表、AIMA 申请及爱奇艺四款后台投稿已交，PAYATHON 正在自行尝试报名；按所报阶段记录，不重复提交，尚不代表审核通过或最终交件。Builder 已于11月6日在本人确认后正式交件，官网显示收到作品；网页回执私密保留，尚不代表评审通过。Apart 官网明确全球线上、允许个人参与，11月6日已观察到正式报名成功页，回执私密保留；作品提交窗口尚未开启。已有代码必须披露为赛前工作；奖金收取另须符合[官方条款](https://apartresearch.com/sprints/prize-terms)。Next Horizon 的 FAQ 允许初次构想附已有原型，正式构建与入围安排仍须遵守主办方规则。
 
 支付宝[延期公告](https://www.yuque.com/shanxian/dfe94a/xgqqg05f9n3l6lzg?singleDoc#)写12月6日零点；[规则正文](https://www.yuque.com/shanxian/dfe94a/xzter263dyio4ge3?singleDoc#)另有23:59:59的冲突表述，按更早时点准备。
 
@@ -51,10 +51,11 @@
 
 ## 交付与核验
 
-各项目 README 提供启动、样例和验证命令，累计 326 项本地测试通过。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件或主办方后台已联通。Cart、Pantry、Patch 已另存真实本地模型请求与失败记录，仍不等于端到端平台接入。
+各项目 README 提供启动、样例和验证命令，累计 345 项本地测试通过（含本轮19项新增前端检查）。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件或主办方后台已联通。Cart、Pantry、Patch 已另存真实本地模型请求与失败记录，仍不等于端到端平台接入。
 
 可用的托管预览保持**仅所有者可访问**：
 
+- [余量接力](https://pantry-relay-2026.ghraurora1024.chatgpt.site)
 - [慢递愿望局](https://pocket-pause-xhb.ghraurora1024.chatgpt.site)
 - [留白实验室](https://scene-clearance-lab-aholo.ghraurora1024.chatgpt.site)
 - [Deadlock Manor](https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site)
@@ -63,4 +64,4 @@
 - [Lumen Shift](https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site)
 - [Parallax Postcards](https://parallax-postcards-2026.ghraurora1024.chatgpt.site)
 
-公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox、公开演示与正式交件等缺口均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前已有1份官方报名确认（Apart）和1份最终作品提交回执（Builder）。
+公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox、公开演示与正式交件等缺口均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前独立核验的记录为1份官方报名确认（Apart）和1份最终作品提交回执（Builder）；另记录上述用户确认的阶段进度。

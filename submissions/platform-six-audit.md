@@ -1,6 +1,6 @@
 # 六个非游戏新增赛事：提交入口与材料审计
 
-核查日期 **2026-11-06 UTC**。仅记录公开规则、当前公开页面/前端字段和本地证据；不含参赛者姓名、邮箱、手机号、地址、账号、凭据或私密回执URL。账号操作与正式报名、最终作品提交分开记录，只有真实成功页或回执才计为相应阶段完成。
+规则核查日期 **2026-11-06 UTC**，阶段进度更新于 **2026-11-07 UTC**。仅记录公开规则、当前公开页面/前端字段和本地证据；不含参赛者姓名、邮箱、手机号、地址、账号、凭据或私密回执URL。账号操作与正式报名、最终作品提交分开记录，只有真实成功页或回执才计为相应阶段完成。
 
 所有草稿都可直接作为真实内容起点；没有虚构视频、安装链接、平台使用记录或身份。隐藏于登录后的字段、实时账号资格与未取得的材料均明确区分。
 
@@ -22,9 +22,9 @@ Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受�
 |---|---|---|---|
 | Builder / Patch Review Desk | [公开提交表](https://www.builder.io/hackathon/submit)；无需提前报名 | 11/09 23:59 America/Los_Angeles = 11/10 07:59UTC / 15:59北京 | 已提交并收到官网“Thank you for submitting.” / “Your project submission has been received.”网页回执，记录于2026-11-06 07:53:18 UTC；processingConsent已勾、marketing未勾。private success-page evidence held，无编号/邮件确认声明。模型探针与fixture录屏仍分开披露 |
 | PayPal / Cart Consent | [官网](https://paypalaihackathon.devpost.com/) Join hackathon → Devpost认证 → 本赛事提交；匿名访问Join被导向注册 | 11/12 12:00PST = 20:00UTC / 11/13 04:00北京 | 真实模型已生成1398/5000美分购物篮、DRAFT未批准；真正PayPal sandbox和组合演示/公开视频仍缺 |
-| Next Horizon / Watt Window | [官方Apply重定向](https://eisociety.org/go/apply/next-horizon-2026?s=direct) → [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form) | 11/15构想截止，无具体时刻；11/28 09:00EST至11/30 09:00EST正式48小时，先申请/入围 | 私密署名PowerPoint已完成、不公开；基础身份资料已私密确认；Google表单强制登录，未登录会话超时后已恢复登录入口，等待本人登录；未见表字段、未预填或提交；保留赛前原型披露 |
+| Next Horizon / Watt Window | [官方Apply重定向](https://eisociety.org/go/apply/next-horizon-2026?s=direct) → [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form) | 11/15构想截止，无具体时刻；11/28 09:00EST至11/30 09:00EST正式48小时，先申请/入围 | 用户确认构想表已交，不重复填表；私密署名PowerPoint已完成、不公开。未独立保存官方回执，构想提交不等于入围/最终交件；保留赛前原型披露 |
 | Aholo / 留白实验室 | [中国活动页](https://www.aholo3d.cn/hackathon) “立即报名 / 我的参赛”：个人报名→确认组队→选题→作品 | 11/19 19:00北京 = 11:00UTC = 06:00EST | 单人也建队；核心Lux3D真实生成与导出兼容性、项目报告/过程截图、真实Demo材料，当前不能如实勾“已用Lux3D” |
-| 支付宝涌现 / 余量接力 | [官网](https://emerge.alipay.com/) “报名参赛 / 我的提报 / 完善作品”，报名记录与完整提报分开 | 保守按12/06 00:00北京 = 12/05 16:00UTC；公告/正文/UI时刻有冲突见下 | 本人合法账号/实名与协议，真实可交互交付与录屏，完整提报字段复核；已发生两次本地模型请求，未支付宝/阿宝接入 |
+| 支付宝涌现 / 余量接力 | [官网](https://emerge.alipay.com/) “报名参赛 / 我的提报 / 完善作品”，报名记录与完整提报分开 | 保守按12/06 00:00北京 = 12/05 16:00UTC；公告/正文/UI时刻有冲突见下 | 本人已确认实名；新离线交互HTML包和owner-private预览已完成，尚需活跃登录、官方平台构建/上传验收及完整提报；未支付宝/阿宝接入 |
 | Codegeist / Dependency Evidence | [官网](https://codegeist2026.devpost.com/) Join hackathon → Devpost认证 → 本赛事提交 | 12/22 12:00PST = 20:00UTC / 12/23 04:00北京 | 真正Forge注册/deploy/install、评委安装链接、英文公开YouTube演示；本地SDK模块/typecheck/bundle不能替代安装 |
 
 公开规则复核主源：[PayPal要求](https://paypalaihackathon.devpost.com/rules)、[Codegeist要求](https://codegeist2026.devpost.com/rules)、[Next Horizon FAQ](https://eisociety.org/hackathon.php?slug=next-horizon-2026)、[Aholo官方页](https://www.aholo3d.cn/hackathon)、[支付宝规则](https://www.yuque.com/shanxian/dfe94a/xzter263dyio4ge3?singleDoc#)、[延期公告](https://www.yuque.com/shanxian/dfe94a/xgqqg05f9n3l6lzg?singleDoc#)。前四个有公开HTML或明确官方重定向；Aholo/支付宝的动态字段另按下述公开脚本核对，不假称看过登录后的实际表单。
@@ -65,12 +65,16 @@ Cart的真实本地qwen2.5:0.5b请求已通过模型输出和业务校验，生�
 
 ### Next Horizon
 
-官方FAQ允许单人，主要主题选 Smart Cities and Sustainable Development；公开规则要求PowerPoint≤15MB，覆盖团队、问题、方案技术、影响可行性、实施计划；已有原型可附2–4分钟视频。官方Google表单已实际触发强制登录；此前未登录会话超时后已恢复Google登录入口，等待本人自行登录；表单字段尚未见到，不虚构必填姓名/上传/问卷标签，也未预填或提交。
+官方FAQ允许单人，主要主题选 Smart Cities and Sustainable Development；公开规则要求PowerPoint≤15MB，覆盖团队、问题、方案技术、影响可行性、实施计划；已有原型可附2–4分钟视频。此前浏览器核查曾遇Google强制登录；11月7日用户明确确认构想表已提交，据此更新阶段并不再要求重复填表。操作者未独立核验最终表单或回执，不虚构其字段、提交时间、入围或审核结果。
 
-[双语稿](drafts/watt-window/form-draft.md)、[演示内容提纲](drafts/watt-window/pitch-draft.md)、[视频脚本](drafts/watt-window/video-script.md)完整可用；六页PowerPoint及私密署名版现已完成，个人资料不进入公开文件。基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理。Google登录与后续真实表单操作尚待完成，不能假造单位/学历或官方回执。赛前17项本地测试与虚构成本示例，不是节能实测或未来48小时成果。若入围，再记录真实赛期新增工作与最终10分钟演示/5分钟问答。
+[双语稿](drafts/watt-window/form-draft.md)、[演示内容提纲](drafts/watt-window/pitch-draft.md)、[视频脚本](drafts/watt-window/video-script.md)完整可用；六页PowerPoint及私密署名版现已完成，个人资料不进入公开文件。基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理。构想表按用户确认记已交；仍不虚构单位/学历或官方回执。赛前17项本地测试与虚构成本示例，不是节能实测或未来48小时成果。若入围，再记录真实赛期新增工作与最终10分钟演示/5分钟问答。
 
 ## 交付与不应替代的材料
 
 六个项目都已有独立公开源码和运行说明，草稿逐项披露真实使用、AI辅助、原始/第三方许可和边界。Builder真实导入Agent-Native/jsdiff/Zod；Aholo实际vendored Three.js/OrbitControls；Forge SDK受Atlassian Developer Terms，不冒称MIT。其余比较项目未复制代码/素材，外部模型权重仍有各自许可。
 
 公开仓库、源码压缩包、本地测试、私有预览、适配器合同通过均不等于报名、真实平台调用、公开录屏、安装链接或最终交件。本文件不发布任何凭据，也不把尚未发生的步骤改成完成时态。每次实际表单操作后，root应私下保存成功回执并更新状态，不能只凭按钮点击或草稿保存说提交成功。
+
+## 11月7日执行补记
+
+PayPal 的 Join hackathon 实际进入 Devpost 登录/注册页；支付宝“我要参赛”进入扫码登录，按用户指示先跳过认证。官方[QMuse CLI文档](https://docs.qmuse.cn/docs/qmuse-cli)说明导入与发布是独立步骤；CLI 1.0.14 的本地只读预检不接受原生静态web目录，真实React工程已构建并通过本地格式预检，不能将离线ZIP或Sites私有预览称为QMuse发布。最新准确状态见[总表](README.md)与[机器记录](status.json)。

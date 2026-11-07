@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T02:37:07.064437+00:00",
+  "updated_at": "2026-11-07T02:43:34.250815+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 1,
@@ -355,11 +355,11 @@
       "receipt": null,
       "status": "awaiting_google_login_and_idea_form",
       "dependencies": [
-        "Private named idea-stage PPT draft exists; font embedding, required contact details and official naming still need verification. EIS FAQ permits solo entry; verify actual form. Google authentication and submission remain.",
+        "Private named idea-stage PPT repaired with contacts, real embedded fonts and official naming; locally validated, no native PowerPoint cross-machine test. EIS FAQ permits solo entry; verify actual form. Google authentication and submission remain.",
         "Follow official Nov 28–30 48-hour build and final live pitch requirements",
         "This is a pre-event prototype, not work performed during the future event"
       ],
-      "current_blocker": "六页私密署名PPT草稿已有；当日提交指南另要求嵌入字体、指定文件命名及联系人资料，尚需补齐并核验。EIS官方FAQ明确允许个人，IoES首页简述为2–4人队伍，实际报名表仍需核对单人选项，不虚构成员或机构。Google表单需要登录，尚无报名/交件回执；后续入围及赛事窗口构建另行处理。",
+      "current_blocker": "六页私密署名PPT已补联系人、真正字体嵌入及指定命名，并完成本地结构和渲染核验；未在PowerPoint跨机实测。EIS官方FAQ明确允许个人，IoES首页简述为2–4人队伍，实际表单仍需核对单人/机构字段，不虚构成员或机构。Google登录、适用条款、上传与正式提交仍待完成，无报名或交件回执。",
       "private_signed_presentation_prepared": true,
       "registration_confirmed": false,
       "registration_receipt": null,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T12:11:51.952081+00:00",
+  "updated_at": "2026-11-07T02:37:07.064437+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 1,
@@ -10,12 +10,12 @@
       "github": "https://github.com/misakamikotoghr-5205/briefmint-skillpay",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_alipay_app_scan_and_payment_integration",
+      "status": "deferred_after_login_expired",
       "dependencies": [
         "Merchant setup and real sandbox integration",
         "SkillPay listing review and event entry"
       ],
-      "current_blocker": "已在官方PAYATHON新页恢复登录组件，真实支付宝扫码登录二维码已显示，待本人App扫码。报名与AI付接入须同一合格实名账户；真实部署/支付交付、赛道和商品方案仍待完成。",
+      "current_blocker": "必填报名资料、资格及本次活动规则和承诺确认已齐，已通过UI勾选协议并尝试提交；官网明确提示“用户未登录或登录态失效”，未取得报名回执。现按用户要求暂缓，优先其他活动；恢复时需重新登录、重试并核验成功回执。报名无需选赛道，交作品时再选；真实AI付接入和作品提交仍缺。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null
@@ -26,17 +26,17 @@
       "github": "https://github.com/misakamikotoghr-5205/aima-story-director",
       "formally_submitted": false,
       "receipt": null,
-      "status": "account_authenticated_open_platform_terms_pending",
+      "status": "application_draft_linksoul_terms_pending",
       "dependencies": [
-        "Accept separate open-platform terms and publish at least one valid native LinkSoul or LinkCraft work",
+        "Confirm separate LinkSoul terms and publish at least one valid native LinkSoul or LinkCraft work",
         "Creator-program application; device verification only if claiming physical deployment"
       ],
-      "current_blocker": "智元账号已登录，开放平台另有必选协议待当次确认；还需灵心/灵创原生有效作品。账号登录不算创作者计划报名或项目提交。",
+      "current_blocker": "智元账号已登录，开放平台协议已获准接受；申请联系资料已补齐，入门及个人开发者选项已选。灵心SSO已进入空工作台，但灵心独立条款仍待当次确认；本次项目尚无已核验的原生有效作品，创作者计划申请未提交，账号或工作台登录不等于报名或作品提交。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
       "account_authenticated": true,
-      "open_platform_terms_accepted": false
+      "open_platform_terms_accepted": true
     },
     {
       "project": "volc-casedesk",
@@ -59,12 +59,12 @@
       "github": "https://github.com/misakamikotoghr-5205/move-light-skill",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_huawei_and_rednote_accounts_and_tool_work",
+      "status": "security_verification_attempt_timed_out",
       "dependencies": [
         "Actual CodeArts or OfficeAce contribution and upload to BOTH Huawei and Xiaohongshu Skill markets",
         "Event entry and required social post"
       ],
-      "current_blocker": "已在华为账号页面正确选择中国大陆区号、填入手机号并点击获取验证码；平台要求滑块安全验证，尚未获准完成验证或发出短信。真实CodeArts/OfficeAce改进、报名与双市场/笔记仍待完成。",
+      "current_blocker": "当前华为滑块安全验证已获准并尝试操作，但UI超时，尚未确认验证通过，也未取得短信或登录成功。真实CodeArts/OfficeAce改进、报名与双市场发布及笔记仍待完成。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null
@@ -151,12 +151,12 @@
       "github": "https://github.com/misakamikotoghr-5205/scene-clearance-lab",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_aholo_lux3d_and_report",
+      "status": "account_terms_accepted_puzzle_confirmation_pending",
       "dependencies": [
         "Authorized Lux3D generation, asset rights and supported export verification",
         "Team/account eligibility, demo video and formal submission"
       ],
-      "current_blocker": "已进入国内站手机号登录表，未接受账号条款、未请求验证码或完成登录；需报名建单人队、选题、真实Lux3D核心资产及导出兼容实测。",
+      "current_blocker": "Aholo账号条款已按当次授权接受；点击Get code触发拼图安全验证，该拼图的当次确认仍未收到，尚未取得短信或登录成功。仍需单人组队选题、真实Lux3D核心资产、导出兼容实测及作品提交。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null
@@ -355,11 +355,11 @@
       "receipt": null,
       "status": "awaiting_google_login_and_idea_form",
       "dependencies": [
-        "Private signed idea-stage PPT is prepared and basic identity confirmed privately; user Google login and official application remain; limited places/shortlisting",
+        "Private named idea-stage PPT draft exists; font embedding, required contact details and official naming still need verification. EIS FAQ permits solo entry; verify actual form. Google authentication and submission remain.",
         "Follow official Nov 28–30 48-hour build and final live pitch requirements",
         "This is a pre-event prototype, not work performed during the future event"
       ],
-      "current_blocker": "六页英文PPTX及私密署名版已完成，个人信息不公开；基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理。官方Google表单强制登录，此前未登录会话超时，已恢复Google登录入口，等待本人登录；尚未见到表单字段，未预填或提交，无官方回执。后续入围/48小时构建另行记录。",
+      "current_blocker": "六页私密署名PPT草稿已有；当日提交指南另要求嵌入字体、指定文件命名及联系人资料，尚需补齐并核验。EIS官方FAQ明确允许个人，IoES首页简述为2–4人队伍，实际报名表仍需核对单人选项，不虚构成员或机构。Google表单需要登录，尚无报名/交件回执；后续入围及赛事窗口构建另行处理。",
       "private_signed_presentation_prepared": true,
       "registration_confirmed": false,
       "registration_receipt": null,

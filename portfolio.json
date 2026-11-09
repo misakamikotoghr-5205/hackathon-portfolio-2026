@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T06:15:32.259730+00:00",
+  "updated_at": "2026-11-09T07:07:51.788376+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -125,20 +125,20 @@
       "description": "故障调查、因果回放与替代分支练习",
       "github": "https://github.com/misakamikotoghr-5205/deadlock-manor",
       "run": "npm run dev",
-      "passed_local_tests": 21,
+      "passed_local_tests": 27,
       "pushed_and_remote_verified": true,
       "source_read_method": "official Devpost rules",
       "source": "https://kiroween.devpost.com/rules",
       "remaining_external_setup": [
-        "Genuine Kiro contribution and truthful Kiro-use write-up; current project story is blank",
-        "Functional application access, public GitHub with root .kiro, public YouTube demo under three minutes and final Devpost submission",
+        "Transfer the completed Kiro read-only review and Codex implementation disclosure into the still-empty Devpost Story; organizer acceptance is not established",
+        "Verify judge-accessible functional application access, publish a YouTube demo under three minutes, and complete final Devpost submission; public GitHub and root .kiro are available",
         "Kiro credit request receipt confirmed on November 9; application review and Didit identity verification are pending, with no grant confirmed"
       ],
       "formally_submitted": false,
       "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/landscape.md",
-      "github_commit": "6ee22572b99929ab248166606801e074a695a678",
-      "submission_status": "named_draft_saved_awaiting_kiro_use_and_materials",
+      "github_commit": "83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3",
+      "submission_status": "named_draft_saved_kiro_review_completed_awaiting_materials",
       "registration_confirmed": false,
       "devpost_authenticated": true,
       "draft_saved": true,
@@ -156,6 +156,25 @@
         "prior_application_or_grant_status": "not independently verified",
         "submitted_on": "2026-11-09",
         "sanitized_receipt_repo_path": "submissions/evidence/kiroween-credits-request-20261109.json"
+      },
+      "kiro_usage": {
+        "status": "authenticated_read_only_review_completed",
+        "completed_on": "2026-11-09",
+        "tool": "official Kiro CLI 3.0.0",
+        "elapsed_seconds": 92.614,
+        "trusted_tools": [
+          "fs_read"
+        ],
+        "kiro_edited_files": false,
+        "kiro_executed_tests": false,
+        "codex_reproduced_suggestions": 2,
+        "speculative_finding_rejected": true,
+        "implementation_and_tests_by": "Codex",
+        "additional_codex_finding_not_attributed_to_kiro": true,
+        "runtime_llm_integration": false,
+        "organizer_acceptance_confirmed": false,
+        "evidence": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/evidence/kiro-review-20261109.json",
+        "assessment": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/evidence/kiro-review-20261109-assessment.md"
       }
     },
     {
@@ -411,8 +430,8 @@
   ],
   "additional_online_events_first_batch": 3,
   "new_event_identity_assumption": "User confirmed individual developer and the necessary basic identity details privately. This does not establish nationality, platform identity verification, account availability or all personal eligibility conditions.",
-  "total_passed_local_tests": 345,
-  "platform_integration_evidence": "Actual local Ollama probes for Cart Consent, Pantry Relay and Patch Review Desk are recorded with failures and limits in their docs/evidence/. Mock contracts, these local probes and runnable packages do not establish remote contest-platform use or a completed submission.",
+  "total_passed_local_tests": 351,
+  "platform_integration_evidence": "Actual local Ollama probes for Cart Consent, Pantry Relay and Patch Review Desk are recorded with failures and limits in their docs/evidence/. Mock contracts, these local probes and runnable packages do not establish remote contest-platform use or a completed submission. Deadlock Manor records a completed authenticated Kiro CLI read-only development review; Codex implemented and tested the adapted fixes. This is not an LLM runtime integration.",
   "browser_verification_notes": {
     "pocket-pause": "Wish creation, ready review, manual linked deposit, reversal, and reload observed in localhost UI. Storage clock regressions covered by automated tests.",
     "deadlock-manor": "Completed incident, same-checkpoint causal comparison, and alternative-branch confirmation observed in localhost UI.",
@@ -435,5 +454,5 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has a saved named draft at 2/5 steps, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed."
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has a saved named draft at 2/5 steps, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story and final materials remain incomplete, and the credit grant is still unconfirmed."
 }

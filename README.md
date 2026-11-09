@@ -1,6 +1,6 @@
 # 2026 项目与黑客松作品集
 
-核查与开发日期：2026-11-04至2026-11-07。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动，以及额外筛选的十个赛事，共十七个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
+核查与开发日期：2026-11-04至2026-11-09。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动，以及额外筛选的十个赛事，共十七个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
 
 ## 额外十个赛事与对应项目
 
@@ -36,7 +36,7 @@
 | [CaseDesk](https://github.com/misakamikotoghr-5205/volc-casedesk) / 火山 Agent 先锋计划 | Chatwoot、Haystack | 同日有效政策冲突时保留候选原文，撤回实质性回复并明确交人工；冲突写入追踪与运行标识。 |
 | [Move Light](https://github.com/misakamikotoghr-5205/move-light-skill) / 华为 Skill 创新赛 | OR-Tools、py3dbp | 加入箱子/物品边长与直角旋转可放入性；缺失尺寸明确未验证，避免把容积足够当作一定放得下。不是完整三维最优装箱。 |
 | [爱奇艺 Play Lab](https://github.com/misakamikotoghr-5205/iqiyi-play-lab) / 玩点新花样 | Bemuse、StepMania、Twine、Shove | 保留四款独立离线应用和四个 ZIP；节奏游戏增加 12 拍校准、异常点过滤和稳定性门槛，静音可玩；修正分镜预览与键盘控件行为。 |
-| [Deadlock Manor](https://github.com/misakamikotoghr-5205/deadlock-manor) / Kiroween | T3SF、KubeInvaders（已有模拟模式） | 新增因果回放：回到实际决策时点、保留当时证据、比较同一步替代操作，继续分支并可返回原记录。角色是透明规则，无真实模型。 |
+| [Deadlock Manor](https://github.com/misakamikotoghr-5205/deadlock-manor) / Kiroween | T3SF、KubeInvaders（已有模拟模式） | 新增因果回放：回到实际决策时点、保留当时证据、比较同一步替代操作，继续分支并可返回原记录。运行时角色是透明规则，不调用模型；11月9日开发阶段已完成真实Kiro只读审查，Codex据复现结果修复持久化警告并另行修复备份删除顺序。 |
 | [慢递愿望局 · Pocket Pause](https://github.com/misakamikotoghr-5205/pocket-pause) / 支付宝小荷包 AI 插件创作 | Actual Budget、wishthis | 购买冷静期与回信流程，把“放下的消费意向”和“手动记录的存入”分开；关联额度校验、保留撤销历史、备份恢复及原创创作词。 |
 
 新补充的[小荷包活动帖](https://www.xiaohongshu.com/discovery/item/6a96b088000000001103af07)已在浏览器查看；官方置顶评论的截止是 **10 月 31 日**，11 月 6 日复查仍无已核实的官方延期，按用户要求跳过。火山申请表明确限定企业开发者，按用户的个人身份跳过。慢递愿望局是可复用原型及候选创作词，未声称存在已验证的第三方插件 SDK、官方 manifest 或已上架插件。
@@ -51,7 +51,7 @@
 
 ## 交付与核验
 
-各项目 README 提供启动、样例和验证命令，累计 345 项本地测试通过（含本轮19项新增前端检查）。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件或主办方后台已联通。Cart、Pantry、Patch 已另存真实本地模型请求与失败记录，仍不等于端到端平台接入。
+各项目 README 提供启动、样例和验证命令，累计 351 项本地测试通过（含19项新增前端检查与6项持久化回归）。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件或主办方后台已联通。Cart、Pantry、Patch 已另存真实本地模型请求与失败记录，仍不等于端到端平台接入。
 
 可用的托管预览保持**仅所有者可访问**：
 
@@ -64,4 +64,4 @@
 - [Lumen Shift](https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site)
 - [Parallax Postcards](https://parallax-postcards-2026.ghraurora1024.chatgpt.site)
 
-公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。11月9日PayPal报名已由官方页面确认，项目列表仍为空；Kiroween仅保存了名为Deadlock Manor的2/5步骤草稿，Story为空、尚无真实Kiro贡献或最终提交，4000额度申请已获[官方收件确认](submissions/evidence/kiroween-credits-request-20261109.json)，待审核及Didit身份核验，尚无获批或到账确认。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox、公开演示与正式交件等缺口均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前独立核验的官方报名阶段为4项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal），最终作品提交回执仍为1份（Builder）；另记录上述用户确认的阶段进度。
+公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。11月9日PayPal报名已由官方页面确认，项目列表仍为空；Kiroween仅保存了名为Deadlock Manor的2/5步骤草稿，Story为空、未最终提交；同日已完成一次真实Kiro CLI只读审查，Codex复现并实现持久化修复（[记录及归因](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/kiro-usage.md)），不声称Kiro编写原应用或执行测试。4000额度申请已获[官方收件确认](submissions/evidence/kiroween-credits-request-20261109.json)，待审核及Didit身份核验，尚无获批或到账确认。Kiro使用说明入表、Lux3D真实生成、支付sandbox、公开演示与正式交件等剩余事项均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前独立核验的官方报名阶段为4项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal），最终作品提交回执仍为1份（Builder）；另记录上述用户确认的阶段进度。

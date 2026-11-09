@@ -32,7 +32,7 @@
 | 华为×小红书 | [move-light-skill](https://github.com/misakamikotoghr-5205/move-light-skill) | 未交；验证障碍先跳过 | 真实码道/OfficeAce使用、双市场上架及笔记 |
 | 支付宝涌现奖 | [pantry-relay](https://github.com/misakamikotoghr-5205/pantry-relay) | **报名记录与材料草稿已保存，life方向；作品1但未提交** | ZIP审核/安全下线状态待确认、材料待完善；继续提交须重新选ZIP，仍需平台发布/验收与最终交件回执 |
 | 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；认证障碍先跳过 | 公开构想帖、报名审核、公开创空间及交件 |
-| Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **Deadlock Manor草稿已保存，2/5步骤、Story为空；未交件** | 真实Kiro贡献、使用说明及演示材料；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
+| Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **真实Kiro只读审查已完成；草稿2/5步骤、Story为空；未交件** | 将准确使用归因填入Story、补评委访问及公开YouTube；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
 | Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；CLI认证失败，先跳过 | 真实Forge部署/Jira安装、评委链接、视频及Devpost |
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |
 | 小荷包原届 | [pocket-pause](https://github.com/misakamikotoghr-5205/pocket-pause) | 跳过 | 已过期，无已核实延期 |
@@ -56,4 +56,4 @@
 
 个人资料、账号凭据、验证码、私密署名材料和回执不保存到这个公开仓库。报名表的资格、账号、条款和公开材料仍须逐项确认；缺少的链接或平台使用记录不会以虚构内容补齐。
 
-国内最新进度见[持续更新记录](domestic-progress-20261106.md)。11月7日已按用户确认更新Next Horizon、爱奇艺和AIMA阶段；既有Kiro/Forge CLI与itch/ModelScope认证缺口不因Devpost登录而消失。11月9日PayPal报名确认、Kiroween命名草稿保存均已另行记录，二者均未最终交件，Kiro额度申请已由官方表单确认收件，仍待审核及Didit身份核验，尚无获批或到账确认。
+国内最新进度见[持续更新记录](domestic-progress-20261106.md)。11月7日已按用户确认更新Next Horizon、爱奇艺和AIMA阶段；Kiro CLI已完成真实只读审查；Forge CLI与itch/ModelScope认证缺口不因Devpost登录而消失。11月9日PayPal报名确认、Kiroween命名草稿保存均已另行记录，二者均未最终交件，Kiro额度申请已由官方表单确认收件，仍待审核及Didit身份核验，尚无获批或到账确认。

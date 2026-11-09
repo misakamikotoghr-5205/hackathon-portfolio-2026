@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-11-09T03:31:46.280878+00:00",
+  "source": "Main operator observation of official browser UI on 2026-11-09; no private identifiers or contact fields published.",
+  "projects": [
+    {
+      "project": "briefmint-skillpay",
+      "public_event_source": "https://aipay.alipay.com/community/events/payathon-2026",
+      "registration_confirmed": true,
+      "observed_stage": "personal_registration_active",
+      "project_count": 0,
+      "required_entry_materials_missing": [
+        "real_platform_skill_url",
+        "valid_transaction_evidence"
+      ],
+      "formally_submitted": false,
+      "submission_receipt": null,
+      "approval_verified": false,
+      "selected_entry_track": "SkillPay",
+      "entry_form_opened": true,
+      "entry_form_submitted": false,
+      "owner_decisions_pending": [
+        "sale_mode",
+        "price"
+      ]
+    },
+    {
+      "project": "pantry-relay",
+      "public_event_source": "https://emerge.alipay.com/",
+      "registration_confirmed": true,
+      "observed_stage": "materials_draft_saved",
+      "title": "余量接力：开封时钟与库存回执",
+      "track": "life",
+      "zip_submission_attempts": 2,
+      "observed_attempt_result": "Creating publication task message briefly shown, then editor returned; no visible error, acceptance or final submission confirmation.",
+      "zip_publication_acceptance_verified": false,
+      "formally_submitted": false,
+      "submission_receipt": null,
+      "approval_verified": false,
+      "materials_draft_saved": true,
+      "project_count": 1,
+      "card_status": "draft",
+      "save_and_exit_succeeded": true,
+      "save_toast": "作品材料已保存，提交审核时需重新选择ZIP",
+      "subsequent_status_messages": [
+        "ZIP审核状态确认中",
+        "安全下线状态待确认，将自动重试查询；材料待完善"
+      ],
+      "platform_publication_acceptance_verified": false
+    }
+  ],
+  "limitations": "Registration and a created draft record are distinct from final project submission, ZIP publication acceptance, approval and listing. No receipt ID, authentication URL, contact data or private artifact path is included."
+}

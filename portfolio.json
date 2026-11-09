@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T10:40:17.050691+00:00",
+  "updated_at": "2026-11-09T03:31:46.280878+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -14,17 +14,21 @@
       "source_read_method": "rendered browser",
       "source": "https://www.xiaohongshu.com/discovery/item/6ae465bb0000000010012b7a",
       "remaining_external_setup": [
-        "Merchant setup and real sandbox integration",
-        "SkillPay listing review and event entry"
+        "Real platform Skill listing URL and valid transaction evidence required by the observed SkillPay entry form; both missing",
+        "Owner-selected sale mode and price, actual payment/delivery verification and formal project entry"
       ],
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/landscape.md",
       "github_commit": "861998e6af7b9889602417e02416361a1961b971",
-      "submission_status": "user_reported_registration_attempt_in_progress",
-      "user_reported": true,
-      "reported_stage": "registration_attempt_in_progress",
-      "official_receipt_verified": false,
-      "browser_submission_verified": false
+      "submission_status": "registered_no_project_entry",
+      "user_reported": false,
+      "reported_stage": "registration_confirmed",
+      "official_receipt_verified": true,
+      "browser_submission_verified": false,
+      "registration_confirmed": true,
+      "browser_registration_verified": true,
+      "selected_entry_track": "SkillPay",
+      "entry_form_opened": true
     },
     {
       "number": 2,
@@ -206,18 +210,22 @@
       "source": "https://emerge.alipay.com/",
       "landscape_review": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Owner confirms Alipay real-name and phone binding; active authenticated event session still needed",
-        "Actual platform-compatible import/build acceptance and release; owner-private Sites preview is not an eligible platform URL",
-        "Formal URL/HTML-ZIP upload and official entry receipt; no final submission yet"
+        "One materials draft saved in the official workspace; publication/acceptance and safe-offline state remain unconfirmed",
+        "Reselect ZIP when continuing submission, as required by the official saved-materials toast, or use a genuinely published eligible platform URL",
+        "Final project submission and official receipt; no submitted or approved result yet"
       ],
       "formally_submitted": false,
       "pushed_and_remote_verified": true,
       "github_commit": "187a126140ae905e54a323f6453fc597b6c3d039",
-      "submission_status": "interactive_web_and_qmuse_project_ready_awaiting_platform_login_and_submission",
+      "submission_status": "materials_draft_saved_awaiting_platform_publication_and_submission",
       "private_preview": "https://pantry-relay-2026.ghraurora1024.chatgpt.site",
       "offline_html_zip": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-offline-html.zip",
       "react_html_zip": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-react-html.zip",
-      "qmuse_source": "https://github.com/misakamikotoghr-5205/pantry-relay/tree/main/qmuse"
+      "qmuse_source": "https://github.com/misakamikotoghr-5205/pantry-relay/tree/main/qmuse",
+      "registration_confirmed": true,
+      "browser_registration_verified": true,
+      "materials_draft_saved": true,
+      "observed_project_count": 1
     },
     {
       "number": 11,
@@ -406,5 +414,5 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry and Apart signup. Participant reports: Next Horizon idea form submitted, AIMA application submitted, four iQiyi backend app submissions; PAYATHON registration attempt in progress. These reported stages are tracked separately from final entries and approval. Two inapplicable activities skipped. See submissions/status.json."
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json."
 }

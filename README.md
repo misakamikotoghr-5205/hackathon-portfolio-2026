@@ -10,7 +10,7 @@
 | --- | --- | --- | --- |
 | [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/rules) | 北京2026-11-13 04:00 | [Cart Consent](https://github.com/misakamikotoghr-5205/cart-consent-paypal)：购物篮逐字段人工批准、变更撤销、调用竞态复核 | 合法可用的 Business/sandbox 账号、真实 PayPal+AI 演示、英文材料与视频 |
 | [Aholo 全球3D AI黑客松](https://www.aholo3d.cn/hackathon) | 北京2026-11-19 19:00 | [留白实验室](https://github.com/misakamikotoghr-5205/scene-clearance-lab)：本地模型布置、可解释几何间距、A/B报告 | 单人也须建队；真实 Lux3D 核心资产与兼容性、视频、提交 |
-| [支付宝智能体涌现奖](https://emerge.alipay.com/) | 按北京2026-12-06 00:00准备 | [余量接力](https://github.com/misakamikotoghr-5205/pantry-relay)：交互式库存/菜谱录入、来源门禁、预算/偏好、逐笔确认、消费/撤回回执 | 本人已确认实名；离线HTML交互包/私有预览已成，仍需官方平台构建验收及交件；QMuse真实React工程本地预检通过，待登录导入/发布 |
+| [支付宝智能体涌现奖](https://emerge.alipay.com/) | 按北京2026-12-06 00:00准备 | [余量接力](https://github.com/misakamikotoghr-5205/pantry-relay)：交互式库存/菜谱录入、来源门禁、预算/偏好、逐笔确认、消费/撤回回执 | 11月9日life方向报名记录与材料草稿已保存，作品1；平台ZIP/安全下线状态待确认、材料待完善，尚无最终交件确认 |
 | [Codegeist 2026](https://codegeist2026.devpost.com/rules) | 北京2026-12-23 04:00 | [Dependency Evidence for Jira](https://github.com/misakamikotoghr-5205/dependency-evidence-forge)：依赖证据快照、循环/缺失说明、旧审阅漂移复核；实际 Forge SDK模块 | Atlassian/Forge账号注册、lint/deploy/install、评委安装链接与视频；目前无真实Jira调用 |
 | [Builder.io Agent-Native Hackathon](https://www.builder.io/hackathon/rules) | 北京2026-11-10 15:59 | [Patch Review Desk](https://github.com/misakamikotoghr-5205/patch-review-desk)：实际 Agent-Native动作合同、逐hunk人审、基线漂移撤销和持久化回滚 | 11月6日正式提交，官网已确认收到；公开Clips录屏已完成；目前是本机文件工具 |
 | [魔搭×Qoder AI+∞第三期](https://mseo-ai-inf.ms.show/) | 官网2026-12-01 12:00报名；18:00交件，未明示时区 | [纸路邮局](https://github.com/misakamikotoghr-5205/paper-route-playtest)：四关可重放派送谜题、精确搜索试玩、隔离变异体反例 | 本人先发构想帖并审核报名、魔搭创空间公开托管、手记/视频；Qoder不是硬性工具要求 |
@@ -19,7 +19,7 @@
 | [Next Horizon 2026](https://eisociety.org/hackathon.php?slug=next-horizon-2026) | 11月15日构想，未标具体时刻；11月28–30日48小时构建 | [Watt Window](https://github.com/misakamikotoghr-5205/watt-window)：非关键负载时间窗排程、功率约束、可解释成本与敏感性 | 用户确认构想表已交，待主办方回复/入围；如入围再按48小时构建与路演要求完成 |
 | [Through Your Eyes](https://itch.io/jam/through-your-eyes-first-person-game-jam) | 官网11月15日；按平台倒计时核对时区 | [Parallax Postcards](https://github.com/misakamikotoghr-5205/parallax-postcards)：软件光线投射第一人称房间、不同深度碎片对齐、三张原创明信片 | itch.io报名与可玩提交、AI辅助披露；社区Game Jam，无已确认现金奖 |
 
-用户确认 Next Horizon 构想表、AIMA 申请及爱奇艺四款后台投稿已交，PAYATHON 正在自行尝试报名；按所报阶段记录，不重复提交，尚不代表审核通过或最终交件。Builder 已于11月6日在本人确认后正式交件，官网显示收到作品；网页回执私密保留，尚不代表评审通过。Apart 官网明确全球线上、允许个人参与，11月6日已观察到正式报名成功页，回执私密保留；作品提交窗口尚未开启。已有代码必须披露为赛前工作；奖金收取另须符合[官方条款](https://apartresearch.com/sprints/prize-terms)。Next Horizon 的 FAQ 允许初次构想附已有原型，正式构建与入围安排仍须遵守主办方规则。
+用户确认 Next Horizon 构想表、AIMA 申请及爱奇艺四款后台投稿已交，PAYATHON 个人报名已在官方参赛中心确认生效、作品仍为0；已进入SkillPay作品表但未提交，尚缺平台链接与有效交易凭证；按所报阶段记录，不重复提交，尚不代表审核通过或最终交件。Builder 已于11月6日在本人确认后正式交件，官网显示收到作品；网页回执私密保留，尚不代表评审通过。Apart 官网明确全球线上、允许个人参与，11月6日已观察到正式报名成功页，回执私密保留；作品提交窗口尚未开启。已有代码必须披露为赛前工作；奖金收取另须符合[官方条款](https://apartresearch.com/sprints/prize-terms)。Next Horizon 的 FAQ 允许初次构想附已有原型，正式构建与入围安排仍须遵守主办方规则。
 
 支付宝[延期公告](https://www.yuque.com/shanxian/dfe94a/xgqqg05f9n3l6lzg?singleDoc#)写12月6日零点；[规则正文](https://www.yuque.com/shanxian/dfe94a/xzter263dyio4ge3?singleDoc#)另有23:59:59的冲突表述，按更早时点准备。
 

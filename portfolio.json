@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T03:56:03.507483+00:00",
+  "updated_at": "2026-11-09T06:15:32.259730+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -132,7 +132,7 @@
       "remaining_external_setup": [
         "Genuine Kiro contribution and truthful Kiro-use write-up; current project story is blank",
         "Functional application access, public GitHub with root .kiro, public YouTube demo under three minutes and final Devpost submission",
-        "The one-time Kiro credit request is only being prepared; neither application submission nor grant is confirmed"
+        "Kiro credit request receipt confirmed on November 9; application review and Didit identity verification are pending, with no grant confirmed"
       ],
       "formally_submitted": false,
       "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
@@ -149,10 +149,13 @@
         "final_submission_confirmed": false
       },
       "credits_request": {
-        "status": "preparing_only",
-        "application_submission_confirmed": false,
+        "status": "submitted_pending_review_and_didit",
+        "application_submission_confirmed": true,
         "grant_confirmed": false,
-        "prior_application_or_grant_status": "not verified"
+        "identity_verification_completed": false,
+        "prior_application_or_grant_status": "not independently verified",
+        "submitted_on": "2026-11-09",
+        "sanitized_receipt_repo_path": "submissions/evidence/kiroween-credits-request-20261109.json"
       }
     },
     {
@@ -432,5 +435,5 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has a saved named draft at 2/5 steps, not a final submission; Kiro credit request is preparation only."
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has a saved named draft at 2/5 steps, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed."
 }

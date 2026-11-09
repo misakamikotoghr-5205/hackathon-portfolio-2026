@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T07:07:51.788376+00:00",
+  "updated_at": "2026-11-09T08:15:10.881960+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -131,13 +131,13 @@
       "source": "https://kiroween.devpost.com/rules",
       "remaining_external_setup": [
         "Transfer the completed Kiro read-only review and Codex implementation disclosure into the still-empty Devpost Story; organizer acceptance is not established",
-        "Verify judge-accessible functional application access, publish a YouTube demo under three minutes, and complete final Devpost submission; public GitHub and root .kiro are available",
+        "Public GitHub Pages entry is anonymously accessible with all runtime assets; publish a YouTube demo under three minutes and complete final Devpost submission. No fresh browser gameplay validation is claimed.",
         "Kiro credit request receipt confirmed on November 9; application review and Didit identity verification are pending, with no grant confirmed"
       ],
       "formally_submitted": false,
       "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/landscape.md",
-      "github_commit": "83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3",
+      "github_commit": "3ab1ecc20b90c5fb70826352d45ab0c7257341d5",
       "submission_status": "named_draft_saved_kiro_review_completed_awaiting_materials",
       "registration_confirmed": false,
       "devpost_authenticated": true,
@@ -175,6 +175,16 @@
         "organizer_acceptance_confirmed": false,
         "evidence": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/evidence/kiro-review-20261109.json",
         "assessment": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/evidence/kiro-review-20261109-assessment.md"
+      },
+      "public_demo": "https://misakamikotoghr-5205.github.io/deadlock-manor/",
+      "public_static_deployment": {
+        "url": "https://misakamikotoghr-5205.github.io/deadlock-manor/",
+        "anonymous_index_and_runtime_assets_verified": true,
+        "runtime_asset_count": 5,
+        "source_bytes_match": true,
+        "source_commit": "3ab1ecc20b90c5fb70826352d45ab0c7257341d5",
+        "fresh_browser_gameplay_verified": false,
+        "scope": "Official Pages build successful; unauthenticated direct index and five runtime assets returned 200 with correct MIME and source-byte identity. No new browser gameplay or final Devpost submission."
       }
     },
     {
@@ -412,7 +422,7 @@
       "description": "软件光线投射第一人称解谜、不同深度几何对齐与三张原创明信片",
       "github": "https://github.com/misakamikotoghr-5205/parallax-postcards",
       "run": "npm run verify && npm run package && npm run dev",
-      "passed_local_tests": 16,
+      "passed_local_tests": 17,
       "source": "https://itch.io/jam/through-your-eyes-first-person-game-jam",
       "source_read_method": "official event page/rules; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/parallax-postcards/blob/main/docs/landscape.md",
@@ -423,29 +433,124 @@
       ],
       "formally_submitted": false,
       "private_preview": "https://parallax-postcards-2026.ghraurora1024.chatgpt.site",
-      "github_commit": "c4d4dad3d7a65f0ed5b73cf0e34ad9f9ed25e50a",
+      "github_commit": "3ede110d29eb248d307cfaf45e9783762032924c",
       "pushed_and_remote_verified": true,
-      "submission_status": "awaiting_itch_account_and_game_page"
+      "submission_status": "awaiting_itch_account_and_game_page",
+      "playable_artifact": {
+        "repo_path": "submissions/artifacts/parallax-postcards-itch.zip",
+        "sha256": "e676247689664d67664506e39743b405462914a16e47d36fea050f1cef502506",
+        "bytes": 18151,
+        "root_files": 6,
+        "crc_passed": true,
+        "source_files_match": true,
+        "source_commit": "3ede110d29eb248d307cfaf45e9783762032924c",
+        "official_upload_or_entry": false
+      }
+    },
+    {
+      "number": 18,
+      "event": "QNX Global Hackathon",
+      "project": "boot-order-atlas",
+      "description": "QNX 8启动脚本与显式资源契约的源行审查、条件等待说明和修订比较",
+      "github": "https://github.com/misakamikotoghr-5205/boot-order-atlas",
+      "run": "sh scripts/verify.sh",
+      "passed_local_tests": 32,
+      "source": "https://qnx.devpost.com/rules",
+      "source_read_method": "official Devpost rules and QNX 8 documentation; details in docs/competition.md",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/boot-order-atlas/blob/main/docs/landscape.md",
+      "remaining_external_setup": [
+        "Official QNX Devpost registration, eligibility declarations and final entry; no event registration or final receipt yet",
+        "Public YouTube demonstration shorter than three minutes; the 151.6-second local host-tool video is not a public upload",
+        "Retain the host-tool/QNX-specific support evidence and accurate platform details; no SDK, mkifs build or QNX runtime evidence is claimed"
+      ],
+      "formally_submitted": false,
+      "github_commit": "7079c6eeed414aff2cb14b1591c6bd07c97e21e1",
+      "pushed_and_remote_verified": true,
+      "submission_status": "host_tool_and_local_video_ready_not_registered_or_submitted",
+      "registration_confirmed": false,
+      "official_receipt_verified": false,
+      "browser_registration_verified": false,
+      "browser_submission_verified": false,
+      "new_linked_batch": "2026-11-09",
+      "included_in_additional_ten": false,
+      "sdk_build_or_runtime_verified": false,
+      "local_demo": {
+        "duration_seconds": 151.6,
+        "sha256": "038c9f53408f4dd1766c82b199012b3b76bf393dd335dd4b03705b24fc524b1c",
+        "bytes": 6129190,
+        "public_video_url": null,
+        "kind": "Edited actual host CLI walkthrough; not QNX target execution",
+        "evidence": "https://github.com/misakamikotoghr-5205/boot-order-atlas/blob/7079c6eeed414aff2cb14b1591c6bd07c97e21e1/docs/local-demo-20261109.json"
+      }
+    },
+    {
+      "number": 19,
+      "event": "MINMAX AI Agent Hackathon",
+      "project": "caption-relay",
+      "description": "SRT/VTT时间与术语检查、程序字面候选、真实本地模型选择、人审与审计交接",
+      "github": "https://github.com/misakamikotoghr-5205/caption-relay",
+      "run": "npm ci && npm run dev -- --hostname 127.0.0.1 --port 5190",
+      "passed_local_tests": 28,
+      "source": "https://www.gba-base.com/newsDetail.html?id=2892&active=true",
+      "source_read_method": "official organizer 18-question page and embedded rule image; details in docs/minmax-submission.md",
+      "landscape_review": "https://github.com/misakamikotoghr-5205/caption-relay#open-source-and-comparisons",
+      "remaining_external_setup": [
+        "Official individual questionnaire registration and final submission email; neither has been sent or confirmed",
+        "Provide the prepared PDF, Chinese-narrated captioned MP4 and accurate trial instructions, then retain the organizer confirmation; local materials are not official receipt",
+        "Canonical judge path is the public GitHub README and a local Ollama setup; owner-private Sites UI is not public judge access and cannot reach the developer machine local model"
+      ],
+      "formally_submitted": false,
+      "github_commit": "e28bb9f0a228fbb74b18852ef788bd268233427f",
+      "pushed_and_remote_verified": true,
+      "submission_status": "local_materials_ready_registration_and_email_not_sent",
+      "registration_confirmed": false,
+      "official_receipt_verified": false,
+      "browser_registration_verified": false,
+      "browser_submission_verified": false,
+      "new_linked_batch": "2026-11-09",
+      "included_in_additional_ten": false,
+      "private_preview": "https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site",
+      "canonical_trial_instructions": "https://github.com/misakamikotoghr-5205/caption-relay#run-locally",
+      "hosted_preview_model_connected": false,
+      "hosted_preview_judge_accessible": false,
+      "real_local_model_http_verified": true,
+      "complete_browser_roundtrip_verified": false,
+      "business_plan_pdf": {
+        "pages": 8,
+        "bytes": 109761,
+        "sha256": "bce9bb95e194bbca8ab2968e66866590506d01e794a3c18b28ff806a7eb2e98d",
+        "visual_review_passed": true,
+        "public_download_url": null
+      },
+      "local_demo": {
+        "duration_seconds": 106.8,
+        "sha256": "79e119fb450de9ef5d7bc54371b19a2366eec3974b8fa918ad20ce1c3183de1f",
+        "bytes": 2124112,
+        "public_video_url": null,
+        "kind": "Edited original evidence cards from actual saved HTTP/CLI files; Chinese narration and synchronous captions; not GUI or terminal capture",
+        "evidence": "https://github.com/misakamikotoghr-5205/caption-relay/blob/e28bb9f0a228fbb74b18852ef788bd268233427f/docs/local-demo-20261109.json"
+      }
     }
   ],
   "additional_online_events_first_batch": 3,
   "new_event_identity_assumption": "User confirmed individual developer and the necessary basic identity details privately. This does not establish nationality, platform identity verification, account availability or all personal eligibility conditions.",
-  "total_passed_local_tests": 351,
-  "platform_integration_evidence": "Actual local Ollama probes for Cart Consent, Pantry Relay and Patch Review Desk are recorded with failures and limits in their docs/evidence/. Mock contracts, these local probes and runnable packages do not establish remote contest-platform use or a completed submission. Deadlock Manor records a completed authenticated Kiro CLI read-only development review; Codex implemented and tested the adapted fixes. This is not an LLM runtime integration.",
+  "total_passed_local_tests": 412,
+  "platform_integration_evidence": "Actual local Ollama probes for Cart Consent, Pantry Relay and Patch Review Desk are recorded with failures and limits in their docs/evidence/. Mock contracts, these local probes and runnable packages do not establish remote contest-platform use or a completed submission. Deadlock Manor records a completed authenticated Kiro CLI read-only development review; Codex implemented and tested the adapted fixes. This is not an LLM runtime integration. Boot Order Atlas adds a deterministic QNX-specific host analysis tool, without SDK/build/target execution. Caption Relay has one real local HTTP review (59.729753 seconds) selecting a known program-generated literal glossary candidate, followed by a separately explicit saved-response export; it is not full-document quality evidence or a complete browser round trip. Its native Sites deployment is owner-private and cannot reach the developer machine local Ollama.",
   "browser_verification_notes": {
     "pocket-pause": "Wish creation, ready review, manual linked deposit, reversal, and reload observed in localhost UI. Storage clock regressions covered by automated tests.",
-    "deadlock-manor": "Completed incident, same-checkpoint causal comparison, and alternative-branch confirmation observed in localhost UI.",
+    "deadlock-manor": "Completed incident, same-checkpoint causal comparison, and alternative-branch confirmation observed in localhost UI. GitHub Pages public deployment was later verified by anonymous direct index plus five runtime assets (200, correct MIME, source bytes matched). This adds static access evidence, not new browser gameplay or a Devpost receipt.",
     "iqiyi-play-lab": "Calibration controls and persisted manual timing offset observed in localhost UI; tap-estimator boundaries covered by automated tests.",
     "scene-clearance-lab": "Browser WebGL2 context unavailable; usable top-down fallback observed. Original glTF import, numeric layout commit, geometric update, snapshots and reload observed. Full WebGL rendering remains unverified in this environment.",
     "paper-route-playtest": "Observed full 12-step autoplay victory/return, hint without acting, and mutant counterexample where step 4 falsely delivers only in the mutant. No console errors. Separately, actual local Node engine evidence for fixed seed 20261106 is available at https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/c5392db0e37744014dd9a4e07038e4cc27099341/docs/evidence/README.md: four winning replays and one isolated mutant counterexample. This adds no browser, platform deployment, registration or submission evidence.",
     "lumen-shift": "Observed first-board victory, undo/redo, next-board hint, and completed-board persistence after reload. Replay-allowance hint boundary covered by automated regression.",
     "parallax-postcards": "Observed legal reading/navigation/alignment/capture in all three rooms, 3/3 completion, ending and restored progress after reload. No console errors. Canvas2D rendering observed.",
     "patch-review-desk": "Isolated agent-capability proposal with two fixture hunks; reviewer approved only the time hunk, applied 09:00 to 09:30 with unapproved final sentence unchanged, then rolled back and restored the original SHA. Real 2:04 screen-only silent Clips recording saved. Anonymous HTTP share/context and four media-frame requests succeeded; authenticated player naturally reached 124.794s end with readyState 4 and no decoding error. Recording is fixture/model off, distinct from the limited real Ollama probe. Builder official form confirmed receipt of the final entry on 2026-11-06; this is not a judging result.",
-    "pantry-relay": "Actual desktop browser run: source/date gates; explicit review checkbox; tomato 300→100 and eggs4→2 on confirmation; reload retained receipt; undo restored balances and kept reversed receipt; budget1 blocked candidates; new unconfirmed undated20g lot held; real exported JSON reimported as new ledger without trusting historical receipts. Offline deterministic UI, not Alipay, phone/WebView, QMuse deployment or submission. Genuine React version also passed development UI checks including preferences, file import, cross-tab review invalidation and an out-of-stock recipe cost edit. A production UMD bridge loading failure was found, repaired and retained in evidence; actual production confirmation/reload/undo then passed with zero new console errors. Official CLI local preflight accepted19 source files, but no QMuse login/import/release or contest entry."
+    "pantry-relay": "Actual desktop browser run: source/date gates; explicit review checkbox; tomato 300→100 and eggs4→2 on confirmation; reload retained receipt; undo restored balances and kept reversed receipt; budget1 blocked candidates; new unconfirmed undated20g lot held; real exported JSON reimported as new ledger without trusting historical receipts. Offline deterministic UI, not Alipay, phone/WebView, QMuse deployment or submission. Genuine React version also passed development UI checks including preferences, file import, cross-tab review invalidation and an out-of-stock recipe cost edit. A production UMD bridge loading failure was found, repaired and retained in evidence; actual production confirmation/reload/undo then passed with zero new console errors. Official CLI local preflight accepted19 source files, but no QMuse login/import/release or contest entry.",
+    "caption-relay": "Initial local browser import of five original cues and three flags was observed. Final AI selection and explicit cue-2 export are separately evidenced by real HTTP and saved-response CLI runs; complete browser AI review/accept/export remains unverified. Native Sites deployment succeeded but is owner-private, not a judge-accessible AI runtime, and cannot reach the developer machine loopback Ollama."
   },
   "additional_online_events_requested": 10,
   "additional_online_events_delivered": 10,
-  "project_count": 17,
+  "project_count": 19,
   "preview_access": "Owner-only; not a public judge-accessible demo",
   "excluded_or_conditional_candidates": [
     {
@@ -454,5 +559,14 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has a saved named draft at 2/5 steps, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story and final materials remain incomplete, and the credit grant is still unconfirmed."
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has a saved named draft at 2/5 steps, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story and final materials remain incomplete, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. Neither QNX event registration nor MINMAX questionnaire/email submission has occurred; they add no official registration or final receipt.",
+  "new_user_linked_events_20261109": {
+    "project_count": 2,
+    "projects": [
+      "boot-order-atlas",
+      "caption-relay"
+    ],
+    "included_in_additional_ten": false,
+    "source": "Additional user-shared event links checked on 2026-11-09; distinct from the previously delivered ten events."
+  }
 }

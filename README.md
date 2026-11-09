@@ -1,6 +1,6 @@
 # 2026 项目与黑客松作品集
 
-核查与开发日期：2026-11-04至2026-11-09。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动，以及额外筛选的十个赛事，共十七个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
+核查与开发日期：2026-11-04至2026-11-09。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动、额外筛选的十个赛事，以及11月9日用户新链接补充的两项，共十九个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。**
 
 ## 额外十个赛事与对应项目
 
@@ -25,6 +25,17 @@
 
 未将 OPC 3.0 第二季计入本轮：官网日期列11月30日，但实际顶部按钮显示“报名已截止”，开放状态矛盾尚未解决。也没有把学生专属赛、已过报名截止的 EthnoHack 或要求未确认组织身份的 AWS MSP 计入十场。[Mozilla Developers Wilding](https://otari.ai/devs-wilding)仍展示邮件报名，但晚报名接受情况和截止时区未确认，仅保留为候选，不占十场名额；Source Trail 的可选 Otari 适配没有实际远程调用或参赛记录。
 
+## 11月9日新链接补充的两项
+
+以下两项独立于已经交付的额外十场，不改变十场名额或报名、交件计数。
+
+| 官方赛事 | 截止与阶段 | 独立项目及本地证据 | 正式参赛尚缺 |
+| --- | --- | --- | --- |
+| [QNX Global Hackathon](https://qnx.devpost.com/rules) | 2026-12-15 14:00 EST，即19:00 UTC / 北京12月16日03:00 | [Boot Order Atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas)：分析QNX 8启动脚本受支持子集与显式资源契约，源行诊断、条件等待与修订比较；32项测试、151.6秒英文旁白/字幕的本地主机CLI成片 | 尚未活动报名或交件；须公开少于3分钟YouTube。主机工具不等于QNX SDK构建、IFS验证或目标运行；个人具体资格仍按规则核验 |
+| [MINMAX AI Agent黑客松](https://www.gba-base.com/newsDetail.html?id=2892&active=true) | 2026-11-10，官方未列具体时刻或时区 | [字幕交接台 Caption Relay](https://github.com/misakamikotoghr-5205/caption-relay)：SRT/VTT检查、程序生成字面词表候选、真实本地模型选择、人审与审计导出；28项测试、8页PDF、106.8秒中文旁白/同步字幕的编辑证据成片 | 未问卷报名、未发投稿邮件、无官方收件；评委可按公开README本地运行。Sites仅所有者预览且无法连接开发机Ollama，不是公开AI体验 |
+
+Caption的实际HTTP调用返回一条第二句术语候选，另由显式保存响应流程采用`cue-2`并导出SRT、VTT与审计JSON，时间码未变。它不证明全文件模型质量或完整浏览器AI审校/采用/导出。两项本地视频均已存在，均没有可在此提供的公开视频URL。详细来源和材料状态见[新链接审计](submissions/new-events-20261109.md)。
+
 ## 原始七个方向与本次改进
 
 原清单混合了比赛、创作者计划与增长计划，不能全部视作仍开放的黑客松。
@@ -43,7 +54,7 @@
 
 ## 开源调查与真实复用
 
-这些方向普遍已有成熟产品和开源实践。这里的“差异化”是已实现的具体用途与工作流，不是全球首创、专利新颖性或比赛获奖保证。每个仓库的 `docs/landscape.md` 记录官方来源、固定版本、许可证、相似能力与本项目短板；各文档记录核查版本，部分项目另附 JSON 与文件指纹。
+这些方向普遍已有成熟产品和开源实践。这里的“差异化”是已实现的具体用途与工作流，不是全球首创、专利新颖性或比赛获奖保证。原十七个项目和Boot Order Atlas的 `docs/landscape.md` 记录官方来源、固定版本、许可证、相似能力与本项目短板；Caption Relay的来源和比较见其README。各文档记录核查版本，部分项目另附 JSON 与文件指纹。
 
 - **实际复用**：Pocket Pause 使用原样 vendored `idb-keyval@6.3.0`（Apache-2.0）；留白实验室使用原样 vendored `three@0.180.0` 与 OrbitControls（MIT），保留原始署名、完整许可和可验证哈希。Patch Review Desk 实际依赖 `@agent-native/core@0.223.0`（MIT）、`diff@9.0.0`（BSD-3-Clause）及 `zod`（MIT），保留完整许可。Jira 项目实际依赖 Forge SDK，其许可受 **Atlassian Developer Terms** 管理，不把 SDK 称为 MIT。
 - **API 适配**：BriefMint 可选官方支付宝 A402 SDK；Cart Consent 可选官方 PayPal sandbox Orders API 与本地 Ollama；Pantry Relay、Patch Review Desk 可选本地 Ollama；Source Trail 可选官方托管 Otari API。未把合同 mock 测试声称为远程集成或真实推理。
@@ -51,9 +62,11 @@
 
 ## 交付与核验
 
-各项目 README 提供启动、样例和验证命令，累计 351 项本地测试通过（含19项新增前端检查与6项持久化回归）。机器可读交付清单见 [portfolio.json](portfolio.json)，十七个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件或主办方后台已联通。Cart、Pantry、Patch 已另存真实本地模型请求与失败记录，仍不等于端到端平台接入。
+各项目 README 提供启动、样例和验证命令，累计 412 项本地测试通过：原351项、Boot Order Atlas 32项、Caption Relay 28项，以及Parallax修复DDA零方向边界新增1项。机器可读交付清单见 [portfolio.json](portfolio.json)，十九个项目 GitHub 本地/远端提交一致性见 [github-verification.json](github-verification.json)。Parallax当前17项测试，上传ZIP已同步到新源码并通过6个根文件、CRC及逐文件匹配核查；未因此记为itch投稿。本地模拟和 API 合同测试验证的是代码行为，不证明真实支付、硬件或主办方后台已联通。Cart、Pantry、Patch及Caption已另存真实本地模型请求与失败记录，仍不等于端到端平台接入。
 
-可用的托管预览保持**仅所有者可访问**：
+Deadlock Manor另有[公开GitHub Pages入口](https://misakamikotoghr-5205.github.io/deadlock-manor/)：官方构建成功，匿名主页与5个运行资产200、MIME及源码字节匹配。这是公开静态访问核查，没有新增游戏浏览器实测或Devpost收件。
+
+以下Sites托管预览保持**仅所有者可访问**：
 
 - [余量接力](https://pantry-relay-2026.ghraurora1024.chatgpt.site)
 - [慢递愿望局](https://pocket-pause-xhb.ghraurora1024.chatgpt.site)
@@ -63,5 +76,6 @@
 - [纸路邮局](https://paper-route-playtest-2026.ghraurora1024.chatgpt.site)
 - [Lumen Shift](https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site)
 - [Parallax Postcards](https://parallax-postcards-2026.ghraurora1024.chatgpt.site)
+- [字幕交接台 Caption Relay](https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site)
 
-公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。11月9日PayPal报名已由官方页面确认，项目列表仍为空；Kiroween仅保存了名为Deadlock Manor的2/5步骤草稿，Story为空、未最终提交；同日已完成一次真实Kiro CLI只读审查，Codex复现并实现持久化修复（[记录及归因](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/kiro-usage.md)），不声称Kiro编写原应用或执行测试。4000额度申请已获[官方收件确认](submissions/evidence/kiroween-credits-request-20261109.json)，待审核及Didit身份核验，尚无获批或到账确认。Kiro使用说明入表、Lux3D真实生成、支付sandbox、公开演示与正式交件等剩余事项均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前独立核验的官方报名阶段为4项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal），最终作品提交回执仍为1份（Builder）；另记录上述用户确认的阶段进度。
+公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。Caption预览仅托管UI，不能访问开发机的本地Ollama；其完整AI试用路径是公开仓库README的本机运行说明。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。11月9日PayPal报名已由官方页面确认，项目列表仍为空；Kiroween仅保存了名为Deadlock Manor的2/5步骤草稿，Story为空、未最终提交；同日已完成一次真实Kiro CLI只读审查，Codex复现并实现持久化修复（[记录及归因](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/kiro-usage.md)），不声称Kiro编写原应用或执行测试。4000额度申请已获[官方收件确认](submissions/evidence/kiroween-credits-request-20261109.json)，待审核及Didit身份核验，尚无获批或到账确认。Kiro使用说明入表、Lux3D真实生成、支付sandbox、公开演示与正式交件等剩余事项均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前独立核验的官方报名阶段为4项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal），最终作品提交回执仍为1份（Builder）；另记录上述用户确认的阶段进度。

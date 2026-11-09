@@ -27,8 +27,8 @@
     {
       "project": "parallax-postcards",
       "path": "portfolio/submissions/artifacts/parallax-postcards-itch.zip",
-      "sha256": "7125638bcccc719f628e42e5cb6911b2ccdcae5319fafe68c1276b8ab54351dd",
-      "zip_bytes": 18040,
+      "sha256": "e676247689664d67664506e39743b405462914a16e47d36fea050f1cef502506",
+      "zip_bytes": 18151,
       "files": [
         "LICENSE",
         "app.js",
@@ -38,10 +38,14 @@
         "world.js"
       ],
       "file_count": 6,
-      "uncompressed_bytes": 56443,
+      "uncompressed_bytes": 56687,
       "root_index": true,
       "crc_passed": true,
-      "runtime_resources_local": true
+      "runtime_resources_local": true,
+      "source_commit": "3ede110d29eb248d307cfaf45e9783762032924c",
+      "checked_on": "2026-11-09",
+      "source_files_match": true,
+      "source_release": "https://github.com/misakamikotoghr-5205/parallax-postcards/blob/3ede110d29eb248d307cfaf45e9783762032924c/releases/parallax-postcards-html.zip"
     },
     {
       "project": "paper-route-playtest",
@@ -62,5 +66,6 @@
       "crc_passed": true,
       "runtime_resources_local": true
     }
-  ]
+  ],
+  "updated_on": "2026-11-09"
 }

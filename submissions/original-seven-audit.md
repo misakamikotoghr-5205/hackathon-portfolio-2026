@@ -13,7 +13,7 @@
 | 火山 / `volc-casedesk` | Agent 先锋申请表明确仅面向企业开发者；当前已声明的个人身份不足以确认资格 | 官方公告未列截止；不等于承诺永久开放 | 真实公司全称、企业邮箱、岗位、微信与火山账号、实际产品案例；不能编造企业身份 |
 | 华为×小红书 / `move-light-skill` | 正式 Skill 创新赛，当前开放；11/6 官方门户实读 | 报名/作品截止 **11/24**，未写具体时分；12/11–13 线下决赛 | 华为云报名建队；真实 CodeArts/OfficeAce 使用；两个市场都发布，至少一条指定话题笔记 |
 | 爱奇艺 / `iqiyi-play-lab` | AI 互动小应用征集赛，投稿期内 | 11/4 00:00–12/3 23:59；页面未显式标注时区，按北京时间提前准备并后台核对 | 用户确认四款后台已投稿；继续跟进审核通过、上线及活动归属 |
-| Kiroween / `deadlock-manor` | 真实Kiro只读审查已完成；草稿2/5步骤、Story为空，未最终交件 | **12/4 14:00 PST = 12/4 22:00 UTC = 12/5 06:00 北京时间** | 将已完成的Kiro使用记录及归因填入Story、补公开YouTube和评委可访问应用；额度申请已收件，待审核及Didit身份核验，尚无到账确认 |
+| Kiroween / `deadlock-manor` | 真实Kiro只读审查已完成；草稿2/5步骤、Story为空，未最终交件 | **12/4 14:00 PST = 12/4 22:00 UTC = 12/5 06:00 北京时间** | 将已完成的Kiro使用记录、归因与公开游戏入口填入Story、补公开YouTube及最终交件；额度申请已收件，待审核及Didit身份核验，尚无到账确认 |
 | 小荷包 / `pocket-pause` | 原活动已结束；不能按原届补交 | 原官方置顶截止 10/31；未核实延期/新届 | 仅作为后续普通创作候选；有新活动才重新核对 |
 
 ## 1. PAYATHON 2026 — BriefMint
@@ -82,7 +82,7 @@ CaseDesk 可作为真实工作流演示：虚构工单与政策、来源定位�
 
 Kiro 账户/模型可用性另有地区条件。[官方 FAQ](https://kiro.dev/faq/)目前列 China 为个人付费计划账单支持地区，同时明确模型依提供者地区要求而异；不能从可付费推断任意模型可用。Startup credits 排除与本赛事积分不同，不混写。无需通过购买取得参赛资格。
 
-11月9日已在Devpost现有草稿保存名称Deadlock Manor，官方编辑器显示2/5 steps、Story为空，尚未最终提交；不从草稿进度推断新的官方报名回执。同日已通过已认证官方Kiro CLI 3.0.0完成92.614秒只读审查，仅fs_read；Codex复现其中两项警告问题、拒绝推测性发现并实现修复，另行发现修复备份删除顺序问题，27项测试通过。Kiro未编写原应用或执行测试，Codex写的`.kiro`仍不冒充Kiro产物（[真实记录及评估](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/kiro-usage.md)）。仍须将准确说明填入Story，补公开YouTube和评委可访问应用；主办方是否认可全部参赛条件尚未确认。Owner-only Sites预览未证评委可访问。11月9日4000额度申请表明确显示“Your response has been recorded.”，已确认申请收件（[脱敏回执](evidence/kiroween-credits-request-20261109.json)）；待审核及Didit身份核验，身份核验尚未完成，未确认获批或到账。额度申请收件不计作赛事最终交件。`docs/submission-draft.md`和`docs/demo-script.md`仍是准备稿。
+11月9日已在Devpost现有草稿保存名称Deadlock Manor，官方编辑器显示2/5 steps、Story为空，尚未最终提交；不从草稿进度推断新的官方报名回执。同日已通过已认证官方Kiro CLI 3.0.0完成92.614秒只读审查，仅fs_read；Codex复现其中两项警告问题、拒绝推测性发现并实现修复，另行发现修复备份删除顺序问题，27项测试通过。Kiro未编写原应用或执行测试，Codex写的`.kiro`仍不冒充Kiro产物（[真实记录及评估](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/kiro-usage.md)）。仍须将准确说明填入Story，补公开YouTube及最终交件；主办方是否认可全部参赛条件尚未确认。现另有[公开GitHub Pages游戏入口](https://misakamikotoghr-5205.github.io/deadlock-manor/)，官方构建成功，匿名主页及5个运行资产200、MIME和源码字节匹配；没有新增游戏浏览器实测。原Owner-only Sites预览仍不作为公开入口。11月9日4000额度申请表明确显示“Your response has been recorded.”，已确认申请收件（[脱敏回执](evidence/kiroween-credits-request-20261109.json)）；待审核及Didit身份核验，身份核验尚未完成，未确认获批或到账。额度申请收件不计作赛事最终交件。`docs/submission-draft.md`和`docs/demo-script.md`仍是准备稿。
 
 ## 7. 支付宝小荷包 AI 插件活动 — Pocket Pause
 

@@ -13,7 +13,7 @@
 
 日期与资格须以提交时的官方页面为准。其余项目按下列审计逐项推进。
 
-## 全部 17 个项目
+## 全部 19 个项目
 
 “已交（用户确认）”表示本人已告知该阶段完成，尚未独立核验官方回执；不会因此要求重复提交。正式报名、申请、后台投稿、最终作品和审核结果分别记录。
 
@@ -32,15 +32,18 @@
 | 华为×小红书 | [move-light-skill](https://github.com/misakamikotoghr-5205/move-light-skill) | 未交；验证障碍先跳过 | 真实码道/OfficeAce使用、双市场上架及笔记 |
 | 支付宝涌现奖 | [pantry-relay](https://github.com/misakamikotoghr-5205/pantry-relay) | **报名记录与材料草稿已保存，life方向；作品1但未提交** | ZIP审核/安全下线状态待确认、材料待完善；继续提交须重新选ZIP，仍需平台发布/验收与最终交件回执 |
 | 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；认证障碍先跳过 | 公开构想帖、报名审核、公开创空间及交件 |
-| Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **真实Kiro只读审查已完成；草稿2/5步骤、Story为空；未交件** | 将准确使用归因填入Story、补评委访问及公开YouTube；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
+| Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **真实Kiro只读审查已完成；草稿2/5步骤、Story为空；未交件** | 将准确使用归因与[公开游戏入口](https://misakamikotoghr-5205.github.io/deadlock-manor/)填入Story、补公开YouTube及最终交件；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
 | Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；CLI认证失败，先跳过 | 真实Forge部署/Jira安装、评委链接、视频及Devpost |
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |
 | 小荷包原届 | [pocket-pause](https://github.com/misakamikotoghr-5205/pocket-pause) | 跳过 | 已过期，无已核实延期 |
+| QNX Global Hackathon | [boot-order-atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas) | 主机工具、32项测试和151.6秒本地英文成片已完成；未报名、未交件 | 公开YouTube、Devpost报名及最终交件；不声称QNX SDK构建或目标运行 |
+| MINMAX AI Agent黑客松 | [caption-relay](https://github.com/misakamikotoghr-5205/caption-relay) | 28项测试、真实本地HTTP候选选择、独立人审导出、8页PDF和106.8秒中文旁白/同步字幕成片已备；未报名、未发邮件 | 官方问卷报名、完整材料邮件及主办方收件确认；README本机试用，Sites仅私有UI预览 |
 
 
 - [原始七个方向](original-seven-audit.md)：PAYATHON、AIMA、火山、华为、小红书小荷包、爱奇艺、Kiro。
 - [六个新增平台项目](platform-six-audit.md)：PayPal、Aholo、支付宝涌现、Codegeist、Builder、Next Horizon。
 - [四个游戏和研究项目](game-research-four-audit.md)：Game Off、Through Your Eyes、魔搭、Apart。
+- [11月9日新链接](new-events-20261109.md)：QNX与MINMAX另列两项，不占原额外十场名额。
 - [机器可读状态](status.json)：分别记录缺口、报名和作品提交；收到真实回执才更新状态。
 
 小荷包原届已过截止，跳过；火山申请表明确限定企业开发者，当前为个人身份，跳过，不编造企业。[Apart官方报名](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15)已在本人对本次报名确认后到达“You’re signed up”成功页，**private success-page evidence held**；不公开私密回执URL或邀请码。报名成功不等于最终作品提交：作品窗口未开，现有代码和合成试验均属于赛前工作，仍需后续赛期新增研究与最终PDF。
@@ -53,6 +56,9 @@
 - Cart Consent、Pantry Relay、Patch Review Desk 的 `docs/evidence/` 保存真实本地模型试验，错误结果、超时和未满足目标的输出也保留。它们不证明远程支付、平台接入或一般模型质量。Patch另有已保存的fixture/model-off录屏，模型探针与该录屏的固定草稿来源明确分开。
 - Pantry新增[完整离线交互网页与HTML ZIP](https://github.com/misakamikotoghr-5205/pantry-relay/tree/main/releases)，45项本地测试及实际桌面消费/刷新/撤回/备份导入已核验；[仅所有者预览](https://pantry-relay-2026.ghraurora1024.chatgpt.site)已部署，不能作为支付宝认可平台URL。QMuse官方CLI要求React工程，已构建并通过本地格式预检；尚无平台验收或作品回执。
 - Pantry的两次真实模型请求均使用11月4日虚构回放；首次偏好只部分满足，第二次显式约束成功，仍需人工复核。尚无支付宝部署或完整交件证据。
+- Parallax的上传ZIP已同步到修复DDA零方向边界的17测试源码：6个根文件、18151字节、CRC及逐文件匹配通过，详见[清单](artifacts/game-research-four-manifest.json)。这不代表itch已上传或正式参赛。
+- Deadlock公开GitHub Pages已核匿名主页及5个运行资产200、MIME与源码字节一致；没有新增游戏浏览器验证，不能计作Devpost交件。
+- QNX的151.6秒本地主机CLI成片，以及MINMAX的8页PDF与106.8秒中文旁白/同步字幕编辑证据成片已经完成。两项目材料有记录及哈希，但无公开视频或官方新收件。Caption的真实HTTP模型选择与保存响应后的显式导出分开取证，不声称完整浏览器操作；其[私有预览](https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site)不能连接开发机Ollama，评委应按公开README本机运行。
 
 个人资料、账号凭据、验证码、私密署名材料和回执不保存到这个公开仓库。报名表的资格、账号、条款和公开材料仍须逐项确认；缺少的链接或平台使用记录不会以虚构内容补齐。
 

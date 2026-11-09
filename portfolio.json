@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T03:31:46.280878+00:00",
+  "updated_at": "2026-11-09T03:56:03.507483+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -130,15 +130,30 @@
       "source_read_method": "official Devpost rules",
       "source": "https://kiroween.devpost.com/rules",
       "remaining_external_setup": [
-        "Kiro authentication and genuine contribution",
-        "Public demo video and reviewer access",
-        "Devpost registration and entry"
+        "Genuine Kiro contribution and truthful Kiro-use write-up; current project story is blank",
+        "Functional application access, public GitHub with root .kiro, public YouTube demo under three minutes and final Devpost submission",
+        "The one-time Kiro credit request is only being prepared; neither application submission nor grant is confirmed"
       ],
       "formally_submitted": false,
       "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/landscape.md",
       "github_commit": "6ee22572b99929ab248166606801e074a695a678",
-      "submission_status": "skipped_current_authentication_blocker"
+      "submission_status": "named_draft_saved_awaiting_kiro_use_and_materials",
+      "registration_confirmed": false,
+      "devpost_authenticated": true,
+      "draft_saved": true,
+      "draft_progress": {
+        "title": "Deadlock Manor",
+        "displayed_progress": "2/5 steps",
+        "story_empty": true,
+        "final_submission_confirmed": false
+      },
+      "credits_request": {
+        "status": "preparing_only",
+        "application_submission_confirmed": false,
+        "grant_confirmed": false,
+        "prior_application_or_grant_status": "not verified"
+      }
     },
     {
       "number": 7,
@@ -170,14 +185,17 @@
       "source": "https://paypalaihackathon.devpost.com/rules",
       "landscape_review": "https://github.com/misakamikotoghr-5205/cart-consent-paypal/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Basic identity confirmed privately; authorized PayPal developer/sandbox account and applicable platform eligibility still require verification; individual eligibility must not be confused with the sandbox merchant role",
-        "Real PayPal sandbox end-to-end validation; actual local AI basket probe is documented but no payment was approved or captured",
-        "English public video and formal registration/submission"
+        "Actual PayPal sandbox integration and combined AI/platform evidence; the existing local Ollama probe alone is not an end-to-end PayPal demonstration",
+        "Public YouTube functional demo under three minutes, English materials and final project entry; public hosting is optional if complete repository setup/run instructions let judges use a working build"
       ],
       "formally_submitted": false,
       "pushed_and_remote_verified": true,
       "github_commit": "d40be5b11437935ae3a6343b920464af22cacd0f",
-      "submission_status": "awaiting_eligibility_accounts_sandbox_and_video"
+      "submission_status": "registered_no_project_entry",
+      "registration_confirmed": true,
+      "browser_registration_verified": true,
+      "devpost_authenticated": true,
+      "observed_project_count": 0
     },
     {
       "number": 9,
@@ -414,5 +432,5 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json."
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has a saved named draft at 2/5 steps, not a final submission; Kiro credit request is preparation only."
 }

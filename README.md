@@ -8,7 +8,7 @@
 
 | 官方赛事 | 截止与阶段 | 独立项目及已实现差异 | 参赛仍需补齐 |
 | --- | --- | --- | --- |
-| [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/rules) | 北京2026-11-13 04:00 | [Cart Consent](https://github.com/misakamikotoghr-5205/cart-consent-paypal)：购物篮逐字段人工批准、变更撤销、调用竞态复核 | 合法可用的 Business/sandbox 账号、真实 PayPal+AI 演示、英文材料与视频 |
+| [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/rules) | 北京2026-11-13 04:00 | [Cart Consent](https://github.com/misakamikotoghr-5205/cart-consent-paypal)：购物篮逐字段人工批准、变更撤销、调用竞态复核 | 11月9日官方报名已确认，项目列表为空、未交件；仍缺真实 PayPal sandbox+AI 组合证据及公开少于3分钟YouTube；公共托管非强制 |
 | [Aholo 全球3D AI黑客松](https://www.aholo3d.cn/hackathon) | 北京2026-11-19 19:00 | [留白实验室](https://github.com/misakamikotoghr-5205/scene-clearance-lab)：本地模型布置、可解释几何间距、A/B报告 | 单人也须建队；真实 Lux3D 核心资产与兼容性、视频、提交 |
 | [支付宝智能体涌现奖](https://emerge.alipay.com/) | 按北京2026-12-06 00:00准备 | [余量接力](https://github.com/misakamikotoghr-5205/pantry-relay)：交互式库存/菜谱录入、来源门禁、预算/偏好、逐笔确认、消费/撤回回执 | 11月9日life方向报名记录与材料草稿已保存，作品1；平台ZIP/安全下线状态待确认、材料待完善，尚无最终交件确认 |
 | [Codegeist 2026](https://codegeist2026.devpost.com/rules) | 北京2026-12-23 04:00 | [Dependency Evidence for Jira](https://github.com/misakamikotoghr-5205/dependency-evidence-forge)：依赖证据快照、循环/缺失说明、旧审阅漂移复核；实际 Forge SDK模块 | Atlassian/Forge账号注册、lint/deploy/install、评委安装链接与视频；目前无真实Jira调用 |
@@ -64,4 +64,4 @@
 - [Lumen Shift](https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site)
 - [Parallax Postcards](https://parallax-postcards-2026.ghraurora1024.chatgpt.site)
 
-公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox、公开演示与正式交件等缺口均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前独立核验的记录为1份官方报名确认（Apart）和1份最终作品提交回执（Builder）；另记录上述用户确认的阶段进度。
+公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。11月9日PayPal报名已由官方页面确认，项目列表仍为空；Kiroween仅保存了名为Deadlock Manor的2/5步骤草稿，Story为空、尚无真实Kiro贡献或最终提交，4000额度表仅在准备中。Kiro 实际贡献、Lux3D 真实生成、支付 sandbox、公开演示与正式交件等缺口均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前独立核验的官方报名阶段为4项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal），最终作品提交回执仍为1份（Builder）；另记录上述用户确认的阶段进度。

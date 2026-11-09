@@ -1,10 +1,10 @@
 # 六个非游戏新增赛事：提交入口与材料审计
 
-规则核查日期 **2026-11-06 UTC**，阶段进度更新于 **2026-11-07 UTC**。仅记录公开规则、当前公开页面/前端字段和本地证据；不含参赛者姓名、邮箱、手机号、地址、账号、凭据或私密回执URL。账号操作与正式报名、最终作品提交分开记录，只有真实成功页或回执才计为相应阶段完成。
+规则核查日期 **2026-11-06 UTC**，阶段进度更新于 **2026-11-09 UTC**。仅记录公开规则、当前公开页面/前端字段和本地证据；不含参赛者姓名、邮箱、手机号、地址、账号、凭据或私密回执URL。账号操作与正式报名、最终作品提交分开记录，只有真实成功页或回执才计为相应阶段完成。
 
 所有草稿都可直接作为真实内容起点；没有虚构视频、安装链接、平台使用记录或身份。隐藏于登录后的字段、实时账号资格与未取得的材料均明确区分。
 
-当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips已真实登录；本人同意Builder Free免费存储及仅项目标签页、摄像头/麦克风关闭录制后，实际录屏已保存。Builder已在本人当次最终提交确认后勾选processingConsent、保持marketing未勾并点击Submit，官网成功页已确认收件。**官方报名回执1份（Apart），正式作品提交回执1份（Builder），跳过2个方向。** Apart公开官网见[四项目审计](game-research-four-audit.md)，private success-page evidence held；不公开私密回执URL或邀请码。 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
+当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips已真实登录；本人同意Builder Free免费存储及仅项目标签页、摄像头/麦克风关闭录制后，实际录屏已保存。Builder已在本人当次最终提交确认后勾选processingConsent、保持marketing未勾并点击Submit，官网成功页已确认收件。**已确认官方报名阶段4项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal），正式作品提交回执1份（Builder），跳过2个方向。** Apart公开官网见[四项目审计](game-research-four-audit.md)，private success-page evidence held；不公开私密回执URL或邀请码。 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
 
 ## Builder：正式作品提交已收件
 
@@ -21,7 +21,7 @@ Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受�
 | 赛事 / 项目 | 当前官方入口 | 截止/阶段 | 真实材料缺口 |
 |---|---|---|---|
 | Builder / Patch Review Desk | [公开提交表](https://www.builder.io/hackathon/submit)；无需提前报名 | 11/09 23:59 America/Los_Angeles = 11/10 07:59UTC / 15:59北京 | 已提交并收到官网“Thank you for submitting.” / “Your project submission has been received.”网页回执，记录于2026-11-06 07:53:18 UTC；processingConsent已勾、marketing未勾。private success-page evidence held，无编号/邮件确认声明。模型探针与fixture录屏仍分开披露 |
-| PayPal / Cart Consent | [官网](https://paypalaihackathon.devpost.com/) Join hackathon → Devpost认证 → 本赛事提交；匿名访问Join被导向注册 | 11/12 12:00PST = 20:00UTC / 11/13 04:00北京 | 真实模型已生成1398/5000美分购物篮、DRAFT未批准；真正PayPal sandbox和组合演示/公开视频仍缺 |
+| PayPal / Cart Consent | [官网](https://paypalaihackathon.devpost.com/)；11月9日已在官方manage/submissions观察到报名成功 | 11/12 12:00PST = 20:00UTC / 11/13 04:00北京 | 显示Thanks for registering!，项目列表为空、未交件。真实模型证据保留；实际PayPal sandbox+AI组合证据、公开少于3分钟YouTube及最终提交仍缺；公共托管非强制 |
 | Next Horizon / Watt Window | [官方Apply重定向](https://eisociety.org/go/apply/next-horizon-2026?s=direct) → [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form) | 11/15构想截止，无具体时刻；11/28 09:00EST至11/30 09:00EST正式48小时，先申请/入围 | 用户确认构想表已交，不重复填表；私密署名PowerPoint已完成、不公开。未独立保存官方回执，构想提交不等于入围/最终交件；保留赛前原型披露 |
 | Aholo / 留白实验室 | [中国活动页](https://www.aholo3d.cn/hackathon) “立即报名 / 我的参赛”：个人报名→确认组队→选题→作品 | 11/19 19:00北京 = 11:00UTC = 06:00EST | 单人也建队；核心Lux3D真实生成与导出兼容性、项目报告/过程截图、真实Demo材料，当前不能如实勾“已用Lux3D” |
 | 支付宝涌现 / 余量接力 | [官网](https://emerge.alipay.com/) “报名参赛 / 我的提报 / 完善作品”，报名记录与完整提报分开 | 保守按12/06 00:00北京 = 12/05 16:00UTC；公告/正文/UI时刻有冲突见下 | 本人已确认实名；新离线交互HTML包和owner-private预览已完成，尚需活跃登录、官方平台构建/上传验收及完整提报；未支付宝/阿宝接入 |
@@ -33,7 +33,7 @@ Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受�
 
 ### PayPal
 
-规则明示文字说明、可运行Demo访问（完整仓库启动说明或托管地址）、模型/AI工具用途、公开开源仓库和公开YouTube视频，视频应少于3分钟。作品须实质使用PayPal sandbox及AI。Devpost认证后的字段标签、长度、额外问卷未看到，不能捏造为“已核必填”。合法账号与用户个人资格由本人核验；中国大陆未被规则直接列名排除不等于个人资格/奖金或账号可用保证。
+规则明示文字说明、可运行Demo访问（完整仓库启动说明或托管地址）、模型/AI工具用途、公开开源仓库和公开YouTube视频，视频应少于3分钟。作品须实质使用PayPal sandbox及AI，官方不强制公共托管。11月9日主操作者已在官方manage/submissions看到“Thanks for registering!”、空白My hackathon projects及Start project，确认报名成功、尚无项目交件；私密截图另存，不公开回执或编辑URL。不以报名成功推断最终交件表全部字段已核验。合法账号与用户个人资格由本人核验；中国大陆未被规则直接列名排除不等于个人资格/奖金或账号可用保证。
 
 现成 [双语填表稿](drafts/cart-consent-paypal/form-draft.md) 与 [录屏脚本](drafts/cart-consent-paypal/video-script.md)。仓库的sandbox适配器只建订单链接，不执行capture；未创建真实sandbox订单前不可说完成PayPal演示，mock也不能替代。
 
@@ -77,4 +77,4 @@ Cart的真实本地qwen2.5:0.5b请求已通过模型输出和业务校验，生�
 
 ## 11月7日执行补记
 
-PayPal 的 Join hackathon 实际进入 Devpost 登录/注册页；支付宝“我要参赛”进入扫码登录，按用户指示先跳过认证。官方[QMuse CLI文档](https://docs.qmuse.cn/docs/qmuse-cli)说明导入与发布是独立步骤；CLI 1.0.14 的本地只读预检不接受原生静态web目录，真实React工程已构建并通过本地格式预检，不能将离线ZIP或Sites私有预览称为QMuse发布。最新准确状态见[总表](README.md)与[机器记录](status.json)。
+11月7日，PayPal的Join hackathon当时进入Devpost登录/注册页；11月9日已观察到官方报名确认、项目列表为空，仍未交件。支付宝“我要参赛”当时进入扫码登录，按用户指示先跳过认证。官方[QMuse CLI文档](https://docs.qmuse.cn/docs/qmuse-cli)说明导入与发布是独立步骤；CLI 1.0.14 的本地只读预检不接受原生静态web目录，真实React工程已构建并通过本地格式预检，不能将离线ZIP或Sites私有预览称为QMuse发布。最新准确状态见[总表](README.md)与[机器记录](status.json)。

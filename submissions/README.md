@@ -1,13 +1,13 @@
 # 报名与提交推进记录
 
-更新：2026-11-09。这里是可审核的报名材料和实际缺口。**已确认官方报名阶段 3 项（Apart、PAYATHON个人报名、涌现奖已建记录），正式作品提交回执 1 份（Builder / Patch Review Desk），跳过 2 个方向**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
+更新：2026-11-09。这里是可审核的报名材料和实际缺口。**已确认官方报名阶段 4 项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal），正式作品提交回执 1 份（Builder / Patch Review Desk），跳过 2 个方向**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
 
 基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，个人资料不写入公开文件。Clips已真实登录并保存[Fixture ModelOff录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)；仅项目标签页、摄像头与麦克风关闭。Builder已在本人当次确认后勾必填同意、保持营销未勾并提交，官网已显示项目收件成功；这与Apart仅报名成功分开计数。
 
 ## 先处理的入口
 
 1. **Builder / Patch Review Desk：正式作品提交成功。** 截至2026-11-06 07:53:18 UTC，已在本人对本次最终提交确认后勾选必填processingConsent，保持marketing未勾，点击Submit；[官网提交页](https://www.builder.io/hackathon/submit)实际显示“Thank you for submitting.” / “Your project submission has been received.”。private success-page evidence held；网页未给回执编号，不声称收到确认邮件或评审结果。 已提交的[Clips录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)明确fixture/model off，展示独立agent能力预先准备的两hunk草稿、只批第1段、partial apply、保留未批准末句、rollback及两份回执。已登录浏览器完整播放与匿名HTTP/帧检查的范围继续分开披露。[提交文案](drafts/patch-review-desk/form-draft.md) · [录屏记录](drafts/patch-review-desk/video-script.md)
-2. PayPal：北京时间 11 月 13 日 04:00 截止。Cart真实本地模型已生成并通过校验的1398/5000美分购物篮，保持DRAFT、未人工批准；之前的超时和预算拒绝也保留。仍缺授权PayPal sandbox验证及公开视频，不是端到端支付演示。[材料](drafts/cart-consent-paypal/form-draft.md)
+2. PayPal：北京时间 11 月 13 日 04:00 截止。11月9日官方manage/submissions显示“Thanks for registering!”、项目列表为空并有Start project，报名已确认、作品未交。Cart真实本地模型证据保留；仍缺实际PayPal sandbox与AI组合集成证据、公开少于3分钟YouTube演示及最终提交。官方允许完整仓库运行说明替代公共托管。[材料](drafts/cart-consent-paypal/form-draft.md)
 3. Through Your Eyes：官网列 11 月 15 日，具体截止按账号倒计时。HTML 包、封面、AI 披露和项目页已备，需 itch.io 登录、创建公开游戏页和正式参赛。[材料](drafts/parallax-postcards/project-page.md)
 4. Next Horizon：用户已确认构想表提交，不重复填表。按构想阶段记录，尚不代表入围或最终交件；若入围，再按11月28–30日48小时构建与路演要求推进。六页英文PPTX及私密署名版均已完成，公开仓库只保留无个人信息版本。[公开PPTX草稿](artifacts/watt-window-next-horizon-draft.pptx) · [报名文案](drafts/watt-window/form-draft.md)
 
@@ -27,12 +27,12 @@
 | PAYATHON | [briefmint-skillpay](https://github.com/misakamikotoghr-5205/briefmint-skillpay) | **个人报名已生效；SkillPay作品表已选未提交，作品0** | 真实平台Skill链接、有效交易凭证及正式作品提交；价格/售卖模式待本人确定 |
 | Through Your Eyes | [parallax-postcards](https://github.com/misakamikotoghr-5205/parallax-postcards) | 未交；认证障碍先跳过 | itch公开游戏页及正式jam entry |
 | Game Off | [lumen-shift](https://github.com/misakamikotoghr-5205/lumen-shift) | 未交；认证障碍先跳过 | itch公开游戏页及正式jam entry |
-| PayPal | [cart-consent-paypal](https://github.com/misakamikotoghr-5205/cart-consent-paypal) | 未交；缺真实沙箱认证 | Sandbox实测、公开视频、Devpost |
+| PayPal | [cart-consent-paypal](https://github.com/misakamikotoghr-5205/cart-consent-paypal) | **报名已确认，项目列表为空、未交件** | 实际sandbox+AI组合证据、公开少于3分钟YouTube、最终作品提交；公共托管非强制 |
 | Aholo | [scene-clearance-lab](https://github.com/misakamikotoghr-5205/scene-clearance-lab) | 未交；验证障碍先跳过 | 真实Lux3D核心资产及导出实测、演示、投稿 |
 | 华为×小红书 | [move-light-skill](https://github.com/misakamikotoghr-5205/move-light-skill) | 未交；验证障碍先跳过 | 真实码道/OfficeAce使用、双市场上架及笔记 |
 | 支付宝涌现奖 | [pantry-relay](https://github.com/misakamikotoghr-5205/pantry-relay) | **报名记录与材料草稿已保存，life方向；作品1但未提交** | ZIP审核/安全下线状态待确认、材料待完善；继续提交须重新选ZIP，仍需平台发布/验收与最终交件回执 |
 | 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；认证障碍先跳过 | 公开构想帖、报名审核、公开创空间及交件 |
-| Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | 未交；CLI确认未登录，先跳过 | 真实Kiro贡献、公开视频、Devpost |
+| Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **Deadlock Manor草稿已保存，2/5步骤、Story为空；未交件** | 真实Kiro贡献、使用说明及演示材料；4000额度表仅准备中，无申请提交或到账确认 |
 | Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；CLI认证失败，先跳过 | 真实Forge部署/Jira安装、评委链接、视频及Devpost |
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |
 | 小荷包原届 | [pocket-pause](https://github.com/misakamikotoghr-5205/pocket-pause) | 跳过 | 已过期，无已核实延期 |
@@ -56,4 +56,4 @@
 
 个人资料、账号凭据、验证码、私密署名材料和回执不保存到这个公开仓库。报名表的资格、账号、条款和公开材料仍须逐项确认；缺少的链接或平台使用记录不会以虚构内容补齐。
 
-国内最新进度见[持续更新记录](domestic-progress-20261106.md)。11月7日已按用户确认更新Next Horizon、爱奇艺和AIMA阶段；本轮Kiro/Forge官方CLI实查仍缺认证，itch/ModelScope/PayPal也未取得所需认证，按指示先转做独立构建，不将这些检查计为投稿。
+国内最新进度见[持续更新记录](domestic-progress-20261106.md)。11月7日已按用户确认更新Next Horizon、爱奇艺和AIMA阶段；既有Kiro/Forge CLI与itch/ModelScope认证缺口不因Devpost登录而消失。11月9日PayPal报名确认、Kiroween命名草稿保存均已另行记录，二者均未最终交件，Kiro额度表仍仅准备中。

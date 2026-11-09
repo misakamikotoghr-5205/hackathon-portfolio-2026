@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T08:17:03.114974+00:00",
+  "updated_at": "2026-11-09T09:09:17.986316+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -131,14 +131,14 @@
       "source": "https://kiroween.devpost.com/rules",
       "remaining_external_setup": [
         "The Story, JavaScript tag and repository were saved and Save & continue reached Additional Info; complete and save the currently unsaved Additional fields and required declarations in the actual form.",
-        "Public GitHub Pages entry is anonymously accessible with all runtime assets; publish a YouTube demo under three minutes and complete final Devpost submission. No fresh browser gameplay validation is claimed.",
+        "Actual public-page gameplay and the 146.8-second edited browser-screenshot MP4 are verified locally. Upload the video publicly to YouTube, supply its URL and complete final Devpost submission; the local edit is not continuous recording or a public upload.",
         "Kiro credit request receipt confirmed on November 9; application review and Didit identity verification are pending, with no grant confirmed"
       ],
       "formally_submitted": false,
       "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/landscape.md",
-      "github_commit": "3ab1ecc20b90c5fb70826352d45ab0c7257341d5",
-      "submission_status": "story_saved_additional_unsaved_awaiting_video_and_final",
+      "github_commit": "5fb8bf1abc3bf1b6f05561b2052ff1565400b54a",
+      "submission_status": "story_saved_additional_unsaved_local_video_ready_youtube_pending",
       "registration_confirmed": false,
       "devpost_authenticated": true,
       "draft_saved": true,
@@ -189,8 +189,61 @@
         "runtime_asset_count": 5,
         "source_bytes_match": true,
         "source_commit": "3ab1ecc20b90c5fb70826352d45ab0c7257341d5",
-        "fresh_browser_gameplay_verified": false,
-        "scope": "Official Pages build successful; unauthenticated direct index and five runtime assets returned 200 with correct MIME and source-byte identity. No new browser gameplay or final Devpost submission."
+        "fresh_browser_gameplay_verified": true,
+        "scope": "Official Pages build and anonymous runtime assets were verified, followed by an actual public-page browser incident, one-step comparison, explicit alternative continuation and original restoration. Runtime at capture is 3ab1ecc; the newer source commit changes docs only. No final Devpost submission."
+      },
+      "local_demo": {
+        "duration_seconds": 146.8,
+        "bytes": 3442187,
+        "sha256": "3f2c59f297aafad13f632c91bfdc4da293bef0c50e2c3a3f931a0ee976557867",
+        "kind": "Edited actual browser screenshots, with clearly labelled factual evidence excerpts; not continuous gameplay recording, terminal capture or generated game UI.",
+        "runtime_at_capture_commit": "3ab1ecc20b90c5fb70826352d45ab0c7257341d5",
+        "public_video_url": null,
+        "evidence": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/5fb8bf1abc3bf1b6f05561b2052ff1565400b54a/docs/local-demo-20261109.json",
+        "full_av_decode_exit_code": 0,
+        "actual_mp4_midpoint_frames_reviewed": 15,
+        "subtitle_sentence_cues_checked": 31,
+        "manual_full_audio_listening_completed": false,
+        "public_player_playback_verified": false
+      },
+      "browser_gameplay": {
+        "date_utc": "2026-11-09",
+        "actual_images": 11,
+        "numbered_sequence_steps": 9,
+        "actual_case_report_downloaded": true,
+        "case_report_sha256": "0494315556970a886f483aeacfebe7762f0ea1fc1175f3921264fde60c25ba61",
+        "scenario": "The Phantom Release",
+        "clues": [
+          "Deployment ledger",
+          "A checkout’s last words"
+        ],
+        "actions": [
+          "Pause the rollout",
+          "Roll back v2.7",
+          "Run a synthetic checkout"
+        ],
+        "final": {
+          "phase": "resolved",
+          "turn": 3,
+          "capacity_remaining": 3,
+          "score": 90,
+          "metrics": {
+            "availability": 99.8,
+            "errorRate": 0.4,
+            "latencyMs": 240,
+            "saturation": 48
+          }
+        },
+        "replay_checkpoint": {
+          "clues": 2,
+          "capacity": 7,
+          "recorded": "Pause the rollout",
+          "alternative": "Add application capacity",
+          "scope": "One deterministic simulated step including environment advance; not final recovery or a live-system prediction."
+        },
+        "confirmed_alternative_branch_and_return": true,
+        "runtime_at_capture_commit": "3ab1ecc20b90c5fb70826352d45ab0c7257341d5",
+        "evidence": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/5fb8bf1abc3bf1b6f05561b2052ff1565400b54a/docs/local-demo-20261109.json"
       }
     },
     {
@@ -544,7 +597,7 @@
   "platform_integration_evidence": "Actual local Ollama probes for Cart Consent, Pantry Relay and Patch Review Desk are recorded with failures and limits in their docs/evidence/. Mock contracts, these local probes and runnable packages do not establish remote contest-platform use or a completed submission. Deadlock Manor records a completed authenticated Kiro CLI read-only development review; Codex implemented and tested the adapted fixes. This is not an LLM runtime integration. Boot Order Atlas adds a deterministic QNX-specific host analysis tool, without SDK/build/target execution. Caption Relay has one real local HTTP review (59.729753 seconds) selecting a known program-generated literal glossary candidate, followed by a separately explicit saved-response export; it is not full-document quality evidence or a complete browser round trip. Its native Sites deployment is owner-private and cannot reach the developer machine local Ollama.",
   "browser_verification_notes": {
     "pocket-pause": "Wish creation, ready review, manual linked deposit, reversal, and reload observed in localhost UI. Storage clock regressions covered by automated tests.",
-    "deadlock-manor": "Completed incident, same-checkpoint causal comparison, and alternative-branch confirmation observed in localhost UI. GitHub Pages public deployment was later verified by anonymous direct index plus five runtime assets (200, correct MIME, source bytes matched). This adds static access evidence, not new browser gameplay or a Devpost receipt.",
+    "deadlock-manor": "On November 9, actual public GitHub Pages gameplay read two clues, paused rollout, rolled back v2.7 and verified recovery: resolved at turn 3, capacity 3, score 90. First-checkpoint comparison used Add application capacity, followed by explicit branch continuation and restoration of the original shift; a case-report JSON was actually downloaded. Eleven original browser images in nine numbered steps support a 146.8-second edited screenshot video, not continuous recording. Full AV decode, fifteen actual frames and thirty-one subtitle cues were checked; full manual listening and public player playback remain unverified. Runtime at capture is 3ab1ecc; current source revision changes documentation only.",
     "iqiyi-play-lab": "Calibration controls and persisted manual timing offset observed in localhost UI; tap-estimator boundaries covered by automated tests.",
     "scene-clearance-lab": "Browser WebGL2 context unavailable; usable top-down fallback observed. Original glTF import, numeric layout commit, geometric update, snapshots and reload observed. Full WebGL rendering remains unverified in this environment.",
     "paper-route-playtest": "Observed full 12-step autoplay victory/return, hint without acting, and mutant counterexample where step 4 falsely delivers only in the mutant. No console errors. Separately, actual local Node engine evidence for fixed seed 20261106 is available at https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/c5392db0e37744014dd9a4e07038e4cc27099341/docs/evidence/README.md: four winning replays and one isolated mutant counterexample. This adds no browser, platform deployment, registration or submission evidence.",
@@ -565,7 +618,7 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has saved its Story, JavaScript tag and repository; Save & continue reached Additional Info, still displayed as 2/5 steps. Additional edits remain unsaved, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story is saved, while Additional edits, the video and final materials remain incomplete, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. Neither QNX event registration nor MINMAX questionnaire/email submission has occurred; they add no official registration or final receipt.",
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has saved its Story, JavaScript tag and repository; Save & continue reached Additional Info, still displayed as 2/5 steps. Additional edits remain unsaved, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story is saved and the local video is complete, while Additional edits, public YouTube upload and final entry remain incomplete, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. Neither QNX event registration nor MINMAX questionnaire/email submission has occurred; they add no official registration or final receipt. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; no YouTube upload or final project entry is confirmed.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

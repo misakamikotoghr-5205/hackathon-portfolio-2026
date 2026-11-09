@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T08:15:10.881960+00:00",
+  "updated_at": "2026-11-09T08:17:03.114974+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -130,7 +130,7 @@
       "source_read_method": "official Devpost rules",
       "source": "https://kiroween.devpost.com/rules",
       "remaining_external_setup": [
-        "Transfer the completed Kiro read-only review and Codex implementation disclosure into the still-empty Devpost Story; organizer acceptance is not established",
+        "The Story, JavaScript tag and repository were saved and Save & continue reached Additional Info; complete and save the currently unsaved Additional fields and required declarations in the actual form.",
         "Public GitHub Pages entry is anonymously accessible with all runtime assets; publish a YouTube demo under three minutes and complete final Devpost submission. No fresh browser gameplay validation is claimed.",
         "Kiro credit request receipt confirmed on November 9; application review and Didit identity verification are pending, with no grant confirmed"
       ],
@@ -138,15 +138,21 @@
       "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/landscape.md",
       "github_commit": "3ab1ecc20b90c5fb70826352d45ab0c7257341d5",
-      "submission_status": "named_draft_saved_kiro_review_completed_awaiting_materials",
+      "submission_status": "story_saved_additional_unsaved_awaiting_video_and_final",
       "registration_confirmed": false,
       "devpost_authenticated": true,
       "draft_saved": true,
       "draft_progress": {
         "title": "Deadlock Manor",
         "displayed_progress": "2/5 steps",
-        "story_empty": true,
-        "final_submission_confirmed": false
+        "story_empty": false,
+        "final_submission_confirmed": false,
+        "story_saved": true,
+        "project_details_saved": true,
+        "javascript_tag_and_repository_saved": true,
+        "last_saved_section": "project_details",
+        "additional_info_edits_saved": false,
+        "additional_info_draft_prepared": true
       },
       "credits_request": {
         "status": "submitted_pending_review_and_didit",
@@ -559,7 +565,7 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has a saved named draft at 2/5 steps, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story and final materials remain incomplete, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. Neither QNX event registration nor MINMAX questionnaire/email submission has occurred; they add no official registration or final receipt.",
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has saved its Story, JavaScript tag and repository; Save & continue reached Additional Info, still displayed as 2/5 steps. Additional edits remain unsaved, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story is saved, while Additional edits, the video and final materials remain incomplete, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. Neither QNX event registration nor MINMAX questionnaire/email submission has occurred; they add no official registration or final receipt.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

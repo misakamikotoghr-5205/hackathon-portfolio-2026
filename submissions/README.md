@@ -33,7 +33,7 @@
 | Aholo | [scene-clearance-lab](https://github.com/misakamikotoghr-5205/scene-clearance-lab) | **正式作品已交，官网“已提交”及进入资格与完整性审核已核验** | [脱敏交件记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json)；第1版，页面提交时间11月10日09:02；PDF/128秒视频已交，2D代理实测4→2，等待审核 |
 | 华为×小红书 | [move-light-skill](https://github.com/misakamikotoghr-5205/move-light-skill) | 未交；验证障碍先跳过 | 真实码道/OfficeAce使用、双市场上架及笔记 |
 | 支付宝涌现奖 | [pantry-relay](https://github.com/misakamikotoghr-5205/pantry-relay) | **正式提交审核成功，官方卡片“审核中”已核验** | [脱敏回执](https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/evidence/submission-receipt-20261110.json)；ZIP安全审核尚未完成，等待审核；不代表公开上线 |
-| 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；认证障碍先跳过 | 公开构想帖、报名审核、公开创空间及交件 |
+| 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；实际UI与158秒演示已备，等账号协议确认 | 魔搭短信登录、公开构想帖/报名审核、公开创空间、手记发布及交件 |
 | Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **真实Kiro只读审查已完成；正式交件成功，官方页面显示Project submitted!及Submitted to Kiroween 2026** | [公开游戏入口](https://misakamikotoghr-5205.github.io/deadlock-manor/)与[Public视频](https://youtu.be/L3BpOsPHobo)已备；[最终交件页](https://devpost.com/software/deadlock-manor)已确认收件，不代表资格审核通过；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
 | Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；CLI认证失败，先跳过 | 真实Forge部署/Jira安装、评委链接、视频及Devpost |
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |

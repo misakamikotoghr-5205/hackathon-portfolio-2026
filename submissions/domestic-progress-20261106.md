@@ -12,7 +12,7 @@
 | PAYATHON / BriefMint | 个人报名生效、作品0；11月10日22,852字节自包含SkillPay包已实际上传解析，商品名称与说明已准备；未提交商品审核，未核验服务端保存 | 三项收款协议仍0/3，买断2.99元仅待本人确认；后续商品审核/上架、真实Skill链接、有效交易及PAYATHON正式交件仍缺 |
 | Aholo / Scene Clearance | 个人报名、单人团队、选题、真实Lux3D生成/下载/导入及同参数A/B4→2已完成；五页PDF和128秒实机截图视频已正式提交，官网显示“已提交”、“第1版·提交于11月10日09:02”及进入资格与完整性审核 | [脱敏交件记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json)；等待资格与完整性审核，不重复报名或交件；原始GLB私密，实际为2D代理降级 |
 | 支付宝涌现 / Pantry Relay | 已恢复登录并用97,252字节含根package.json的React静态ZIP正式提交审核；官方同一作品卡片变审核中，出现撤销审核按钮 | [脱敏回执](https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/evidence/submission-receipt-20261110.json)；ZIP安全审核尚未完成，未确认公开上线、运行时LLM或支付宝业务API接入 |
-| 魔搭 AI+∞ / Paper Route | 已备独立HTML游戏ZIP、封面和投稿文案；另补[真实本地固定seed证据](https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/c5392db0e37744014dd9a4e07038e4cc27099341/docs/evidence/README.md)（四关通关回放与一处隔离变异体反例），已随`c5392db`推送核验；本次无新增平台提交 | 魔搭登录、公开构想帖及报名审核、公开创空间、手记/视频和最终交件 |
+| 魔搭 AI+∞ / Paper Route | 11月10日补[真实浏览器验证](https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/evidence/browser-verification-20261110.json)：首关12步通关/严格导入、第三关桥/刷新恢复和人工缺陷对照；[158秒中文静音演示](https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/media/paper-route-local-demo.mp4)已完成并随`6a9f8a1`推送；历史四关Node证据保持独立 | 魔搭账号协议/SMS登录、构想帖及报名审核、公开创空间、实践手记/视频发布和最终交件 |
 | MINMAX / Caption Relay | 11月10日问卷报名已完成；主操作者在Outlook实际打开组委会回复，确认作品已成功收到 | [组委会收件确认记录](https://github.com/misakamikotoghr-5205/caption-relay/blob/main/docs/evidence/submission-receipt-20261110.json)；等待征集截止后的专家评审和入围通知，收件不代表入围；原发送源码、PDF及视频不变 |
 | 火山 / CaseDesk | 按个人身份要求跳过 | 官方表明确仅面向企业 |
 | 小荷包原届 / Pocket Pause | 按时间要求跳过 | 原届已过期，未核实新届 |

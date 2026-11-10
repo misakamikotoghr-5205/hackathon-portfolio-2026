@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-11-10T09:23:56.003151+00:00",
+  "verified_at": "2026-11-10T09:35:30.172069+00:00",
   "project_count": 19,
   "verified_count": 19,
   "pending": [],
@@ -105,13 +105,13 @@
     },
     {
       "project": "paper-route-playtest",
-      "commit": "c5392db0e37744014dd9a4e07038e4cc27099341",
+      "commit": "6a9f8a1f6353c752584a87705e935d1bf138f7fa",
       "remote": "https://github.com/misakamikotoghr-5205/paper-route-playtest.git",
-      "remote_main_commit": "c5392db0e37744014dd9a4e07038e4cc27099341",
+      "remote_main_commit": "6a9f8a1f6353c752584a87705e935d1bf138f7fa",
       "head_matches_origin_main": true,
       "clean": true,
       "missing": [],
-      "verified_at": "2026-11-06T16:03:49.795071+00:00",
+      "verified_at": "2026-11-10T09:35:30.172069+00:00",
       "errors": []
     },
     {

@@ -14,3 +14,5 @@
 
 魔搭创空间：[待真实部署后填写，不能用私有Sites预览替代]
 创作手记：[待本人或授权操作者真实发布后填写]
+
+已完成的本地演示：[158秒中文静音视频](https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/media/paper-route-local-demo.mp4)，真实浏览器截图剪辑，非连续录屏；[媒体与检查记录](https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/evidence/local-demo-20261110.json)。视频不代表魔搭平台已部署或正式交件。

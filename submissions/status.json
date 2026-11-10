@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T09:23:56.003151+00:00",
+  "updated_at": "2026-11-10T09:35:30.172069+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 7,
@@ -662,16 +662,24 @@
       "github": "https://github.com/misakamikotoghr-5205/paper-route-playtest",
       "formally_submitted": false,
       "receipt": null,
-      "status": "awaiting_modelscope_concept_and_studio",
+      "status": "browser_demo_ready_modelscope_terms_pending",
       "dependencies": [
-        "Owner public concept post and approved registration; official deadline timezone confirmation",
-        "Public ModelScope Studio deployment and creative-process article/video",
-        "Formal game-category entry; no runtime AI or Qoder use claimed"
+        "Confirm the current ModelScope account terms and complete SMS authentication; publish a public concept post and obtain registration approval.",
+        "Deploy and verify a publicly playable ModelScope Studio; publish the six-section practice journal and prepared actual-browser demo.",
+        "Complete the formal AI-game entry; deterministic BFS is not runtime model inference or Qoder/DGX use."
       ],
-      "current_blocker": "可玩 HTML ZIP、封面、手记草稿及真实本地游戏回放已备；11月7日官方活动报名页明确要求先登录魔搭账号，亦未取得 CLI/OpenAPI 认证，本次先跳过。未创建公开构想帖、公开创空间或取得报名/交件回执。",
+      "current_blocker": "11月10日已补实际本地浏览器撤销/提示、首关12步试玩与严格导入、第三关桥/刷新恢复及人工缺陷对照；158秒中文静音真实截图剪辑已完成并检查、随源码发布。魔搭短信登录页已填指定手机号，账号协议待本人当次确认，尚未发送短信或登录；仍缺公开构想帖及报名审核、公开创空间、实践手记/视频在平台发布和最终交件。",
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "actual_browser_verified": true,
+      "local_demo_verified": true,
+      "local_demo_video": "https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/media/paper-route-local-demo.mp4",
+      "browser_evidence": "https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/evidence/browser-verification-20261110.json",
+      "media_evidence": "https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/evidence/local-demo-20261110.json",
+      "modelscope_terms_current_confirmation_pending": true,
+      "modelscope_sms_sent": false,
+      "modelscope_authenticated": false
     },
     {
       "project": "lumen-shift",

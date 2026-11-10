@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T08:25:45.592743+00:00",
+  "updated_at": "2026-11-10T09:05:03.930270+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -378,14 +378,13 @@
       "source": "https://www.aholo3d.cn/hackathon",
       "landscape_review": "https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Final submission terms confirmation and official Submit action; PDF and 128-second video uploads complete, official form shows 4/4 and saved draft.",
-        "Verify official final receipt; original generated GLB remains private and application provenance is not platform authentication."
+        "Await organizer eligibility/completeness review and results; keep submitted materials and repository available."
       ],
-      "formally_submitted": false,
+      "formally_submitted": true,
       "private_preview": "https://scene-clearance-lab-aholo.ghraurora1024.chatgpt.site",
       "pushed_and_remote_verified": true,
-      "github_commit": "eeebcfc8c182d84aecd939e4d7ff125265917ebb",
-      "submission_status": "official_materials_4of4_uploaded_final_terms_pending",
+      "github_commit": "fa68fa9296384635d9eafbddb6dd2751a362fa64",
+      "submission_status": "official_project_submitted_under_completeness_and_eligibility_review",
       "authenticated": true,
       "account_login_verified": true,
       "registration_form_prepared": true,
@@ -426,7 +425,21 @@
       },
       "official_materials_complete": 4,
       "official_materials_total": 4,
-      "final_terms_confirmation_pending": true
+      "final_terms_confirmation_pending": false,
+      "submission_receipt": {
+        "status": "confirmed",
+        "observed_at": "2026-11-10T09:02:46.800Z",
+        "project_title": "留白实验室",
+        "version": 1,
+        "displayed_badge": "已提交",
+        "displayed_submission_time": "11月10日09:02",
+        "review_stage": "资格与完整性审核",
+        "sanitized_evidence": "https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json",
+        "source_commit_at_submit": "eeebcfc8c182d84aecd939e4d7ff125265917ebb",
+        "eligibility_or_award_confirmed": false
+      },
+      "browser_submission_verified": true,
+      "official_receipt_verified": true
     },
     {
       "number": 10,
@@ -457,7 +470,8 @@
       "current_login_requires_user_identity_verification": false,
       "current_login_requires_refresh": true,
       "react_zip_sha256": "bcacef8b7012c38fa20f43b252b72904322334ccc63e9c48f2b323ab84d34228",
-      "react_zip_bytes": 97252
+      "react_zip_bytes": 97252,
+      "current_login_requires_sms_code": true
     },
     {
       "number": 11,
@@ -853,7 +867,7 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal registration was confirmed on November 9, when its project list was empty; its final entry was confirmed on November 10. On November 10, participant action-time rules consent was followed by successful Kiroween final Submit; the official project page displayed Project submitted! and Submitted to Kiroween 2026. The received entry does not establish eligibility approval or judging results; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the official final entry is confirmed, with submitted source revision 3227460b00c98701b813c6c82ea09a82e8f7281c, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX registration is confirmed, with zero projects at the registration check. QNX final Submit succeeded on November 10 after participant action-time final rules consent. The official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472; entry receipt is confirmed, not eligibility approval or judging results. Its demonstration is public on YouTube; publication does not establish registration or final submission. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed; independent registration-stage count is now six following the QNX signup. Organizer confirmation of the MINMAX project materials remains pending. Final project receipts now total four (Builder, Kiroween, QNX and PayPal); they do not automatically add independent registration-stage records. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; the Deadlock video is public on YouTube and its final project entry is confirmed. Cart Consent on November 10 now has actual combined AI/sandbox order evidence and a verified Public 138.8-second YouTube demo. Following participant action-time final rules consent and Submit, the official Cart Consent page displayed Project submitted! and Submitted to PayPal AI Hackathon. Submitted source revision: da95fd1bde83c608d72f57bd60aeb78a0eade44d. The independent registration count remains six; verified final receipts now total four. Aholo registration was independently verified November 10; one-person team and topic completed, current official stage 4 with 0/4 project materials. Current independent signup count is seven (including Aholo); final project receipts remain four. Original reference image is generated and the real Lux3D mesh task is in progress; export/import/report/final entry are still incomplete.",
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal registration was confirmed on November 9, when its project list was empty; its final entry was confirmed on November 10. On November 10, participant action-time rules consent was followed by successful Kiroween final Submit; the official project page displayed Project submitted! and Submitted to Kiroween 2026. The received entry does not establish eligibility approval or judging results; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the official final entry is confirmed, with submitted source revision 3227460b00c98701b813c6c82ea09a82e8f7281c, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX registration is confirmed, with zero projects at the registration check. QNX final Submit succeeded on November 10 after participant action-time final rules consent. The official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472; entry receipt is confirmed, not eligibility approval or judging results. Its demonstration is public on YouTube; publication does not establish registration or final submission. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed; independent registration-stage count is now six following the QNX signup. Organizer confirmation of the MINMAX project materials remains pending. Final project receipts now total four (Builder, Kiroween, QNX and PayPal); they do not automatically add independent registration-stage records. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; the Deadlock video is public on YouTube and its final project entry is confirmed. Cart Consent on November 10 now has actual combined AI/sandbox order evidence and a verified Public 138.8-second YouTube demo. Following participant action-time final rules consent and Submit, the official Cart Consent page displayed Project submitted! and Submitted to PayPal AI Hackathon. Submitted source revision: da95fd1bde83c608d72f57bd60aeb78a0eade44d. The independent registration count remains six; verified final receipts now total four. Aholo registration was independently verified November 10; one-person team and topic completed, current official stage 4 with 0/4 project materials. Current independent signup count is seven (including Aholo); final project receipts remain four. Original reference image is generated and the real Lux3D mesh task is in progress; export/import/report/final entry are still incomplete. 2026-11-10 09:02 UTC，Aholo留白实验室在本人当次确认最终须知后正式提交，官方显示“已提交”、第1版及进入资格与完整性审核；当前独立报名7项、正式作品回执5份。收件不表示审核通过。",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

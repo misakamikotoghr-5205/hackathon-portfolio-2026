@@ -1,6 +1,6 @@
 # 报名与提交推进记录
 
-更新：2026-11-10。这里是可审核的报名材料和实际缺口。**已确认独立报名阶段 7 项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名、QNX、Aholo），正式作品提交回执 4 份（Builder / Patch Review Desk、Kiroween / Deadlock Manor、QNX / Boot Order Atlas、PayPal / Cart Consent），跳过 2 个方向**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
+更新：2026-11-10。这里是可审核的报名材料和实际缺口。**已确认独立报名阶段 7 项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名、QNX、Aholo），正式作品提交回执 5 份（Builder / Patch Review Desk、Kiroween / Deadlock Manor、QNX / Boot Order Atlas、PayPal / Cart Consent、Aholo / 留白实验室），跳过 2 个方向**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
 
 独立报名阶段与最终作品收件分开计数；最终交件不会自动追加到报名计数，未单列报名回执不表示已交件项目未参赛。
 
@@ -30,9 +30,9 @@
 | Through Your Eyes | [parallax-postcards](https://github.com/misakamikotoghr-5205/parallax-postcards) | 未交；认证障碍先跳过 | itch公开游戏页及正式jam entry |
 | Game Off | [lumen-shift](https://github.com/misakamikotoghr-5205/lumen-shift) | 未交；认证障碍先跳过 | itch公开游戏页及正式jam entry |
 | PayPal | [cart-consent-paypal](https://github.com/misakamikotoghr-5205/cart-consent-paypal) | **正式作品已交，官方成功页确认** | [公开交件页](https://devpost.com/software/cart-consent)，等待结果 |
-| Aholo | [scene-clearance-lab](https://github.com/misakamikotoghr-5205/scene-clearance-lab) | **个人报名、团队与选题确认；真实GLB及A/B已完成，正式未交** | PDF/视频均上传、官网4/4；待最终须知确认及官方作品回执，2D代理实测4→2 |
+| Aholo | [scene-clearance-lab](https://github.com/misakamikotoghr-5205/scene-clearance-lab) | **正式作品已交，官网“已提交”及进入资格与完整性审核已核验** | [脱敏交件记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json)；第1版，页面提交时间11月10日09:02；PDF/128秒视频已交，2D代理实测4→2，等待审核 |
 | 华为×小红书 | [move-light-skill](https://github.com/misakamikotoghr-5205/move-light-skill) | 未交；验证障碍先跳过 | 真实码道/OfficeAce使用、双市场上架及笔记 |
-| 支付宝涌现奖 | [pantry-relay](https://github.com/misakamikotoghr-5205/pantry-relay) | **报名与现有草稿确认，正式未交** | 新ZIP已补根包元数据；上传返回登录失效，需恢复会话、重新选包并核验交件回执 |
+| 支付宝涌现奖 | [pantry-relay](https://github.com/misakamikotoghr-5205/pantry-relay) | **报名与现有草稿确认，正式未交** | 新ZIP97,252字节，已补官方要求的根package.json；提交审核返回登录失效，未确认上传成功，需恢复会话、重新选包并核验交件回执 |
 | 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；认证障碍先跳过 | 公开构想帖、报名审核、公开创空间及交件 |
 | Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **真实Kiro只读审查已完成；正式交件成功，官方页面显示Project submitted!及Submitted to Kiroween 2026** | [公开游戏入口](https://misakamikotoghr-5205.github.io/deadlock-manor/)与[Public视频](https://youtu.be/L3BpOsPHobo)已备；[最终交件页](https://devpost.com/software/deadlock-manor)已确认收件，不代表资格审核通过；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
 | Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；CLI认证失败，先跳过 | 真实Forge部署/Jira安装、评委链接、视频及Devpost |

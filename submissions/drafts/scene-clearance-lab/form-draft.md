@@ -1,12 +1,12 @@
 # 留白实验室 — Aholo 作品草稿，更新于2026-11-10
 
-官方[中国活动页](https://www.aholo3d.cn/hackathon)、[英文活动页](https://www.aholo.ai/hackathon)。截止 **2026-11-19 19:00 北京 / 11:00 UTC / 06:00 EST**。11月10日已真实登录并完成个人报名，官方显示“报名成功，欢迎加入！”；一人队伍“留白工坊”已确认，成员1/3，“留白实验室”选题已提交。官方第4阶段“作品提交”已打开，前三项勾选、报名积分及团队积分已发放，5页PDF报告已实际上传，后台目前4/4，最终作品未提交。下列作品表说明保留公开前端核对依据，最终按当前实际UI填写；不公开联系信息或邀请标识。
+官方[中国活动页](https://www.aholo3d.cn/hackathon)、[英文活动页](https://www.aholo.ai/hackathon)。截止 **2026-11-19 19:00 北京 / 11:00 UTC / 06:00 EST**。11月10日已真实登录并完成个人报名，官方显示“报名成功，欢迎加入！”；一人队伍“留白工坊”已确认，成员1/3，“留白实验室”选题已提交。官方第4阶段“作品提交”已打开，前三项勾选、报名积分及团队积分已发放，5页PDF报告已实际上传，材料4/4齐备后已正式交件，官网显示“已提交”、“第1版·提交于11月10日09:02”及“作品已进入资格与完整性审核”。[脱敏交件记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json)另存。下列作品表说明保留公开前端核对依据及实际提交内容；不公开联系信息或邀请标识。
 
 ## 先报名/选题，再交件
 
-流程：个人报名 → 创建/加入团队并确认 → 队长提交选题 → 提交作品。前三阶段已完成，无需重复报名、建队或选题；当前继续准备作品材料。
+流程：个人报名 → 创建/加入团队并确认 → 队长提交选题 → 提交作品。四阶段均已完成，无需重复报名、建队、选题或正式交件，当前等待资格与完整性审核。
 
-Lux3D真实图生3D任务已完成，官方UI已下载GLB；离线探针和实际浏览器导入成功并匹配SHA-256及几何统计。实际45,753顶点、91,530三角形、单图元、零纹理；按glTF默认米制读取尺寸，不证明真实尺寸准确。平台WebGL预览黑屏，本地实测是2D俯视代理降级。后续证据与取证步骤见 [lux3d-handoff-zh.md](lux3d-handoff-zh.md)；同参数A/B和5页PDF已完成，报告已实际上传；128秒实机截图剪辑视频已完成并上传，最终交件未完成，原始模型不公开。
+Lux3D真实图生3D任务已完成，官方UI已下载GLB；离线探针和实际浏览器导入成功并匹配SHA-256及几何统计。实际45,753顶点、91,530三角形、单图元、零纹理；按glTF默认米制读取尺寸，不证明真实尺寸准确。平台WebGL预览黑屏，本地实测是2D俯视代理降级。后续证据与取证步骤见 [lux3d-handoff-zh.md](lux3d-handoff-zh.md)；同参数A/B和5页PDF已完成，报告已实际上传；128秒实机截图剪辑视频已完成并随作品正式提交，原始模型不公开。
 
 公开代码显示个人报名有姓名、邮箱、国家/地区和城市、身份，以及本人阅读同意报名须知；姓名提示 2–30 字符。团队名提示 2–20 字符。实际身份、地区和联系方式仅在私有表单填写，不存入此处。
 
@@ -30,7 +30,7 @@ English idea summary (short, within the published 500-character idea limit):
 
 Scene Clearance Lab connects model preview to a reviewable layout workflow. It imports a documented local glTF/GLB subset, records file hashes and human-confirmed units, supports placement/rotation/scale, explains conservative footprint overlap and clearance, and compares two layouts under explicit parameters. JSON and Markdown reports retain transforms, provenance declarations, pairwise distances and limitations. Nothing is uploaded by the runtime.
 
-The working tool uses real vendored Three.js and OrbitControls, with independently implemented parsing, footprint checks and reports. Personal registration, a one-person team and the topic are confirmed. One actual Lux3D task with a 100K face target and PBR off completed; the officially downloaded GLB passed the existing offline importer and actual browser import with matching hash and geometry counts. Other objects are original procedural fixtures. The platform viewer was black and the application ran in interactive 2D footprint fallback; full WebGL mesh rendering has not been verified. Actual same-parameter A/B evidence, a five-page PDF and a 128-second edited screenshot video are complete. Both files have uploaded and the official form shows 4/4 materials; final terms confirmation and project submission remain pending. Raw model bytes are private and are not covered automatically by the code's MIT license.
+The working tool uses real vendored Three.js and OrbitControls, with independently implemented parsing, footprint checks and reports. Personal registration, a one-person team and the topic are confirmed. One actual Lux3D task with a 100K face target and PBR off completed; the officially downloaded GLB passed the existing offline importer and actual browser import with matching hash and geometry counts. Other objects are original procedural fixtures. The platform viewer was black and the application ran in interactive 2D footprint fallback; full WebGL mesh rendering has not been verified. Actual same-parameter A/B evidence, a five-page PDF and a 128-second edited screenshot video are complete. After the participant confirmed the final submission terms, both files were formally submitted. The official UI shows Submitted, version 1, submitted November 10 at 09:02, and entry into eligibility and completeness review. This confirms receipt, not approval or a judging outcome. Raw model bytes are private and are not covered automatically by the code's MIT license.
 
 ## 公开作品表字段与当前可填内容
 
@@ -40,9 +40,9 @@ The working tool uses real vendored Three.js and OrbitControls, with independent
 | 项目报告书 | [report-draft.md](report-draft.md) 对应5页PDF已完成、逐页检查且实际上传；真实生成、导入、同参数A/B与下载报告已记录。仅生成一版，没有虚构迭代 |
 | 完整 Demo / 宣传视频 | 128秒无音轨、中文字幕的真实运行截图剪辑已上传；不是连续录屏，已检查全片解码及10个关键帧 |
 | 应用赛道 | 已在官方表单选择“空间设计应用奖” |
-| 生态合作设备/技术 | 未使用相应生态设备/技术时选择“无”；没有云深处、影石、WorkBuddy使用证据 |
-| “作品使用 Aholo Lux3D 完成且可运行演示”确认 | 已有真实Lux3D生成、官方UI下载、成功导入及同参数A/B证据，可供本人按当前须知审阅；本稿不代勾确认，也不主张完整WebGL预览已验证 |
-| 提交须知/真实性确认 | 本人/root核对后操作，本稿不代同意 |
+| 生态合作设备/技术 | 实际已选“无”；没有云深处、影石、WorkBuddy使用证据 |
+| “作品使用 Aholo Lux3D 完成且可运行演示”确认 | 已有真实Lux3D生成、官方UI下载、成功导入及同参数A/B证据；已按本人当次确认完成本次正式提交，不主张完整WebGL预览已验证 |
+| 提交须知/真实性确认 | 本人当次确认后已实际勾选并正式提交；官网收件及进入审核已核验 |
 | 源代码/压缩包（加分材料） | https://github.com/misakamikotoghr-5205/scene-clearance-lab |
 | 社媒发布链接（加分材料） | 未发帖；中国页要求 #Aholo黑客松，不能伪造公开链接 |
 
@@ -53,6 +53,6 @@ The working tool uses real vendored Three.js and OrbitControls, with independent
 - 构建过程：先定义可导入格式和拒绝边界，再实现几何代理与独立几何测试、布置与参数比较，最后核对本地库许可、打包与浏览器降级。不能虚构 Lux3D 生成步骤。
 - AI：Codex辅助设计、编码、测试和文档；本地工具运行时没有模型调用。真实Lux3D参考图、3D生成、官方UI下载及实际本地导入均有记录；平台WebGL黑屏，本地实际为2D代理降级，不能冒充完整网格渲染。
 - OSS：原创代码/物件 MIT；实际复用的 Three.js/OrbitControls 原始 MIT、版权和指纹均保留。glTF Viewer 与 glTF Transform 仅为设计比较，没有复制其代码或第三方美术资产。
-- 当前状态：账号登录、个人报名、一人组队、选题及一个真实资产的生成/下载/导入已完成；同参数A/B及5页PDF已完成，报告已实际上传（后台4/4）；128秒实机截图剪辑视频已完成并上传，最终作品未提交。商业或再分发授权未核实，原始模型保持私密，报告/视频为带AI标识的非商业展示。
+- 当前状态：账号登录、个人报名、一人组队、选题及一个真实资产的生成/下载/导入已完成；同参数A/B及5页PDF已完成，报告已实际上传（后台4/4）；128秒实机截图剪辑视频已完成并正式提交，官网收件已核验，等待资格与完整性审核。商业或再分发授权未核实，原始模型保持私密，报告/视频为带AI标识的非商业展示。
 
 本次实际A/B：同一资产从X0/Z0移到X-2/Z1.8，yaw0、scale1；同9×7m房间、0.6m间隙、1m留白带，6物件提醒4→2，仍保留1条重叠和1条留白带提醒。[官方提交须知](https://www.aholo3d.cn/hackathon/submission)要求完整报告，视频必须含真实运行画面且可剪辑；展示授权不等于原始GLB商业/再分发许可。

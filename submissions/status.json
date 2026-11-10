@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T08:25:45.592743+00:00",
+  "updated_at": "2026-11-10T09:05:03.930270+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
-  "external_submissions_confirmed": 4,
+  "external_submissions_confirmed": 5,
   "projects": [
     {
       "project": "briefmint-skillpay",
@@ -390,14 +390,24 @@
       "project": "scene-clearance-lab",
       "event": "Aholo 全球3D AI黑客松",
       "github": "https://github.com/misakamikotoghr-5205/scene-clearance-lab",
-      "formally_submitted": false,
-      "receipt": null,
-      "status": "official_materials_4of4_uploaded_final_terms_pending",
+      "formally_submitted": true,
+      "receipt": {
+        "status": "confirmed",
+        "observed_at": "2026-11-10T09:02:46.800Z",
+        "project_title": "留白实验室",
+        "version": 1,
+        "displayed_badge": "已提交",
+        "displayed_submission_time": "11月10日09:02",
+        "review_stage": "资格与完整性审核",
+        "sanitized_evidence": "https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json",
+        "source_commit_at_submit": "eeebcfc8c182d84aecd939e4d7ff125265917ebb",
+        "eligibility_or_award_confirmed": false
+      },
+      "status": "official_project_submitted_under_completeness_and_eligibility_review",
       "dependencies": [
-        "Final submission terms confirmation and official Submit action; PDF and 128-second video uploads complete, official form shows 4/4 and saved draft.",
-        "Verify official final receipt; original generated GLB remains private and application provenance is not platform authentication."
+        "Await organizer eligibility/completeness review and results; keep submitted materials and repository available."
       ],
-      "current_blocker": "11月10日已完成个人报名、团队、选题、真实Lux3D生成/下载/导入及同参数A/B4→2。五页PDF及128秒实机截图视频上传成功，官网显示4/4并保存草稿；已请求本人对独立最终作品提交须知的当次确认，等待正式提交及官方回执。",
+      "current_blocker": "已正式提交并核验官方“已提交”、第1版、11月10日09:02及进入资格与完整性审核的只读卡片。视频、五页PDF、空间设计赛道、生态无和源码均列出；等待主办方审核，不代表资格通过或获奖。",
       "registration_confirmed": true,
       "registration_receipt": {
         "status": "confirmed",
@@ -407,7 +417,18 @@
         "evidence": "Participant completed the prepared registration in the shared browser; main operator independently observed the official success toast, registration credits and progression to team creation. One-person team and topic then completed; official first three steps checked, current stage 作品提交 with 0/4 materials.",
         "confirmation_email_claimed": false
       },
-      "submission_receipt": null,
+      "submission_receipt": {
+        "status": "confirmed",
+        "observed_at": "2026-11-10T09:02:46.800Z",
+        "project_title": "留白实验室",
+        "version": 1,
+        "displayed_badge": "已提交",
+        "displayed_submission_time": "11月10日09:02",
+        "review_stage": "资格与完整性审核",
+        "sanitized_evidence": "https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json",
+        "source_commit_at_submit": "eeebcfc8c182d84aecd939e4d7ff125265917ebb",
+        "eligibility_or_award_confirmed": false
+      },
       "authenticated": true,
       "account_login_verified": true,
       "registration_form_prepared": true,
@@ -439,7 +460,9 @@
       },
       "official_materials_complete": 4,
       "official_materials_total": 4,
-      "final_terms_confirmation_pending": true
+      "final_terms_confirmation_pending": false,
+      "browser_submission_verified": true,
+      "official_receipt_verified": true
     },
     {
       "project": "pantry-relay",
@@ -452,7 +475,7 @@
         "Resume the official Alipay login after the upload endpoint returned an expired-session error; reselect the corrected static ZIP.",
         "Official ZIP now includes valid root package.json metadata; platform upload/acceptance and final submission receipt still need verification."
       ],
-      "current_blocker": "11月10日已实际进入现有草稿并发现ZIP审核状态暂不可用；按当前官方目录要求补齐根package.json，运行文件逐字节未变，新ZIP97,252字节。重新选包并点击提交审核后，官方明确返回“登录已失效”，未确认上传成功；已保留官方扫码重新登录页。身份核验旧页面已过去，当前阻塞为上传会话过期，无最终作品回执。",
+      "current_blocker": "11月10日已实际进入现有草稿并发现ZIP审核状态暂不可用；按当前官方目录要求补齐根package.json，运行文件逐字节未变，新ZIP97,252字节。重新选包并点击提交审核后，官方明确返回“登录已失效”，未确认上传成功；已保留官方扫码重新登录页。身份核验旧页面已过去，当前阻塞为上传会话过期，无最终作品回执。 已切到官方短信登录并实际触发重发倒计时，等待本人提供最新支付宝验证码。",
       "local_model_evidence": {
         "real_inference_observed": true,
         "request_count": 2,
@@ -492,7 +515,8 @@
       "current_login_requires_user_identity_verification": false,
       "current_login_requires_refresh": true,
       "react_zip_sha256": "bcacef8b7012c38fa20f43b252b72904322334ccc63e9c48f2b323ab84d34228",
-      "react_zip_bytes": 97252
+      "react_zip_bytes": 97252,
+      "current_login_requires_sms_code": true
     },
     {
       "project": "dependency-evidence-forge",
@@ -631,7 +655,14 @@
       "registration_receipt": null,
       "submission_receipt": null,
       "current_itch_human_verification_consent_received": true,
-      "itch_authenticated": false
+      "itch_authenticated": false,
+      "latest_browser_retry": {
+        "date": "2026-11-10",
+        "normal_chrome_used": true,
+        "captcha_action_confirmed_by_user": true,
+        "captcha_clicked": true,
+        "result": "Returned to Verify you are human after verifying spinner; login not reached."
+      }
     },
     {
       "project": "source-trail-otari",
@@ -733,6 +764,13 @@
         "svg_download_verified": true,
         "continuous_video": false,
         "formal_jam_entry": false
+      },
+      "latest_browser_retry": {
+        "date": "2026-11-10",
+        "normal_chrome_used": true,
+        "captcha_action_confirmed_by_user": true,
+        "captcha_clicked": true,
+        "result": "Returned to Verify you are human after verifying spinner; login not reached."
       }
     },
     {
@@ -941,7 +979,7 @@
     "registration_attempts_in_progress": 0,
     "included_in_verified_counts": false
   },
-  "latest_execution_note": "Aholo全部材料4/4已上传并保存草稿，待最终独立条款当次确认后Submit；正式回执仍4。Pantry修正ZIP元数据已推送，官方上传因登录失效未确认成功。",
+  "latest_execution_note": "11月10日09:02 Aholo正式交件成功并核验官方只读回执，正式收件增至5份。itch当次验证已获确认并操作，仍在验证中；Pantry官方扫码登录待完成，ZIP已修并推送。",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

@@ -1,6 +1,6 @@
 # 留白实验室：真实证据剪辑脚本
 
-更新于2026-11-10。这是约2–3分钟的六段英文旁白/镜头安排，不凭本脚本主张成片已完成。实际128秒中文字幕、无音轨成片已由单独制作流程交付并上传；实际脚本和元数据见[项目媒体记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/tree/main/docs/media)。完整5页PDF已上传，官方材料4/4，最终作品未提交。不得冒充连续录屏，不使用重绘UI或程序样例替代本次Lux3D文件。
+更新于2026-11-10。这是约2–3分钟的六段英文旁白/镜头安排，不凭本脚本主张成片已完成。实际128秒中文字幕、无音轨成片已由单独制作流程交付并上传；实际脚本和元数据见[项目媒体记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/tree/main/docs/media)。完整5页PDF和视频均已正式提交，官方材料4/4、显示“已提交”及进入资格与完整性审核；[脱敏交件记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json)另存。不得冒充连续录屏，不使用重绘UI或程序样例替代本次Lux3D文件。
 
 ## 1 目标与真实导入界面
 

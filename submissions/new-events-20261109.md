@@ -4,19 +4,19 @@
 
 ## MINMAX｜字幕交接台 Caption Relay
 
-**状态：源码、PDF与本地成片已完成，真实本地模型HTTP调用和显式保存响应导出有证据；未问卷报名、未发投稿邮件，无官方收件。**
+**状态：源码、PDF与本地成片已完成，真实本地模型HTTP调用和显式保存响应导出有证据；11月10日邮件已发送，待组委会确认；问卷报名未完成，无官方收件回执。**
 
-已核验GitHub远端版本[e28bb9f0a228fbb74b18852ef788bd268233427f](https://github.com/misakamikotoghr-5205/caption-relay/tree/e28bb9f0a228fbb74b18852ef788bd268233427f)，28项本地测试及严格TypeScript检查通过。程序导入SRT/VTT，检查时间、阅读负担与术语；程序生成保留其余原文的字面词表候选，真实本地模型检查有限上下文、选择建议或保留并解释理由，人逐条确认。模型不能自由改写字幕或改时间码。
+实际发送包对应已核验源版本[e28bb9f0a228fbb74b18852ef788bd268233427f](https://github.com/misakamikotoghr-5205/caption-relay/tree/e28bb9f0a228fbb74b18852ef788bd268233427f)，28项本地测试及严格TypeScript检查通过。程序导入SRT/VTT，检查时间、阅读负担与术语；程序生成保留其余原文的字面词表候选，真实本地模型检查有限上下文、选择建议或保留并解释理由，人逐条确认。模型不能自由改写字幕或改时间码。
 
 真实HTTP调用返回200，用时59.729753秒，读取cue-1/2并给出cue-2候选；另一次保存响应工作流明确采用cue-2，导出SRT、VTT和审计JSON且时间码未变。不是第二次模型调用，也不是全文件模型质量证明。浏览器实际核查过五句导入及三项提示；完整浏览器AI审阅、采用和导出仍未验证。历史超时、误选与删除原文失败均保留，不把确定性规则或程序候选冒充AI创作（[运行证据](https://github.com/misakamikotoghr-5205/caption-relay/blob/e28bb9f0a228fbb74b18852ef788bd268233427f/docs/evidence/http-review-20261109.json)）。
 
-八页商业计划书PDF为109761字节，SHA256为bce9bb95e194bbca8ab2968e66866590506d01e794a3c18b28ff806a7eb2e98d，逐页视觉检查完成。中文通用合成旁白与同步字幕MP4为106.8秒、2124112字节，SHA256为79e119fb450de9ef5d7bc54371b19a2366eec3974b8fa918ad20ce1c3183de1f，已完整解码并抽看十个实际帧。成片是实际保存HTTP/CLI结果的原创编辑证据卡，明确不是GUI或终端录屏，不虚构界面操作；没有完整人工音轨听审声明（[媒体记录](https://github.com/misakamikotoghr-5205/caption-relay/blob/e28bb9f0a228fbb74b18852ef788bd268233427f/docs/local-demo-20261109.json)）。这些文件本地已存在，不代表已发送附件或已在公网托管。
+八页商业计划书PDF为109761字节，SHA256为bce9bb95e194bbca8ab2968e66866590506d01e794a3c18b28ff806a7eb2e98d，逐页视觉检查完成。中文通用合成旁白与同步字幕MP4为106.8秒、2124112字节，SHA256为79e119fb450de9ef5d7bc54371b19a2366eec3974b8fa918ad20ce1c3183de1f，已完整解码并抽看十个实际帧。成片是实际保存HTTP/CLI结果的原创编辑证据卡，明确不是GUI或终端录屏，不虚构界面操作；没有完整人工音轨听审声明（[媒体记录](https://github.com/misakamikotoghr-5205/caption-relay/blob/e28bb9f0a228fbb74b18852ef788bd268233427f/docs/local-demo-20261109.json)）。两文件已作为11月10日作品邮件的附件发送，Sent Items中已打开核对；不代表已在公网托管、完成问卷报名或收到组委会确认。原发送版本保持e28bb9f，后续状态文档更新不冒充新的代码、模型调用或视频。
 
 原生Sites部署已成功，但[预览](https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site)仅所有者可访问，且远端UI不能连接开发机的loopback Ollama，不是评委公开AI运行入口。正式试用方式为[公开仓库README](https://github.com/misakamikotoghr-5205/caption-relay#run-locally)的本机运行：Node.js、Ollama及指定模型，无需测试账号、卡片或付费订阅。
 
 [主办方官方18问](https://www.gba-base.com/newsDetail.html?id=2892&active=true)明确支持个人或1–4人、不限专业/学历/职业；每人仅一队一作，各成员独立问卷星报名。报名和交件截止为**2026-11-10**，未注明具体时刻或时区。MINMAX为该赛事品牌，不强制使用同名企业产品。
 
-Q9–Q14要求遵守开源许可并披露来源；交付PDF商业计划书、可试用产品及3分钟以内MP4，视频须有清晰中文旁白和同步字幕。制作材料采用PDF小于10M、视频小于300M；确需本地运行可附运行说明。组委会对完整合规作品邮件回复确认，发出邮件不等于收件确认。入围作品有赛事宣传与成果展示的非商业授权；未见既有作品政策或明确地域限制，不据此补推未写明的资格。本项目尚未完成问卷报名或邮件发送，公开源码与本地材料不计正式参赛。
+Q9–Q14要求遵守开源许可并披露来源；交付PDF商业计划书、可试用产品及3分钟以内MP4，视频须有清晰中文旁白和同步字幕。制作材料采用PDF小于10M、视频小于300M；确需本地运行可附运行说明。组委会对完整合规作品邮件回复确认，发出邮件不等于收件确认。入围作品有赛事宣传与成果展示的非商业授权；未见既有作品政策或明确地域限制，不据此补推未写明的资格。本项目邮件已通过Outlook UI发送并核对Sent Items，待组委会确认；问卷报名仍未完成。Outlook显示日期2026/11/10、时间11:10，时区未确定，不将其作为精确UTC发件时间。邮件发送不计作官方报名成功或正式作品收件。
 
 ## QNX Global Hackathon｜Boot Order Atlas
 

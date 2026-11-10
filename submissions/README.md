@@ -1,6 +1,6 @@
 # 报名与提交推进记录
 
-更新：2026-11-09。这里是可审核的报名材料和实际缺口。**已确认官方报名阶段 4 项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal），正式作品提交回执 1 份（Builder / Patch Review Desk），跳过 2 个方向**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
+更新：2026-11-10。这里是可审核的报名材料和实际缺口。**已确认官方报名阶段 4 项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal），正式作品提交回执 1 份（Builder / Patch Review Desk），跳过 2 个方向**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
 
 基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，个人资料不写入公开文件。Clips已真实登录并保存[Fixture ModelOff录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)；仅项目标签页、摄像头与麦克风关闭。Builder已在本人当次确认后勾必填同意、保持营销未勾并提交，官网已显示项目收件成功；这与Apart仅报名成功分开计数。
 
@@ -37,7 +37,7 @@
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |
 | 小荷包原届 | [pocket-pause](https://github.com/misakamikotoghr-5205/pocket-pause) | 跳过 | 已过期，无已核实延期 |
 | QNX Global Hackathon | [boot-order-atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas) | 主机工具、32项测试和151.6秒本地英文成片已完成；未报名、未交件 | 公开YouTube、Devpost报名及最终交件；不声称QNX SDK构建或目标运行 |
-| MINMAX AI Agent黑客松 | [caption-relay](https://github.com/misakamikotoghr-5205/caption-relay) | 28项测试、真实本地HTTP候选选择、独立人审导出、8页PDF和106.8秒中文旁白/同步字幕成片已备；未报名、未发邮件 | 官方问卷报名、完整材料邮件及主办方收件确认；README本机试用，Sites仅私有UI预览 |
+| MINMAX AI Agent黑客松 | [caption-relay](https://github.com/misakamikotoghr-5205/caption-relay) | 11月10日作品邮件已发送并核对Sent Items，待组委会确认；问卷报名未完成。28项测试及原PDF/成片证据不变 | 完成官方问卷报名、等待主办方邮件确认；发送不计官方收件。README本机试用，Sites仅私有UI预览 |
 
 
 - [原始七个方向](original-seven-audit.md)：PAYATHON、AIMA、火山、华为、小红书小荷包、爱奇艺、Kiro。

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T11:24:49.422275+00:00",
+  "updated_at": "2026-11-10T11:44:30.876111+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 7,
@@ -60,7 +60,7 @@
         "User reports the creator-program application submitted; follow its review outcome, with no repeat application requested",
         "Native-platform work validity and any separate LinkSoul terms remain unverified; device verification only if physical deployment is claimed"
       ],
-      "current_blocker": "用户已自报创作者计划申请提交，阶段保持不变，不重复申请。11月10日普通及无痕浏览器查看creator-plan均未登录，未读取申请详情、ID或通过结果；此前账号登录/开放平台条款记录与本次会话状态分别保留。原生有效作品、灵心独立条款及实机部署仍未核验，后续在恢复会话后跟进已交申请。",
+      "current_blocker": "用户已自报创作者计划申请提交，阶段保持不变，不重复申请。11月10日普通及无痕浏览器查看creator-plan均未登录，未读取申请详情、ID或通过结果；此前账号登录/开放平台条款记录与本次会话状态分别保留。原生有效作品、灵心独立条款及实机部署仍未核验，后续在恢复会话后跟进已交申请。 11月10日已补120秒本地演示并随源码发布；具体范围见媒体记录，未据此增加平台交件状态。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
@@ -82,7 +82,21 @@
         "existing_user_report_preserved": true
       },
       "previous_account_login_verified": true,
-      "account_session_observation_date": "2026-11-10"
+      "account_session_observation_date": "2026-11-10",
+      "github_commit": "6209e8f56ece0f7e33706e93da172f9e4c86e168",
+      "local_demo_verified": true,
+      "local_demo_video": "https://github.com/misakamikotoghr-5205/aima-story-director/blob/main/docs/media/aima-local-demo.mp4",
+      "media_evidence": "https://github.com/misakamikotoghr-5205/aima-story-director/blob/main/docs/evidence/local-demo-20261110.json",
+      "local_demo": {
+        "duration_seconds": 120.0,
+        "bytes": 765571,
+        "sha256": "794a2cc7b7e18fd574a859f1bbe945c44ea048aeb81d5a485fe7f77873216198",
+        "video_url": "https://github.com/misakamikotoghr-5205/aima-story-director/blob/main/docs/media/aima-local-demo.mp4",
+        "media_evidence_url": "https://github.com/misakamikotoghr-5205/aima-story-director/blob/main/docs/evidence/local-demo-20261110.json",
+        "production_scope": "实际三场景离线dry-run输出图解；硬件命令为0，不代表灵心原生发布",
+        "continuous_screen_recording": false,
+        "full_video_decode_passed": true
+      }
     },
     {
       "project": "volc-casedesk",
@@ -110,10 +124,24 @@
         "Actual CodeArts or OfficeAce contribution and upload to BOTH Huawei and Xiaohongshu Skill markets",
         "Event entry and required social post"
       ],
-      "current_blocker": "当前华为滑块安全验证已获准并尝试操作，但UI超时，尚未确认验证通过，也未取得短信或登录成功。真实CodeArts/OfficeAce改进、报名与双市场发布及笔记仍待完成。",
+      "current_blocker": "当前华为滑块安全验证已获准并尝试操作，但UI超时，尚未确认验证通过，也未取得短信或登录成功。真实CodeArts/OfficeAce改进、报名与双市场发布及笔记仍待完成。 11月10日已补120秒本地演示并随源码发布；具体范围见媒体记录，未据此增加平台交件状态。",
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "github_commit": "e507d7a5e4c3af3701cbc044e714c16b13a89425",
+      "local_demo_verified": true,
+      "local_demo_video": "https://github.com/misakamikotoghr-5205/move-light-skill/blob/main/docs/media/move-light-local-demo.mp4",
+      "media_evidence": "https://github.com/misakamikotoghr-5205/move-light-skill/blob/main/docs/evidence/local-demo-20261110.json",
+      "local_demo": {
+        "duration_seconds": 120.0,
+        "bytes": 786255,
+        "sha256": "d414e4eccf60e43c3850daa11a5ed771dec7b7f986a354e34071a8abb1406c35",
+        "video_url": "https://github.com/misakamikotoghr-5205/move-light-skill/blob/main/docs/media/move-light-local-demo.mp4",
+        "media_evidence_url": "https://github.com/misakamikotoghr-5205/move-light-skill/blob/main/docs/evidence/local-demo-20261110.json",
+        "production_scope": "实际本地CLI虚构箱单及报价图解；CodeArts/OfficeAce及双市场发布仍缺",
+        "continuous_screen_recording": false,
+        "full_video_decode_passed": true
+      }
     },
     {
       "project": "iqiyi-play-lab",
@@ -126,7 +154,7 @@
         "User reports all four apps submitted in the creator dashboard; follow actual review feedback rather than repeat uploads",
         "Review approval, public availability, event attribution and mobile WebView behavior remain unverified"
       ],
-      "current_blocker": "用户自报四款互动应用已在爱奇艺创作者后台提交，据此不再列为待登录或待上传。未独立记录官方回执；后台提交不等于四款已审核通过、上线、赛事归属确认或手机WebView核验。后续跟进实际审核结果和平台反馈，不要求重复投稿。",
+      "current_blocker": "用户自报四款互动应用已在爱奇艺创作者后台提交，据此不再列为待登录或待上传。未独立记录官方回执；后台提交不等于四款已审核通过、上线、赛事归属确认或手机WebView核验。后续跟进实际审核结果和平台反馈，不要求重复投稿。 11月10日已补112秒本地演示并随源码发布；具体范围见媒体记录，未据此增加平台交件状态。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
@@ -135,7 +163,21 @@
       "reported_evidence": "user_statement",
       "report_recorded_at": "2026-11-07T10:05:21.608213+00:00",
       "official_receipt_verified": false,
-      "browser_submission_verified": false
+      "browser_submission_verified": false,
+      "github_commit": "d8062d5073de4ee217257d8430b5670ee7d342a1",
+      "local_demo_verified": true,
+      "local_demo_video": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab/blob/main/docs/media/iqiyi-local-demo.mp4",
+      "media_evidence": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab/blob/main/docs/evidence/local-demo-20261110.json",
+      "local_demo": {
+        "duration_seconds": 112.0,
+        "bytes": 771160,
+        "sha256": "0cd6fdabec9dba04a4e8a767235557148327c5a061588b343202433302016d50",
+        "video_url": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab/blob/main/docs/media/iqiyi-local-demo.mp4",
+        "media_evidence_url": "https://github.com/misakamikotoghr-5205/iqiyi-play-lab/blob/main/docs/evidence/local-demo-20261110.json",
+        "production_scope": "已有五张真实桌面截图概览；后台四款已交为本人确认，未据视频核验审核",
+        "continuous_screen_recording": false,
+        "full_video_decode_passed": true
+      }
     },
     {
       "project": "deadlock-manor",
@@ -573,13 +615,13 @@
       "github": "https://github.com/misakamikotoghr-5205/dependency-evidence-forge",
       "formally_submitted": false,
       "receipt": null,
-      "status": "registration_form_prepared_forge_account_owner_review_pending",
+      "status": "registration_answers_filled_rules_consent_and_forge_owner_review_pending",
       "dependencies": [
         "Owner review of the Google-SSO account-email synchronization notice before further Forge account operations; CLI authentication, tokens and deployment remain incomplete.",
-        "Three personal registration answers remain pending: existing Atlassian developer account, prior product/Forge experience and prior Codegeist. Devpost form is prepared only; eligibility/rules consent and Register have not been acted on.",
+        "Participant answered no existing Atlassian developer account, no Atlassian/Forge experience and no prior Codegeist. All required form choices are filled; current eligibility/rules consent remains pending and Register has not been clicked.",
         "After account and registration prerequisites: actual Forge lint/deploy/install and Jira validation, judge installation link, reason for Forge, public English YouTube demo under five minutes and formal project entry."
       ],
-      "current_blocker": "11月10日Devpost现有会话已登录，Codegeist报名表已填单人、来源Devpost.com、AI Medium、目标Learning，营销未选；既有Atlassian开发者账号、产品/Forge经验及往届Codegeist三项本人答案待补。资格/规则勾选和Register均未操作，尚无报名回执。Forge CLI15/Node24 whoami此前仍exit1；随后Google SSO出现账号邮箱同步通知，已请本人审阅，在继续Forge账号操作前等待本人确认。没有新CLI认证、API token、部署或安装；账号同步通知不含手动修改邮箱设置操作。公开元数据不保存邮箱、邮件ID或认证URL。",
+      "current_blocker": "11月10日本人已回答三项均无，Devpost报名表已填单人、无既有开发者账号、无Atlassian/Forge经验、首次Codegeist、AI Medium、目标Learning，不订阅营销。当前资格/规则确认待答，未点Register，无新报名回执。Forge账号邮箱同步通知仍待本人审阅；CLI未认证、没有新token、部署或安装，真实Forge演示尚不能录制。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
@@ -612,13 +654,12 @@
         "referral": "Devpost.com",
         "ai_experience": "Medium",
         "goal": "Learning",
-        "marketing_opt_in": false
+        "marketing_opt_in": false,
+        "existing_atlassian_developer_account": "No",
+        "atlassian_forge_development_experience": "None",
+        "previous_codegeist_participation": "No"
       },
-      "registration_personal_answers_pending": [
-        "Existing Atlassian developer account",
-        "Prior Atlassian product / Forge development experience",
-        "Prior Codegeist participation"
-      ],
+      "registration_personal_answers_pending": [],
       "latest_account_observation": {
         "date": "2026-11-10",
         "google_sso_continue_observed": true,
@@ -629,7 +670,9 @@
         "cli_authenticated": false,
         "new_api_token_created": false,
         "forge_deploy_or_install_performed": false
-      }
+      },
+      "registration_personal_answers_received": true,
+      "registration_action_time_rules_confirmation_pending": true
     },
     {
       "project": "patch-review-desk",
@@ -724,13 +767,13 @@
       "github": "https://github.com/misakamikotoghr-5205/paper-route-playtest",
       "formally_submitted": false,
       "receipt": null,
-      "status": "browser_demo_ready_modelscope_terms_pending",
+      "status": "browser_demo_ready_modelscope_captcha_confirmation_pending",
       "dependencies": [
-        "Confirm the current ModelScope account terms and complete SMS authentication; publish a public concept post and obtain registration approval.",
+        "Current ModelScope user/privacy consent received and checkbox checked; sending SMS is blocked by the newly displayed slider, awaiting action-time confirmation. Then complete authentication, public concept post and registration approval.",
         "Deploy and verify a publicly playable ModelScope Studio; publish the six-section practice journal and prepared actual-browser demo.",
         "Complete the formal AI-game entry; deterministic BFS is not runtime model inference or Qoder/DGX use."
       ],
-      "current_blocker": "11月10日已补实际本地浏览器撤销/提示、首关12步试玩与严格导入、第三关桥/刷新恢复及人工缺陷对照；158秒中文静音真实截图剪辑已完成并检查、随源码发布。魔搭短信登录页已填指定手机号，账号协议待本人当次确认，尚未发送短信或登录；仍缺公开构想帖及报名审核、公开创空间、实践手记/视频在平台发布和最终交件。",
+      "current_blocker": "11月10日本人已同意当前魔搭用户/隐私协议，已勾选并点击获取验证码；平台随后显示滑块，当前滑块待当次确认，尚未发送短信或登录。158秒实际本地演示已随源码发布；仍缺公开构想帖及报名审核、公开创空间、手记/视频在平台发布和正式交件。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
@@ -739,9 +782,12 @@
       "local_demo_video": "https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/media/paper-route-local-demo.mp4",
       "browser_evidence": "https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/evidence/browser-verification-20261110.json",
       "media_evidence": "https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/main/docs/evidence/local-demo-20261110.json",
-      "modelscope_terms_current_confirmation_pending": true,
+      "modelscope_terms_current_confirmation_pending": false,
       "modelscope_sms_sent": false,
-      "modelscope_authenticated": false
+      "modelscope_authenticated": false,
+      "modelscope_terms_current_consent_received": true,
+      "modelscope_terms_checkbox_checked": true,
+      "modelscope_current_slider_confirmation_pending": true
     },
     {
       "project": "lumen-shift",
@@ -754,7 +800,7 @@
         "Personal itch.io game page and playable jam submission",
         "Accurate AI-assisted development disclosure; community recognition, no verified cash prize"
       ],
-      "current_blocker": "11月10日本人新一次授权后，普通Chrome中实际点击Verify、勾选checkbox并出现验证spinner，但又返回新Ray ID的Verify挑战，未进入账号、创建游戏页或正式jam entry。已请本人在保留的itch.io/login页完成当前验证；包、封面、披露保持可用。",
+      "current_blocker": "11月10日本人新一次授权后，普通Chrome中实际点击Verify、勾选checkbox并出现验证spinner，但又返回新Ray ID的Verify挑战，未进入账号、创建游戏页或正式jam entry。已请本人在保留的itch.io/login页完成当前验证；包、封面、披露保持可用。 11月10日已补128秒本地演示并随源码发布；具体范围见媒体记录，未据此增加平台交件状态。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
@@ -772,6 +818,20 @@
         "human_verification_passed": false,
         "result": "Verify button, checked checkbox and spinner were followed by a fresh challenge; no account login or game entry reached.",
         "owner_manual_handoff_requested": true
+      },
+      "github_commit": "dcc1b6bde65971c81c4ed366bf57ad7146186e34",
+      "local_demo_verified": true,
+      "local_demo_video": "https://github.com/misakamikotoghr-5205/lumen-shift/blob/main/docs/media/lumen-shift-local-demo.mp4",
+      "media_evidence": "https://github.com/misakamikotoghr-5205/lumen-shift/blob/main/docs/evidence/local-demo-20261110.json",
+      "local_demo": {
+        "duration_seconds": 128.0,
+        "bytes": 2462905,
+        "sha256": "620c607f6c57e8f98da940ddaaa96399a45e83a18b7f12c6bb1fbbcd96a6a065",
+        "video_url": "https://github.com/misakamikotoghr-5205/lumen-shift/blob/main/docs/media/lumen-shift-local-demo.mp4",
+        "media_evidence_url": "https://github.com/misakamikotoghr-5205/lumen-shift/blob/main/docs/evidence/local-demo-20261110.json",
+        "production_scope": "真实桌面截图剪辑：首关、撤销重做、导入与刷新；第3/4关仅展示未解",
+        "continuous_screen_recording": false,
+        "full_video_decode_passed": true
       }
     },
     {
@@ -787,7 +847,7 @@
         "Official-template PDF up to 8 pages excluding references/appendices, abstract, authors/affiliations and required limitations/dual-use appendix; formal entry",
         "Submission deadline Nov 15 23:59 AoE = Nov 16 11:59 UTC / 19:59 Beijing; optional hosted-model demonstration not performed"
       ],
-      "current_blocker": "官方报名成功页已确认加入11月13–15日研究冲刺，private success-page evidence held；报名完成不等于作品提交。项目提交窗口尚未开启，仍需赛期新增研究、官方模板最终PDF及正式交件回执；现有代码和16例pilot均为赛前工作。",
+      "current_blocker": "官方报名成功页已确认加入11月13–15日研究冲刺，private success-page evidence held；报名完成不等于作品提交。项目提交窗口尚未开启，仍需赛期新增研究、官方模板最终PDF及正式交件回执；现有代码和16例pilot均为赛前工作。 11月10日已补240秒本地演示并随源码发布；具体范围见媒体记录，未据此增加平台交件状态。",
       "registration_confirmed": true,
       "registration_receipt": {
         "status": "confirmed",
@@ -797,7 +857,7 @@
         "public_event_source": "https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15"
       },
       "submission_receipt": null,
-      "github_commit": "1ed002285fcd4538eafd3f00abe53b1571353f15",
+      "github_commit": "7a8b838393d9ba9d2e0ddab612b17b968eb81169",
       "prospective_report_preparation": {
         "prepared_on": "2026-11-10",
         "official_template_report_skeleton_pages": 6,
@@ -808,6 +868,19 @@
         "sprint_results_present": false,
         "new_sprint_runner_implemented": false,
         "formal_report_submitted": false
+      },
+      "local_demo_verified": true,
+      "local_demo_video": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/media/source-trail-optional-preexisting-pilot-demo.mp4",
+      "media_evidence": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/evidence/local-demo-20261110.json",
+      "local_demo": {
+        "duration_seconds": 240.0,
+        "bytes": 1261071,
+        "sha256": "5cfd428fb895baf61343d641274eba1fae64ec806e56900d1860d2c7c3dce7be",
+        "video_url": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/media/source-trail-optional-preexisting-pilot-demo.mp4",
+        "media_evidence_url": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/evidence/local-demo-20261110.json",
+        "production_scope": "可选赛前pilot图解，保留旧16例及局限；新增24例仅计划、完成0例",
+        "continuous_screen_recording": false,
+        "full_video_decode_passed": true
       }
     },
     {
@@ -822,7 +895,7 @@
         "If shortlisted, follow official Nov 28–30 48-hour build and final live pitch requirements",
         "This is a pre-event prototype, not work performed during the future event"
       ],
-      "current_blocker": "用户已自报Next Horizon构想表提交，按该阶段继续记录、不重复填表。11月10日在指定报名邮箱搜索引号包围的Next Horizon无结果，较宽Horizon搜索仅看到无关邮件列表且未打开；这次有限查询没有找到确认函，不能据此推断未提交。仍未独立核验回执或入围，若入围再按11月28–30日赛期构建及路演要求推进。 同日指定Google邮箱的同一精确短语查询也无匹配；该有限查询不否定原自报阶段。",
+      "current_blocker": "用户已自报Next Horizon构想表提交，按该阶段继续记录、不重复填表。11月10日在指定报名邮箱搜索引号包围的Next Horizon无结果，较宽Horizon搜索仅看到无关邮件列表且未打开；这次有限查询没有找到确认函，不能据此推断未提交。仍未独立核验回执或入围，若入围再按11月28–30日赛期构建及路演要求推进。 同日指定Google邮箱的同一精确短语查询也无匹配；该有限查询不否定原自报阶段。 11月10日已补210秒本地演示并随源码发布；具体范围见媒体记录，未据此增加平台交件状态。",
       "private_signed_presentation_prepared": true,
       "registration_confirmed": false,
       "registration_receipt": null,
@@ -850,6 +923,20 @@
           "result": "No messages matched the exact query.",
           "scope_limit": "This exact-query absence does not establish that the concept form was not submitted or that no other differently titled organizer message exists."
         }
+      },
+      "github_commit": "e5c8db3fd50815a3ae96e09f7575f1616cc8b01c",
+      "local_demo_verified": true,
+      "local_demo_video": "https://github.com/misakamikotoghr-5205/watt-window/blob/main/docs/media/watt-window-optional-prototype-demo.mp4",
+      "media_evidence": "https://github.com/misakamikotoghr-5205/watt-window/blob/main/docs/evidence/local-demo-20261110.json",
+      "local_demo": {
+        "duration_seconds": 210.0,
+        "bytes": 1190106,
+        "sha256": "b35ee3e02328296c30acec697b79ff951a35fb2b696f01bc558d6eede7650b10",
+        "video_url": "https://github.com/misakamikotoghr-5205/watt-window/blob/main/docs/media/watt-window-optional-prototype-demo.mp4",
+        "media_evidence_url": "https://github.com/misakamikotoghr-5205/watt-window/blob/main/docs/evidence/local-demo-20261110.json",
+        "production_scope": "可选赛前原型图解，虚构排程输入；不是未来赛期构建或实测节省",
+        "continuous_screen_recording": false,
+        "full_video_decode_passed": true
       }
     },
     {
@@ -864,11 +951,11 @@
         "Verify unspecified deadline timezone and accurate AI-assisted development disclosure",
         "Community game jam; no confirmed cash prize"
       ],
-      "current_blocker": "11月10日本人新一次授权后，普通Chrome中实际点击Verify、勾选checkbox并出现验证spinner，但又返回新Ray ID的Verify挑战，未进入账号、创建游戏页或正式jam entry。已请本人在保留的itch.io/login页完成当前验证；包、封面、披露保持可用。 已有8张三房实玩/Undo/刷新截图和实际SVG导出证据。",
+      "current_blocker": "11月10日本人新一次授权后，普通Chrome中实际点击Verify、勾选checkbox并出现验证spinner，但又返回新Ray ID的Verify挑战，未进入账号、创建游戏页或正式jam entry。已请本人在保留的itch.io/login页完成当前验证；包、封面、披露保持可用。 已有8张三房实玩/Undo/刷新截图和实际SVG导出证据。 116秒英文静音实际截图剪辑已完成并随源码发布，未因视频补齐计为正式投稿。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
-      "github_commit": "90622a69d86340270690b761a55e7c95a969dc51",
+      "github_commit": "2f70ce60535418ffbc940269df423e7b6f544bed",
       "playable_artifact": {
         "repo_path": "submissions/artifacts/parallax-postcards-itch.zip",
         "sha256": "e676247689664d67664506e39743b405462914a16e47d36fea050f1cef502506",
@@ -905,6 +992,19 @@
         "human_verification_passed": false,
         "result": "Verify button, checked checkbox and spinner were followed by a fresh challenge; no account login or game entry reached.",
         "owner_manual_handoff_requested": true
+      },
+      "local_demo_verified": true,
+      "local_demo_video": "https://github.com/misakamikotoghr-5205/parallax-postcards/blob/main/docs/media/parallax-postcards-local-demo.mp4",
+      "media_evidence": "https://github.com/misakamikotoghr-5205/parallax-postcards/blob/main/docs/evidence/local-demo-20261110.json",
+      "local_demo": {
+        "duration_seconds": 116.0,
+        "bytes": 2339345,
+        "sha256": "9b3e9a83ec73f64390c2702fa77ec10fa9f570eb97279f6e4748f3c38535ab09",
+        "video_url": "https://github.com/misakamikotoghr-5205/parallax-postcards/blob/main/docs/media/parallax-postcards-local-demo.mp4",
+        "media_evidence_url": "https://github.com/misakamikotoghr-5205/parallax-postcards/blob/main/docs/evidence/local-demo-20261110.json",
+        "production_scope": "真实桌面试玩截图剪辑：三房、撤销、导出及刷新恢复；itch仍待验证",
+        "continuous_screen_recording": false,
+        "full_video_decode_passed": true
       }
     },
     {
@@ -1127,7 +1227,7 @@
     "registration_attempts_in_progress": 0,
     "included_in_verified_counts": false
   },
-  "latest_execution_note": "支付宝相关按本人要求暂缓；itch验证继续循环、已交本人手动处理。Codegeist报名表已准备、三项本人经历待补且未点击Register；Google SSO出现账号邮箱同步通知，Forge账号操作待本人审阅，未认证CLI或部署。AIMA与Next Horizon已交自报阶段保留。独立报名7项、正式作品回执7份不变。",
+  "latest_execution_note": "11月10日已收到魔搭协议同意及Codegeist三项均无的真实回答，均已按界面填写。魔搭当前滑块确认、Codegeist当前资格与规则确认及Forge账号同步通知本人审阅待答；短信未发、Register未点，计数仍7报名/7正式作品回执。缺失本地视频分三路补充，不能替代平台部署或交件。 七段1080p静音字幕成片共17分26秒已推送各仓库；完整解码、逐段抽帧及隐私检查通过。真实Forge平台视频仍依赖部署，Apart赛期研究仍未开始。",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [
@@ -1136,5 +1236,12 @@
     ],
     "included_in_additional_ten": false,
     "source": "Additional user-shared event links checked on 2026-11-09; distinct from the previously delivered ten events."
+  },
+  "new_demo_videos_20261110": {
+    "count": 7,
+    "total_duration_seconds": 1046,
+    "index": "videos-20261110.md",
+    "evidence": "evidence/new-local-videos-20261110.json",
+    "official_receipts_added": 0
   }
 }

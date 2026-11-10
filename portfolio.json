@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:16:15.004790+00:00",
+  "updated_at": "2026-11-10T03:25:02.054290+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -554,17 +554,16 @@
       "source_read_method": "official organizer 18-question page and embedded rule image; details in docs/minmax-submission.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/caption-relay#open-source-and-comparisons",
       "remaining_external_setup": [
-        "Complete the official individual questionnaire registration; it remains incomplete",
-        "The PDF/MP4 project email was sent and checked in Outlook Sent Items on November 10; await the organizer confirmation required to record official receipt. Sent source revision is e28bb9f0a228fbb74b18852ef788bd268233427f",
+        "The PDF/MP4 project email and individual questionnaire were submitted on November 10; questionnaire registration is browser-verified. Await organizer confirmation of the project materials. Sent source revision remains e28bb9f0a228fbb74b18852ef788bd268233427f",
         "Canonical judge path is the public GitHub README and a local Ollama setup; owner-private Sites UI is not public judge access and cannot reach the developer machine local model"
       ],
       "formally_submitted": false,
-      "github_commit": "6d886bde3cc935584a1c7b7ee6d7ab3a09763fc9",
+      "github_commit": "b36523e1f9887d265e5f963a27f2c90abbfc31c2",
       "pushed_and_remote_verified": true,
-      "submission_status": "email_sent_awaiting_organizer_confirmation_questionnaire_incomplete",
-      "registration_confirmed": false,
+      "submission_status": "email_and_questionnaire_sent_awaiting_organizer_confirmation",
+      "registration_confirmed": true,
       "official_receipt_verified": false,
-      "browser_registration_verified": false,
+      "browser_registration_verified": true,
       "browser_submission_verified": false,
       "new_linked_batch": "2026-11-09",
       "included_in_additional_ten": false,
@@ -602,10 +601,17 @@
         "exact_utc_sent_at": null,
         "outlook_displayed_sent_time": "2026/11/10 11:10",
         "displayed_time_zone": "not determined; not treated as an exact UTC timestamp",
-        "public_status_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/6d886bde3cc935584a1c7b7ee6d7ab3a09763fc9/docs/minmax-submission.md"
+        "public_status_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/b36523e1f9887d265e5f963a27f2c90abbfc31c2/docs/minmax-submission.md"
       },
-      "registration_form_submitted": false,
-      "organizer_confirmation_received": false
+      "registration_form_submitted": true,
+      "organizer_confirmation_received": false,
+      "registration_receipt": {
+        "source": "official_questionnaire_completion_page",
+        "date": "2026-11-10",
+        "evidence": "Main operator submitted the official questionnaire after action-time consent and observed its completion page with a MINMAX registration communication group QR. The completion URL and QR are not published.",
+        "verified_by": "main_operator_browser",
+        "official_form": "https://www.wjx.top/vm/hFNe6wy.aspx"
+      }
     }
   ],
   "additional_online_events_first_batch": 3,
@@ -635,7 +641,7 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has saved its Story, JavaScript tag and repository; Save & continue reached Additional Info, still displayed as 2/5 steps. Additional edits remain unsaved, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story is saved and the local video is complete, while Additional edits, public YouTube upload and final entry remain incomplete, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX event registration has not occurred. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; questionnaire registration remains incomplete and organizer confirmation is pending. These stages add no official registration or final receipt. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; no YouTube upload or final project entry is confirmed.",
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has saved its Story, JavaScript tag and repository; Save & continue reached Additional Info, still displayed as 2/5 steps. Additional edits remain unsaved, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story is saved and the local video is complete, while Additional edits, public YouTube upload and final entry remain incomplete, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX event registration has not occurred. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed, bringing verified registrations to five; organizer confirmation of the project materials remains pending and the final project receipt count stays one. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; no YouTube upload or final project entry is confirmed.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

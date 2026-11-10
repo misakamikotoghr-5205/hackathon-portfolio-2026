@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:16:15.004790+00:00",
+  "updated_at": "2026-11-10T03:25:02.054290+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 1,
@@ -605,19 +605,24 @@
       "github": "https://github.com/misakamikotoghr-5205/caption-relay",
       "formally_submitted": false,
       "receipt": null,
-      "status": "email_sent_awaiting_organizer_confirmation_questionnaire_incomplete",
+      "status": "email_and_questionnaire_sent_awaiting_organizer_confirmation",
       "dependencies": [
-        "Complete the official individual questionnaire registration; it remains incomplete",
-        "The PDF/MP4 project email was sent and checked in Outlook Sent Items on November 10; await the organizer confirmation required to record official receipt. Sent source revision is e28bb9f0a228fbb74b18852ef788bd268233427f",
+        "The PDF/MP4 project email and individual questionnaire were submitted on November 10; questionnaire registration is browser-verified. Await organizer confirmation of the project materials. Sent source revision remains e28bb9f0a228fbb74b18852ef788bd268233427f",
         "Canonical judge path is the public GitHub README and a local Ollama setup; owner-private Sites UI is not public judge access and cannot reach the developer machine local model"
       ],
-      "registration_confirmed": false,
-      "registration_receipt": null,
+      "registration_confirmed": true,
+      "registration_receipt": {
+        "source": "official_questionnaire_completion_page",
+        "date": "2026-11-10",
+        "evidence": "Main operator submitted the official questionnaire after action-time consent and observed its completion page with a MINMAX registration communication group QR. The completion URL and QR are not published.",
+        "verified_by": "main_operator_browser",
+        "official_form": "https://www.wjx.top/vm/hFNe6wy.aspx"
+      },
       "submission_receipt": null,
       "official_receipt_verified": false,
-      "browser_registration_verified": false,
+      "browser_registration_verified": true,
       "browser_submission_verified": false,
-      "github_commit": "6d886bde3cc935584a1c7b7ee6d7ab3a09763fc9",
+      "github_commit": "b36523e1f9887d265e5f963a27f2c90abbfc31c2",
       "new_linked_batch": "2026-11-09",
       "included_in_additional_ten": false,
       "local_demo": {
@@ -628,7 +633,7 @@
         "kind": "Edited original evidence cards from actual saved HTTP/CLI files; Chinese narration and synchronous captions; not GUI or terminal capture",
         "evidence": "https://github.com/misakamikotoghr-5205/caption-relay/blob/e28bb9f0a228fbb74b18852ef788bd268233427f/docs/local-demo-20261109.json"
       },
-      "current_blocker": "2026年11月10日作品邮件已通过Outlook UI发送，并在Sent Items打开核对官方收件地址、约定标题及PDF/MP4两个附件。待组委会确认，问卷星报名仍未完成，无官方报名成功或正式作品收件回执。实际发送包基于e28bb9f0a228fbb74b18852ef788bd268233427f；后续提交只更新状态文档，不代表新的代码、模型调用或录像。Outlook显示11月10日11:10，时区未确定，未记录精确UTC发件时间。28项测试、真实HTTP候选选择、保存响应后的独立cue-2导出、8页PDF和106.8秒成片等原证据保持不变；评委按公开README本机试用，Sites不是公开AI运行入口。",
+      "current_blocker": "2026年11月10日作品邮件已通过Outlook UI发送，并在Sent Items打开核对官方收件地址、约定标题及PDF/MP4两个附件。问卷星报名已在本人明确同意本次协议及提交后完成，主操作者已核验官方完成页；报名已确认，作品邮件已发送，待组委会确认，尚无正式作品收件回执。实际发送包基于e28bb9f0a228fbb74b18852ef788bd268233427f；后续提交只更新状态文档，不代表新的代码、模型调用或录像。Outlook显示11月10日11:10，时区未确定，未记录精确UTC发件时间。28项测试、真实HTTP候选选择、保存响应后的独立cue-2导出、8页PDF和106.8秒成片等原证据保持不变；评委按公开README本机试用，Sites不是公开AI运行入口。",
       "business_plan_pdf": {
         "pages": 8,
         "bytes": 109761,
@@ -655,9 +660,9 @@
         "exact_utc_sent_at": null,
         "outlook_displayed_sent_time": "2026/11/10 11:10",
         "displayed_time_zone": "not determined; not treated as an exact UTC timestamp",
-        "public_status_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/6d886bde3cc935584a1c7b7ee6d7ab3a09763fc9/docs/minmax-submission.md"
+        "public_status_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/b36523e1f9887d265e5f963a27f2c90abbfc31c2/docs/minmax-submission.md"
       },
-      "registration_form_submitted": false,
+      "registration_form_submitted": true,
       "organizer_confirmation_received": false
     }
   ],
@@ -675,7 +680,7 @@
     "Applicable platform terms"
   ],
   "clips_signup_terms_confirmation": true,
-  "external_registrations_confirmed": 4,
+  "external_registrations_confirmed": 5,
   "basic_identity_confirmed_privately": true,
   "clips_signin_link_sent": true,
   "clips_authenticated": true,
@@ -699,7 +704,7 @@
     "registration_attempts_in_progress": 0,
     "included_in_verified_counts": false
   },
-  "latest_execution_note": "2026-11-09: PAYATHON personal registration active; SkillPay project form selected but not submitted and platform Skill URL/valid transaction evidence missing. Emerge has one saved materials draft after save-and-exit; ZIP/publication and safe-offline status remain unconfirmed with materials-incomplete notice. No new verified final project submission. PayPal registration was independently confirmed on November 9 with no project entry; Kiroween saved its Story, JavaScript tag and repository and reached Additional Info; displayed progress remains 2/5 steps, Additional edits are unsaved and there is no final submission. Kiro credit request receipt is now confirmed; review and Didit identity verification remain pending, with no grant or final project submission confirmed. Deadlock Manor completed one authenticated read-only Kiro CLI review; Codex reproduced suggestions, rejected a speculative finding and implemented/tested fixes. This is development assistance, not runtime AI, a credit grant or a final project submission. QNX and MINMAX are two new user-linked projects with prepared local materials, not part of the original additional ten. QNX is not registered. On November 10, MINMAX project email was sent and verified in Outlook Sent Items; the questionnaire remains incomplete and organizer confirmation has not arrived. Official registration count remains four and final project receipt count remains one. Deadlock actual public-page gameplay and the downloaded report now confirm turn-3 recovery, capacity 3, score 90 and explicit branch/restore. A locally decoded 146.8-second edited screenshot video is ready, not continuous capture; public YouTube and final entry remain pending, Additional edits unsaved.",
+  "latest_execution_note": "2026-11-09: PAYATHON personal registration active; SkillPay project form selected but not submitted and platform Skill URL/valid transaction evidence missing. Emerge has one saved materials draft after save-and-exit; ZIP/publication and safe-offline status remain unconfirmed with materials-incomplete notice. No new verified final project submission. PayPal registration was independently confirmed on November 9 with no project entry; Kiroween saved its Story, JavaScript tag and repository and reached Additional Info; displayed progress remains 2/5 steps, Additional edits are unsaved and there is no final submission. Kiro credit request receipt is now confirmed; review and Didit identity verification remain pending, with no grant or final project submission confirmed. Deadlock Manor completed one authenticated read-only Kiro CLI review; Codex reproduced suggestions, rejected a speculative finding and implemented/tested fixes. This is development assistance, not runtime AI, a credit grant or a final project submission. QNX and MINMAX are two new user-linked projects with prepared local materials, not part of the original additional ten. QNX is not registered. On November 10, MINMAX project email was sent and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. Organizer confirmation of the project materials has not arrived. Official registration count is now five; final project receipt count remains one. Deadlock actual public-page gameplay and the downloaded report now confirm turn-3 recovery, capacity 3, score 90 and explicit branch/restore. A locally decoded 146.8-second edited screenshot video is ready, not continuous capture; public YouTube and final entry remain pending, Additional edits unsaved.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

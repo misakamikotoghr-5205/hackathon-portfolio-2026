@@ -40,9 +40,9 @@ Q9–Q14要求遵守开源许可并披露来源；交付PDF商业计划书、可
 
 **状态：未预注册、未接受未来规则，未确认大陆个人资格或完整交件要求。**
 
-核验时[规则页](https://firebasehybridaihackathon.devpost.com/rules)仍明确说正式规则尚未提供，并说明注册即同意受未来公布规则约束；本轮不执行这类预先接受。[首页](https://firebasehybridaihackathon.devpost.com/)的Requirements仍显示“This is a test.”，不可当作完整要求。
+2026-11-10复核：[规则页](https://firebasehybridaihackathon.devpost.com/rules)仍明确说正式规则尚未提供，并说明注册即同意受未来公布规则约束；本轮不执行这类预先接受。[首页](https://firebasehybridaihackathon.devpost.com/)的Requirements仍显示“This is a test.”，并称完整规则与提交要求将于11月11日发布；不可把占位内容当作完整要求。
 
-[官方赛程](https://firebasehybridaihackathon.devpost.com/details/dates)显示提交期为**2026-11-09 08:00 PST至11-30 14:00 PST**。赛程和首页的全球性概述不替代尚缺的正式资格、排除地区、技术及交件细则；须待规则实际公布后重新核对，不在本页认定可正式参赛。
+[官方赛程](https://firebasehybridaihackathon.devpost.com/details/dates)现显示提交期为**2026-11-11 09:00 PST至11-30 14:00 PST**，即**11月11日17:00 UTC开始，11月30日22:00 UTC截止**（北京时间11月12日01:00至12月1日06:00）。开始时间已不同于此前记录的11月9日；按当前带PST的赛程表核对，不沿用首页星期文案的笔误。赛程和首页的全球性概述不替代尚缺的正式资格、排除地区、技术及交件细则；须待规则实际公布后重新核对，不在本页认定可正式参赛。
 
 ## Rokid 2026｜条件尚未满足
 

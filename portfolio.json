@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:25:02.054290+00:00",
+  "updated_at": "2026-11-10T03:56:04.699742+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -130,15 +130,15 @@
       "source_read_method": "official Devpost rules",
       "source": "https://kiroween.devpost.com/rules",
       "remaining_external_setup": [
-        "The Story, JavaScript tag and repository were saved and Save & continue reached Additional Info; complete and save the currently unsaved Additional fields and required declarations in the actual form.",
+        "The latest Markdown Story and Additional Info have been saved. Revisiting Additional Info verified the repository/game URLs, testing instructions, Kiro-use explanation and reuse disclosure. Displayed progress remains 2/5 steps. Four participant-only questions remain unanswered: 2025 registration, AWS employment, learning impact and willingness to use Kiro again.",
         "Actual public-page gameplay and the 146.8-second edited browser-screenshot MP4 are verified locally. Upload the video publicly to YouTube, supply its URL and complete final Devpost submission; the local edit is not continuous recording or a public upload.",
         "Kiro credit request receipt confirmed on November 9; application review and Didit identity verification are pending, with no grant confirmed"
       ],
       "formally_submitted": false,
       "private_preview": "https://deadlock-manor-kiroween-2026.ghraurora1024.chatgpt.site",
       "landscape_review": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/main/docs/landscape.md",
-      "github_commit": "5fb8bf1abc3bf1b6f05561b2052ff1565400b54a",
-      "submission_status": "story_saved_additional_unsaved_local_video_ready_youtube_pending",
+      "github_commit": "38b81c0f4358ff6113ab9c0254890591c7bf17bd",
+      "submission_status": "story_and_additional_saved_participant_answers_and_youtube_pending",
       "registration_confirmed": false,
       "devpost_authenticated": true,
       "draft_saved": true,
@@ -150,9 +150,25 @@
         "story_saved": true,
         "project_details_saved": true,
         "javascript_tag_and_repository_saved": true,
-        "last_saved_section": "project_details",
-        "additional_info_edits_saved": false,
-        "additional_info_draft_prepared": true
+        "last_saved_section": "additional_info",
+        "additional_info_edits_saved": true,
+        "additional_info_draft_prepared": true,
+        "additional_info_persistence_verified": true,
+        "latest_markdown_story_saved_on": "2026-11-10",
+        "additional_info_verified_fields": [
+          "repository_url",
+          "public_application_url",
+          "testing_instructions",
+          "kiro_technology_explanation",
+          "preexisting_work_disclosure"
+        ],
+        "category_and_participation_selections_saved": true,
+        "remaining_participant_questions": [
+          "Registration for the 2025 event",
+          "AWS employment",
+          "How much Kiro helped with learning new skills",
+          "Willingness to use Kiro again"
+        ]
       },
       "credits_request": {
         "status": "submitted_pending_review_and_didit",
@@ -641,7 +657,7 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. Kiroween has saved its Story, JavaScript tag and repository; Save & continue reached Additional Info, still displayed as 2/5 steps. Additional edits remain unsaved, not a final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the Devpost Story is saved and the local video is complete, while Additional edits, public YouTube upload and final entry remain incomplete, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX event registration has not occurred. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed, bringing verified registrations to five; organizer confirmation of the project materials remains pending and the final project receipt count stays one. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; no YouTube upload or final project entry is confirmed.",
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. On November 10, Kiroween saved the latest Markdown Story and Additional Info; returning to Additional Info verified persistence of the repository/game URLs, testing instructions, Kiro-use explanation and reuse disclosure. Category and participation selections were saved. Displayed progress remains 2/5 steps; four participant-only answers and a YouTube URL remain missing, with no final submission; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the latest Devpost Story and filled Additional Info fields are saved and the local video is complete, while four participant-only answers, public YouTube upload and final entry remain incomplete, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX event registration has not occurred. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed, bringing verified registrations to five; organizer confirmation of the project materials remains pending and the final project receipt count stays one. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; no YouTube upload or final project entry is confirmed.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

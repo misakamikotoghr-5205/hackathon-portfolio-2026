@@ -1,6 +1,6 @@
-# Cart Consent — PayPal project draft, 2026-11-10
+# Cart Consent — PayPal submission copy, 2026-11-10
 
-Public [event](https://paypalaihackathon.devpost.com/) and [rules](https://paypalaihackathon.devpost.com/rules). **Event registration was verified on November 9.** The [public video](https://youtu.be/icz2WX1DXZ4) was published November 10 and lasts **138.8 seconds**. The project form is not formally submitted: Start project / CAPTCHA awaits the current consent/action, with no final project receipt. These are copy-ready project materials, not a final receipt or a claim to know every authenticated field label and character limit.
+Public [event](https://paypalaihackathon.devpost.com/) and [rules](https://paypalaihackathon.devpost.com/rules). **Event registration was verified on November 9.** The [public video](https://youtu.be/icz2WX1DXZ4) was published November 10 and lasts **138.8 seconds**. The submitted project includes the overview, Story, technology tags, public repository/video and original gallery/cover. Official final submission was verified at **2026-11-10 07:37:39.790 UTC** on the [public project page](https://devpost.com/software/cart-consent), which displayed **“Project submitted!”** and **“SUBMITTED TO PayPal AI Hackathon”**. This confirms entry receipt, not eligibility approval, judging results or a prize. This file preserves the project copy. The official public project page supplies the entry confirmation; no receipt number, confirmation email or judging result is claimed.
 
 Deadline: **2026-11-12 12:00 PST = 20:00 UTC = November 13 04:00 Beijing**. Entrant eligibility and any final personal declarations must use the entrant's actual answers; no identity details are included here. Registering alone does not submit a project.
 
@@ -40,15 +40,15 @@ This was a **developer-operated synthetic demonstration**, not authenticated rea
 
 The difficult boundary is preserving the same reviewed state through edits, expiration, concurrent changes and ambiguous upstream failures. Saved attempt identities prevent blind retries with new keys. Local revocation blocks this application's future retrieval; it cannot cancel a remote URL already disclosed. The prototype assumes one local buyer ledger and does not establish multi-tenant identity, fraud prevention, real tax/shipping/address validation, model-quality performance or AP2 certification. Strict response matching may reject account responses with additional normalized fields; one successful run does not prove universal compatibility.
 
-### Build disclosure and next steps
+### Build disclosure and entry
 
 Codex assisted design, coding, tests and documentation. Runtime AI is the explicitly configured local Ollama model; default rule-based mocks disclose `ai_used=false`. This is an original MIT-licensed implementation. PayPal Agent Toolkit and Google AP2 were reviewed as existing design/protocol comparisons; no copied code, schemas or assets are claimed. Approval-bound checkout already exists, so this is a focused consent gate rather than a new payment protocol.
 
-The repository has runnable CLI/API instructions and a successful narrow AI/sandbox integration record. The [public English demonstration](https://youtu.be/icz2WX1DXZ4) is published at **138.8 seconds**. It combines edited sanitized evidence cards with an actual mock-mode native terminal shot, rather than continuous footage. Generic synthetic Aria narration and 25 English captions accompany the edit; full audio/video decoding passed, with no full manual listening claim. The next steps are to resolve the Start project CAPTCHA with the current consent/action, complete the actual project fields and submit the final Devpost entry. Neither registration nor this draft is a final submission receipt.
+The repository has runnable CLI/API instructions and a successful narrow AI/sandbox integration record. The [public English demonstration](https://youtu.be/icz2WX1DXZ4) is published at **138.8 seconds**. It combines edited sanitized evidence cards with an actual mock-mode native terminal shot, rather than continuous footage. Generic synthetic Aria narration and 25 English captions accompany the edit; full audio/video decoding passed, with no full manual listening claim. Official final submission was verified at **2026-11-10 07:37:39.790 UTC** on the [public project page](https://devpost.com/software/cart-consent), which displayed **“Project submitted!”** and **“SUBMITTED TO PayPal AI Hackathon”**. This confirms entry receipt, not eligibility approval, judging results or a prize.
 
 ## 中文摘要
 
-购物智能体可以提出商品组合，批准必须对应人实际审阅的精确快照。Cart Consent 将商品、数量、价格、币种、预算、运费、地址、商户和支付模式绑定到指纹，关键字段变化或调用期间状态变化都会阻止旧批准释放链接。Python CLI/JSON API 已实现角色分离、持久化幂等和独立金额校验。11月10日真实本地 qwen2.5:0.5b 在5.899秒生成一件虚构笔套装建议，含运费总价13.98美元，低于50美元预算，初始仍未批准；开发者审阅后明确批准该指纹，真实PayPal沙箱返回PAYER_ACTION_REQUIRED。首次OAuth401在建单前发生，修正私密重复配置后保留原购物篮、批准及请求身份，只有一次远程建单。未打开买家链接、未登录买家、未结账或扣款。11月9日报名已核实，11月10日已公开138.8秒[演示视频](https://youtu.be/icz2WX1DXZ4)，为脱敏证据卡与真实mock终端画面的剪辑，不是连续录屏。正式作品提交仍在Start project/CAPTCHA步骤，当前确认及操作待完成，尚无最终回执。
+购物智能体可以提出商品组合，批准必须对应人实际审阅的精确快照。Cart Consent 将商品、数量、价格、币种、预算、运费、地址、商户和支付模式绑定到指纹，关键字段变化或调用期间状态变化都会阻止旧批准释放链接。Python CLI/JSON API 已实现角色分离、持久化幂等和独立金额校验。11月10日真实本地 qwen2.5:0.5b 在5.899秒生成一件虚构笔套装建议，含运费总价13.98美元，低于50美元预算，初始仍未批准；开发者审阅后明确批准该指纹，真实PayPal沙箱返回PAYER_ACTION_REQUIRED。首次OAuth401在建单前发生，修正私密重复配置后保留原购物篮、批准及请求身份，只有一次远程建单。未打开买家链接、未登录买家、未结账或扣款。11月9日报名已核实，11月10日已公开138.8秒[演示视频](https://youtu.be/icz2WX1DXZ4)，为脱敏证据卡与真实mock终端画面的剪辑，不是连续录屏。作品已于2026年11月10日07:37:39.790 UTC完成正式提交，[官方公开项目页](https://devpost.com/software/cart-consent)显示“Project submitted!”及“SUBMITTED TO PayPal AI Hackathon”。这确认作品收件，不代表资格审核、评审或获奖；提交时源码为da95fd1bde83c608d72f57bd60aeb78a0eade44d。
 
 ## Technology / testing / reuse fields
 
@@ -69,6 +69,7 @@ The repository has runnable CLI/API instructions and a successful narrow AI/sand
 | PayPal sandbox and meaningful AI usage | Actual November 10 fresh proposal → exact synthetic approval → unpaid sandbox order, sanitized evidence in `docs/evidence/sandbox-model-20261110.json` |
 | Public YouTube video under three minutes | [Published November 10](https://youtu.be/icz2WX1DXZ4); 138.8 seconds; edited evidence cards + actual mock terminal shot; not continuous footage |
 | Registration | Verified November 9; distinct from final project submission |
-| Personal declarations / final rules / project Submit | Start project / CAPTCHA awaits current consent/action; actual project fields and final Submit remain, with no final receipt |
+| Submitted materials | Overview, Story, technology tags, repository/video URLs, original gallery and cover |
+| Official final entry | [Project submitted!](https://devpost.com/software/cart-consent), verified November 10 at 07:37:39.790 UTC; not eligibility approval or judging results |
 
 Sponsor tools and sponsor-specific prizes are optional. Select only tools genuinely used. Do not substitute mock links for sandbox evidence, synthetic operator approval for authenticated buyer consent, or an entry draft for formal submission.

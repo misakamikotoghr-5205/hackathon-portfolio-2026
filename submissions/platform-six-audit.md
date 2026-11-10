@@ -21,7 +21,7 @@ Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受�
 | 赛事 / 项目 | 当前官方入口 | 截止/阶段 | 真实材料缺口 |
 |---|---|---|---|
 | Builder / Patch Review Desk | [公开提交表](https://www.builder.io/hackathon/submit)；无需提前报名 | 11/09 23:59 America/Los_Angeles = 11/10 07:59UTC / 15:59北京 | 已提交并收到官网“Thank you for submitting.” / “Your project submission has been received.”网页回执，记录于2026-11-06 07:53:18 UTC；processingConsent已勾、marketing未勾。private success-page evidence held，无编号/邮件确认声明。模型探针与fixture录屏仍分开披露 |
-| PayPal / Cart Consent | [官网](https://paypalaihackathon.devpost.com/)；11月9日已在官方manage/submissions观察到报名成功 | 11/12 12:00PST = 20:00UTC / 11/13 04:00北京 | 显示Thanks for registering!，项目列表为空、未交件。真实模型证据保留；实际PayPal sandbox+AI组合证据、公开少于3分钟YouTube及最终提交仍缺；公共托管非强制 |
+| PayPal / Cart Consent | [官网](https://paypalaihackathon.devpost.com/)；11月9日已在官方manage/submissions观察到报名成功 | 11/12 12:00PST = 20:00UTC / 11/13 04:00北京 | 11月9日报名确认；11月10日真实AI＋sandbox未付款订单、[138.8秒Public视频](https://youtu.be/icz2WX1DXZ4)已完成。Start project图片验证待当次确认，项目表尚未保存、正式作品未交；公共托管非强制 |
 | Next Horizon / Watt Window | [官方Apply重定向](https://eisociety.org/go/apply/next-horizon-2026?s=direct) → [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form) | 11/15构想截止，无具体时刻；11/28 09:00EST至11/30 09:00EST正式48小时，先申请/入围 | 用户确认构想表已交，不重复填表；私密署名PowerPoint已完成、不公开。未独立保存官方回执，构想提交不等于入围/最终交件；保留赛前原型披露 |
 | Aholo / 留白实验室 | [中国活动页](https://www.aholo3d.cn/hackathon) “立即报名 / 我的参赛”：个人报名→确认组队→选题→作品 | 11/19 19:00北京 = 11:00UTC = 06:00EST | 单人也建队；核心Lux3D真实生成与导出兼容性、项目报告/过程截图、真实Demo材料，当前不能如实勾“已用Lux3D” |
 | 支付宝涌现 / 余量接力 | [官网](https://emerge.alipay.com/) “报名参赛 / 我的提报 / 完善作品”，报名记录与完整提报分开 | 保守按12/06 00:00北京 = 12/05 16:00UTC；公告/正文/UI时刻有冲突见下 | 本人已确认实名；新离线交互HTML包和owner-private预览已完成，尚需活跃登录、官方平台构建/上传验收及完整提报；未支付宝/阿宝接入 |
@@ -37,7 +37,7 @@ Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受�
 
 现成 [双语填表稿](drafts/cart-consent-paypal/form-draft.md) 与 [录屏脚本](drafts/cart-consent-paypal/video-script.md)。仓库的sandbox适配器只建订单链接，不执行capture；未创建真实sandbox订单前不可说完成PayPal演示，mock也不能替代。
 
-Cart的真实本地qwen2.5:0.5b请求已通过模型输出和业务校验，生成1398/5000美分的购物篮，状态仍为DRAFT、无人工批准/PayPal调用；原超时与超预算拒绝、后续超时也保留。该证据不等于通用模型质量、真实sandbox或端到端支付/视频完成。
+历史11月6日Cart本地qwen2.5:0.5b记录生成1398/5000美分的DRAFT，无批准或PayPal调用，超时/超预算失败保留。另在11月10日，fresh模型5.899秒后经开发者审阅虚构快照并明确批准，真实sandbox创建一个未付款订单，返回PAYER_ACTION_REQUIRED并通过严格绑定检查；后续缓存重放零网络。首次OAuth401在Orders前停止，修正私密配置后沿用原cart/请求身份，无适配器改动。无买家登录、结账、授权或capture；不称买家身份确认。[真实组合证据](https://github.com/misakamikotoghr-5205/cart-consent-paypal/blob/main/docs/evidence/sandbox-model-20261110.json)与[138.8秒Public视频](https://youtu.be/icz2WX1DXZ4)已提供；视频是证据卡和独立mock HTTP实际终端截图剪辑、英文合成旁白，非连续录屏。Start project图片验证待当次确认，尚无最终作品回执。
 
 ### Aholo
 

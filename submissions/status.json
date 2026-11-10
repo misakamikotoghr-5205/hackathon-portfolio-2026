@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T06:20:05.112124+00:00",
+  "updated_at": "2026-11-10T07:13:11.607641+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 3,
@@ -304,12 +304,12 @@
       "github": "https://github.com/misakamikotoghr-5205/cart-consent-paypal",
       "formally_submitted": false,
       "receipt": null,
-      "status": "registered_no_project_entry",
+      "status": "registered_real_sandbox_video_complete_entry_captcha_pending",
       "dependencies": [
-        "Actual PayPal sandbox integration and combined AI/platform evidence; the existing local Ollama probe alone is not an end-to-end PayPal demonstration",
-        "Public YouTube functional demo under three minutes, English materials and final project entry; public hosting is optional if complete repository setup/run instructions let judges use a working build"
+        "Complete the current Devpost image verification, then save the project form; action-time CAPTCHA confirmation is pending.",
+        "Complete any final entrant declarations and final rules agreement, submit the project, and verify the official project receipt."
       ],
-      "current_blocker": "11月9日主操作者已在官方manage/submissions页面确认报名：显示“Thanks for registering!”、My hackathon projects为空并有Start project。当前没有项目交件。本地模型证据保留，但仍缺实际PayPal sandbox与AI组合集成证据、公开少于3分钟YouTube演示及最终作品提交；官方允许完整仓库运行说明替代公共托管，不把公开部署列为必选。",
+      "current_blocker": "11月10日真实本地AI→开发者审阅虚构快照并明确批准→PayPal sandbox建未付款订单已完成，返回PAYER_ACTION_REQUIRED；公开138.8秒YouTube已发布。Start project触发图片人机验证，尚待当次确认；项目表尚未保存、未最终Submit，不能把报名/视频/仓库当作交件。",
       "local_model_evidence": {
         "real_inference_observed": true,
         "accepted_proposal_observed": true,
@@ -319,7 +319,8 @@
         "persisted_status": "DRAFT",
         "approval_granted": false,
         "paypal_sandbox_used": false,
-        "limitations": "Narrow fictional trials, with prior timeout and budget failures retained; not a quality benchmark or end-to-end payment demonstration."
+        "limitations": "Narrow fictional trials, with prior timeout and budget failures retained; not a quality benchmark or end-to-end payment demonstration.",
+        "historical_run_date": "2026-11-06"
       },
       "registration_confirmed": true,
       "registration_receipt": {
@@ -332,7 +333,29 @@
       "submission_receipt": null,
       "browser_registration_verified": true,
       "devpost_authenticated": true,
-      "observed_project_count": 0
+      "observed_project_count": 0,
+      "combined_model_sandbox_evidence": {
+        "verified_on": "2026-11-10",
+        "source": "https://github.com/misakamikotoghr-5205/cart-consent-paypal/blob/main/docs/evidence/sandbox-model-20261110.json",
+        "fresh_local_model": "qwen2.5:0.5b",
+        "proposal_elapsed_seconds": 5.899,
+        "currency": "USD",
+        "total_minor": 1398,
+        "budget_minor": 5000,
+        "approval_role": "Developer-operated synthetic CLI approval after exact fictional snapshot review; not authenticated buyer consent",
+        "sandbox_order_creation_verified": true,
+        "sandbox_status": "PAYER_ACTION_REQUIRED",
+        "strict_bindings_passed": true,
+        "cached_replay_network_calls": 0,
+        "buyer_checkout_performed": false,
+        "capture_performed": false,
+        "video_url": "https://youtu.be/icz2WX1DXZ4",
+        "video_duration_seconds": 138.8,
+        "video_publication_verified": true
+      },
+      "video_url": "https://youtu.be/icz2WX1DXZ4",
+      "video_publication_verified": true,
+      "observed_project_count_as_of": "2026-11-09"
     },
     {
       "project": "scene-clearance-lab",
@@ -819,7 +842,7 @@
     "registration_attempts_in_progress": 0,
     "included_in_verified_counts": false
   },
-  "latest_execution_note": "2026-11-09: PAYATHON personal registration active; SkillPay project form selected but not submitted and platform Skill URL/valid transaction evidence missing. Emerge has one saved materials draft after save-and-exit; ZIP/publication and safe-offline status remain unconfirmed with materials-incomplete notice. No new verified final project submission. PayPal registration was independently confirmed on November 9 with no project entry; On November 10, after participant action-time rules consent, Kiroween final Submit succeeded: the official project page showed Project submitted! and Submitted to Kiroween 2026. The entry receipt is verified, not eligibility approval or judging results. Kiro credit request receipt is now confirmed; review and Didit identity verification remain pending, with no grant confirmed; the credit application is separate from the confirmed final entry. Deadlock Manor completed one authenticated read-only Kiro CLI review; Codex reproduced suggestions, rejected a speculative finding and implemented/tested fixes. This is development assistance, not runtime AI, a credit grant or a final project submission. QNX and MINMAX are two new user-linked projects with prepared local materials, not part of the original additional ten. QNX registration was confirmed after participant rules/eligibility consent and Register, with zero projects at that moment. After participant action-time final rules consent, QNX final Submit succeeded on November 10; the official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472. Entry receipt is confirmed, not eligibility approval or judging results. On November 10, MINMAX project email was sent and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. Organizer confirmation of the project materials has not arrived. Independent registration-stage count is now six after QNX signup; final project receipt count is now three (Builder, Kiroween and QNX). Final entries do not automatically add independent signup-stage records. Deadlock actual public-page gameplay and the downloaded report now confirm turn-3 recovery, capacity 3, score 90 and explicit branch/restore. A locally decoded 146.8-second edited screenshot video is ready, not continuous capture; Deadlock and QNX videos were publicly published on YouTube on November 10; publication is not independent anonymous player playback or a contest receipt. Deadlock final entry is now confirmed at https://devpost.com/software/deadlock-manor; the at-submit source is 3227460b00c98701b813c6c82ea09a82e8f7281c.",
+  "latest_execution_note": "2026-11-09: PAYATHON personal registration active; SkillPay project form selected but not submitted and platform Skill URL/valid transaction evidence missing. Emerge has one saved materials draft after save-and-exit; ZIP/publication and safe-offline status remain unconfirmed with materials-incomplete notice. No new verified final project submission. PayPal registration was independently confirmed on November 9 with no project entry; On November 10, after participant action-time rules consent, Kiroween final Submit succeeded: the official project page showed Project submitted! and Submitted to Kiroween 2026. The entry receipt is verified, not eligibility approval or judging results. Kiro credit request receipt is now confirmed; review and Didit identity verification remain pending, with no grant confirmed; the credit application is separate from the confirmed final entry. Deadlock Manor completed one authenticated read-only Kiro CLI review; Codex reproduced suggestions, rejected a speculative finding and implemented/tested fixes. This is development assistance, not runtime AI, a credit grant or a final project submission. QNX and MINMAX are two new user-linked projects with prepared local materials, not part of the original additional ten. QNX registration was confirmed after participant rules/eligibility consent and Register, with zero projects at that moment. After participant action-time final rules consent, QNX final Submit succeeded on November 10; the official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472. Entry receipt is confirmed, not eligibility approval or judging results. On November 10, MINMAX project email was sent and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. Organizer confirmation of the project materials has not arrived. Independent registration-stage count is now six after QNX signup; final project receipt count is now three (Builder, Kiroween and QNX). Final entries do not automatically add independent signup-stage records. Deadlock actual public-page gameplay and the downloaded report now confirm turn-3 recovery, capacity 3, score 90 and explicit branch/restore. A locally decoded 146.8-second edited screenshot video is ready, not continuous capture; Deadlock and QNX videos were publicly published on YouTube on November 10; publication is not independent anonymous player playback or a contest receipt. Deadlock final entry is now confirmed at https://devpost.com/software/deadlock-manor; the at-submit source is 3227460b00c98701b813c6c82ea09a82e8f7281c. Cart Consent real combined model/sandbox run and Public 138.8-second video are verified on November 10. The current Start project image CAPTCHA remains pending; no final project receipt or count increase.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

@@ -78,3 +78,6 @@ Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受�
 ## 11月7日执行补记
 
 11月7日，PayPal的Join hackathon当时进入Devpost登录/注册页；11月9日已观察到官方报名确认、项目列表为空，仍未交件。支付宝“我要参赛”当时进入扫码登录，按用户指示先跳过认证。官方[QMuse CLI文档](https://docs.qmuse.cn/docs/qmuse-cli)说明导入与发布是独立步骤；CLI 1.0.14 的本地只读预检不接受原生静态web目录，真实React工程已构建并通过本地格式预检，不能将离线ZIP或Sites私有预览称为QMuse发布。最新准确状态见[总表](README.md)与[机器记录](status.json)。
+
+
+11月10日Codegeist只读复核：官方规则仍要求评委可安装链接、Forge使用理由、少于5分钟的公开英文YouTube演示。Forge CLI15在Node24下再次whoami失败（exit1，Not logged in/keychain）；随后Google SSO产生账号邮箱同步通知，已请本人审阅，进一步Forge账号操作等待本人确认；没有新CLI认证、token、部署或安装。Devpost现有会话已登录并打开Codegeist报名表，单人/来源Devpost.com/AI Medium/目标Learning已填、营销未选；既有开发者账号、产品/Forge经验、往届Codegeist三项本人答案待补。资格/规则及Register均未操作，仍无新增报名/作品回执。

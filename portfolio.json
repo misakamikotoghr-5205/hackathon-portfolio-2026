@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T09:35:30.172069+00:00",
+  "updated_at": "2026-11-10T11:24:49.419668+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -14,13 +14,13 @@
       "source_read_method": "rendered browser",
       "source": "https://www.xiaohongshu.com/discovery/item/6ae465bb0000000010012b7a",
       "remaining_external_setup": [
-        "Owner completes the three unsigned SkillPay receiving/settlement agreements and confirms proposed sale mode/price; product form and self-contained archive are prepared.",
-        "Complete actual product safety review/listing, obtain a real platform Skill link and valid transaction evidence, then submit the PAYATHON project."
+        "Deferred at participant request on November 10 pending personal Alipay/SkillPay review; awaiting a later user direction to resume, not an active signing or price-confirmation task.",
+        "For a later resumed run: three receiving/settlement agreements remain unsigned, proposed 2.99 CNY buyout unconfirmed, product review/publication and real Skill URL/transaction evidence incomplete; package upload/preparation does not constitute final entry."
       ],
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/landscape.md",
       "github_commit": "5b2c10ddc10bddaab1e58313aa3e05f4d8381821",
-      "submission_status": "registered_skillpay_package_uploaded_product_form_prepared_owner_signing_pending",
+      "submission_status": "pending_user_review_alipay_deferred",
       "user_reported": false,
       "reported_stage": "registration_confirmed",
       "official_receipt_verified": true,
@@ -38,7 +38,11 @@
       "proposed_price_cny": "2.99",
       "proposed_price_owner_confirmed": false,
       "skillpay_public_listing": null,
-      "preparation_evidence": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/submission/skillpay-preparation-20261110.json"
+      "preparation_evidence": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/submission/skillpay-preparation-20261110.json",
+      "user_requested_pause": true,
+      "user_requested_pause_date": "2026-11-10",
+      "pause_scope": "Alipay / SkillPay operations for PAYATHON",
+      "pause_reason": "Participant explicitly asked to leave Alipay aside for personal review and continue other activities."
     },
     {
       "number": 2,
@@ -62,7 +66,16 @@
       "user_reported": true,
       "reported_stage": "creator_program_application_submitted",
       "official_receipt_verified": false,
-      "browser_submission_verified": false
+      "browser_submission_verified": false,
+      "latest_account_browser_check": {
+        "date": "2026-11-10",
+        "page": "https://open.agibot.com/creator-plan",
+        "normal_browser_logged_in": false,
+        "private_browser_logged_in": false,
+        "application_detail_or_id_verified": false,
+        "repeat_application_submitted": false,
+        "existing_user_report_preserved": true
+      }
     },
     {
       "number": 3,
@@ -510,13 +523,61 @@
       "source_read_method": "official event page/rules; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/dependency-evidence-forge/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Personal Atlassian/Forge registration; real lint/deploy/install and Jira verification",
-        "Judge-accessible install link and English demo video; formal entry"
+        "Owner review of the Google-SSO account-email synchronization notice before further Forge account operations; CLI authentication, tokens and deployment remain incomplete.",
+        "Three personal registration answers remain pending: existing Atlassian developer account, prior product/Forge experience and prior Codegeist. Devpost form is prepared only; eligibility/rules consent and Register have not been acted on.",
+        "After account and registration prerequisites: actual Forge lint/deploy/install and Jira validation, judge installation link, reason for Forge, public English YouTube demo under five minutes and formal project entry."
       ],
       "formally_submitted": false,
       "github_commit": "94e9963e598ec6af27d545d8ae1b742650b04900",
       "pushed_and_remote_verified": true,
-      "submission_status": "skipped_current_authentication_blocker"
+      "submission_status": "registration_form_prepared_forge_account_owner_review_pending",
+      "latest_authentication_retry": {
+        "date": "2026-11-10",
+        "command": "forge whoami",
+        "forge_cli_major": 15,
+        "node_major": 24,
+        "exit_code": 1,
+        "identity_verified": false,
+        "message_summary": "Not logged in; keychain issue reported, with CLI guidance referring to environment-variable authentication.",
+        "console_login_opened": true,
+        "console_login_identity_provider": "Google",
+        "rules_rechecked_on": "2026-11-10",
+        "rules_url": "https://codegeist2026.devpost.com/rules",
+        "console_login_completed_at_cli_retry": false
+      },
+      "devpost_authenticated": true,
+      "registration_form_prepared": true,
+      "registration_confirmed": false,
+      "browser_registration_verified": false,
+      "registration_register_clicked": false,
+      "registration_eligibility_confirmed": false,
+      "registration_rules_accepted": false,
+      "registration_marketing_opt_in": false,
+      "registration_form_server_save_verified": false,
+      "forge_account_operations_owner_review_pending": true,
+      "registration_prepared_fields": {
+        "participation": "Working Solo",
+        "referral": "Devpost.com",
+        "ai_experience": "Medium",
+        "goal": "Learning",
+        "marketing_opt_in": false
+      },
+      "registration_personal_answers_pending": [
+        "Existing Atlassian developer account",
+        "Prior Atlassian product / Forge development experience",
+        "Prior Codegeist participation"
+      ],
+      "latest_account_observation": {
+        "date": "2026-11-10",
+        "google_sso_continue_observed": true,
+        "landing_requested_signup_completion": true,
+        "account_notice_observed": true,
+        "account_notice_summary": "Google SSO produced account-email synchronization notice; owner review requested before continuing account operations.",
+        "manual_account_email_settings_change_performed": false,
+        "cli_authenticated": false,
+        "new_api_token_created": false,
+        "forge_deploy_or_install_performed": false
+      }
     },
     {
       "number": 12,
@@ -590,9 +651,22 @@
       "private_preview": "https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site",
       "github_commit": "a3a52464b9b170b7a6e04e4bbd2017453401a2fe",
       "pushed_and_remote_verified": true,
-      "submission_status": "awaiting_itch_account_and_game_page",
+      "submission_status": "itch_human_verification_loop_owner_handoff",
       "current_itch_human_verification_consent_received": true,
-      "itch_authenticated": false
+      "itch_authenticated": false,
+      "latest_browser_retry": {
+        "date": "2026-11-10",
+        "normal_chrome_used": true,
+        "official_login_url": "https://itch.io/login",
+        "captcha_action_confirmed_by_user": true,
+        "verify_button_clicked": true,
+        "checkbox_checked": true,
+        "verification_spinner_observed": true,
+        "challenge_reissued_with_new_ray_id": true,
+        "human_verification_passed": false,
+        "result": "Verify button, checked checkbox and spinner were followed by a fresh challenge; no account login or game entry reached.",
+        "owner_manual_handoff_requested": true
+      }
     },
     {
       "number": 15,
@@ -652,7 +726,25 @@
       "user_reported": true,
       "reported_stage": "concept_form_submitted",
       "official_receipt_verified": false,
-      "browser_submission_verified": false
+      "browser_submission_verified": false,
+      "latest_acknowledgment_mailbox_check": {
+        "date": "2026-11-10",
+        "source": "designated contest mailbox, Outlook UI",
+        "exact_query": "\"Next Horizon\"",
+        "exact_query_results_found": false,
+        "broader_query": "Horizon",
+        "broader_query_observation": "Only unrelated messages visible in the result list; none opened.",
+        "acknowledgment_found_in_this_limited_check": false,
+        "conclusion": "Limited search did not verify an acknowledgment; user-reported submitted concept stage remains unchanged.",
+        "repeat_form_submitted": false,
+        "additional_designated_google_mail_check": {
+          "date": "2026-11-10",
+          "interface": "Gmail UI; designated Google account verified in page title",
+          "query": "\"Next Horizon\"",
+          "result": "No messages matched the exact query.",
+          "scope_limit": "This exact-query absence does not establish that the concept form was not submitted or that no other differently titled organizer message exists."
+        }
+      }
     },
     {
       "number": 17,
@@ -674,7 +766,7 @@
       "private_preview": "https://parallax-postcards-2026.ghraurora1024.chatgpt.site",
       "github_commit": "90622a69d86340270690b761a55e7c95a969dc51",
       "pushed_and_remote_verified": true,
-      "submission_status": "awaiting_itch_account_and_game_page",
+      "submission_status": "itch_human_verification_loop_owner_handoff",
       "playable_artifact": {
         "repo_path": "submissions/artifacts/parallax-postcards-itch.zip",
         "sha256": "e676247689664d67664506e39743b405462914a16e47d36fea050f1cef502506",
@@ -698,6 +790,19 @@
         "svg_download_verified": true,
         "continuous_video": false,
         "formal_jam_entry": false
+      },
+      "latest_browser_retry": {
+        "date": "2026-11-10",
+        "normal_chrome_used": true,
+        "official_login_url": "https://itch.io/login",
+        "captcha_action_confirmed_by_user": true,
+        "verify_button_clicked": true,
+        "checkbox_checked": true,
+        "verification_spinner_observed": true,
+        "challenge_reissued_with_new_ray_id": true,
+        "human_verification_passed": false,
+        "result": "Verify button, checked checkbox and spinner were followed by a fresh challenge; no account login or game entry reached.",
+        "owner_manual_handoff_requested": true
       }
     },
     {
@@ -912,7 +1017,7 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Current verified state: 19 projects, 412 previously passed local tests. Seven formal project receipts: Patch Review Desk (Builder), Deadlock Manor (Kiroween), Boot Order Atlas (QNX), Cart Consent (PayPal), Scene Clearance Lab (Aholo), Pantry Relay (Alipay Emerge, under review; ZIP safety pending), and Caption Relay (MINMAX organizer email acknowledgement). Seven independently verified registrations: Apart, PAYATHON, Alipay Emerge, PayPal, MINMAX, QNX, Aholo. Receipts do not establish eligibility approval, finalist status or awards. PAYATHON registration is active with zero project entries: SkillPay archive uploaded/parsed and product form prepared, while three receiving/settlement agreements require owner completion and proposed2.99CNYbuyout remains unconfirmed; product review/listing/real Skill URL/valid transaction/final entry remain incomplete. Paper Route now has actual local UI verification and a158s reviewed demo; ModelScope terms/SMS authentication, public concept and registration approval, public Studio, practice publication and final entry remain incomplete. Apart final work must wait for its research window. Next Horizon idea form, AIMA application and four iQiyi backend submissions remain separately labeled participant-reported; do not repeat them or count as independently verified final receipts. Kiro credit request receipt is recorded; Didit verification and credit grant remain unconfirmed. Other platform authentication, mandatory deployment and marketplace requirements remain in submissions/status.json; expired/enterprise-only/ineligible activities are not submitted.",
+  "submission_progress": "Current verified state: 19 projects, 412 previously passed local tests. Seven formal project receipts: Patch Review Desk (Builder), Deadlock Manor (Kiroween), Boot Order Atlas (QNX), Cart Consent (PayPal), Scene Clearance Lab (Aholo), Pantry Relay (Alipay Emerge, under review; ZIP safety pending), and Caption Relay (MINMAX organizer email acknowledgement). Seven independently verified registrations: Apart, PAYATHON, Alipay Emerge, PayPal, MINMAX, QNX, Aholo. Receipts do not establish eligibility approval, finalist status or awards. PAYATHON registration is active with zero project entries: SkillPay archive uploaded/parsed and product form prepared, and participant-requested Alipay deferral is active pending personal review; three receiving/settlement agreements remain unsigned and the proposed2.99CNYbuyout remains unconfirmed; product review/listing/real Skill URL/valid transaction/final entry remain incomplete. Paper Route now has actual local UI verification and a158s reviewed demo; ModelScope terms/SMS authentication, public concept and registration approval, public Studio, practice publication and final entry remain incomplete. Apart final work must wait for its research window. Next Horizon idea form, AIMA application and four iQiyi backend submissions remain separately labeled participant-reported; do not repeat them or count as independently verified final receipts. Kiro credit request receipt is recorded; Didit verification and credit grant remain unconfirmed. Other platform authentication, mandatory deployment and marketplace requirements remain in submissions/status.json; expired/enterprise-only/ineligible activities are not submitted. 2026-11-10，参赛者明确要求支付宝相关先放一放，待本人查看；PAYATHON/SkillPay转为pending_user_review_alipay_deferred，签约及候选售价确认不再列为当前任务。已上传包与准备材料保留，尚未发布或交易。Pantry已经正式提交审核的记录保持不变；本轮继续其他活动，报名及正式收件仍为7/7。 2026-11-10非支付宝重试：itch新授权挑战经Verify/checkbox/spinner后再次循环，已交本人在普通Chrome完成当前验证，未登录或交件。Forge CLI15/Node24的whoami仍exit1；之后Google SSO产生账号邮箱同步通知，Forge账号操作已交本人审阅。Codegeist Devpost表已准备，三项本人经历答案待补，资格/规则及Register尚未操作，无新报名回执或部署。AIMA本次普通/无痕均未登录，原用户申请已交记录保留；Next Horizon有限邮箱查询未找到确认函，不据此否定已交构想。计数仍7报名/7正式收件。",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

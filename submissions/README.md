@@ -22,20 +22,20 @@
 | 活动 | 对应仓库 | 当前状态 | 后续所需 |
 | --- | --- | --- | --- |
 | Builder | [patch-review-desk](https://github.com/misakamikotoghr-5205/patch-review-desk) | **最终作品已交，官方成功页确认** | 等主办方结果 |
-| Next Horizon | [watt-window](https://github.com/misakamikotoghr-5205/watt-window) | **构想表已交（用户确认）** | 等入围通知，遵守赛期构建/路演要求 |
+| Next Horizon | [watt-window](https://github.com/misakamikotoghr-5205/watt-window) | **构想表已交（用户确认）** | 11月10日有限邮件查询未找到确认函，保留自报阶段、不重复；等入围及赛期构建/路演 |
 | 爱奇艺玩点新花样 | [iqiyi-play-lab](https://github.com/misakamikotoghr-5205/iqiyi-play-lab) | **四款后台投稿已交（用户确认）** | 审核结果、上线与赛事归属 |
-| AIMA | [aima-story-director](https://github.com/misakamikotoghr-5205/aima-story-director) | **创作者申请已交（用户确认）** | 申请审核及原生作品有效性 |
+| AIMA | [aima-story-director](https://github.com/misakamikotoghr-5205/aima-story-director) | **创作者申请已交（用户确认）** | 11月10日普通/无痕均未登录，未核对申请ID；恢复会话后跟进审核和有效作品，不重复申请 |
 | Apart | [source-trail-otari](https://github.com/misakamikotoghr-5205/source-trail-otari) | **报名成功，官方成功页确认** | 11月13–15日新增研究及最终报告 |
-| PAYATHON | [briefmint-skillpay](https://github.com/misakamikotoghr-5205/briefmint-skillpay) | **个人报名生效、作品0；SkillPay包已上传，商品表单已准备，正式未交** | 本人开通三项收款协议并确认候选售价；商品安全审核/上架、真实Skill链接和有效交易凭证，之后交件 |
-| Through Your Eyes | [parallax-postcards](https://github.com/misakamikotoghr-5205/parallax-postcards) | 未交；认证障碍先跳过 | itch公开游戏页及正式jam entry |
-| Game Off | [lumen-shift](https://github.com/misakamikotoghr-5205/lumen-shift) | 未交；认证障碍先跳过 | itch公开游戏页及正式jam entry |
+| PAYATHON | [briefmint-skillpay](https://github.com/misakamikotoghr-5205/briefmint-skillpay) | **按本人要求暂缓支付宝相关，待本人查看；报名生效、作品0，正式未交** | 已上传SkillPay包、准备商品资料；签约及售价确认不作为本轮任务，待本人指示恢复后再处理审核/上架、真实链接和交易 |
+| Through Your Eyes | [parallax-postcards](https://github.com/misakamikotoghr-5205/parallax-postcards) | 未交；11月10日新验证再次循环，已交本人手动核验 | itch登录、公开游戏页、上传及正式jam entry |
+| Game Off | [lumen-shift](https://github.com/misakamikotoghr-5205/lumen-shift) | 未交；11月10日新验证再次循环，已交本人手动核验 | itch登录、公开游戏页、上传及正式jam entry |
 | PayPal | [cart-consent-paypal](https://github.com/misakamikotoghr-5205/cart-consent-paypal) | **正式作品已交，官方成功页确认** | [公开交件页](https://devpost.com/software/cart-consent)，等待结果 |
 | Aholo | [scene-clearance-lab](https://github.com/misakamikotoghr-5205/scene-clearance-lab) | **正式作品已交，官网“已提交”及进入资格与完整性审核已核验** | [脱敏交件记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json)；第1版，页面提交时间11月10日09:02；PDF/128秒视频已交，2D代理实测4→2，等待审核 |
 | 华为×小红书 | [move-light-skill](https://github.com/misakamikotoghr-5205/move-light-skill) | 未交；验证障碍先跳过 | 真实码道/OfficeAce使用、双市场上架及笔记 |
 | 支付宝涌现奖 | [pantry-relay](https://github.com/misakamikotoghr-5205/pantry-relay) | **正式提交审核成功，官方卡片“审核中”已核验** | [脱敏回执](https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/evidence/submission-receipt-20261110.json)；ZIP安全审核尚未完成，等待审核；不代表公开上线 |
 | 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；实际UI与158秒演示已备，等账号协议确认 | 魔搭短信登录、公开构想帖/报名审核、公开创空间、手记发布及交件 |
 | Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **真实Kiro只读审查已完成；正式交件成功，官方页面显示Project submitted!及Submitted to Kiroween 2026** | [公开游戏入口](https://misakamikotoghr-5205.github.io/deadlock-manor/)与[Public视频](https://youtu.be/L3BpOsPHobo)已备；[最终交件页](https://devpost.com/software/deadlock-manor)已确认收件，不代表资格审核通过；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
-| Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；CLI认证失败，先跳过 | 真实Forge部署/Jira安装、评委链接、视频及Devpost |
+| Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；Devpost报名表已准备、三项本人经历待补；Forge账号同步通知待本人审阅 | 未点Register或规则勾选；本人审阅账号通知后再处理Forge认证/部署、评委安装链接和视频 |
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |
 | 小荷包原届 | [pocket-pause](https://github.com/misakamikotoghr-5205/pocket-pause) | 跳过 | 已过期，无已核实延期 |
 | QNX Global Hackathon | [boot-order-atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas) | 主机工具、32项测试和[151.6秒Public视频](https://youtu.be/K55o50_Tus4)已完成；报名成功；正式交件已确认，官方Project submitted!及Submitted to QNX Global Hackathon已核验 | [公开交件页](https://devpost.com/software/boot-order-atlas)，等待主办方结果；收件不代表资格审核通过；不声称QNX SDK构建或目标运行 |
@@ -56,8 +56,8 @@
 - 各 `drafts/<project>/` 有项目页、双语摘要、技术与开源披露、录制脚本，以及适用的封面或研究计划。
 - Next Horizon的公开PPTX为无个人信息可编辑稿，私密署名版已经另行完成且不进入公开仓库；其PDF仅用于审阅，不代替要求的PowerPoint文件。
 - Cart Consent、Pantry Relay、Patch Review Desk 的 `docs/evidence/` 保存真实本地模型试验，错误结果、超时和未满足目标的输出也保留。它们不证明远程支付、平台接入或一般模型质量。Patch另有已保存的fixture/model-off录屏，模型探针与该录屏的固定草稿来源明确分开。
-- Pantry新增[完整离线交互网页与HTML ZIP](https://github.com/misakamikotoghr-5205/pantry-relay/tree/main/releases)，45项本地测试及实际桌面消费/刷新/撤回/备份导入已核验；[仅所有者预览](https://pantry-relay-2026.ghraurora1024.chatgpt.site)已部署，不能作为支付宝认可平台URL。QMuse官方CLI要求React工程，已构建并通过本地格式预检；尚无平台验收或作品回执。
-- Pantry的两次真实模型请求均使用11月4日虚构回放；首次偏好只部分满足，第二次显式约束成功，仍需人工复核。尚无支付宝部署或完整交件证据。
+- Pantry新增[完整离线交互网页与HTML ZIP](https://github.com/misakamikotoghr-5205/pantry-relay/tree/main/releases)，45项本地测试及实际桌面消费/刷新/撤回/备份导入已核验；[仅所有者预览](https://pantry-relay-2026.ghraurora1024.chatgpt.site)已部署，不能作为支付宝认可平台URL。QMuse官方CLI要求React工程，已构建并通过本地格式预检；11月10日已另行通过官方ZIP路径正式提交审核，ZIP安全审核仍待完成，未确认公开上线。
+- Pantry的两次真实模型请求均使用11月4日虚构回放；首次偏好只部分满足，第二次显式约束成功，仍需人工复核。正式ZIP交件已于11月10日确认，但尚未证明运行时LLM、支付宝业务API或公开平台部署已联通。
 - Parallax的上传ZIP已同步到修复DDA零方向边界的17测试源码：6个根文件、18151字节、CRC及逐文件匹配通过，详见[清单](artifacts/game-research-four-manifest.json)。这不代表itch已上传或正式参赛。
 - Deadlock公开GitHub Pages已实际完成两线索→暂停→回滚→验证（turn3/capacity3/score90）、单步比较、明确继续分支并返回原记录，实际下载报告。146.8秒、3442187字节的本地MP4由11张真实浏览器截图剪辑，非连续录像；完整解码、15帧与31字幕核查通过，未全片人工听审。[媒体记录](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/5fb8bf1abc3bf1b6f05561b2052ff1565400b54a/docs/local-demo-20261109.json)保留哈希和截图运行版本3ab1ecc；其后提交仅更新状态文档，不代表新代码或录像。[YouTube演示](https://youtu.be/L3BpOsPHobo)已Public发布，[Devpost最终交件](https://devpost.com/software/deadlock-manor)现已确认，不代表资格审核或评审通过。
 - QNX的151.6秒本地主机CLI成片，以及MINMAX的8页PDF与106.8秒中文旁白/同步字幕编辑证据成片已经完成。两项目材料有记录及哈希；[QNX视频](https://youtu.be/K55o50_Tus4)现已Public发布，MINMAX成片未公开托管，QNX最终作品收件已确认，MINMAX也已取得组委会实际来信收件确认、等待专家评审。Caption的真实HTTP模型选择与保存响应后的显式导出分开取证，不声称完整浏览器操作；其[私有预览](https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site)不能连接开发机Ollama，评委应按公开README本机运行。

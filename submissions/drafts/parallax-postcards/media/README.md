@@ -1,1 +1,7 @@
 Original 630×500 procedural vector artwork, authored with Codex assistance and rasterized locally with CairoSVG. No third-party artwork or image-generation model used. Game covers are cover illustrations, not gameplay screenshots. Source Trail image shows the actual pre-sprint 2026-11-05 synthetic pilot counts, not future sprint results. SVG source is editable; PNG is the upload image.
+
+## Actual gameplay screenshots, November 10
+
+Eight actual desktop browser screenshots are prepared separately in the [project gameplay gallery](https://github.com/misakamikotoghr-5205/parallax-postcards/tree/main/docs/gallery). They are unmodified game UI captures, not generated art or cover illustrations. The captured run read the letters, rejected a wrong-angle capture, undid the house from 1/3 to 0/3, recaptured it and completed all three rooms. The ending, actual lantern SVG download and 3/3 restoration after reload were observed. Runtime source: `3ede110d29eb248d307cfaf45e9783762032924c`.
+
+The gallery README and `browser-evidence-20261110.json` provide image captions, 1819 × 1066 image dimensions and SHA-256 hashes. The images show selected scroll positions, not complete pages or continuous video. No mobile/narrow-viewport, console-clean or full cross-browser claim is added. itch.io jam join and final submission remain uncompleted while current verification action-time consent is pending. Preserve the original cover attribution above; a cover illustration is not a gameplay screenshot.

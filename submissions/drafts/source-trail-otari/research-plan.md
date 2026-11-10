@@ -1,14 +1,16 @@
-# Prospective research plan — prepared 2026-11-06, not executed sprint research
+# Prospective research plan — updated 2026-11-10 before the sprint
 
 ## Official template and boundary
 
-[Official template linked by the event's Guidelines](https://docs.google.com/document/d/17b3JWki-ZkaqdmqGI5d0gof-HwlGuWU9Mc1_klNZXKs/copy?usp=sharing). The copy action currently requires Google login; no copy/export was made. Use the template current on the [event page](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) rather than guessing its formatting.
+[Official template linked by the event's Guidelines](https://docs.google.com/document/d/17b3JWki-ZkaqdmqGI5d0gof-HwlGuWU9Mc1_klNZXKs/copy?usp=sharing). On November 10 its [public DOCX export](https://docs.google.com/document/d/17b3JWki-ZkaqdmqGI5d0gof-HwlGuWU9Mc1_klNZXKs/export?format=docx) returned HTTP200 with the expected Office document MIME and ZIP structure, without account authentication. A retained reference, template-based prospective report skeleton and empty future-study logs were prepared locally. These are November 10 preexisting preparation, not a completed research report or sprint results. Use the template current on the [event page](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) when finalizing.
 
 The required deliverable is a research PDF, not a repository/demo alone: ≤8 body pages excluding references/appendices; 150–250-word abstract; real authors and affiliations; mandatory **Limitations and Dual-Use / Ethical Considerations** appendix. The project form limits the PDF upload to25MB. A 3–5 minute video and public code are optional. Current public submit is disabled; signup and report submission are different steps.
 
 ## Preexisting material — disclose verbatim in the future report
 
 > Source Trail's core implementation, sixteen synthetic pilot cases, pilot protocol, runner and published pilot outputs were created on November 5, 2026 before the sprint. They are exploratory preparation and are not counted as new work conducted during November 13–15. The pilot uses no model or human participants and does not measure semantic truth.
+
+The November 10 report skeleton and [prospective protocol version0.1](https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/sprint-protocol-v0.1.md) are also preexisting preparation. The protocol must be frozen before new scoring; this draft is not independently registered. Its 24 planned slots contain no new cases or observations. The existing pilot CLI is intentionally locked to the November5/version1.0.0 dataset; a new, separately versioned runner must be implemented and checked for genuinely new sprint data instead of relabeling the old pilot.
 
 Observed existing pilot (invalid selected citation release; required-review miss; eligible selection withholding): quote-only **4/4;5/5;0/7**, exact-span **0/4;5/5;1/7**, full-gate **0/4;2/5;2/7**. Keep these as preexisting results with their existing hashes. Do not rename them as new/held-out outcomes.
 
@@ -43,4 +45,4 @@ No mock future results or participants are supplied. If the study is unfinished,
 6. References.
 7. Required limitations/dual-use appendix: exact-looking excerpts can launder misleading context; users can omit/relabel sources; hashes are not signatures; synthetic expectations are fallible; no real personal data or participants used unless actually documented and authorized.
 
-Deadline: Nov15 23:59 AoE = Nov16 11:59 UTC / Beijing19:59. Signup/terms, actual study, final PDF, any optional media and the official submission receipt remain undone.
+Deadline: Nov15 23:59 AoE = Nov16 11:59 UTC / Beijing19:59. Official signup is already confirmed separately; no repeat signup is needed. Actual sprint work, participant-reviewed final report/PDF, applicable final submission terms and the official project receipt remain undone. The local skeleton is not a submission-ready result report.

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:39:14.082126+00:00",
+  "updated_at": "2026-11-10T08:25:45.592743+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 4,
@@ -392,15 +392,54 @@
       "github": "https://github.com/misakamikotoghr-5205/scene-clearance-lab",
       "formally_submitted": false,
       "receipt": null,
-      "status": "account_terms_accepted_puzzle_confirmation_pending",
+      "status": "official_materials_4of4_uploaded_final_terms_pending",
       "dependencies": [
-        "Authorized Lux3D generation, asset rights and supported export verification",
-        "Team/account eligibility, demo video and formal submission"
+        "Final submission terms confirmation and official Submit action; PDF and 128-second video uploads complete, official form shows 4/4 and saved draft.",
+        "Verify official final receipt; original generated GLB remains private and application provenance is not platform authentication."
       ],
-      "current_blocker": "Aholo账号条款已按当次授权接受；点击Get code触发拼图安全验证，该拼图的当次确认仍未收到，尚未取得短信或登录成功。仍需单人组队选题、真实Lux3D核心资产、导出兼容实测及作品提交。",
-      "registration_confirmed": false,
-      "registration_receipt": null,
-      "submission_receipt": null
+      "current_blocker": "11月10日已完成个人报名、团队、选题、真实Lux3D生成/下载/导入及同参数A/B4→2。五页PDF及128秒实机截图视频上传成功，官网显示4/4并保存草稿；已请求本人对独立最终作品提交须知的当次确认，等待正式提交及官方回执。",
+      "registration_confirmed": true,
+      "registration_receipt": {
+        "status": "confirmed",
+        "confirmed_on": "2026-11-10",
+        "success_heading": "报名成功，欢迎加入！",
+        "public_event_source": "https://www.aholo3d.cn/hackathon",
+        "evidence": "Participant completed the prepared registration in the shared browser; main operator independently observed the official success toast, registration credits and progression to team creation. One-person team and topic then completed; official first three steps checked, current stage 作品提交 with 0/4 materials.",
+        "confirmation_email_claimed": false
+      },
+      "submission_receipt": null,
+      "authenticated": true,
+      "account_login_verified": true,
+      "registration_form_prepared": true,
+      "registration_rules_confirmation_pending": false,
+      "human_verification_completed": true,
+      "sms_login_completed": true,
+      "browser_registration_verified": true,
+      "team_created": true,
+      "team_member_count": 1,
+      "team_confirmed": true,
+      "topic_submitted_verified": true,
+      "current_official_stage": "作品提交",
+      "real_asset_evidence": {
+        "date": "2026-11-10",
+        "glb_bytes": 2198084,
+        "glb_sha256": "293e30b9d435da6bee09e6cf77ebdbfbdf2de44053ab28fcc49224978401ab12",
+        "vertices": 45753,
+        "triangles": 91530,
+        "actual_browser_import": true,
+        "browser_render_mode": "2d-footprint-fallback",
+        "origin_authenticated_by_app": false,
+        "raw_glb_public": false,
+        "ab_same_settings": true,
+        "ab_warning_totals": {
+          "a": 4,
+          "b": 2
+        },
+        "downloaded_report_sha256": "85fec1fe322a1acc46b9e9dd866fad498d65a623d617f73d89e205ba278e12c2"
+      },
+      "official_materials_complete": 4,
+      "official_materials_total": 4,
+      "final_terms_confirmation_pending": true
     },
     {
       "project": "pantry-relay",
@@ -408,13 +447,12 @@
       "github": "https://github.com/misakamikotoghr-5205/pantry-relay",
       "formally_submitted": false,
       "receipt": null,
-      "status": "materials_draft_saved_awaiting_platform_publication_and_submission",
+      "status": "materials_draft_saved_upload_session_expired",
       "dependencies": [
-        "Materials saved as a draft; official platform publication/acceptance remains unconfirmed",
-        "If continuing ZIP submission, reselect ZIP as instructed by the official saved-materials toast and verify the platform result",
-        "Complete final project submission and retain the official receipt; one draft is not a submitted or approved entry"
+        "Resume the official Alipay login after the upload endpoint returned an expired-session error; reselect the corrected static ZIP.",
+        "Official ZIP now includes valid root package.json metadata; platform upload/acceptance and final submission receipt still need verification."
       ],
-      "current_blocker": "11月9日官方报名记录已建，方向life。点击保存并退出后已返回我的提报，提示“作品材料已保存，提交审核时需重新选择ZIP”，作品数1、卡片为草稿。曾显示“ZIP审核状态确认中”，随后显示“安全下线状态待确认，将自动重试查询；材料待完善”。此前两次提交审核均在创建发布任务后返回编辑页；尚无平台发布受理、最终交件或审核通过确认。仍需平台发布/验收，按实际状态重新选择ZIP并取得最终作品提交回执。",
+      "current_blocker": "11月10日已实际进入现有草稿并发现ZIP审核状态暂不可用；按当前官方目录要求补齐根package.json，运行文件逐字节未变，新ZIP97,252字节。重新选包并点击提交审核后，官方明确返回“登录已失效”，未确认上传成功；已保留官方扫码重新登录页。身份核验旧页面已过去，当前阻塞为上传会话过期，无最终作品回执。",
       "local_model_evidence": {
         "real_inference_observed": true,
         "request_count": 2,
@@ -450,7 +488,11 @@
       },
       "browser_registration_verified": true,
       "materials_draft_saved": true,
-      "observed_project_count": 1
+      "observed_project_count": 1,
+      "current_login_requires_user_identity_verification": false,
+      "current_login_requires_refresh": true,
+      "react_zip_sha256": "bcacef8b7012c38fa20f43b252b72904322334ccc63e9c48f2b323ab84d34228",
+      "react_zip_bytes": 97252
     },
     {
       "project": "dependency-evidence-forge",
@@ -584,10 +626,12 @@
         "Personal itch.io game page and playable jam submission",
         "Accurate AI-assisted development disclosure; community recognition, no verified cash prize"
       ],
-      "current_blocker": "可玩 HTML ZIP、封面、项目页与 AI 披露已备；11月7日 Through Your Eyes 正式 Join jam 弹出 Log in to continue，尚未取得 itch 认证，本次先跳过。两项仍需各自公开游戏页和正式 jam entry；GitHub 仓库本身不算参赛。",
+      "current_blocker": "11月10日已按本人当次授权点击itch官方Cloudflare验证，仍显示验证等待页，未进入账号或创建游戏页。可玩ZIP、封面和披露已备；仍需公开游戏页、上传和各自正式jam entry。",
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null
+      "submission_receipt": null,
+      "current_itch_human_verification_consent_received": true,
+      "itch_authenticated": false
     },
     {
       "project": "source-trail-otari",
@@ -611,7 +655,19 @@
         "success_heading": "You’re signed up",
         "public_event_source": "https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15"
       },
-      "submission_receipt": null
+      "submission_receipt": null,
+      "github_commit": "1ed002285fcd4538eafd3f00abe53b1571353f15",
+      "prospective_report_preparation": {
+        "prepared_on": "2026-11-10",
+        "official_template_report_skeleton_pages": 6,
+        "report_rendered_and_visually_reviewed": true,
+        "prospective_protocol": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/sprint-protocol-v0.1.md",
+        "new_cases_planned": 24,
+        "new_cases_completed": 0,
+        "sprint_results_present": false,
+        "new_sprint_runner_implemented": false,
+        "formal_report_submitted": false
+      }
     },
     {
       "project": "watt-window",
@@ -649,11 +705,11 @@
         "Verify unspecified deadline timezone and accurate AI-assisted development disclosure",
         "Community game jam; no confirmed cash prize"
       ],
-      "current_blocker": "可玩 HTML ZIP、封面、项目页与 AI 披露已备；11月7日 Through Your Eyes 正式 Join jam 弹出 Log in to continue，尚未取得 itch 认证，本次先跳过。两项仍需各自公开游戏页和正式 jam entry；GitHub 仓库本身不算参赛。",
+      "current_blocker": "11月10日已按本人当次授权点击itch官方Cloudflare验证，仍显示验证等待页，未进入账号或创建游戏页。可玩ZIP、封面和披露已备；仍需公开游戏页、上传和各自正式jam entry。已补8张三房实玩/Undo/刷新截图和实际SVG导出证据。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
-      "github_commit": "3ede110d29eb248d307cfaf45e9783762032924c",
+      "github_commit": "90622a69d86340270690b761a55e7c95a969dc51",
       "playable_artifact": {
         "repo_path": "submissions/artifacts/parallax-postcards-itch.zip",
         "sha256": "e676247689664d67664506e39743b405462914a16e47d36fea050f1cef502506",
@@ -663,6 +719,20 @@
         "source_files_match": true,
         "source_commit": "3ede110d29eb248d307cfaf45e9783762032924c",
         "official_upload_or_entry": false
+      },
+      "current_itch_human_verification_consent_received": true,
+      "itch_authenticated": false,
+      "browser_gallery": {
+        "recorded_on": "2026-11-10",
+        "runtime_source": "3ede110d29eb248d307cfaf45e9783762032924c",
+        "source": "https://github.com/misakamikotoghr-5205/parallax-postcards/tree/main/docs/gallery",
+        "actual_screenshots": 8,
+        "three_rooms_completed": true,
+        "undo_observed": true,
+        "reload_restored": true,
+        "svg_download_verified": true,
+        "continuous_video": false,
+        "formal_jam_entry": false
       }
     },
     {
@@ -846,7 +916,7 @@
     "Applicable platform terms"
   ],
   "clips_signup_terms_confirmation": true,
-  "external_registrations_confirmed": 6,
+  "external_registrations_confirmed": 7,
   "basic_identity_confirmed_privately": true,
   "clips_signin_link_sent": true,
   "clips_authenticated": true,
@@ -871,7 +941,7 @@
     "registration_attempts_in_progress": 0,
     "included_in_verified_counts": false
   },
-  "latest_execution_note": "2026-11-09: PAYATHON personal registration active; SkillPay project form selected but not submitted and platform Skill URL/valid transaction evidence missing. Emerge has one saved materials draft after save-and-exit; ZIP/publication and safe-offline status remain unconfirmed with materials-incomplete notice. No new verified final project submission. PayPal registration was independently confirmed on November 9 with no project entry; On November 10, after participant action-time rules consent, Kiroween final Submit succeeded: the official project page showed Project submitted! and Submitted to Kiroween 2026. The entry receipt is verified, not eligibility approval or judging results. Kiro credit request receipt is now confirmed; review and Didit identity verification remain pending, with no grant confirmed; the credit application is separate from the confirmed final entry. Deadlock Manor completed one authenticated read-only Kiro CLI review; Codex reproduced suggestions, rejected a speculative finding and implemented/tested fixes. This is development assistance, not runtime AI, a credit grant or a final project submission. QNX and MINMAX are two new user-linked projects with prepared local materials, not part of the original additional ten. QNX registration was confirmed after participant rules/eligibility consent and Register, with zero projects at that moment. After participant action-time final rules consent, QNX final Submit succeeded on November 10; the official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472. Entry receipt is confirmed, not eligibility approval or judging results. On November 10, MINMAX project email was sent and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. Organizer confirmation of the project materials has not arrived. Independent registration-stage count is now six after QNX signup; final project receipt count is now four (Builder, Kiroween, QNX and PayPal). Final entries do not automatically add independent signup-stage records. Deadlock actual public-page gameplay and the downloaded report now confirm turn-3 recovery, capacity 3, score 90 and explicit branch/restore. A locally decoded 146.8-second edited screenshot video is ready, not continuous capture; Deadlock and QNX videos were publicly published on YouTube on November 10; publication is not independent anonymous player playback or a contest receipt. Deadlock final entry is now confirmed at https://devpost.com/software/deadlock-manor; the at-submit source is 3227460b00c98701b813c6c82ea09a82e8f7281c. Cart Consent real combined model/sandbox run and Public 138.8-second video are verified on November 10. The authorized verification is complete; all required project and entrant fields are saved. After participant action-time final rules consent, Submit succeeded. The official public project page displayed Project submitted! and Submitted to PayPal AI Hackathon. Cart Consent is now the fourth verified final receipt; independent signup-stage count remains six. Submitted source revision: da95fd1bde83c608d72f57bd60aeb78a0eade44d.",
+  "latest_execution_note": "Aholo全部材料4/4已上传并保存草稿，待最终独立条款当次确认后Submit；正式回执仍4。Pantry修正ZIP元数据已推送，官方上传因登录失效未确认成功。",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

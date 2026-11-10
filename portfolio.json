@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:39:14.082126+00:00",
+  "updated_at": "2026-11-10T08:25:45.592743+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -378,14 +378,55 @@
       "source": "https://www.aholo3d.cn/hackathon",
       "landscape_review": "https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "Authorized Lux3D generation, asset rights and supported export verification",
-        "Team/account eligibility, demo video and formal submission"
+        "Final submission terms confirmation and official Submit action; PDF and 128-second video uploads complete, official form shows 4/4 and saved draft.",
+        "Verify official final receipt; original generated GLB remains private and application provenance is not platform authentication."
       ],
       "formally_submitted": false,
       "private_preview": "https://scene-clearance-lab-aholo.ghraurora1024.chatgpt.site",
       "pushed_and_remote_verified": true,
-      "github_commit": "2c6dfcf5008c10d9090c179512a2f09787159828",
-      "submission_status": "account_terms_accepted_puzzle_confirmation_pending"
+      "github_commit": "eeebcfc8c182d84aecd939e4d7ff125265917ebb",
+      "submission_status": "official_materials_4of4_uploaded_final_terms_pending",
+      "authenticated": true,
+      "account_login_verified": true,
+      "registration_form_prepared": true,
+      "registration_rules_confirmation_pending": false,
+      "human_verification_completed": true,
+      "sms_login_completed": true,
+      "registration_confirmed": true,
+      "browser_registration_verified": true,
+      "team_created": true,
+      "team_member_count": 1,
+      "team_confirmed": true,
+      "topic_submitted_verified": true,
+      "current_official_stage": "作品提交",
+      "registration_receipt": {
+        "status": "confirmed",
+        "confirmed_on": "2026-11-10",
+        "success_heading": "报名成功，欢迎加入！",
+        "public_event_source": "https://www.aholo3d.cn/hackathon",
+        "evidence": "Participant completed the prepared registration in the shared browser; main operator independently observed the official success toast, registration credits and progression to team creation. One-person team and topic then completed; official first three steps checked, current stage 作品提交 with 0/4 materials.",
+        "confirmation_email_claimed": false
+      },
+      "real_asset_evidence": {
+        "date": "2026-11-10",
+        "glb_bytes": 2198084,
+        "glb_sha256": "293e30b9d435da6bee09e6cf77ebdbfbdf2de44053ab28fcc49224978401ab12",
+        "vertices": 45753,
+        "triangles": 91530,
+        "actual_browser_import": true,
+        "browser_render_mode": "2d-footprint-fallback",
+        "origin_authenticated_by_app": false,
+        "raw_glb_public": false,
+        "ab_same_settings": true,
+        "ab_warning_totals": {
+          "a": 4,
+          "b": 2
+        },
+        "downloaded_report_sha256": "85fec1fe322a1acc46b9e9dd866fad498d65a623d617f73d89e205ba278e12c2"
+      },
+      "official_materials_complete": 4,
+      "official_materials_total": 4,
+      "final_terms_confirmation_pending": true
     },
     {
       "number": 10,
@@ -398,14 +439,13 @@
       "source": "https://emerge.alipay.com/",
       "landscape_review": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "One materials draft saved in the official workspace; publication/acceptance and safe-offline state remain unconfirmed",
-        "Reselect ZIP when continuing submission, as required by the official saved-materials toast, or use a genuinely published eligible platform URL",
-        "Final project submission and official receipt; no submitted or approved result yet"
+        "Resume the official Alipay login after the upload endpoint returned an expired-session error; reselect the corrected static ZIP.",
+        "Official ZIP now includes valid root package.json metadata; platform upload/acceptance and final submission receipt still need verification."
       ],
       "formally_submitted": false,
       "pushed_and_remote_verified": true,
-      "github_commit": "187a126140ae905e54a323f6453fc597b6c3d039",
-      "submission_status": "materials_draft_saved_awaiting_platform_publication_and_submission",
+      "github_commit": "cd8b96ce3f5b31aa867fdb6c1f9ea6fc684d7068",
+      "submission_status": "materials_draft_saved_upload_session_expired",
       "private_preview": "https://pantry-relay-2026.ghraurora1024.chatgpt.site",
       "offline_html_zip": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-offline-html.zip",
       "react_html_zip": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-react-html.zip",
@@ -413,7 +453,11 @@
       "registration_confirmed": true,
       "browser_registration_verified": true,
       "materials_draft_saved": true,
-      "observed_project_count": 1
+      "observed_project_count": 1,
+      "current_login_requires_user_identity_verification": false,
+      "current_login_requires_refresh": true,
+      "react_zip_sha256": "bcacef8b7012c38fa20f43b252b72904322334ccc63e9c48f2b323ab84d34228",
+      "react_zip_bytes": 97252
     },
     {
       "number": 11,
@@ -502,7 +546,9 @@
       "private_preview": "https://lumen-shift-gameoff-2026.ghraurora1024.chatgpt.site",
       "github_commit": "a3a52464b9b170b7a6e04e4bbd2017453401a2fe",
       "pushed_and_remote_verified": true,
-      "submission_status": "awaiting_itch_account_and_game_page"
+      "submission_status": "awaiting_itch_account_and_game_page",
+      "current_itch_human_verification_consent_received": true,
+      "itch_authenticated": false
     },
     {
       "number": 15,
@@ -522,11 +568,22 @@
         "Submission deadline Nov 15 23:59 AoE = Nov 16 11:59 UTC / 19:59 Beijing; optional hosted-model demonstration not performed"
       ],
       "formally_submitted": false,
-      "github_commit": "7b9e56581ebd55d9d61e494b3b2b5ba1e9b42ebd",
+      "github_commit": "1ed002285fcd4538eafd3f00abe53b1571353f15",
       "pushed_and_remote_verified": true,
       "preexisting_for_future_sprint": true,
       "submission_status": "registered_awaiting_sprint_research_and_final_submission",
-      "registration_confirmed": true
+      "registration_confirmed": true,
+      "prospective_report_preparation": {
+        "prepared_on": "2026-11-10",
+        "official_template_report_skeleton_pages": 6,
+        "report_rendered_and_visually_reviewed": true,
+        "prospective_protocol": "https://github.com/misakamikotoghr-5205/source-trail-otari/blob/main/docs/sprint-protocol-v0.1.md",
+        "new_cases_planned": 24,
+        "new_cases_completed": 0,
+        "sprint_results_present": false,
+        "new_sprint_runner_implemented": false,
+        "formal_report_submitted": false
+      }
     },
     {
       "number": 16,
@@ -571,7 +628,7 @@
       ],
       "formally_submitted": false,
       "private_preview": "https://parallax-postcards-2026.ghraurora1024.chatgpt.site",
-      "github_commit": "3ede110d29eb248d307cfaf45e9783762032924c",
+      "github_commit": "90622a69d86340270690b761a55e7c95a969dc51",
       "pushed_and_remote_verified": true,
       "submission_status": "awaiting_itch_account_and_game_page",
       "playable_artifact": {
@@ -583,6 +640,20 @@
         "source_files_match": true,
         "source_commit": "3ede110d29eb248d307cfaf45e9783762032924c",
         "official_upload_or_entry": false
+      },
+      "current_itch_human_verification_consent_received": true,
+      "itch_authenticated": false,
+      "browser_gallery": {
+        "recorded_on": "2026-11-10",
+        "runtime_source": "3ede110d29eb248d307cfaf45e9783762032924c",
+        "source": "https://github.com/misakamikotoghr-5205/parallax-postcards/tree/main/docs/gallery",
+        "actual_screenshots": 8,
+        "three_rooms_completed": true,
+        "undo_observed": true,
+        "reload_restored": true,
+        "svg_download_verified": true,
+        "continuous_video": false,
+        "formal_jam_entry": false
       }
     },
     {
@@ -765,7 +836,7 @@
     "scene-clearance-lab": "Browser WebGL2 context unavailable; usable top-down fallback observed. Original glTF import, numeric layout commit, geometric update, snapshots and reload observed. Full WebGL rendering remains unverified in this environment.",
     "paper-route-playtest": "Observed full 12-step autoplay victory/return, hint without acting, and mutant counterexample where step 4 falsely delivers only in the mutant. No console errors. Separately, actual local Node engine evidence for fixed seed 20261106 is available at https://github.com/misakamikotoghr-5205/paper-route-playtest/blob/c5392db0e37744014dd9a4e07038e4cc27099341/docs/evidence/README.md: four winning replays and one isolated mutant counterexample. This adds no browser, platform deployment, registration or submission evidence.",
     "lumen-shift": "Observed first-board victory, undo/redo, next-board hint, and completed-board persistence after reload. Replay-allowance hint boundary covered by automated regression.",
-    "parallax-postcards": "Observed legal reading/navigation/alignment/capture in all three rooms, 3/3 completion, ending and restored progress after reload. No console errors. Canvas2D rendering observed.",
+    "parallax-postcards": "Observed legal reading/navigation/alignment/capture in all three rooms, 3/3 completion, ending and restored progress after reload. No console errors. Canvas2D rendering observed. November 10 adds eight actual native browser stills, wrong-angle denial, house capture undo and recapture, 3/3 ending, a real downloaded self-contained SVG and reload restoration with fresh undo history. This is local desktop evidence, not an itch entry or continuous video.",
     "patch-review-desk": "Isolated agent-capability proposal with two fixture hunks; reviewer approved only the time hunk, applied 09:00 to 09:30 with unapproved final sentence unchanged, then rolled back and restored the original SHA. Real 2:04 screen-only silent Clips recording saved. Anonymous HTTP share/context and four media-frame requests succeeded; authenticated player naturally reached 124.794s end with readyState 4 and no decoding error. Recording is fixture/model off, distinct from the limited real Ollama probe. Builder official form confirmed receipt of the final entry on 2026-11-06; this is not a judging result.",
     "pantry-relay": "Actual desktop browser run: source/date gates; explicit review checkbox; tomato 300→100 and eggs4→2 on confirmation; reload retained receipt; undo restored balances and kept reversed receipt; budget1 blocked candidates; new unconfirmed undated20g lot held; real exported JSON reimported as new ledger without trusting historical receipts. Offline deterministic UI, not Alipay, phone/WebView, QMuse deployment or submission. Genuine React version also passed development UI checks including preferences, file import, cross-tab review invalidation and an out-of-stock recipe cost edit. A production UMD bridge loading failure was found, repaired and retained in evidence; actual production confirmation/reload/undo then passed with zero new console errors. Official CLI local preflight accepted19 source files, but no QMuse login/import/release or contest entry.",
     "caption-relay": "Initial local browser import of five original cues and three flags was observed. Final AI selection and explicit cue-2 export are separately evidenced by real HTTP and saved-response CLI runs; complete browser AI review/accept/export remains unverified. Native Sites deployment succeeded but is owner-private, not a judge-accessible AI runtime, and cannot reach the developer machine loopback Ollama.",
@@ -782,7 +853,7 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal registration was confirmed on November 9, when its project list was empty; its final entry was confirmed on November 10. On November 10, participant action-time rules consent was followed by successful Kiroween final Submit; the official project page displayed Project submitted! and Submitted to Kiroween 2026. The received entry does not establish eligibility approval or judging results; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the official final entry is confirmed, with submitted source revision 3227460b00c98701b813c6c82ea09a82e8f7281c, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX registration is confirmed, with zero projects at the registration check. QNX final Submit succeeded on November 10 after participant action-time final rules consent. The official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472; entry receipt is confirmed, not eligibility approval or judging results. Its demonstration is public on YouTube; publication does not establish registration or final submission. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed; independent registration-stage count is now six following the QNX signup. Organizer confirmation of the MINMAX project materials remains pending. Final project receipts now total four (Builder, Kiroween, QNX and PayPal); they do not automatically add independent registration-stage records. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; the Deadlock video is public on YouTube and its final project entry is confirmed. Cart Consent on November 10 now has actual combined AI/sandbox order evidence and a verified Public 138.8-second YouTube demo. Following participant action-time final rules consent and Submit, the official Cart Consent page displayed Project submitted! and Submitted to PayPal AI Hackathon. Submitted source revision: da95fd1bde83c608d72f57bd60aeb78a0eade44d. The independent registration count remains six; verified final receipts now total four.",
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal registration was confirmed on November 9, when its project list was empty; its final entry was confirmed on November 10. On November 10, participant action-time rules consent was followed by successful Kiroween final Submit; the official project page displayed Project submitted! and Submitted to Kiroween 2026. The received entry does not establish eligibility approval or judging results; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the official final entry is confirmed, with submitted source revision 3227460b00c98701b813c6c82ea09a82e8f7281c, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX registration is confirmed, with zero projects at the registration check. QNX final Submit succeeded on November 10 after participant action-time final rules consent. The official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472; entry receipt is confirmed, not eligibility approval or judging results. Its demonstration is public on YouTube; publication does not establish registration or final submission. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed; independent registration-stage count is now six following the QNX signup. Organizer confirmation of the MINMAX project materials remains pending. Final project receipts now total four (Builder, Kiroween, QNX and PayPal); they do not automatically add independent registration-stage records. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; the Deadlock video is public on YouTube and its final project entry is confirmed. Cart Consent on November 10 now has actual combined AI/sandbox order evidence and a verified Public 138.8-second YouTube demo. Following participant action-time final rules consent and Submit, the official Cart Consent page displayed Project submitted! and Submitted to PayPal AI Hackathon. Submitted source revision: da95fd1bde83c608d72f57bd60aeb78a0eade44d. The independent registration count remains six; verified final receipts now total four. Aholo registration was independently verified November 10; one-person team and topic completed, current official stage 4 with 0/4 project materials. Current independent signup count is seven (including Aholo); final project receipts remain four. Original reference image is generated and the real Lux3D mesh task is in progress; export/import/report/final entry are still incomplete.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

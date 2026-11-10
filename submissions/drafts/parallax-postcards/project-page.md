@@ -17,3 +17,7 @@ The primary experience is first person. The world is rendered with an independen
 Code, prose, level geometry, procedural art and documentation were developed with Codex assistance. No generative model runs during play. See the separate AI disclosure.
 
 Source / MIT: https://github.com/misakamikotoghr-5205/parallax-postcards
+
+## Actual gameplay gallery
+
+[Eight actual desktop browser screenshots and the downloaded lantern postcard](https://github.com/misakamikotoghr-5205/parallax-postcards/tree/main/docs/gallery) document the November 10 playthrough: letter reading, rejected wrong-angle capture, house collection and Undo, all three postcards, the ending and restored 3/3 progress after reload. These are original game-interface captures, distinct from the procedural cover illustration. They are selected still screenshots rather than continuous footage; the gallery includes captions, runtime revision and file hashes.

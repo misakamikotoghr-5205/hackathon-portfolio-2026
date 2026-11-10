@@ -32,11 +32,11 @@
 | 华为×小红书 | [move-light-skill](https://github.com/misakamikotoghr-5205/move-light-skill) | 未交；验证障碍先跳过 | 真实码道/OfficeAce使用、双市场上架及笔记 |
 | 支付宝涌现奖 | [pantry-relay](https://github.com/misakamikotoghr-5205/pantry-relay) | **报名记录与材料草稿已保存，life方向；作品1但未提交** | ZIP审核/安全下线状态待确认、材料待完善；继续提交须重新选ZIP，仍需平台发布/验收与最终交件回执 |
 | 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；认证障碍先跳过 | 公开构想帖、报名审核、公开创空间及交件 |
-| Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **真实Kiro只读审查已完成；最新Markdown Story与已填Additional已保存并重载核验，仍2/5步骤；缺4项本人回答及YouTube，未交件** | 本人回答2025报名/AWS员工/学习帮助/再用Kiro四问，使用[公开游戏入口](https://misakamikotoghr-5205.github.io/deadlock-manor/)、上传现有本地成片到公开YouTube及最终交件；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
+| Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **真实Kiro只读审查已完成；全部必填草稿材料及视频URL已保存，两材料页均绿勾，4/5步骤；待本人最终条款确认及Submit，未交件** | [公开游戏入口](https://misakamikotoghr-5205.github.io/deadlock-manor/)与[Public视频](https://youtu.be/L3BpOsPHobo)已备；最终条款与提交待本人当次确认；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
 | Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；CLI认证失败，先跳过 | 真实Forge部署/Jira安装、评委链接、视频及Devpost |
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |
 | 小荷包原届 | [pocket-pause](https://github.com/misakamikotoghr-5205/pocket-pause) | 跳过 | 已过期，无已核实延期 |
-| QNX Global Hackathon | [boot-order-atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas) | 主机工具、32项测试和151.6秒本地英文成片已完成；未报名、未交件 | 公开YouTube、Devpost报名及最终交件；不声称QNX SDK构建或目标运行 |
+| QNX Global Hackathon | [boot-order-atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas) | 主机工具、32项测试和[151.6秒Public视频](https://youtu.be/K55o50_Tus4)已完成；注册表已填但Register未点，未报名、未交件 | 规则/资格待本人确认后注册及最终交件；不声称QNX SDK构建或目标运行 |
 | MINMAX AI Agent黑客松 | [caption-relay](https://github.com/misakamikotoghr-5205/caption-relay) | 11月10日问卷报名已完成并核验官方完成页，作品邮件已发送并核对Sent Items；待组委会确认。28项测试及原PDF/成片证据不变 | 等待主办方邮件确认；报名完成与邮件发送不计作品正式收件。README本机试用，Sites仅私有UI预览 |
 
 
@@ -57,8 +57,8 @@
 - Pantry新增[完整离线交互网页与HTML ZIP](https://github.com/misakamikotoghr-5205/pantry-relay/tree/main/releases)，45项本地测试及实际桌面消费/刷新/撤回/备份导入已核验；[仅所有者预览](https://pantry-relay-2026.ghraurora1024.chatgpt.site)已部署，不能作为支付宝认可平台URL。QMuse官方CLI要求React工程，已构建并通过本地格式预检；尚无平台验收或作品回执。
 - Pantry的两次真实模型请求均使用11月4日虚构回放；首次偏好只部分满足，第二次显式约束成功，仍需人工复核。尚无支付宝部署或完整交件证据。
 - Parallax的上传ZIP已同步到修复DDA零方向边界的17测试源码：6个根文件、18151字节、CRC及逐文件匹配通过，详见[清单](artifacts/game-research-four-manifest.json)。这不代表itch已上传或正式参赛。
-- Deadlock公开GitHub Pages已实际完成两线索→暂停→回滚→验证（turn3/capacity3/score90）、单步比较、明确继续分支并返回原记录，实际下载报告。146.8秒、3442187字节的本地MP4由11张真实浏览器截图剪辑，非连续录像；完整解码、15帧与31字幕核查通过，未全片人工听审。[媒体记录](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/5fb8bf1abc3bf1b6f05561b2052ff1565400b54a/docs/local-demo-20261109.json)保留哈希和截图运行版本3ab1ecc；其后提交仅更新状态文档，不代表新代码或录像。尚无公开YouTube或最终Devpost交件。
-- QNX的151.6秒本地主机CLI成片，以及MINMAX的8页PDF与106.8秒中文旁白/同步字幕编辑证据成片已经完成。两项目材料有记录及哈希，但无公开视频或官方新收件。Caption的真实HTTP模型选择与保存响应后的显式导出分开取证，不声称完整浏览器操作；其[私有预览](https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site)不能连接开发机Ollama，评委应按公开README本机运行。
+- Deadlock公开GitHub Pages已实际完成两线索→暂停→回滚→验证（turn3/capacity3/score90）、单步比较、明确继续分支并返回原记录，实际下载报告。146.8秒、3442187字节的本地MP4由11张真实浏览器截图剪辑，非连续录像；完整解码、15帧与31字幕核查通过，未全片人工听审。[媒体记录](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/5fb8bf1abc3bf1b6f05561b2052ff1565400b54a/docs/local-demo-20261109.json)保留哈希和截图运行版本3ab1ecc；其后提交仅更新状态文档，不代表新代码或录像。[YouTube演示](https://youtu.be/L3BpOsPHobo)已Public发布，尚无最终Devpost交件。
+- QNX的151.6秒本地主机CLI成片，以及MINMAX的8页PDF与106.8秒中文旁白/同步字幕编辑证据成片已经完成。两项目材料有记录及哈希；[QNX视频](https://youtu.be/K55o50_Tus4)现已Public发布，MINMAX成片未公开托管，两者均无新增最终作品收件确认。Caption的真实HTTP模型选择与保存响应后的显式导出分开取证，不声称完整浏览器操作；其[私有预览](https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site)不能连接开发机Ollama，评委应按公开README本机运行。
 
 个人资料、账号凭据、验证码、私密署名材料和回执不保存到这个公开仓库。报名表的资格、账号、条款和公开材料仍须逐项确认；缺少的链接或平台使用记录不会以虚构内容补齐。
 

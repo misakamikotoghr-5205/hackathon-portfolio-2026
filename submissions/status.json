@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T05:28:02.198679+00:00",
+  "updated_at": "2026-11-10T05:41:48.121297+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
-  "external_submissions_confirmed": 1,
+  "external_submissions_confirmed": 2,
   "projects": [
     {
       "project": "briefmint-skillpay",
@@ -116,26 +116,44 @@
       "project": "deadlock-manor",
       "event": "Kiroween 2026",
       "github": "https://github.com/misakamikotoghr-5205/deadlock-manor",
-      "formally_submitted": false,
-      "receipt": null,
-      "status": "awaiting_final_rules_confirmation",
+      "formally_submitted": true,
+      "receipt": {
+        "status": "confirmed",
+        "confirmed_on": "2026-11-10",
+        "success_heading": "Project submitted!",
+        "submitted_to": "Kiroween 2026",
+        "public_project_url": "https://devpost.com/software/deadlock-manor",
+        "source_commit_at_submit": "3227460b00c98701b813c6c82ea09a82e8f7281c",
+        "verification": "Main operator observed the official submitted project page after participant action-time rules consent and final Submit.",
+        "organizer_eligibility_acceptance_claimed": false
+      },
+      "status": "submitted_official_success_page_confirmed",
       "dependencies": [
-        "All required draft materials are saved, including the participant answers and video URL. Project details and Additional Info show completion indicators at 4/5 steps. Await the participant's action-time final rules confirmation and the final Submit action; no final entry receipt is confirmed.",
+        "Final entry submitted on November 10 after participant action-time rules consent. The official project page displayed Project submitted! and Submitted to Kiroween 2026. Await organizer review/results; eligibility approval is not claimed. Submitted source revision: 3227460b00c98701b813c6c82ea09a82e8f7281c.",
         "The 146.8-second edited actual-browser-screenshot video was publicly published on YouTube on November 10: https://youtu.be/L3BpOsPHobo . This is not continuous recording; independent anonymous player playback remains unverified.",
         "Kiro credit request receipt confirmed on November 9; application review and Didit identity verification are pending, with no grant confirmed"
       ],
-      "current_blocker": "11月10日全部必填草稿材料已保存，包括最新Story、项目链接、测试说明、Kiro说明、复用披露、本人四答及视频URL；Project details与Additional Info均绿勾，显示4/5 steps。最终条款确认及Submit待本人当次同意，未最终交件。11月9日已在公开GitHub Pages完成两线索→暂停发布→回滚→验证，turn3解决、剩余capacity3、score90，并实际单步比较、显式继续分支及返回原记录，下载浏览器JSON。146.8秒本地MP4已完成，使用11张真实浏览器截图剪辑，含明确标注的证据摘录；不是连续录像。已通过音视频完整解码、15帧视觉与31条字幕检查，未完整人工听审。146.8秒成片已于11月10日以Public发布至https://youtu.be/L3BpOsPHobo，视频字段已保存；发布不等于独立匿名播放验证或最终Devpost交件。4000额度申请仍待审核及Didit身份核验，未确认获批或到账。",
+      "current_blocker": "11月10日本人明确同意最终条款后，已实际点击Submit；官方公开项目页显示“Project submitted!”及“Submitted to Kiroween 2026”，最终作品交件已确认。提交时源版本为3227460b00c98701b813c6c82ea09a82e8f7281c；不将后续状态文档提交冒充当时版本，不代表主办方资格审核或评审通过。11月9日已在公开GitHub Pages完成两线索→暂停发布→回滚→验证，turn3解决、剩余capacity3、score90，并实际单步比较、显式继续分支及返回原记录，下载浏览器JSON。146.8秒本地MP4已完成，使用11张真实浏览器截图剪辑，含明确标注的证据摘录；不是连续录像。已通过音视频完整解码、15帧视觉与31条字幕检查，未完整人工听审。146.8秒成片已于11月10日以Public发布至https://youtu.be/L3BpOsPHobo，视频字段已保存；发布不等于独立匿名播放验证或最终Devpost交件。4000额度申请仍待审核及Didit身份核验，未确认获批或到账。",
       "registration_confirmed": false,
       "registration_receipt": null,
-      "submission_receipt": null,
+      "submission_receipt": {
+        "status": "confirmed",
+        "confirmed_on": "2026-11-10",
+        "success_heading": "Project submitted!",
+        "submitted_to": "Kiroween 2026",
+        "public_project_url": "https://devpost.com/software/deadlock-manor",
+        "source_commit_at_submit": "3227460b00c98701b813c6c82ea09a82e8f7281c",
+        "verification": "Main operator observed the official submitted project page after participant action-time rules consent and final Submit.",
+        "organizer_eligibility_acceptance_claimed": false
+      },
       "authentication_check_evidence": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/evidence/kiro-review-20261109.json",
       "devpost_authenticated": true,
       "draft_saved": true,
       "draft_progress": {
         "title": "Deadlock Manor",
-        "displayed_progress": "4/5 steps",
+        "displayed_progress": "4/5 steps before final submission",
         "story_empty": false,
-        "final_submission_confirmed": false,
+        "final_submission_confirmed": true,
         "story_saved": true,
         "project_details_saved": true,
         "javascript_tag_and_repository_saved": true,
@@ -158,7 +176,7 @@
         "project_details_completion_indicator": true,
         "additional_info_completion_indicator": true,
         "all_required_draft_materials_saved": true,
-        "awaiting_final_rules_confirmation": true,
+        "awaiting_final_rules_confirmation": false,
         "youtube_url_persistence_verified": true
       },
       "credits_request": {
@@ -170,7 +188,7 @@
         "submitted_on": "2026-11-09",
         "sanitized_receipt_repo_path": "submissions/evidence/kiroween-credits-request-20261109.json"
       },
-      "github_commit": "3227460b00c98701b813c6c82ea09a82e8f7281c",
+      "github_commit": "6549cdff9c71bfdb6e79d4dff201bcff42df30f1",
       "kiro_usage": {
         "status": "authenticated_read_only_review_completed",
         "completed_on": "2026-11-09",
@@ -259,7 +277,11 @@
         "confirmed_alternative_branch_and_return": true,
         "runtime_at_capture_commit": "3ab1ecc20b90c5fb70826352d45ab0c7257341d5",
         "evidence": "https://github.com/misakamikotoghr-5205/deadlock-manor/blob/5fb8bf1abc3bf1b6f05561b2052ff1565400b54a/docs/local-demo-20261109.json"
-      }
+      },
+      "official_receipt_verified": true,
+      "browser_submission_verified": true,
+      "public_project_url": "https://devpost.com/software/deadlock-manor",
+      "source_commit_at_submit": "3227460b00c98701b813c6c82ea09a82e8f7281c"
     },
     {
       "project": "pocket-pause",
@@ -597,19 +619,27 @@
       "github": "https://github.com/misakamikotoghr-5205/boot-order-atlas",
       "formally_submitted": false,
       "receipt": null,
-      "status": "registration_form_prepared_awaiting_rules_confirmation",
+      "status": "registered_entry_in_progress",
       "dependencies": [
-        "The official QNX registration form is prepared, but Register has not been clicked. Rules and eligibility confirmation await the participant's action-time consent; no event registration or final entry receipt is confirmed.",
+        "Official QNX registration confirmed on November 10: Thanks for registering! and My hackathon projects count zero. Project creation is in progress; no project entry or final submission receipt is confirmed.",
         "The 151.6-second edited host CLI demonstration was publicly published on YouTube on November 10: https://youtu.be/K55o50_Tus4 . Publication is distinct from registration, final entry and independent anonymous player playback.",
         "Retain the host-tool/QNX-specific support evidence and accurate platform details; no SDK, mkifs build or QNX runtime evidence is claimed"
       ],
-      "registration_confirmed": false,
-      "registration_receipt": null,
+      "registration_confirmed": true,
+      "registration_receipt": {
+        "status": "confirmed",
+        "confirmed_on": "2026-11-10",
+        "success_heading": "Thanks for registering!",
+        "project_count": 0,
+        "public_event_source": "https://qnx.devpost.com/",
+        "evidence": "Main operator observed the official QNX registration confirmation and an empty My hackathon projects list.",
+        "confirmation_email_claimed": false
+      },
       "submission_receipt": null,
-      "official_receipt_verified": false,
-      "browser_registration_verified": false,
+      "official_receipt_verified": true,
+      "browser_registration_verified": true,
       "browser_submission_verified": false,
-      "github_commit": "a05d5d8de73c10185c05b08c2481e0b7681a9a37",
+      "github_commit": "e9eb6b9c0d2db45d4441148dce929d7721f2ed6e",
       "new_linked_batch": "2026-11-09",
       "included_in_additional_ten": false,
       "local_demo": {
@@ -626,11 +656,13 @@
           "anonymous_player_playback_verified": false
         }
       },
-      "current_blocker": "11月9日32项本地测试通过，公开源码和151.6秒英文旁白/字幕主机CLI成片已备；视频已于11月10日以Public发布至https://youtu.be/K55o50_Tus4。官方注册表已填妥，Register尚未点击，规则及资格待本人当次确认，尚未注册或正式交件。工具仅在主机分析QNX 8脚本受支持子集与显式契约，未申请SDK许可、构建IFS、运行QNX或证明启动成功。",
+      "current_blocker": "11月9日32项本地测试通过，公开源码和151.6秒英文旁白/字幕主机CLI成片已备；视频已于11月10日以Public发布至https://youtu.be/K55o50_Tus4。本人当次确认资格及规则并点击Register后，官方已显示“Thanks for registering!”且My hackathon projects为0，报名成功已核验。项目创建验证进行中，尚无新项目或最终作品交件确认。工具仅在主机分析QNX 8脚本受支持子集与显式契约，未申请SDK许可、构建IFS、运行QNX或证明启动成功。",
       "sdk_build_or_runtime_verified": false,
       "registration_form_prepared": true,
-      "registration_action_executed": false,
-      "registration_rules_confirmation_pending": true
+      "registration_action_executed": true,
+      "registration_rules_confirmation_pending": false,
+      "registration_rules_confirmed": true,
+      "registered_project_count": 0
     },
     {
       "project": "caption-relay",
@@ -713,7 +745,7 @@
     "Applicable platform terms"
   ],
   "clips_signup_terms_confirmation": true,
-  "external_registrations_confirmed": 5,
+  "external_registrations_confirmed": 6,
   "basic_identity_confirmed_privately": true,
   "clips_signin_link_sent": true,
   "clips_authenticated": true,
@@ -724,7 +756,8 @@
     "user_reported": "Participant statement only; not independent browser or official-receipt verification.",
     "reported_stage": "The exact reported stage, distinct from final entry, approval, publication or shortlisting.",
     "official_receipt_verified": "Independent official receipt verification for the reported stage; never inferred from a user statement.",
-    "formally_submitted": "Verified final project entry only; a user-reported application, idea form or backend upload is recorded separately."
+    "formally_submitted": "Verified final project entry only; a user-reported application, idea form or backend upload is recorded separately.",
+    "registration_confirmed": "Independently observed registration-stage confirmation only; final project receipt is counted separately and does not automatically add a registration-stage record. False does not mean a project with a confirmed final entry did not participate."
   },
   "clips_free_storage_activated": true,
   "clips_recording_saved": true,
@@ -737,7 +770,7 @@
     "registration_attempts_in_progress": 0,
     "included_in_verified_counts": false
   },
-  "latest_execution_note": "2026-11-09: PAYATHON personal registration active; SkillPay project form selected but not submitted and platform Skill URL/valid transaction evidence missing. Emerge has one saved materials draft after save-and-exit; ZIP/publication and safe-offline status remain unconfirmed with materials-incomplete notice. No new verified final project submission. PayPal registration was independently confirmed on November 9 with no project entry; On November 10, Kiroween saved all required draft materials, including the participant answers and video URL. Project details and Additional Info show completion indicators at 4/5 steps. The final rules confirmation and Submit action await participant action-time consent; no final submission is confirmed. Kiro credit request receipt is now confirmed; review and Didit identity verification remain pending, with no grant or final project submission confirmed. Deadlock Manor completed one authenticated read-only Kiro CLI review; Codex reproduced suggestions, rejected a speculative finding and implemented/tested fixes. This is development assistance, not runtime AI, a credit grant or a final project submission. QNX and MINMAX are two new user-linked projects with prepared local materials, not part of the original additional ten. QNX is not registered: its form is prepared, but Register is unclicked and rules/eligibility confirmation is pending. On November 10, MINMAX project email was sent and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. Organizer confirmation of the project materials has not arrived. Official registration count is now five; final project receipt count remains one. Deadlock actual public-page gameplay and the downloaded report now confirm turn-3 recovery, capacity 3, score 90 and explicit branch/restore. A locally decoded 146.8-second edited screenshot video is ready, not continuous capture; Deadlock and QNX videos were publicly published on YouTube on November 10; publication is not independent anonymous player playback or a contest receipt. Deadlock participant answers and its video URL are saved, with final rules confirmation and final entry still pending.",
+  "latest_execution_note": "2026-11-09: PAYATHON personal registration active; SkillPay project form selected but not submitted and platform Skill URL/valid transaction evidence missing. Emerge has one saved materials draft after save-and-exit; ZIP/publication and safe-offline status remain unconfirmed with materials-incomplete notice. No new verified final project submission. PayPal registration was independently confirmed on November 9 with no project entry; On November 10, after participant action-time rules consent, Kiroween final Submit succeeded: the official project page showed Project submitted! and Submitted to Kiroween 2026. The entry receipt is verified, not eligibility approval or judging results. Kiro credit request receipt is now confirmed; review and Didit identity verification remain pending, with no grant confirmed; the credit application is separate from the confirmed final entry. Deadlock Manor completed one authenticated read-only Kiro CLI review; Codex reproduced suggestions, rejected a speculative finding and implemented/tested fixes. This is development assistance, not runtime AI, a credit grant or a final project submission. QNX and MINMAX are two new user-linked projects with prepared local materials, not part of the original additional ten. QNX registration was confirmed after participant rules/eligibility consent and Register: Thanks for registering! and zero hackathon projects. Project creation is in progress, with no final entry confirmed. On November 10, MINMAX project email was sent and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. Organizer confirmation of the project materials has not arrived. Independent registration-stage count is now six after QNX signup; final project receipt count is now two (Builder and Kiroween). Final entries do not automatically add independent signup-stage records. Deadlock actual public-page gameplay and the downloaded report now confirm turn-3 recovery, capacity 3, score 90 and explicit branch/restore. A locally decoded 146.8-second edited screenshot video is ready, not continuous capture; Deadlock and QNX videos were publicly published on YouTube on November 10; publication is not independent anonymous player playback or a contest receipt. Deadlock final entry is now confirmed at https://devpost.com/software/deadlock-manor; the at-submit source is 3227460b00c98701b813c6c82ea09a82e8f7281c.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

@@ -4,7 +4,7 @@
 
 所有草稿都可直接作为真实内容起点；没有虚构视频、安装链接、平台使用记录或身份。隐藏于登录后的字段、实时账号资格与未取得的材料均明确区分。
 
-当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips已真实登录；本人同意Builder Free免费存储及仅项目标签页、摄像头/麦克风关闭录制后，实际录屏已保存。Builder已在本人当次最终提交确认后勾选processingConsent、保持marketing未勾并点击Submit，官网成功页已确认收件。**已确认官方报名阶段5项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名），正式作品提交回执1份（Builder），跳过2个方向。** Apart公开官网见[四项目审计](game-research-four-audit.md)，private success-page evidence held；不公开私密回执URL或邀请码。 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
+当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips已真实登录；本人同意Builder Free免费存储及仅项目标签页、摄像头/麦克风关闭录制后，实际录屏已保存。Builder已在本人当次最终提交确认后勾选processingConsent、保持marketing未勾并点击Submit，官网成功页已确认收件。**已确认独立报名阶段6项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名、QNX），正式作品提交回执2份（Builder、Kiroween），跳过2个方向。** Apart公开官网见[四项目审计](game-research-four-audit.md)，private success-page evidence held；不公开私密回执URL或邀请码。 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
 
 ## Builder：正式作品提交已收件
 

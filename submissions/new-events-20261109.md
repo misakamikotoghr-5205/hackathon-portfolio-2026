@@ -1,6 +1,6 @@
 # 2026-11-09补充活动与新作状态
 
-本页记录11月9日用户新链接补充的两项已交付项目与其余条件候选。总目录现为19项、412项本地测试；QNX和MINMAX独立于已经交付的额外十场，不改变十场名额。官方报名阶段现为5项、最终作品回执仍1份；MINMAX问卷报名已确认，以下两项目均未取得新的正式作品收件确认。代码发布、测试通过、活动报名和正式收件分别记录，不公开私人联系方式、授权链接或账号凭据。
+本页记录11月9日用户新链接补充的两项已交付项目与其余条件候选。总目录现为19项、412项本地测试；QNX和MINMAX独立于已经交付的额外十场，不改变十场名额。独立报名阶段现为6项、最终作品回执现为2份（Builder与Kiroween）；MINMAX问卷报名已确认，以下两项目均未取得新的正式作品收件确认。代码发布、测试通过、活动报名和正式收件分别记录，不公开私人联系方式、授权链接或账号凭据。
 
 ## MINMAX｜字幕交接台 Caption Relay
 
@@ -20,7 +20,7 @@ Q9–Q14要求遵守开源许可并披露来源；交付PDF商业计划书、可
 
 ## QNX Global Hackathon｜Boot Order Atlas
 
-**状态：公开主机工具及[151.6秒Public YouTube演示](https://youtu.be/K55o50_Tus4)已完成；官方注册表已填，Register未点击，规则及资格待本人确认，尚未正式报名或提交。**
+**状态：公开主机工具及[151.6秒Public YouTube演示](https://youtu.be/K55o50_Tus4)已完成；本人确认资格及规则后已Register，官方Thanks for registering!及项目0已核验，报名成功；项目创建进行中，未最终交件。**
 
 已核验GitHub远端版本[7079c6eeed414aff2cb14b1591c6bd07c97e21e1](https://github.com/misakamikotoghr-5205/boot-order-atlas/tree/7079c6eeed414aff2cb14b1591c6bd07c97e21e1)，32项本地测试通过。工具读取QNX 8启动脚本的受支持子集和显式资源契约，生成带源行证据的JSON、离线HTML及修订比较。它是host tool；没有申请/使用QNX SDK、构建IFS、运行QNX或证明实际启动成功，示例服务为原创虚构输入。
 
@@ -28,7 +28,7 @@ Q9–Q14要求遵守开源许可并披露来源；交付PDF商业计划书、可
 
 本地主机CLI成片为151.6秒、6129190字节，带英文通用合成旁白和字幕，SHA256为038c9f53408f4dd1766c82b199012b3b76bf393dd335dd4b03705b24fc524b1c。内容为真实命令及输出的编辑演示，已解码及检查实际帧，不冒充QNX目标执行（[媒体记录](https://github.com/misakamikotoghr-5205/boot-order-atlas/blob/7079c6eeed414aff2cb14b1591c6bd07c97e21e1/docs/local-demo-20261109.json)）。
 
-[151.6秒YouTube演示](https://youtu.be/K55o50_Tus4)已Public发布，保留真实主机CLI编辑演示及QNX未运行边界。正式交件仍需完成Devpost活动注册、说明/类别/工具平台资料、公开源码与QNX相关功能证据及最终entry；注册表已填但Register未点击，规则和资格待本人当次确认。公开视频不等于独立匿名播放验证或正式entry。[官方资源页](https://qnx.devpost.com/resources)列有SDK与技术资源，不构成本项目已注册、获得许可或运行SDK的证据。
+[151.6秒YouTube演示](https://youtu.be/K55o50_Tus4)已Public发布，保留真实主机CLI编辑演示及QNX未运行边界。正式交件仍需完成Devpost活动注册、说明/类别/工具平台资料、公开源码与QNX相关功能证据及最终entry；本人已确认资格及规则并Register，官方报名成功页已核验、项目数0；仍需完成项目创建及后续材料与交件。公开视频不等于独立匿名播放验证或正式entry。[官方资源页](https://qnx.devpost.com/resources)列有SDK与技术资源，不构成本项目已注册、获得许可或运行SDK的证据。
 
 ## UGREEN AI NAS Hackathon｜排除
 

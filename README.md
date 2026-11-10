@@ -31,7 +31,7 @@
 
 | 官方赛事 | 截止与阶段 | 独立项目及本地证据 | 正式参赛尚缺 |
 | --- | --- | --- | --- |
-| [QNX Global Hackathon](https://qnx.devpost.com/rules) | 2026-12-15 14:00 EST，即19:00 UTC / 北京12月16日03:00 | [Boot Order Atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas)：分析QNX 8启动脚本受支持子集与显式资源契约，源行诊断、条件等待与修订比较；32项测试、151.6秒英文旁白/字幕的本地主机CLI成片 | [151.6秒YouTube演示](https://youtu.be/K55o50_Tus4)已Public发布；报名已确认；真实草稿已保存Overview/Story、标签、仓库及视频，3/5、Project details绿勾，已填Additional重开核验；仅未来QNX意愿/学习帮助两问待本人回答，最终条款未勾、未Submit。主机工具不等于QNX SDK构建、IFS验证或目标运行；个人具体资格仍按规则核验 |
+| [QNX Global Hackathon](https://qnx.devpost.com/rules) | 2026-12-15 14:00 EST，即19:00 UTC / 北京12月16日03:00 | [Boot Order Atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas)：分析QNX 8启动脚本受支持子集与显式资源契约，源行诊断、条件等待与修订比较；32项测试、151.6秒英文旁白/字幕的本地主机CLI成片 | [151.6秒YouTube演示](https://youtu.be/K55o50_Tus4)已Public发布；报名已确认；全部必填草稿材料及本人两答已保存，Project details与Additional Info均绿勾、4/5，已进入finalization；待本人当次最终条款确认，最终条款未勾、未Submit。主机工具不等于QNX SDK构建、IFS验证或目标运行；个人具体资格仍按规则核验 |
 | [MINMAX AI Agent黑客松](https://www.gba-base.com/newsDetail.html?id=2892&active=true) | 2026-11-10，官方未列具体时刻或时区 | [字幕交接台 Caption Relay](https://github.com/misakamikotoghr-5205/caption-relay)：SRT/VTT检查、程序生成字面词表候选、真实本地模型选择、人审与审计导出；28项测试、8页PDF、106.8秒中文旁白/同步字幕的编辑证据成片 | 11月10日问卷报名已完成，作品邮件已发送；待组委会确认。评委可按公开README本地运行。Sites仅所有者预览且无法连接开发机Ollama，不是公开AI体验 |
 
 Caption的实际HTTP调用返回一条第二句术语候选，另由显式保存响应流程采用`cue-2`并导出SRT、VTT与审计JSON，时间码未变。它不证明全文件模型质量或完整浏览器AI审校/采用/导出。两项演示现均已Public发布：[Deadlock Manor](https://youtu.be/L3BpOsPHobo)和[Boot Order Atlas](https://youtu.be/K55o50_Tus4)。视频发布不等于独立匿名播放验证或赛事最终收件。详细来源和材料状态见[新链接审计](submissions/new-events-20261109.md)。

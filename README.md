@@ -1,6 +1,6 @@
 # 2026 项目与黑客松作品集
 
-核查与开发日期：2026-11-04至2026-11-09；投稿进度更新至2026-11-10。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动、额外筛选的十个赛事，以及11月9日用户新链接补充的两项，共十九个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。当前已独立核验7项报名阶段、5份正式作品提交回执（Builder、Kiroween、QNX、PayPal、Aholo）。**
+核查与开发日期：2026-11-04至2026-11-09；投稿进度更新至2026-11-10。四个开发代理并行实现、交叉审查；每个项目都有独立公开仓库、运行说明、测试与许可。这里汇总原始五个小红书方向与 Kiro、后来补充的小荷包活动、额外筛选的十个赛事，以及11月9日用户新链接补充的两项，共十九个独立项目。**代码已交付不等于已报名、已提交或已满足平台技术使用条件。当前已独立核验7项报名阶段、7份正式作品提交回执（Builder、Kiroween、QNX、PayPal、Aholo、支付宝涌现奖、MINMAX）。**
 
 ## 额外十个赛事与对应项目
 
@@ -19,7 +19,7 @@
 | [Next Horizon 2026](https://eisociety.org/hackathon.php?slug=next-horizon-2026) | 11月15日构想，未标具体时刻；11月28–30日48小时构建 | [Watt Window](https://github.com/misakamikotoghr-5205/watt-window)：非关键负载时间窗排程、功率约束、可解释成本与敏感性 | 用户确认构想表已交，待主办方回复/入围；如入围再按48小时构建与路演要求完成 |
 | [Through Your Eyes](https://itch.io/jam/through-your-eyes-first-person-game-jam) | 官网11月15日；按平台倒计时核对时区 | [Parallax Postcards](https://github.com/misakamikotoghr-5205/parallax-postcards)：软件光线投射第一人称房间、不同深度碎片对齐、三张原创明信片 | itch.io报名与可玩提交、AI辅助披露；社区Game Jam，无已确认现金奖 |
 
-用户确认 Next Horizon 构想表、AIMA 申请及爱奇艺四款后台投稿已交，PAYATHON 个人报名已在官方参赛中心确认生效、作品仍为0；已进入SkillPay作品表但未提交，尚缺平台链接与有效交易凭证；按所报阶段记录，不重复提交，尚不代表审核通过或最终交件。Builder 已于11月6日在本人确认后正式交件，官网显示收到作品；网页回执私密保留，尚不代表评审通过。Apart 官网明确全球线上、允许个人参与，11月6日已观察到正式报名成功页，回执私密保留；作品提交窗口尚未开启。已有代码必须披露为赛前工作；奖金收取另须符合[官方条款](https://apartresearch.com/sprints/prize-terms)。Next Horizon 的 FAQ 允许初次构想附已有原型，正式构建与入围安排仍须遵守主办方规则。
+用户确认 Next Horizon 构想表、AIMA 申请及爱奇艺四款后台投稿已交，PAYATHON 个人报名已在官方参赛中心确认生效、作品仍为0；SkillPay包已实际上传解析、商品资料已准备；三项收款协议未签，买断2.99元仅为待本人确认的候选，商品审核/发布、真实平台链接、有效交易及正式交件仍未完成；按所报阶段记录，不重复提交，尚不代表审核通过或最终交件。Builder 已于11月6日在本人确认后正式交件，官网显示收到作品；网页回执私密保留，尚不代表评审通过。Apart 官网明确全球线上、允许个人参与，11月6日已观察到正式报名成功页，回执私密保留；作品提交窗口尚未开启。已有代码必须披露为赛前工作；奖金收取另须符合[官方条款](https://apartresearch.com/sprints/prize-terms)。Next Horizon 的 FAQ 允许初次构想附已有原型，正式构建与入围安排仍须遵守主办方规则。
 
 支付宝[延期公告](https://www.yuque.com/shanxian/dfe94a/xgqqg05f9n3l6lzg?singleDoc#)写12月6日零点；[规则正文](https://www.yuque.com/shanxian/dfe94a/xzter263dyio4ge3?singleDoc#)另有23:59:59的冲突表述，按更早时点准备。
 
@@ -27,12 +27,12 @@
 
 ## 11月9日新链接补充的两项
 
-以下两项独立于已经交付的额外十场，不改变十场名额；MINMAX问卷报名已确认，作品收件仍待组委会确认。
+以下两项独立于已经交付的额外十场，不改变十场名额；MINMAX问卷报名已确认，组委会实际来信现已确认作品收件，等待专家评审。
 
 | 官方赛事 | 截止与阶段 | 独立项目及本地证据 | 正式参赛尚缺 |
 | --- | --- | --- | --- |
 | [QNX Global Hackathon](https://qnx.devpost.com/rules) | 2026-12-15 14:00 EST，即19:00 UTC / 北京12月16日03:00 | [Boot Order Atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas)：分析QNX 8启动脚本受支持子集与显式资源契约，源行诊断、条件等待与修订比较；32项测试、151.6秒英文旁白/字幕的本地主机CLI成片 | [151.6秒YouTube演示](https://youtu.be/K55o50_Tus4)已Public发布；报名已确认；本人当次同意最终条款后已Submit，[公开项目页](https://devpost.com/software/boot-order-atlas)显示Project submitted!及Submitted to QNX Global Hackathon，最终交件已确认；提交时源版本fa08fc71，不代表资格审核通过。主机工具不等于QNX SDK构建、IFS验证或目标运行；个人具体资格仍按规则核验 |
-| [MINMAX AI Agent黑客松](https://www.gba-base.com/newsDetail.html?id=2892&active=true) | 2026-11-10，官方未列具体时刻或时区 | [字幕交接台 Caption Relay](https://github.com/misakamikotoghr-5205/caption-relay)：SRT/VTT检查、程序生成字面词表候选、真实本地模型选择、人审与审计导出；28项测试、8页PDF、106.8秒中文旁白/同步字幕的编辑证据成片 | 11月10日问卷报名已完成，作品邮件已发送；待组委会确认。评委可按公开README本地运行。Sites仅所有者预览且无法连接开发机Ollama，不是公开AI体验 |
+| [MINMAX AI Agent黑客松](https://www.gba-base.com/newsDetail.html?id=2892&active=true) | 2026-11-10，官方未列具体时刻或时区 | [字幕交接台 Caption Relay](https://github.com/misakamikotoghr-5205/caption-relay)：SRT/VTT检查、程序生成字面词表候选、真实本地模型选择、人审与审计导出；28项测试、8页PDF、106.8秒中文旁白/同步字幕的编辑证据成片 | 11月10日问卷报名已完成，组委会实际来信已确认作品成功收件；[组委会收件确认记录](https://github.com/misakamikotoghr-5205/caption-relay/blob/main/docs/evidence/submission-receipt-20261110.json)，等待专家评审及入围通知。评委可按公开README本地运行。Sites仅所有者预览且无法连接开发机Ollama，不是公开AI体验 |
 
 Caption的实际HTTP调用返回一条第二句术语候选，另由显式保存响应流程采用`cue-2`并导出SRT、VTT与审计JSON，时间码未变。它不证明全文件模型质量或完整浏览器AI审校/采用/导出。两项演示现均已Public发布：[Deadlock Manor](https://youtu.be/L3BpOsPHobo)和[Boot Order Atlas](https://youtu.be/K55o50_Tus4)。视频发布不等于独立匿名播放验证或赛事最终收件。详细来源和材料状态见[新链接审计](submissions/new-events-20261109.md)。
 
@@ -78,4 +78,4 @@ Deadlock Manor另有[公开GitHub Pages入口](https://misakamikotoghr-5205.gith
 - [Parallax Postcards](https://parallax-postcards-2026.ghraurora1024.chatgpt.site)
 - [字幕交接台 Caption Relay](https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site)
 
-公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。Caption预览仅托管UI，不能访问开发机的本地Ollama；其完整AI试用路径是公开仓库README的本机运行说明。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。11月9日PayPal报名已由官方页面确认；11月10日Cart完成真实AI＋sandbox未付款订单和[138.8秒公开视频](https://youtu.be/icz2WX1DXZ4)，本人当次同意规则后已正式Submit，[官方项目页](https://devpost.com/software/cart-consent)显示“Project submitted!”及“Submitted to PayPal AI Hackathon”；提交源版本da95fd1b，正式收件已核验；Kiroween于11月10日已保存最新Markdown Story和Additional Info，返回页面后核验仓库/公开游戏链接、测试说明、Kiro技术说明与复用披露均持久化；本人明确同意最终条款后已实际Submit，[公开项目页](https://devpost.com/software/deadlock-manor)显示“Project submitted!”及“Submitted to Kiroween 2026”，正式交件已确认；提交时源版本为3227460b，不代表资格审核或评审通过。[截图剪辑演示](https://youtu.be/L3BpOsPHobo)已Public发布；11月9日已完成一次真实Kiro CLI只读审查，Codex复现并实现持久化修复（[记录及归因](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/kiro-usage.md)），不声称Kiro编写原应用或执行测试。4000额度申请已获[官方收件确认](submissions/evidence/kiroween-credits-request-20261109.json)，待审核及Didit身份核验，尚无获批或到账确认。Kiro使用说明入表、Lux3D真实生成、支付sandbox、公开演示与正式交件等剩余事项均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前独立核验的报名阶段为7项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名、QNX、Aholo），最终作品提交回执现为5份（Builder、Kiroween、QNX、PayPal、Aholo）；独立报名阶段与最终作品收件分开计数，不将最终交件自动追加到报名数；另记录上述用户确认的阶段进度。
+公开 GitHub 的本地运行说明可用于代码审阅；所有者私有预览不能直接当作评委可访问的公开 Demo。Caption预览仅托管UI，不能访问开发机的本地Ollama；其完整AI试用路径是公开仓库README的本机运行说明。已完成Apart正式报名、Clips登录及免费视频存储开通，并保存[2分04秒公开录屏](https://clips.agent-native.com/share/r01FTO1ytVvm)。Builder 已于11月6日正式提交，官网显示“Your project submission has been received.”，未订阅营销信息。11月9日PayPal报名已由官方页面确认；11月10日Cart完成真实AI＋sandbox未付款订单和[138.8秒公开视频](https://youtu.be/icz2WX1DXZ4)，本人当次同意规则后已正式Submit，[官方项目页](https://devpost.com/software/cart-consent)显示“Project submitted!”及“Submitted to PayPal AI Hackathon”；提交源版本da95fd1b，正式收件已核验；Kiroween于11月10日已保存最新Markdown Story和Additional Info，返回页面后核验仓库/公开游戏链接、测试说明、Kiro技术说明与复用披露均持久化；本人明确同意最终条款后已实际Submit，[公开项目页](https://devpost.com/software/deadlock-manor)显示“Project submitted!”及“Submitted to Kiroween 2026”，正式交件已确认；提交时源版本为3227460b，不代表资格审核或评审通过。[截图剪辑演示](https://youtu.be/L3BpOsPHobo)已Public发布；11月9日已完成一次真实Kiro CLI只读审查，Codex复现并实现持久化修复（[记录及归因](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/83ab65a92bcfdaebb04589cd7a8fa1a272ada2b3/docs/kiro-usage.md)），不声称Kiro编写原应用或执行测试。4000额度申请已获[官方收件确认](submissions/evidence/kiroween-credits-request-20261109.json)，待审核及Didit身份核验，尚无获批或到账确认。Kiro使用说明入表、Lux3D真实生成、支付sandbox、公开演示与正式交件等剩余事项均在对应仓库明确列出。完整[报名材料、状态及尚缺项](submissions/README.md)已备，当前独立核验的报名阶段为7项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名、QNX、Aholo），最终作品提交回执现为7份（Builder、Kiroween、QNX、PayPal、Aholo、支付宝涌现奖、MINMAX）；独立报名阶段与最终作品收件分开计数，不将最终交件自动追加到报名数；另记录上述用户确认的阶段进度。

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T09:08:24.295Z",
+  "updated_at": "2026-11-10T09:23:56.003151+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
-  "external_submissions_confirmed": 6,
+  "external_submissions_confirmed": 7,
   "projects": [
     {
       "project": "briefmint-skillpay",
@@ -10,12 +10,12 @@
       "github": "https://github.com/misakamikotoghr-5205/briefmint-skillpay",
       "formally_submitted": false,
       "receipt": null,
-      "status": "registered_no_project_entry",
+      "status": "registered_skillpay_package_uploaded_product_form_prepared_owner_signing_pending",
       "dependencies": [
-        "Real platform Skill listing URL and valid transaction evidence required by the observed SkillPay entry form; both missing",
-        "Owner-selected sale mode and price, actual payment/delivery verification and formal project entry"
+        "Owner completes the three unsigned SkillPay receiving/settlement agreements and confirms proposed sale mode/price; product form and self-contained archive are prepared.",
+        "Complete actual product safety review/listing, obtain a real platform Skill link and valid transaction evidence, then submit the PAYATHON project."
       ],
-      "current_blocker": "11月9日官方参赛中心已确认个人报名生效，作品数为0。已按本项目进入SkillPay赛道作品表，尚未提交；表单要求真实平台Skill链接及有效交易凭证，两项均缺。后续仍需真实商品上架、支付交付验证及作品提交；价格与售卖模式由本人确定，不擅选。报名阶段不要求选赛道，不再把赛道选择列为待用户确认。",
+      "current_blocker": "11月10日个人报名仍已生效、作品0；SkillPay创作者已登录，22,852字节现有自包含包实际上传并解析，商品名称与真实说明已填。买断2.99元仅是待本人确认的可编辑候选，未提交商品审核或发布，未证实服务端保存草稿。SkillPay产品/AI按量付费/即刻收三协议0/3未签，收款结算开通已交本人操作；仍无真实Skill链接或有效交易，PAYATHON未正式交件。",
       "registration_confirmed": true,
       "registration_receipt": {
         "status": "confirmed",
@@ -33,7 +33,17 @@
       "browser_submission_verified": false,
       "browser_registration_verified": true,
       "selected_entry_track": "SkillPay",
-      "entry_form_opened": true
+      "entry_form_opened": true,
+      "skillpay_creator_login_observed": true,
+      "skillpay_package_uploaded": true,
+      "skillpay_product_review_submitted": false,
+      "skillpay_agreements_completed": 0,
+      "skillpay_agreements_required": 3,
+      "proposed_sale_mode": "one-time buyout",
+      "proposed_price_cny": "2.99",
+      "proposed_price_owner_confirmed": false,
+      "skillpay_public_listing": null,
+      "preparation_evidence": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/submission/skillpay-preparation-20261110.json"
     },
     {
       "project": "aima-story-director",
@@ -901,12 +911,12 @@
       "project": "caption-relay",
       "event": "MINMAX AI Agent Hackathon",
       "github": "https://github.com/misakamikotoghr-5205/caption-relay",
-      "formally_submitted": false,
-      "receipt": null,
-      "status": "email_and_questionnaire_sent_awaiting_organizer_confirmation",
+      "formally_submitted": true,
+      "receipt": "https://github.com/misakamikotoghr-5205/caption-relay/blob/main/docs/evidence/submission-receipt-20261110.json",
+      "status": "official_project_receipt_confirmed_by_organizer_email",
       "dependencies": [
-        "The PDF/MP4 project email and individual questionnaire were submitted on November 10; questionnaire registration is browser-verified. Await organizer confirmation of the project materials. Sent source revision remains e28bb9f0a228fbb74b18852ef788bd268233427f",
-        "Canonical judge path is the public GitHub README and a local Ollama setup; owner-private Sites UI is not public judge access and cannot reach the developer machine local model"
+        "Official organizer project-receipt reply browser-verified on November 10. Await expert review and any finalist notification; receipt does not establish selection, eligibility approval or judging outcome.",
+        "Canonical judge path remains the public GitHub README and local Ollama setup; owner-private Sites UI is not public judge access. Sent source revision remains e28bb9f0a228fbb74b18852ef788bd268233427f."
       ],
       "registration_confirmed": true,
       "registration_receipt": {
@@ -916,11 +926,23 @@
         "verified_by": "main_operator_browser",
         "official_form": "https://www.wjx.top/vm/hFNe6wy.aspx"
       },
-      "submission_receipt": null,
-      "official_receipt_verified": false,
+      "submission_receipt": {
+        "status": "confirmed",
+        "source": "official_organizer_email_reply_observed_in_outlook",
+        "observed_at": "2026-11-10T09:22:31.745Z",
+        "organizer": "Innovation and Entrepreneurship Incubation Base Guangdong",
+        "evidence": "Main operator opened the actual organizer inbound reply in Outlook. It confirmed successful receipt of the entrant work, stated the November 10 close and subsequent expert review, and said finalists would be contacted after results.",
+        "outlook_displayed_received_time": "2026/11/10 16:22",
+        "displayed_time_zone": "not determined; not treated as UTC",
+        "exact_received_at_utc": null,
+        "public_evidence": "https://github.com/misakamikotoghr-5205/caption-relay/blob/main/docs/evidence/submission-receipt-20261110.json",
+        "qualification_or_finalist_approval_claimed": false,
+        "sent_source_sha": "e28bb9f0a228fbb74b18852ef788bd268233427f"
+      },
+      "official_receipt_verified": true,
       "browser_registration_verified": true,
-      "browser_submission_verified": false,
-      "github_commit": "b36523e1f9887d265e5f963a27f2c90abbfc31c2",
+      "browser_submission_verified": true,
+      "github_commit": "5d366ec195589c3e6f44806a5252128ebec6acb3",
       "new_linked_batch": "2026-11-09",
       "included_in_additional_ten": false,
       "local_demo": {
@@ -931,7 +953,7 @@
         "kind": "Edited original evidence cards from actual saved HTTP/CLI files; Chinese narration and synchronous captions; not GUI or terminal capture",
         "evidence": "https://github.com/misakamikotoghr-5205/caption-relay/blob/e28bb9f0a228fbb74b18852ef788bd268233427f/docs/local-demo-20261109.json"
       },
-      "current_blocker": "2026年11月10日作品邮件已通过Outlook UI发送，并在Sent Items打开核对官方收件地址、约定标题及PDF/MP4两个附件。问卷星报名已在本人明确同意本次协议及提交后完成，主操作者已核验官方完成页；报名已确认，作品邮件已发送，待组委会确认，尚无正式作品收件回执。实际发送包基于e28bb9f0a228fbb74b18852ef788bd268233427f；后续提交只更新状态文档，不代表新的代码、模型调用或录像。Outlook显示11月10日11:10，时区未确定，未记录精确UTC发件时间。28项测试、真实HTTP候选选择、保存响应后的独立cue-2导出、8页PDF和106.8秒成片等原证据保持不变；评委按公开README本机试用，Sites不是公开AI运行入口。",
+      "current_blocker": "11月10日主操作者已在Outlook打开组委会实际来信并核验：作品已成功收到，征集于11月10日截止，随后专家评审，入围后另行通知。正式作品收件已确认，等待评审；不表示入围、资格审核通过或获奖。核验时间2026-11-10T09:22:31.745Z；邮件UI显示11月10日16:22，时区未确定，不作UTC收件时间。原发送源版本e28bb9f0a228fbb74b18852ef788bd268233427f、28项测试、8页PDF及106.8秒成片保持不变。评委按公开README本机试用，Sites仅私有UI预览。",
       "business_plan_pdf": {
         "pages": 8,
         "bytes": 109761,
@@ -947,21 +969,23 @@
       "complete_browser_roundtrip_verified": false,
       "submission_email_sent": true,
       "submission_email": {
-        "status": "sent_awaiting_organizer_confirmation",
+        "status": "sent_organizer_project_receipt_confirmed",
         "sent": true,
         "sent_on": "2026-11-10",
         "sent_items_verified": true,
         "sent_source_sha": "e28bb9f0a228fbb74b18852ef788bd268233427f",
         "expected_attachment_count": 2,
         "pdf_and_mp4_attachments_verified": true,
-        "organizer_confirmation_received": false,
+        "organizer_confirmation_received": true,
         "exact_utc_sent_at": null,
         "outlook_displayed_sent_time": "2026/11/10 11:10",
         "displayed_time_zone": "not determined; not treated as an exact UTC timestamp",
-        "public_status_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/b36523e1f9887d265e5f963a27f2c90abbfc31c2/docs/minmax-submission.md"
+        "public_status_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/5d366ec195589c3e6f44806a5252128ebec6acb3/docs/minmax-submission.md",
+        "organizer_receipt_observed_at": "2026-11-10T09:22:31.745Z",
+        "public_receipt_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/main/docs/evidence/submission-receipt-20261110.json"
       },
       "registration_form_submitted": true,
-      "organizer_confirmation_received": false
+      "organizer_confirmation_received": true
     }
   ],
   "evidence_policy": "Mark registered/submitted only after an official success page, entry ID or receipt; keep personal identity and credentials outside this public ledger. User statements are recorded separately as user_reported/reported_stage; they do not change official receipt fields or verified counts. report_recorded_at is when this ledger recorded the statement, not an inferred submission time.",
@@ -1003,7 +1027,7 @@
     "registration_attempts_in_progress": 0,
     "included_in_verified_counts": false
   },
-  "latest_execution_note": "11月10日09:08 Pantry正式提交审核成功，官方同一作品卡片显示审核中/撤销审核，ZIP安全审核尚未完成；独立报名7项、正式作品回执6份。Aholo此前已交，itch验证仍阻塞。",
+  "latest_execution_note": "11月10日MINMAX组委会实际来信已确认成功收件，独立报名7项/正式作品回执7份；Pantry及Aholo已正式交件待审核。PAYATHON仍作品0，SkillPay包上传及商品资料准备完成，三项收款协议和售价待本人操作/确认，未发布或交易。",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

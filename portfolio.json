@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T09:08:24.295Z",
+  "updated_at": "2026-11-10T09:23:56.003151+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -14,13 +14,13 @@
       "source_read_method": "rendered browser",
       "source": "https://www.xiaohongshu.com/discovery/item/6ae465bb0000000010012b7a",
       "remaining_external_setup": [
-        "Real platform Skill listing URL and valid transaction evidence required by the observed SkillPay entry form; both missing",
-        "Owner-selected sale mode and price, actual payment/delivery verification and formal project entry"
+        "Owner completes the three unsigned SkillPay receiving/settlement agreements and confirms proposed sale mode/price; product form and self-contained archive are prepared.",
+        "Complete actual product safety review/listing, obtain a real platform Skill link and valid transaction evidence, then submit the PAYATHON project."
       ],
       "formally_submitted": false,
       "landscape_review": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/landscape.md",
-      "github_commit": "861998e6af7b9889602417e02416361a1961b971",
-      "submission_status": "registered_no_project_entry",
+      "github_commit": "5b2c10ddc10bddaab1e58313aa3e05f4d8381821",
+      "submission_status": "registered_skillpay_package_uploaded_product_form_prepared_owner_signing_pending",
       "user_reported": false,
       "reported_stage": "registration_confirmed",
       "official_receipt_verified": true,
@@ -28,7 +28,17 @@
       "registration_confirmed": true,
       "browser_registration_verified": true,
       "selected_entry_track": "SkillPay",
-      "entry_form_opened": true
+      "entry_form_opened": true,
+      "skillpay_creator_login_observed": true,
+      "skillpay_package_uploaded": true,
+      "skillpay_product_review_submitted": false,
+      "skillpay_agreements_completed": 0,
+      "skillpay_agreements_required": 3,
+      "proposed_sale_mode": "one-time buyout",
+      "proposed_price_cny": "2.99",
+      "proposed_price_owner_confirmed": false,
+      "skillpay_public_listing": null,
+      "preparation_evidence": "https://github.com/misakamikotoghr-5205/briefmint-skillpay/blob/main/docs/submission/skillpay-preparation-20261110.json"
     },
     {
       "number": 2,
@@ -794,17 +804,17 @@
       "source_read_method": "official organizer 18-question page and embedded rule image; details in docs/minmax-submission.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/caption-relay#open-source-and-comparisons",
       "remaining_external_setup": [
-        "The PDF/MP4 project email and individual questionnaire were submitted on November 10; questionnaire registration is browser-verified. Await organizer confirmation of the project materials. Sent source revision remains e28bb9f0a228fbb74b18852ef788bd268233427f",
-        "Canonical judge path is the public GitHub README and a local Ollama setup; owner-private Sites UI is not public judge access and cannot reach the developer machine local model"
+        "Official organizer project-receipt reply browser-verified on November 10. Await expert review and any finalist notification; receipt does not establish selection, eligibility approval or judging outcome.",
+        "Canonical judge path remains the public GitHub README and local Ollama setup; owner-private Sites UI is not public judge access. Sent source revision remains e28bb9f0a228fbb74b18852ef788bd268233427f."
       ],
-      "formally_submitted": false,
-      "github_commit": "b36523e1f9887d265e5f963a27f2c90abbfc31c2",
+      "formally_submitted": true,
+      "github_commit": "5d366ec195589c3e6f44806a5252128ebec6acb3",
       "pushed_and_remote_verified": true,
-      "submission_status": "email_and_questionnaire_sent_awaiting_organizer_confirmation",
+      "submission_status": "official_project_receipt_confirmed_by_organizer_email",
       "registration_confirmed": true,
-      "official_receipt_verified": false,
+      "official_receipt_verified": true,
       "browser_registration_verified": true,
-      "browser_submission_verified": false,
+      "browser_submission_verified": true,
       "new_linked_batch": "2026-11-09",
       "included_in_additional_ten": false,
       "private_preview": "https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site",
@@ -830,27 +840,42 @@
       },
       "submission_email_sent": true,
       "submission_email": {
-        "status": "sent_awaiting_organizer_confirmation",
+        "status": "sent_organizer_project_receipt_confirmed",
         "sent": true,
         "sent_on": "2026-11-10",
         "sent_items_verified": true,
         "sent_source_sha": "e28bb9f0a228fbb74b18852ef788bd268233427f",
         "expected_attachment_count": 2,
         "pdf_and_mp4_attachments_verified": true,
-        "organizer_confirmation_received": false,
+        "organizer_confirmation_received": true,
         "exact_utc_sent_at": null,
         "outlook_displayed_sent_time": "2026/11/10 11:10",
         "displayed_time_zone": "not determined; not treated as an exact UTC timestamp",
-        "public_status_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/b36523e1f9887d265e5f963a27f2c90abbfc31c2/docs/minmax-submission.md"
+        "public_status_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/5d366ec195589c3e6f44806a5252128ebec6acb3/docs/minmax-submission.md",
+        "organizer_receipt_observed_at": "2026-11-10T09:22:31.745Z",
+        "public_receipt_document": "https://github.com/misakamikotoghr-5205/caption-relay/blob/main/docs/evidence/submission-receipt-20261110.json"
       },
       "registration_form_submitted": true,
-      "organizer_confirmation_received": false,
+      "organizer_confirmation_received": true,
       "registration_receipt": {
         "source": "official_questionnaire_completion_page",
         "date": "2026-11-10",
         "evidence": "Main operator submitted the official questionnaire after action-time consent and observed its completion page with a MINMAX registration communication group QR. The completion URL and QR are not published.",
         "verified_by": "main_operator_browser",
         "official_form": "https://www.wjx.top/vm/hFNe6wy.aspx"
+      },
+      "submission_receipt": {
+        "status": "confirmed",
+        "source": "official_organizer_email_reply_observed_in_outlook",
+        "observed_at": "2026-11-10T09:22:31.745Z",
+        "organizer": "Innovation and Entrepreneurship Incubation Base Guangdong",
+        "evidence": "Main operator opened the actual organizer inbound reply in Outlook. It confirmed successful receipt of the entrant work, stated the November 10 close and subsequent expert review, and said finalists would be contacted after results.",
+        "outlook_displayed_received_time": "2026/11/10 16:22",
+        "displayed_time_zone": "not determined; not treated as UTC",
+        "exact_received_at_utc": null,
+        "public_evidence": "https://github.com/misakamikotoghr-5205/caption-relay/blob/main/docs/evidence/submission-receipt-20261110.json",
+        "qualification_or_finalist_approval_claimed": false,
+        "sent_source_sha": "e28bb9f0a228fbb74b18852ef788bd268233427f"
       }
     }
   ],
@@ -882,7 +907,7 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal registration was confirmed on November 9, when its project list was empty; its final entry was confirmed on November 10. On November 10, participant action-time rules consent was followed by successful Kiroween final Submit; the official project page displayed Project submitted! and Submitted to Kiroween 2026. The received entry does not establish eligibility approval or judging results; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the official final entry is confirmed, with submitted source revision 3227460b00c98701b813c6c82ea09a82e8f7281c, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX registration is confirmed, with zero projects at the registration check. QNX final Submit succeeded on November 10 after participant action-time final rules consent. The official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472; entry receipt is confirmed, not eligibility approval or judging results. Its demonstration is public on YouTube; publication does not establish registration or final submission. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed; independent registration-stage count is now six following the QNX signup. Organizer confirmation of the MINMAX project materials remains pending. Final project receipts now total four (Builder, Kiroween, QNX and PayPal); they do not automatically add independent registration-stage records. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; the Deadlock video is public on YouTube and its final project entry is confirmed. Cart Consent on November 10 now has actual combined AI/sandbox order evidence and a verified Public 138.8-second YouTube demo. Following participant action-time final rules consent and Submit, the official Cart Consent page displayed Project submitted! and Submitted to PayPal AI Hackathon. Submitted source revision: da95fd1bde83c608d72f57bd60aeb78a0eade44d. The independent registration count remains six; verified final receipts now total four. Aholo registration was independently verified November 10; one-person team and topic completed, current official stage 4 with 0/4 project materials. Current independent signup count is seven (including Aholo); final project receipts remain four. Original reference image is generated and the real Lux3D mesh task is in progress; export/import/report/final entry are still incomplete. 2026-11-10 09:02 UTC，Aholo留白实验室在本人当次确认最终须知后正式提交，官方显示“已提交”、第1版及进入资格与完整性审核；当前独立报名7项、正式作品回执5份。收件不表示审核通过。 2026-11-10 09:08 UTC，Pantry重新选择补齐包元数据的ZIP后正式提交审核，官网同一作品卡片显示审核中/撤销审核及ZIP安全审核尚未完成；当前独立报名7项、正式作品回执6份，不表示已审核通过或公开上线。",
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON remains registered with zero project entries. The self-contained SkillPay package was uploaded and parsed, and the product form was prepared; the three receiving/settlement agreements remain unsigned, and the editable 2.99 CNY buyout proposal is unconfirmed by the owner. Product review, public listing, real Skill URL and valid transaction evidence remain incomplete; no product publication, transaction or final PAYATHON submission is claimed. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal registration was confirmed on November 9, when its project list was empty; its final entry was confirmed on November 10. On November 10, participant action-time rules consent was followed by successful Kiroween final Submit; the official project page displayed Project submitted! and Submitted to Kiroween 2026. The received entry does not establish eligibility approval or judging results; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the official final entry is confirmed, with submitted source revision 3227460b00c98701b813c6c82ea09a82e8f7281c, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX registration is confirmed, with zero projects at the registration check. QNX final Submit succeeded on November 10 after participant action-time final rules consent. The official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472; entry receipt is confirmed, not eligibility approval or judging results. Its demonstration is public on YouTube; publication does not establish registration or final submission. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed; independent registration-stage count is now six following the QNX signup. Organizer confirmation of the MINMAX project materials remains pending. Final project receipts now total four (Builder, Kiroween, QNX and PayPal); they do not automatically add independent registration-stage records. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; the Deadlock video is public on YouTube and its final project entry is confirmed. Cart Consent on November 10 now has actual combined AI/sandbox order evidence and a verified Public 138.8-second YouTube demo. Following participant action-time final rules consent and Submit, the official Cart Consent page displayed Project submitted! and Submitted to PayPal AI Hackathon. Submitted source revision: da95fd1bde83c608d72f57bd60aeb78a0eade44d. The independent registration count remains six; verified final receipts now total four. Aholo registration was independently verified November 10; one-person team and topic completed, current official stage 4 with 0/4 project materials. Current independent signup count is seven (including Aholo); final project receipts remain four. Original reference image is generated and the real Lux3D mesh task is in progress; export/import/report/final entry are still incomplete. 2026-11-10 09:02 UTC，Aholo留白实验室在本人当次确认最终须知后正式提交，官方显示“已提交”、第1版及进入资格与完整性审核；当前独立报名7项、正式作品回执5份。收件不表示审核通过。 2026-11-10 09:08 UTC，Pantry重新选择补齐包元数据的ZIP后正式提交审核，官网同一作品卡片显示审核中/撤销审核及ZIP安全审核尚未完成；当前独立报名7项、正式作品回执6份，不表示已审核通过或公开上线。 2026-11-10T09:22:31.745Z，主操作者在Outlook打开MINMAX组委会实际回复，确认作品已成功收到、11月10日征集截止后进行专家评审，入围后另行通知。当前正式作品回执7份、独立报名7项；邮件显示16:22的时区未确定，不作UTC收件时间。收件不代表入围或评审通过。",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

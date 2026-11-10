@@ -1,6 +1,6 @@
 # 报名与提交推进记录
 
-更新：2026-11-10。这里是可审核的报名材料和实际缺口。**已确认独立报名阶段 7 项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名、QNX、Aholo），正式作品提交回执 6 份（Builder / Patch Review Desk、Kiroween / Deadlock Manor、QNX / Boot Order Atlas、PayPal / Cart Consent、Aholo / 留白实验室、支付宝涌现奖 / 余量接力），跳过 2 个方向**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
+更新：2026-11-10。这里是可审核的报名材料和实际缺口。**已确认独立报名阶段 7 项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名、QNX、Aholo），正式作品提交回执 7 份（Builder / Patch Review Desk、Kiroween / Deadlock Manor、QNX / Boot Order Atlas、PayPal / Cart Consent、Aholo / 留白实验室、支付宝涌现奖 / 余量接力、MINMAX / Caption Relay），跳过 2 个方向**；浏览器预填、GitHub 推送、ZIP 打包都不算主办方收件。
 
 独立报名阶段与最终作品收件分开计数；最终交件不会自动追加到报名计数，未单列报名回执不表示已交件项目未参赛。
 
@@ -26,7 +26,7 @@
 | 爱奇艺玩点新花样 | [iqiyi-play-lab](https://github.com/misakamikotoghr-5205/iqiyi-play-lab) | **四款后台投稿已交（用户确认）** | 审核结果、上线与赛事归属 |
 | AIMA | [aima-story-director](https://github.com/misakamikotoghr-5205/aima-story-director) | **创作者申请已交（用户确认）** | 申请审核及原生作品有效性 |
 | Apart | [source-trail-otari](https://github.com/misakamikotoghr-5205/source-trail-otari) | **报名成功，官方成功页确认** | 11月13–15日新增研究及最终报告 |
-| PAYATHON | [briefmint-skillpay](https://github.com/misakamikotoghr-5205/briefmint-skillpay) | **个人报名已生效；SkillPay作品表已选未提交，作品0** | 真实平台Skill链接、有效交易凭证及正式作品提交；价格/售卖模式待本人确定 |
+| PAYATHON | [briefmint-skillpay](https://github.com/misakamikotoghr-5205/briefmint-skillpay) | **个人报名生效、作品0；SkillPay包已上传，商品表单已准备，正式未交** | 本人开通三项收款协议并确认候选售价；商品安全审核/上架、真实Skill链接和有效交易凭证，之后交件 |
 | Through Your Eyes | [parallax-postcards](https://github.com/misakamikotoghr-5205/parallax-postcards) | 未交；认证障碍先跳过 | itch公开游戏页及正式jam entry |
 | Game Off | [lumen-shift](https://github.com/misakamikotoghr-5205/lumen-shift) | 未交；认证障碍先跳过 | itch公开游戏页及正式jam entry |
 | PayPal | [cart-consent-paypal](https://github.com/misakamikotoghr-5205/cart-consent-paypal) | **正式作品已交，官方成功页确认** | [公开交件页](https://devpost.com/software/cart-consent)，等待结果 |
@@ -39,7 +39,7 @@
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |
 | 小荷包原届 | [pocket-pause](https://github.com/misakamikotoghr-5205/pocket-pause) | 跳过 | 已过期，无已核实延期 |
 | QNX Global Hackathon | [boot-order-atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas) | 主机工具、32项测试和[151.6秒Public视频](https://youtu.be/K55o50_Tus4)已完成；报名成功；正式交件已确认，官方Project submitted!及Submitted to QNX Global Hackathon已核验 | [公开交件页](https://devpost.com/software/boot-order-atlas)，等待主办方结果；收件不代表资格审核通过；不声称QNX SDK构建或目标运行 |
-| MINMAX AI Agent黑客松 | [caption-relay](https://github.com/misakamikotoghr-5205/caption-relay) | 11月10日问卷报名已完成并核验官方完成页，作品邮件已发送并核对Sent Items；待组委会确认。28项测试及原PDF/成片证据不变 | 等待主办方邮件确认；报名完成与邮件发送不计作品正式收件。README本机试用，Sites仅私有UI预览 |
+| MINMAX AI Agent黑客松 | [caption-relay](https://github.com/misakamikotoghr-5205/caption-relay) | **11月10日组委会实际来信确认作品成功收件，正式作品回执已核验**；问卷报名、28项测试及原PDF/成片证据不变 | [组委会收件确认记录](https://github.com/misakamikotoghr-5205/caption-relay/blob/main/docs/evidence/submission-receipt-20261110.json)；等待专家评审及入围通知，收件不代表入围。README本机试用，Sites仅私有UI预览 |
 
 
 - [原始七个方向](original-seven-audit.md)：PAYATHON、AIMA、火山、华为、小红书小荷包、爱奇艺、Kiro。
@@ -60,7 +60,7 @@
 - Pantry的两次真实模型请求均使用11月4日虚构回放；首次偏好只部分满足，第二次显式约束成功，仍需人工复核。尚无支付宝部署或完整交件证据。
 - Parallax的上传ZIP已同步到修复DDA零方向边界的17测试源码：6个根文件、18151字节、CRC及逐文件匹配通过，详见[清单](artifacts/game-research-four-manifest.json)。这不代表itch已上传或正式参赛。
 - Deadlock公开GitHub Pages已实际完成两线索→暂停→回滚→验证（turn3/capacity3/score90）、单步比较、明确继续分支并返回原记录，实际下载报告。146.8秒、3442187字节的本地MP4由11张真实浏览器截图剪辑，非连续录像；完整解码、15帧与31字幕核查通过，未全片人工听审。[媒体记录](https://github.com/misakamikotoghr-5205/deadlock-manor/blob/5fb8bf1abc3bf1b6f05561b2052ff1565400b54a/docs/local-demo-20261109.json)保留哈希和截图运行版本3ab1ecc；其后提交仅更新状态文档，不代表新代码或录像。[YouTube演示](https://youtu.be/L3BpOsPHobo)已Public发布，[Devpost最终交件](https://devpost.com/software/deadlock-manor)现已确认，不代表资格审核或评审通过。
-- QNX的151.6秒本地主机CLI成片，以及MINMAX的8页PDF与106.8秒中文旁白/同步字幕编辑证据成片已经完成。两项目材料有记录及哈希；[QNX视频](https://youtu.be/K55o50_Tus4)现已Public发布，MINMAX成片未公开托管，QNX最终作品收件现已确认，MINMAX仍待组委会确认。Caption的真实HTTP模型选择与保存响应后的显式导出分开取证，不声称完整浏览器操作；其[私有预览](https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site)不能连接开发机Ollama，评委应按公开README本机运行。
+- QNX的151.6秒本地主机CLI成片，以及MINMAX的8页PDF与106.8秒中文旁白/同步字幕编辑证据成片已经完成。两项目材料有记录及哈希；[QNX视频](https://youtu.be/K55o50_Tus4)现已Public发布，MINMAX成片未公开托管，QNX最终作品收件已确认，MINMAX也已取得组委会实际来信收件确认、等待专家评审。Caption的真实HTTP模型选择与保存响应后的显式导出分开取证，不声称完整浏览器操作；其[私有预览](https://caption-relay-hengrui-2026.ghraurora1024.chatgpt.site)不能连接开发机Ollama，评委应按公开README本机运行。
 
 个人资料、账号凭据、验证码、私密署名材料和回执不保存到这个公开仓库。报名表的资格、账号、条款和公开材料仍须逐项确认；缺少的链接或平台使用记录不会以虚构内容补齐。
 

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T09:05:03.930270+00:00",
+  "updated_at": "2026-11-10T09:08:24.295Z",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
-  "external_submissions_confirmed": 5,
+  "external_submissions_confirmed": 6,
   "projects": [
     {
       "project": "briefmint-skillpay",
@@ -468,14 +468,23 @@
       "project": "pantry-relay",
       "event": "支付宝智能体涌现奖第一赛季",
       "github": "https://github.com/misakamikotoghr-5205/pantry-relay",
-      "formally_submitted": false,
-      "receipt": null,
-      "status": "materials_draft_saved_upload_session_expired",
+      "formally_submitted": true,
+      "receipt": {
+        "status": "submitted_under_review",
+        "observed_at": "2026-11-10T09:08:24.295Z",
+        "displayed_badge": "审核中",
+        "zip_safety_review": "尚未完成",
+        "withdraw_review_button_observed": true,
+        "sanitized_evidence": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/evidence/submission-receipt-20261110.json",
+        "submitted_source_commit": "cd8b96ce3f5b31aa867fdb6c1f9ea6fc684d7068",
+        "review_passed": false,
+        "public_deployment_confirmed": false
+      },
+      "status": "official_project_submitted_zip_safety_review_pending",
       "dependencies": [
-        "Resume the official Alipay login after the upload endpoint returned an expired-session error; reselect the corrected static ZIP.",
-        "Official ZIP now includes valid root package.json metadata; platform upload/acceptance and final submission receipt still need verification."
+        "Await pending ZIP security and organizer review; official card now shows 审核中 with 撤销审核. No repeat submission requested."
       ],
-      "current_blocker": "11月10日已实际进入现有草稿并发现ZIP审核状态暂不可用；按当前官方目录要求补齐根package.json，运行文件逐字节未变，新ZIP97,252字节。重新选包并点击提交审核后，官方明确返回“登录已失效”，未确认上传成功；已保留官方扫码重新登录页。身份核验旧页面已过去，当前阻塞为上传会话过期，无最终作品回执。 已切到官方短信登录并实际触发重发倒计时，等待本人提供最新支付宝验证码。",
+      "current_blocker": "11月10日09:08已用本次短信恢复登录，重新选择补齐根package.json的97,252字节ZIP并提交审核；官方自动返回个人中心，同一作品卡片从草稿变审核中，出现撤销审核按钮，子状态ZIP安全审核尚未完成。已核验正式提交审核，不代表安全审核通过、公开上线或比赛评审通过。",
       "local_model_evidence": {
         "real_inference_observed": true,
         "request_count": 2,
@@ -493,7 +502,17 @@
         "public_event_source": "https://emerge.alipay.com/",
         "sanitized_stage_record": "evidence/alipay-registration-stages-20261109.json"
       },
-      "submission_receipt": null,
+      "submission_receipt": {
+        "status": "submitted_under_review",
+        "observed_at": "2026-11-10T09:08:24.295Z",
+        "displayed_badge": "审核中",
+        "zip_safety_review": "尚未完成",
+        "withdraw_review_button_observed": true,
+        "sanitized_evidence": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/evidence/submission-receipt-20261110.json",
+        "submitted_source_commit": "cd8b96ce3f5b31aa867fdb6c1f9ea6fc684d7068",
+        "review_passed": false,
+        "public_deployment_confirmed": false
+      },
       "owner_private_preview": "https://pantry-relay-2026.ghraurora1024.chatgpt.site",
       "offline_html_zip": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/releases/pantry-relay-offline-html.zip",
       "web_implementation_evidence": "https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/evidence/offline-web-20261107.json",
@@ -513,10 +532,15 @@
       "materials_draft_saved": true,
       "observed_project_count": 1,
       "current_login_requires_user_identity_verification": false,
-      "current_login_requires_refresh": true,
+      "current_login_requires_refresh": false,
       "react_zip_sha256": "bcacef8b7012c38fa20f43b252b72904322334ccc63e9c48f2b323ab84d34228",
       "react_zip_bytes": 97252,
-      "current_login_requires_sms_code": true
+      "current_login_requires_sms_code": false,
+      "browser_submission_verified": true,
+      "official_receipt_verified": true,
+      "account_login_verified": true,
+      "zip_security_review_passed": false,
+      "public_deployment_confirmed": false
     },
     {
       "project": "dependency-evidence-forge",
@@ -979,7 +1003,7 @@
     "registration_attempts_in_progress": 0,
     "included_in_verified_counts": false
   },
-  "latest_execution_note": "11月10日09:02 Aholo正式交件成功并核验官方只读回执，正式收件增至5份。itch当次验证已获确认并操作，仍在验证中；Pantry官方扫码登录待完成，ZIP已修并推送。",
+  "latest_execution_note": "11月10日09:08 Pantry正式提交审核成功，官方同一作品卡片显示审核中/撤销审核，ZIP安全审核尚未完成；独立报名7项、正式作品回执6份。Aholo此前已交，itch验证仍阻塞。",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

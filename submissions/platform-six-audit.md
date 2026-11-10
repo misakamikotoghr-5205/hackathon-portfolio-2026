@@ -4,7 +4,7 @@
 
 所有草稿都可直接作为真实内容起点；没有虚构视频、安装链接、平台使用记录或身份。隐藏于登录后的字段、实时账号资格与未取得的材料均明确区分。
 
-当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips已真实登录；本人同意Builder Free免费存储及仅项目标签页、摄像头/麦克风关闭录制后，实际录屏已保存。Builder已在本人当次最终提交确认后勾选processingConsent、保持marketing未勾并点击Submit，官网成功页已确认收件。**已确认独立报名阶段7项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名、QNX、Aholo），正式作品提交回执5份（Builder、Kiroween、QNX、PayPal、Aholo），跳过2个方向。** Apart公开官网见[四项目审计](game-research-four-audit.md)，private success-page evidence held；不公开私密回执URL或邀请码。 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
+当前共用状态：基础身份资料已私密确认；平台账号/适用条款/实际材料仍待处理，公开文件不记录个人资料。Clips已真实登录；本人同意Builder Free免费存储及仅项目标签页、摄像头/麦克风关闭录制后，实际录屏已保存。Builder已在本人当次最终提交确认后勾选processingConsent、保持marketing未勾并点击Submit，官网成功页已确认收件。**已确认独立报名阶段7项（Apart、PAYATHON个人报名、涌现奖已建记录、PayPal、MINMAX问卷报名、QNX、Aholo），正式作品提交回执6份（Builder、Kiroween、QNX、PayPal、Aholo、支付宝涌现奖），跳过2个方向。** Apart公开官网见[四项目审计](game-research-four-audit.md)，private success-page evidence held；不公开私密回执URL或邀请码。 小荷包原届过期、火山表单仅面向企业，均跳过，不虚构可报名资格。
 
 ## Builder：正式作品提交已收件
 
@@ -24,7 +24,7 @@ Patch已于11月6日取得真实本地模型响应：原45秒超时保留，受�
 | PayPal / Cart Consent | [官网](https://paypalaihackathon.devpost.com/)；11月9日已在官方manage/submissions观察到报名成功 | 11/12 12:00PST = 20:00UTC / 11/13 04:00北京 | 11月9日报名确认；11月10日真实AI＋sandbox未付款订单、[138.8秒Public视频](https://youtu.be/icz2WX1DXZ4)已完成。本人当次同意规则后已正式Submit，[官方项目页](https://devpost.com/software/cart-consent)显示“Project submitted!”及“Submitted to PayPal AI Hackathon”；提交源版本da95fd1b，正式收件已核验；公共托管非强制 |
 | Next Horizon / Watt Window | [官方Apply重定向](https://eisociety.org/go/apply/next-horizon-2026?s=direct) → [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe8dF2jynROjU4mEbypJJhNY-oyfxaY_c7wPLDBggET2gMOrQ/viewform?usp=send_form) | 11/15构想截止，无具体时刻；11/28 09:00EST至11/30 09:00EST正式48小时，先申请/入围 | 用户确认构想表已交，不重复填表；私密署名PowerPoint已完成、不公开。未独立保存官方回执，构想提交不等于入围/最终交件；保留赛前原型披露 |
 | Aholo / 留白实验室 | [中国活动页](https://www.aholo3d.cn/hackathon) “立即报名 / 我的参赛”：个人报名→确认组队→选题→作品 | 11/19 19:00北京 = 11:00UTC = 06:00EST | 个人报名、一人团队及选题已确认；真实Lux3D GLB生成/导出/实际导入完成，同设置A/B提醒4→2；五页PDF及128秒视频已正式提交，官网显示“已提交”及“作品已进入资格与完整性审核”；[脱敏交件记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json)，待审核 |
-| 支付宝涌现 / 余量接力 | [官网](https://emerge.alipay.com/) “报名参赛 / 我的提报 / 完善作品”，报名记录与完整提报分开 | 保守按12/06 00:00北京 = 12/05 16:00UTC；公告/正文/UI时刻有冲突见下 | 报名与现有草稿已核验；新ZIP97,252字节，已补官方要求的根package.json；提交审核返回“登录已失效”，未确认上传成功，需恢复会话、重新选包并核验正式交件；未支付宝/阿宝接入 |
+| 支付宝涌现 / 余量接力 | [官网](https://emerge.alipay.com/)；现有作品材料重新选ZIP后提交审核 | 保守按12/06 00:00北京准备 | 11月10日09:08正式提交审核成功，卡片显示“审核中”、可撤销审核，ZIP安全审核尚未完成；[脱敏回执](https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/evidence/submission-receipt-20261110.json) |
 | Codegeist / Dependency Evidence | [官网](https://codegeist2026.devpost.com/) Join hackathon → Devpost认证 → 本赛事提交 | 12/22 12:00PST = 20:00UTC / 12/23 04:00北京 | 真正Forge注册/deploy/install、评委安装链接、英文公开YouTube演示；本地SDK模块/typecheck/bundle不能替代安装 |
 
 公开规则复核主源：[PayPal要求](https://paypalaihackathon.devpost.com/rules)、[Codegeist要求](https://codegeist2026.devpost.com/rules)、[Next Horizon FAQ](https://eisociety.org/hackathon.php?slug=next-horizon-2026)、[Aholo官方页](https://www.aholo3d.cn/hackathon)、[支付宝规则](https://www.yuque.com/shanxian/dfe94a/xzter263dyio4ge3?singleDoc#)、[延期公告](https://www.yuque.com/shanxian/dfe94a/xgqqg05f9n3l6lzg?singleDoc#)。前四个有公开HTML或明确官方重定向；Aholo/支付宝的动态字段另按下述公开脚本核对，不假称看过登录后的实际表单。

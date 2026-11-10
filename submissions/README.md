@@ -38,7 +38,7 @@
 | Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；CLI认证失败，先跳过 | 真实Forge部署/Jira安装、评委链接、视频及Devpost |
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |
 | 小荷包原届 | [pocket-pause](https://github.com/misakamikotoghr-5205/pocket-pause) | 跳过 | 已过期，无已核实延期 |
-| QNX Global Hackathon | [boot-order-atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas) | 主机工具、32项测试和[151.6秒Public视频](https://youtu.be/K55o50_Tus4)已完成；官方Thanks for registering!及项目0已核验，报名成功；项目创建进行中，未最终交件 | 完成项目创建与材料保存，再最终交件；不声称QNX SDK构建或目标运行 |
+| QNX Global Hackathon | [boot-order-atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas) | 主机工具、32项测试和[151.6秒Public视频](https://youtu.be/K55o50_Tus4)已完成；报名成功；真实草稿及项目资料已保存，3/5、Project details绿勾，已填Additional保存重开核验，未最终交件 | 未来QNX意愿/学习帮助两问待本人回答；最终条款未勾、未Submit；不声称QNX SDK构建或目标运行 |
 | MINMAX AI Agent黑客松 | [caption-relay](https://github.com/misakamikotoghr-5205/caption-relay) | 11月10日问卷报名已完成并核验官方完成页，作品邮件已发送并核对Sent Items；待组委会确认。28项测试及原PDF/成片证据不变 | 等待主办方邮件确认；报名完成与邮件发送不计作品正式收件。README本机试用，Sites仅私有UI预览 |
 
 

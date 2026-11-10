@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T06:01:10.996652+00:00",
+  "updated_at": "2026-11-10T06:20:05.112124+00:00",
   "development_agents": 4,
   "projects": [
     {
@@ -556,18 +556,18 @@
       "source_read_method": "official Devpost rules and QNX 8 documentation; details in docs/competition.md",
       "landscape_review": "https://github.com/misakamikotoghr-5205/boot-order-atlas/blob/main/docs/landscape.md",
       "remaining_external_setup": [
-        "QNX registration is confirmed. All required draft materials and participant answers have been saved; Project details and Additional Info are complete at 4/5 steps, and Save & continue reached finalization. Await participant action-time final rules confirmation and final Submit; final terms are unchecked and no final entry is confirmed.",
+        "Final QNX entry submitted on November 10 after participant action-time final rules consent. The official project page displayed Project submitted! and Submitted to QNX Global Hackathon. Await organizer review/results; no eligibility approval is claimed. Submitted source revision: fa08fc71f5dee5366156210ce6f3314893ce6472.",
         "The 151.6-second edited host CLI demonstration was publicly published on YouTube on November 10: https://youtu.be/K55o50_Tus4 . Publication is distinct from registration, final entry and independent anonymous player playback.",
         "Retain the host-tool/QNX-specific support evidence and accurate platform details; no SDK, mkifs build or QNX runtime evidence is claimed"
       ],
-      "formally_submitted": false,
-      "github_commit": "fa08fc71f5dee5366156210ce6f3314893ce6472",
+      "formally_submitted": true,
+      "github_commit": "3cf7795cfeb428f5d69fb1453f1da6c7a3d44add",
       "pushed_and_remote_verified": true,
-      "submission_status": "all_materials_saved_final_confirmation_pending",
+      "submission_status": "submitted_official_success_page_confirmed",
       "registration_confirmed": true,
       "official_receipt_verified": true,
       "browser_registration_verified": true,
-      "browser_submission_verified": false,
+      "browser_submission_verified": true,
       "new_linked_batch": "2026-11-09",
       "included_in_additional_ten": false,
       "sdk_build_or_runtime_verified": false,
@@ -601,7 +601,7 @@
       "draft_saved": true,
       "project_count_at_registration_confirmation": 0,
       "draft_progress": {
-        "displayed_progress": "4/5 steps",
+        "displayed_progress": "4/5 steps before final submission",
         "overview_saved": true,
         "story_saved": true,
         "project_details_saved": true,
@@ -621,13 +621,25 @@
           "eligibility_confirmations"
         ],
         "remaining_participant_questions": [],
-        "final_terms_checked": false,
-        "final_submit_clicked": false,
-        "final_submission_confirmed": false,
+        "final_terms_checked": true,
+        "final_submit_clicked": true,
+        "final_submission_confirmed": true,
         "participant_answers_saved_verified": true,
         "additional_info_completion_indicator": true,
         "all_required_draft_materials_saved": true
-      }
+      },
+      "submission_receipt": {
+        "status": "confirmed",
+        "confirmed_on": "2026-11-10",
+        "success_heading": "Project submitted!",
+        "submitted_to": "QNX Global Hackathon",
+        "public_project_url": "https://devpost.com/software/boot-order-atlas",
+        "source_commit_at_submit": "fa08fc71f5dee5366156210ce6f3314893ce6472",
+        "verification": "Main operator observed the official submitted project page after participant action-time final rules consent and Submit.",
+        "organizer_eligibility_acceptance_claimed": false
+      },
+      "public_project_url": "https://devpost.com/software/boot-order-atlas",
+      "source_commit_at_submit": "fa08fc71f5dee5366156210ce6f3314893ce6472"
     },
     {
       "number": 19,
@@ -728,7 +740,7 @@
       "reason": "Late email registration acceptance and deadline timezone unconfirmed; excluded from ten additional events. No registration or hosted Otari usage."
     }
   ],
-  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. On November 10, participant action-time rules consent was followed by successful Kiroween final Submit; the official project page displayed Project submitted! and Submitted to Kiroween 2026. The received entry does not establish eligibility approval or judging results; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the official final entry is confirmed, with submitted source revision 3227460b00c98701b813c6c82ea09a82e8f7281c, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX registration is confirmed, with zero projects at the registration check. All required draft materials and participant answers are now saved, with Project details and Additional Info complete at 4/5 steps and navigation to finalization. Final rules confirmation awaits participant action-time consent; terms remain unchecked and final Submit has not occurred. Its demonstration is public on YouTube; publication does not establish registration or final submission. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed; independent registration-stage count is now six following the QNX signup. Organizer confirmation of the MINMAX project materials remains pending. Final project receipts now total two (Builder and Kiroween); they do not automatically add independent registration-stage records. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; the Deadlock video is public on YouTube and its final project entry is confirmed.",
+  "submission_progress": "Officially verified: Builder final project entry, Apart signup, PAYATHON personal registration active with zero project entries, and Emerge registration with one saved materials draft. PAYATHON SkillPay entry form is selected but not submitted; a real platform Skill URL and valid transaction evidence are missing, with sale mode/price still for the owner to determine. Emerge save-and-exit succeeded, but platform publication/ZIP review and safe-offline status remain unconfirmed and materials are marked incomplete. Participant reports: Next Horizon idea form, AIMA application and four iQiyi backend app submissions. Two inapplicable activities skipped. See submissions/status.json. PayPal official registration is also confirmed, with an empty project list and no final entry. On November 10, participant action-time rules consent was followed by successful Kiroween final Submit; the official project page displayed Project submitted! and Submitted to Kiroween 2026. The received entry does not establish eligibility approval or judging results; Kiro credit request receipt is confirmed on November 9; review and Didit identity verification are pending, and no grant is confirmed. Deadlock Manor now has a real authenticated Kiro read-only review and Codex-implemented persistence fixes; the official final entry is confirmed, with submitted source revision 3227460b00c98701b813c6c82ea09a82e8f7281c, and the credit grant is still unconfirmed. Two new user-linked projects are delivered separately from the earlier ten: QNX host tool and local video, and MINMAX local model-backed prototype, eight-page PDF and Chinese-narrated local video. QNX registration is confirmed, with zero projects at the registration check. QNX final Submit succeeded on November 10 after participant action-time final rules consent. The official public project page displayed Project submitted! and Submitted to QNX Global Hackathon. The submitted source revision is fa08fc71f5dee5366156210ce6f3314893ce6472; entry receipt is confirmed, not eligibility approval or judging results. Its demonstration is public on YouTube; publication does not establish registration or final submission. MINMAX project email was sent on November 10 and verified in Outlook Sent Items; the questionnaire was submitted and its official completion page browser-verified. MINMAX registration is confirmed; independent registration-stage count is now six following the QNX signup. Organizer confirmation of the MINMAX project materials remains pending. Final project receipts now total three (Builder, Kiroween and QNX); they do not automatically add independent registration-stage records. Deadlock now has actual public-page browser gameplay, a downloaded report and a locally validated 146.8-second edited browser-screenshot video; the Deadlock video is public on YouTube and its final project entry is confirmed.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

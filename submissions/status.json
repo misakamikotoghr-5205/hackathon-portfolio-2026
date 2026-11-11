@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T11:44:30.876111+00:00",
+  "updated_at": "2026-11-11T01:26:33.077130+00:00",
   "requested_action": "Register and submit every applicable portfolio project",
   "identity_provided": true,
   "external_submissions_confirmed": 7,
@@ -119,12 +119,12 @@
       "github": "https://github.com/misakamikotoghr-5205/move-light-skill",
       "formally_submitted": false,
       "receipt": null,
-      "status": "security_verification_attempt_timed_out",
+      "status": "huawei_current_slider_confirmation_pending",
       "dependencies": [
         "Actual CodeArts or OfficeAce contribution and upload to BOTH Huawei and Xiaohongshu Skill markets",
         "Event entry and required social post"
       ],
-      "current_blocker": "当前华为滑块安全验证已获准并尝试操作，但UI超时，尚未确认验证通过，也未取得短信或登录成功。真实CodeArts/OfficeAce改进、报名与双市场发布及笔记仍待完成。 11月10日已补120秒本地演示并随源码发布；具体范围见媒体记录，未据此增加平台交件状态。",
+      "current_blocker": "11月11日重新从官方赛事进入华为账号短信登录，已选中国+86并填指定手机号；获取验证码弹出当前滑块拼图，尚未尝试，待当次确认，短信未发、未登录。此前超时记录保留。120秒本地演示已备，真实CodeArts/OfficeAce贡献、双市场发布、笔记及正式报名/交件仍待完成。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
@@ -141,6 +141,16 @@
         "production_scope": "实际本地CLI虚构箱单及报价图解；CodeArts/OfficeAce及双市场发布仍缺",
         "continuous_screen_recording": false,
         "full_video_decode_passed": true
+      },
+      "latest_login_attempt": {
+        "date": "2026-11-11",
+        "official_event_login_route": true,
+        "sms_country": "CN",
+        "current_slider_displayed": true,
+        "current_slider_attempted": false,
+        "sms_sent": false,
+        "authenticated": false,
+        "action_time_confirmation_requested": true
       }
     },
     {
@@ -615,13 +625,13 @@
       "github": "https://github.com/misakamikotoghr-5205/dependency-evidence-forge",
       "formally_submitted": false,
       "receipt": null,
-      "status": "registration_answers_filled_rules_consent_and_forge_owner_review_pending",
+      "status": "atlassian_email_verified_owner_password_setup_and_codegeist_rules_pending",
       "dependencies": [
-        "Owner review of the Google-SSO account-email synchronization notice before further Forge account operations; CLI authentication, tokens and deployment remain incomplete.",
-        "Participant answered no existing Atlassian developer account, no Atlassian/Forge experience and no prior Codegeist. All required form choices are filled; current eligibility/rules consent remains pending and Register has not been clicked.",
-        "After account and registration prerequisites: actual Forge lint/deploy/install and Jira validation, judge installation link, reason for Forge, public English YouTube demo under five minutes and formal project entry."
+        "Email verified on November 11; the participant must personally create the password and complete the retained Atlassian account setup page. No API token, Forge deployment or installation exists.",
+        "Codegeist required answers are filled. Participant eligibility/rules confirmation is pending; Register has not been clicked.",
+        "Complete real Forge deployment and Jira validation, judge installation link, public English working demo, and formal entry."
       ],
-      "current_blocker": "11月10日本人已回答三项均无，Devpost报名表已填单人、无既有开发者账号、无Atlassian/Forge经验、首次Codegeist、AI Medium、目标Learning，不订阅营销。当前资格/规则确认待答，未点Register，无新报名回执。Forge账号邮箱同步通知仍待本人审阅；CLI未认证、没有新token、部署或安装，真实Forge演示尚不能录制。",
+      "current_blocker": "11月11日官方邮箱验证页已显示 Email address verified；账户初始化仍要求本人设置新密码并接受账户协议，已保留页面交由本人完成。Devpost报名表三项均无已填，资格/规则确认待答，未点Register。Forge CLI尚未认证，未创建API token、部署或安装，真实平台演示与正式交件仍缺。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
@@ -661,13 +671,14 @@
       },
       "registration_personal_answers_pending": [],
       "latest_account_observation": {
-        "date": "2026-11-10",
-        "google_sso_continue_observed": true,
-        "landing_requested_signup_completion": true,
-        "account_notice_observed": true,
-        "account_notice_summary": "Google SSO produced account-email synchronization notice; owner review requested before continuing account operations.",
-        "manual_account_email_settings_change_performed": false,
-        "cli_authenticated": false,
+        "date": "2026-11-11",
+        "normal_session_stale_verify_link_error": true,
+        "fresh_private_google_signin_attempted": true,
+        "verification_email_resend_success_observed": true,
+        "email_address_verified_ui_observed": true,
+        "signup_completion_requests_new_password": true,
+        "new_password_entered_by_agent": false,
+        "account_setup_completed": false,
         "new_api_token_created": false,
         "forge_deploy_or_install_performed": false
       },
@@ -767,13 +778,12 @@
       "github": "https://github.com/misakamikotoghr-5205/paper-route-playtest",
       "formally_submitted": false,
       "receipt": null,
-      "status": "browser_demo_ready_modelscope_captcha_confirmation_pending",
+      "status": "modelscope_slider_failed_owner_handoff",
       "dependencies": [
-        "Current ModelScope user/privacy consent received and checkbox checked; sending SMS is blocked by the newly displayed slider, awaiting action-time confirmation. Then complete authentication, public concept post and registration approval.",
-        "Deploy and verify a publicly playable ModelScope Studio; publish the six-section practice journal and prepared actual-browser demo.",
-        "Complete the formal AI-game entry; deterministic BFS is not runtime model inference or Qoder/DGX use."
+        "The agreed ModelScope terms are checked. November 11 slider attempt returned an error; SMS not sent and login incomplete. Participant manual verification requested.",
+        "Publish concept post and obtain registration approval; deploy a public playable Studio, publish the prepared journal and 158-second demo, then complete final entry."
       ],
-      "current_blocker": "11月10日本人已同意当前魔搭用户/隐私协议，已勾选并点击获取验证码；平台随后显示滑块，当前滑块待当次确认，尚未发送短信或登录。158秒实际本地演示已随源码发布；仍缺公开构想帖及报名审核、公开创空间、手记/视频在平台发布和正式交件。",
+      "current_blocker": "11月11日已尝试当前魔搭滑块，页面返回验证错误，未显示短信倒计时，短信未发、未登录；已请本人手动完成保留页面验证。当前用户/隐私协议此前已获同意。158秒真实本地演示已随源码发布；仍缺公开构想帖及报名审核、公开创空间、手记/视频发布和正式交件。",
       "registration_confirmed": false,
       "registration_receipt": null,
       "submission_receipt": null,
@@ -787,7 +797,10 @@
       "modelscope_authenticated": false,
       "modelscope_terms_current_consent_received": true,
       "modelscope_terms_checkbox_checked": true,
-      "modelscope_current_slider_confirmation_pending": true
+      "modelscope_current_slider_confirmation_pending": false,
+      "modelscope_slider_attempted_on": "2026-11-11",
+      "modelscope_slider_passed": false,
+      "modelscope_owner_verification_requested": true
     },
     {
       "project": "lumen-shift",
@@ -1227,7 +1240,7 @@
     "registration_attempts_in_progress": 0,
     "included_in_verified_counts": false
   },
-  "latest_execution_note": "11月10日已收到魔搭协议同意及Codegeist三项均无的真实回答，均已按界面填写。魔搭当前滑块确认、Codegeist当前资格与规则确认及Forge账号同步通知本人审阅待答；短信未发、Register未点，计数仍7报名/7正式作品回执。缺失本地视频分三路补充，不能替代平台部署或交件。 七段1080p静音字幕成片共17分26秒已推送各仓库；完整解码、逐段抽帧及隐私检查通过。真实Forge平台视频仍依赖部署，Apart赛期研究仍未开始。",
+  "latest_execution_note": "November 11: Atlassian email verification completed but participant password setup still required; ModelScope slider failed without SMS; itch remains at verification; Huawei current slider awaits action-time confirmation. Codegeist rules/eligibility answer pending. No new registration or final submission receipt; Alipay remains deferred.",
   "new_user_linked_events_20261109": {
     "project_count": 2,
     "projects": [

@@ -31,11 +31,11 @@
 | Game Off | [lumen-shift](https://github.com/misakamikotoghr-5205/lumen-shift) | 未交；11月10日新验证再次循环，已交本人手动核验 | itch登录、公开游戏页、上传及正式jam entry |
 | PayPal | [cart-consent-paypal](https://github.com/misakamikotoghr-5205/cart-consent-paypal) | **正式作品已交，官方成功页确认** | [公开交件页](https://devpost.com/software/cart-consent)，等待结果 |
 | Aholo | [scene-clearance-lab](https://github.com/misakamikotoghr-5205/scene-clearance-lab) | **正式作品已交，官网“已提交”及进入资格与完整性审核已核验** | [脱敏交件记录](https://github.com/misakamikotoghr-5205/scene-clearance-lab/blob/main/docs/evidence/submission-receipt-20261110.json)；第1版，页面提交时间11月10日09:02；PDF/128秒视频已交，2D代理实测4→2，等待审核 |
-| 华为×小红书 | [move-light-skill](https://github.com/misakamikotoghr-5205/move-light-skill) | 未交；验证障碍先跳过 | 真实码道/OfficeAce使用、双市场上架及笔记 |
+| 华为×小红书 | [move-light-skill](https://github.com/misakamikotoghr-5205/move-light-skill) | 未交；11月11日已重开短信登录，当前拼图待确认、未发SMS | 真实码道/OfficeAce使用、双市场上架及笔记 |
 | 支付宝涌现奖 | [pantry-relay](https://github.com/misakamikotoghr-5205/pantry-relay) | **正式提交审核成功，官方卡片“审核中”已核验** | [脱敏回执](https://github.com/misakamikotoghr-5205/pantry-relay/blob/main/docs/evidence/submission-receipt-20261110.json)；ZIP安全审核尚未完成，等待审核；不代表公开上线 |
-| 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；实际UI与158秒演示已备，账号协议已同意、当前滑块确认待答 | 魔搭短信登录、公开构想帖/报名审核、公开创空间、手记发布及交件 |
+| 魔搭 AI+∞ | [paper-route-playtest](https://github.com/misakamikotoghr-5205/paper-route-playtest) | 未交；实际UI与158秒演示已备，账号协议已同意、11月11日滑块失败且未发短信，已请本人手动核验 | 魔搭短信登录、公开构想帖/报名审核、公开创空间、手记发布及交件 |
 | Kiroween | [deadlock-manor](https://github.com/misakamikotoghr-5205/deadlock-manor) | **真实Kiro只读审查已完成；正式交件成功，官方页面显示Project submitted!及Submitted to Kiroween 2026** | [公开游戏入口](https://misakamikotoghr-5205.github.io/deadlock-manor/)与[Public视频](https://youtu.be/L3BpOsPHobo)已备；[最终交件页](https://devpost.com/software/deadlock-manor)已确认收件，不代表资格审核通过；4000额度申请已收件，待审核及Didit身份核验，尚无获批或到账确认 |
-| Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；Devpost报名表已准备、三项均无的本人回答已填写、当前资格/规则确认待答；Forge账号同步通知待本人审阅 | 未点Register或规则勾选；本人审阅账号通知后再处理Forge认证/部署、评委安装链接和视频 |
+| Codegeist | [dependency-evidence-forge](https://github.com/misakamikotoghr-5205/dependency-evidence-forge) | 未交；Devpost报名表已准备、三项均无的本人回答已填写、当前资格/规则确认待答；11月11日Atlassian邮箱验证成功，账户新密码需本人设置 | 未点Register或规则勾选；本人完成密码设置后再处理Forge认证/部署、评委安装链接和视频 |
 | 火山先锋计划 | [volc-casedesk](https://github.com/misakamikotoghr-5205/volc-casedesk) | 跳过 | 仅限企业，不符合本次个人身份 |
 | 小荷包原届 | [pocket-pause](https://github.com/misakamikotoghr-5205/pocket-pause) | 跳过 | 已过期，无已核实延期 |
 | QNX Global Hackathon | [boot-order-atlas](https://github.com/misakamikotoghr-5205/boot-order-atlas) | 主机工具、32项测试和[151.6秒Public视频](https://youtu.be/K55o50_Tus4)已完成；报名成功；正式交件已确认，官方Project submitted!及Submitted to QNX Global Hackathon已核验 | [公开交件页](https://devpost.com/software/boot-order-atlas)，等待主办方结果；收件不代表资格审核通过；不声称QNX SDK构建或目标运行 |
@@ -66,4 +66,4 @@
 
 国内最新进度见[持续更新记录](domestic-progress-20261106.md)。11月7日已按用户确认更新Next Horizon、爱奇艺和AIMA阶段；Kiro CLI已完成真实只读审查；Forge CLI与itch/ModelScope认证缺口不因Devpost登录而消失。PayPal报名已确认，Cart Consent已于11月10日正式交件并核验官方页面回执；Kiroween于11月10日正式交件并获官方页面确认，两种阶段分别记录，Kiro额度申请已由官方表单确认收件，仍待审核及Didit身份核验，尚无获批或到账确认。
 
-11月10日已补齐[七段演示视频，共17分26秒](videos-20261110.md)并推送对应仓库，成片均通过完整解码和逐段抽帧检查。魔搭协议已同意、当前滑块确认待答，短信未发；Codegeist三项均无的经历已填，当前资格/规则确认待答，Register未点；Forge真实部署和最终视频仍缺。报名／正式收件仍为7／7，支付宝相关继续暂缓。
+11月10日已补齐[七段演示视频，共17分26秒](videos-20261110.md)并推送对应仓库，成片均通过完整解码和逐段抽帧检查。11月11日魔搭滑块失败，短信未发；Atlassian邮箱已验证，新密码需本人完成；Codegeist经历已填，资格/规则确认待答，Register未点；华为当前拼图待确认，Forge真实部署和最终视频仍缺。报名／正式收件仍为7／7，支付宝相关继续暂缓。

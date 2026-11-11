@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-11",
+  "evidence_method": "Direct CUA browser observations; private authentication URLs, contact details and tokens excluded.",
+  "new_registration_receipts": 0,
+  "new_final_submission_receipts": 0,
+  "official_registration_count_preserved": 7,
+  "official_final_submission_count_preserved": 7,
+  "atlassian": {
+    "date": "2026-11-11",
+    "normal_session_stale_verify_link_error": true,
+    "fresh_private_google_signin_attempted": true,
+    "verification_email_resend_success_observed": true,
+    "email_address_verified_ui_observed": true,
+    "signup_completion_requests_new_password": true,
+    "new_password_entered_by_agent": false,
+    "account_setup_completed": false,
+    "new_api_token_created": false,
+    "forge_deploy_or_install_performed": false
+  },
+  "modelscope": {
+    "slider_attempted": true,
+    "result": "verification error",
+    "sms_sent": false,
+    "authenticated": false,
+    "manual_handoff_requested": true
+  },
+  "itch": {
+    "login_verification_still_present": true,
+    "new_attempt_performed_today": false,
+    "authenticated": false,
+    "manual_handoff_requested": true
+  },
+  "huawei": {
+    "date": "2026-11-11",
+    "official_event_login_route": true,
+    "sms_country": "CN",
+    "current_slider_displayed": true,
+    "current_slider_attempted": false,
+    "sms_sent": false,
+    "authenticated": false,
+    "action_time_confirmation_requested": true
+  },
+  "alipay_deferred": true
+}

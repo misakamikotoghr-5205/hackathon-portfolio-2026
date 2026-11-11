@@ -1,6 +1,14 @@
-# Dependency Evidence for Jira — Codegeist draft, 2026-11-06
+# Dependency Evidence for Jira — Codegeist draft, updated 2026-11-11
 
-Official [event](https://codegeist2026.devpost.com/), [rules](https://codegeist2026.devpost.com/rules). Public Join redirects to Devpost authentication; authenticated question labels/limits were not inspected. Use the event's own Join and submission flow. Deadline **December 22 12:00 PST = 20:00 UTC = December 23 04:00 Beijing**. Entrant identity, age/location/conflict eligibility and permissions remain private checks.
+Official [event](https://codegeist2026.devpost.com/), [rules](https://codegeist2026.devpost.com/rules). The actual authenticated Devpost registration form has been opened and prepared. Required personal-experience answers were supplied by the participant and entered as no prior developer account, no Atlassian/Forge experience and no prior Codegeist. Eligibility/rules confirmation remains pending; Register has not been clicked. Deadline **December 22 12:00 PST = 20:00 UTC = December 23 04:00 Beijing**. Entrant identity, age/location/conflict eligibility and permissions remain private checks.
+
+## Current registration and account progress — November 11
+
+- Devpost session is authenticated. The form is prepared with Working Solo, referral Devpost.com, AI experience Medium and goal Learning; marketing is unchecked.
+- Participant-provided experience answers are filled: existing Atlassian developer account **No**; Atlassian/Forge development experience **None**; previous Codegeist participation **No**. No further personal-experience answer is currently missing.
+- Eligibility and official-rules confirmation remain pending. Neither those checkboxes nor Register have been acted on, and no Codegeist registration or final-entry receipt is recorded.
+- The currently designated Atlassian email has been verified. The participant must create the new account password directly before account setup can continue. Verification is an account step, not Forge CLI authentication or an app registration/deployment.
+- The last recorded Forge CLI identity check failed. No authenticated CLI session, new API token, real Jira installation, judge sharing link or compliant final platform video is established here. The local fixture demo and existing test results are separate evidence.
 
 ## Title / tagline
 
@@ -41,8 +49,8 @@ The focused contribution is preserving the evidence behind a prior review and ma
 | Category and applicable bonus write-ups | Apps for Software Teams; no unsupported bonus claims |
 | Judge installation/sharing link | **Missing**; must be created from a genuine registered/deployed app, not a GitHub URL |
 | Full judge setup/configuration instructions | Repository README is a starting point; real installation must be checked |
-| Public YouTube demo | Missing; under 5 minutes, target under 3 because judges need not watch further |
+| Public YouTube demo | Missing; recommend under 5 minutes (judges need not watch beyond 5); target under 3 |
 | English materials or English translations | English copy here; use English narration/captions and setup |
 | Repository | https://github.com/misakamikotoghr-5205/dependency-evidence-forge ; public publication is our choice, not a substitute for an install link |
 
-Only the owner/root should register app identity, deploy/install, review scopes and enable sharing on an authorized test site. Use fictional issue summaries in the final recording. No authenticated step or acceptance is claimed by this draft.
+After the participant completes password setup and the pending registration confirmations, the authorized operator can continue actual app registration, deployment, installation, scope review and sharing on an authorized test site. Use fictional issue summaries in the final recording. The account/browser progress above does not establish authenticated Forge operation, acceptance of the pending rules or formal registration/submission.
